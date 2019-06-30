@@ -1,0 +1,52 @@
+{
+  "base_version": 1,
+  "uuid": "28591e65-849f-4417-aead-9d9098520eed",
+  "info": { "config_name": "Z直播官网", "config_version": 1 },
+  "web_crawler": {
+    "tool": "Jsoup",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0",
+    "app_config": {
+      "default_name": {
+        "text": "",
+        "search_path": {
+          "regex": "",
+          "xpath_list": [{ "delay": 0, "xpath": "//section[1]/h1/text()" }]
+        }
+      },
+      "release": {
+        "release_node": "//body",
+        "attribute": {
+          "version_number": {
+            "text": "",
+            "search_path": {
+              "regex": "\\d+(\\.\\d+)*",
+              "xpath_list": [
+                { "delay": 0, "xpath": "//section[1]/p/code/text()" }
+              ]
+            }
+          },
+          "assets": {
+            "file_name": {
+              "text": "",
+              "search_path": {
+                "regex": "",
+                "xpath_list": [
+                  { "delay": 0, "xpath": "//section[1]/a[1]/text()" }
+                ]
+              }
+            },
+            "download_url": {
+              "text": "",
+              "search_path": {
+                "regex": "",
+                "xpath_list": [
+                  { "delay": 0, "xpath": "//section[1]/a[2]/@href" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

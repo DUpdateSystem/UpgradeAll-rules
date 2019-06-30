@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "config_name": "酷安",
+    "config_version": 1
+  },
+  "web_crawler": {
+    "tool": "JavaScript",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0",
+    "JavaScript": "WebCrawler = {\n  setUrl(url) {\n    this.URL = url;\n  },\n  getDefaultName() {\n    var nodeList = webCrawler.selNByJsoupXpath(\n      this.URL,\n      '//p[@class=\"detail_app_title\"]/text()'\n    );\n    var defaultName = nodeList[0];\n    Log.d(\"defaultName\", defaultName);\n    return defaultName;\n  },\n  getReleaseNum() {\n    return 1;\n  },\n  getVersionNumber(releaseNum) {\n    var nodeList = webCrawler.selNByJsoupXpath(\n      this.URL,\n      '//span[@class=\"list_app_info\"]/text()'\n    );\n    var versionNumber = nodeList[0];\n    Log.d(\"versionNumber\", versionNumber);\n    return versionNumber;\n  },\n  getReleaseDownload(releaseNum) {\n    var nodeList = webCrawler.selNByJsoupXpath(\n      this.URL,\n      '//script[@type=\"text/javascript\"][1]/text()'\n    );\n    var releaseDownloadText = nodeList[0];\n    var releaseDownloadRegList = releaseDownloadText.match('\"(.*?)\"');\n    if (releaseDownloadRegList.length == 0) return \"\";\n    var releaseDownload = releaseDownloadRegList[0];\n    releaseDownload = releaseDownload.substr(1, releaseDownload.length - 2);\n    var releaseNumber = this.getVersionNumber(releaseNum);\n    if (releaseNumber == null && releaseDownload == null) return \"\";\n    Log.d(\"releaseNumber\", releaseNumber);\n    Log.d(\"releaseDownload\", releaseDownload);\n    var releaseDownloadJsonObject =\n      \"{\" + '\"' + releaseNumber + '\"' + \":\" + '\"' + releaseDownload + '\"' + \"}\";\n    return releaseDownloadJsonObject;\n  }\n};\n"
+  }
+}

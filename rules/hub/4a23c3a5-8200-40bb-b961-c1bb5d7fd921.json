@@ -1,0 +1,53 @@
+{
+  "base_version": 1,
+  "uuid": "4a23c3a5-8200-40bb-b961-c1bb5d7fd921",
+  "info": { "config_name": "appchina", "config_version": 1 },
+  "web_crawler": {
+    "tool": "Jsoup",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0",
+    "app_config": {
+      "default_name": {
+        "text": "",
+        "search_path": {
+          "regex": "",
+          "xpath_list": [
+            {
+              "delay": 0,
+              "xpath": "//body/div/div[3]/div[1]/div[1]/div/h1/text()"
+            }
+          ]
+        }
+      },
+      "release": {
+        "release_node": "//body/div/div[3]/div[2]/div[1]/div[2]/div[3]/ul/li",
+        "attribute": {
+          "version_number": {
+            "text": "",
+            "search_path": {
+              "regex": "\\d+(\\.\\d+)*",
+              "xpath_list": [{ "delay": 0, "xpath": "/div[1]/span[2]/text()" }]
+            }
+          },
+          "assets": {
+            "file_name": {
+              "text": "",
+              "search_path": {
+                "regex": "",
+                "xpath_list": [
+                  { "delay": 0, "xpath": "/div[1]/span[1]/text()" }
+                ]
+              }
+            },
+            "download_url": {
+              "text": "",
+              "search_path": {
+                "regex": "",
+                "xpath_list": [{ "delay": 0, "xpath": "//a/@href" }]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
