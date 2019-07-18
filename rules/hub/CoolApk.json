@@ -1,0 +1,9 @@
+{
+  "base_version": 3,
+  "uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": { "config_name": "酷安", "config_version": 1 },
+  "web_crawler": {
+    "tool": "JavaScript",
+    "JavaScript": "./js/CoolApk.js"
+  }
+}
