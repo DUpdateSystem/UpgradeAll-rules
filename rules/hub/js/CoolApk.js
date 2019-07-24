@@ -1,15 +1,13 @@
 WebCrawler = {
-  setUrl(url) {
-    this.URL = url;
-  },
-  flashData() {
-    webCrawler.selNByJsoupXpath(
-      this.URL,
-      '//p[@class="detail_app_title"]/text()'
-    );
+  userAgent:
+    "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0",
+  URL: "",
+  initData() {
+    this.getDefaultName();
   },
   getDefaultName() {
-    var nodeList = webCrawler.selNByJsoupXpath(
+    var nodeList = JSUtils.selNByJsoupXpath(
+      this.userAgent,
       this.URL,
       '//p[@class="detail_app_title"]/text()'
     );
@@ -21,7 +19,8 @@ WebCrawler = {
     return 1;
   },
   getVersionNumber(releaseNum) {
-    var nodeList = webCrawler.selNByJsoupXpath(
+    var nodeList = JSUtils.selNByJsoupXpath(
+      this.userAgent,
       this.URL,
       '//span[@class="list_app_info"]/text()'
     );
@@ -30,7 +29,8 @@ WebCrawler = {
     return versionNumber;
   },
   getReleaseDownload(releaseNum) {
-    var nodeList = webCrawler.selNByJsoupXpath(
+    var nodeList = JSUtils.selNByJsoupXpath(
+      this.userAgent,
       this.URL,
       '//script[@type="text/javascript"][1]/text()'
     );
