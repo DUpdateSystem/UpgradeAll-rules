@@ -1,0 +1,12 @@
+{
+  "base_version": 3,
+  "info": {
+    "config_version": 1,
+    "hub_name": "PanDownloadAndroid"
+  },
+  "uuid": "e6ea0f60-0e72-4157-ba75-23940a12b2b1",
+  "web_crawler": {
+    "file_path": "./js/PanDownloadAndroid.js",
+    "tool": "JavaScript"
+  }
+}
