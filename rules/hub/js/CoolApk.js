@@ -24,7 +24,7 @@ WebCrawler = {
       this.URL,
       '//span[@class="list_app_info"]/text()'
     );
-    var versionNumber = nodeList[0];
+    var versionNumber = nodeList[releaseNum];
     Log.d(this.URL, "versionNumber", versionNumber);
     return versionNumber;
   },
