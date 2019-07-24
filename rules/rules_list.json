@@ -11,18 +11,22 @@
   "hub_list": [
     {
       "hub_config_name": "应用汇",
+      "hub_config_uuid": "4a23c3a5-8200-40bb-b961-c1bb5d7fd921",
       "hub_config_file_name": "AppChina"
     },
     {
       "hub_config_name": "Z直播",
+      "hub_config_uuid": "28591e65-849f-4417-aead-9d9098520eed",
       "hub_config_file_name": "zlive"
     },
     {
       "hub_config_name": "酷安",
+      "hub_config_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "hub_config_file_name": "CoolApk"
     },
     {
       "hub_config_name": "魔趣",
+      "hub_config_uuid": "1c579ade-a595-4ad2-b540-b343a035e061",
       "hub_config_file_name": "1c579ade-a595-4ad2-b540-b343a035e061"
     }
   ]
