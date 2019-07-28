@@ -4,9 +4,9 @@ function getDefaultName() {
   var nodeList = JSUtils.selNByJsoupXpath(
     this.userAgent,
     this.URL,
-    '//div[@class="app-detail"]/h1/text()'
+    "//section[1]/h1/text()"
   );
-  var defaultName = nodeList.get(0);
+  var defaultName = nodeList[0];
   Log.d(this.URL, "defaultName", defaultName);
   return defaultName;
 }
@@ -17,20 +17,31 @@ function getVersionNumber(releaseNum) {
   var versionNumberList = JSUtils.selNByJsoupXpath(
     this.userAgent,
     this.URL,
-    "//div[2]/div[2]/div/section/text()"
+    "//section[1]/p/code/text()"
   );
-  var versionNumber = versionNumberList.get(releaseNum);
-  var versionNumber = versionNumber.split(" ")[1];
+  var versionNumber = versionNumberList[releaseNum];
   Log.d(this.URL, "versionNumber", versionNumber);
   return versionNumber;
 }
 function getReleaseDownload(releaseNum) {
+  var releaseDownloadNameList = JSUtils.selNByJsoupXpath(
+    this.userAgent,
+    this.URL,
+    "//section[1]/a/text()"
+  );
   var releaseDownloadUrlList = JSUtils.selNByJsoupXpath(
     this.userAgent,
     this.URL,
-    '//div[@id="wx_btn1"]/a/@href'
+    "//section[1]/a/@href"
   );
   var releaseDownload = JSUtils.getJson();
-  releaseDownload.put("apk_file", releaseDownloadUrlList.get(0));
+  for (var i = 0; i < releaseDownloadNameList.length; i++) {
+    var releaseDownloadUrl = releaseDownloadUrlList[i];
+    if (releaseDownloadUrl.charAt(0) == ".") {
+      releaseDownloadUrl = "https://app.zhibo.at/" + releaseDownloadUrl;
+    }
+    Log.d(this.URL, "release", releaseDownloadUrl);
+    releaseDownload.put(releaseDownloadUrlList[i], releaseDownloadUrl);
+  }
   return releaseDownload.toString();
 }
