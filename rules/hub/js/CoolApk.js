@@ -38,7 +38,7 @@ function getReleaseDownload(releaseNum) {
   if (releaseNumber == null && releaseDownload == null) return "";
   Log.d(this.URL, "releaseNumber", releaseNumber);
   Log.d(this.URL, "releaseDownload", releaseDownload);
-  var releaseDownloadJsonObject = JSUtils.getJson();
+  var releaseDownloadJsonObject = JSUtils.getJSONObject();
   releaseDownloadJsonObject.put(releaseNumber, releaseDownload);
   return releaseDownloadJsonObject.toString();
 }

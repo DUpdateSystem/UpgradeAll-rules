@@ -34,7 +34,7 @@ function getReleaseDownload(releaseNum) {
     this.URL,
     "//section[1]/a/@href"
   );
-  var releaseDownload = JSUtils.getJson();
+  var releaseDownload = JSUtils.getJSONObject();
   for (var i = 0; i < releaseDownloadNameList.size(); i++) {
     var releaseDownloadUrl = releaseDownloadUrlList.get(i);
     if (releaseDownloadUrl.charAt(0) == ".") {

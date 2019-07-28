@@ -1,0 +1,9 @@
+{
+  "base_version": 3,
+  "uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": { "hub_name": "GitHub", "config_version": 1 },
+  "web_crawler": {
+    "tool": "JavaScript",
+    "file_path": "./js/GitHub.js"
+  }
+}

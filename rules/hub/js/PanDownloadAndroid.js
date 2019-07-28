@@ -29,7 +29,7 @@ function getReleaseDownload(releaseNum) {
     this.URL,
     '//div[@id="post-content"]/ul/li'
   );
-  var releaseDownload = JSUtils.getJson();
+        var releaseDownload = JSUtils.getJSONObject();
   for (var i = 0; i < releaseDownloadLiList.size(); i++) {
     var releaseDownloadNameList = JSUtils.selNByJsoupXpath(
       this.userAgent,

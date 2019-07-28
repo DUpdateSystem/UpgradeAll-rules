@@ -37,7 +37,7 @@ function getReleaseDownload(releaseNum) {
     "//a[@class='historyVerison-download fright download_app']/@href"
   );
   var releaseDownloadUrl = releaseDownloadList.get(releaseNum);
-  var releaseDownload = JSUtils.getJson();
+  var releaseDownload = JSUtils.getJSONObject();
   releaseDownload.put(releaseDownloadName, releaseDownloadUrl);
   return releaseDownload.toString();
 }

@@ -10,6 +10,11 @@
   ],
   "hub_list": [
     {
+      "hub_config_name": "GitHub",
+      "hub_config_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "hub_config_file_name": "GitHub"
+    },
+    {
       "hub_config_name": "应用汇",
       "hub_config_uuid": "4a23c3a5-8200-40bb-b961-c1bb5d7fd921",
       "hub_config_file_name": "AppChina"

@@ -1,47 +1,60 @@
-var userAgent =
-  "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0";
 function getDefaultName() {
-  var nodeList = JSUtils.selNByJsoupXpath(
-    this.userAgent,
-    this.URL,
-    "//section[1]/h1/text()"
-  );
-  var defaultName = nodeList[0];
-  Log.d(this.URL, "defaultName", defaultName);
-  return defaultName;
+  var tmpList = splitUrl(URL);
+  if (tmpList == null) return null;
+  return tmpList[1];
 }
 function getReleaseNum() {
-  return 1;
+  var apiUrl = getApiUrl(URL);
+  var jsonText = JSUtils.getHttpResponse(apiUrl);
+  var returnJson = JSUtils.getJSONArray(jsonText);
+  return returnJson.length();
 }
 function getVersionNumber(releaseNum) {
-  var versionNumberList = JSUtils.selNByJsoupXpath(
-    this.userAgent,
-    this.URL,
-    "//section[1]/p/code/text()"
-  );
-  var versionNumber = versionNumberList[releaseNum];
+  var apiUrl = getApiUrl(URL);
+  var jsonText = JSUtils.getHttpResponse(apiUrl);
+  var returnJson = JSUtils.getJSONArray(jsonText);
+  var versionNumber = returnJson.getJSONObject(releaseNum).getString("name");
+  if (versionNumber.equals("null"))
+    versionNumber = returnJson.getJSONObject(releaseNum).getString("tag_name");
+  if (versionNumber.equals("null")) versionNumber = null;
   Log.d(this.URL, "versionNumber", versionNumber);
   return versionNumber;
 }
 function getReleaseDownload(releaseNum) {
-  var releaseDownloadNameList = JSUtils.selNByJsoupXpath(
-    this.userAgent,
-    this.URL,
-    "//section[1]/a/text()"
-  );
-  var releaseDownloadUrlList = JSUtils.selNByJsoupXpath(
-    this.userAgent,
-    this.URL,
-    "//section[1]/a/@href"
-  );
-  var releaseDownload = JSUtils.getJson();
-  for (var i = 0; i < releaseDownloadNameList.length; i++) {
-    var releaseDownloadUrl = releaseDownloadUrlList[i];
-    if (releaseDownloadUrl.charAt(0) == ".") {
-      releaseDownloadUrl = "https://app.zhibo.at/" + releaseDownloadUrl;
-    }
-    Log.d(this.URL, "release", releaseDownloadUrl);
-    releaseDownload.put(releaseDownloadUrlList[i], releaseDownloadUrl);
+  var apiUrl = getApiUrl(URL);
+  var jsonText = JSUtils.getHttpResponse(apiUrl);
+  var returnJson = JSUtils.getJSONArray(jsonText);
+  var releaseAssets = returnJson
+    .getJSONObject(releaseNum)
+    .getJSONArray("assets");
+  var releaseDownload = JSUtils.getJSONObject();
+  for (var i = 0; i < releaseAssets.length(); i++) {
+    var tmpJsonObject = releaseAssets.getJSONObject(i);
+    releaseDownload.put(
+      tmpJsonObject.getString("name"),
+      tmpJsonObject.getString("browser_download_url")
+    );
   }
   return releaseDownload.toString();
+}
+function getApiUrl(url) {
+  //获取api地址的独立方法
+  var apiUrlStringList = splitUrl(url);
+  if (apiUrlStringList == null) return null;
+  // 网址不符合规则返回 false
+  else return apiUrlStringList[0];
+}
+
+function splitUrl(url) {
+  var temp = url.split("github.com/");
+  temp = temp[temp.length - 1].split("/");
+  if (temp.length >= 2) {
+    var owner = temp[0];
+    var repo = temp[1];
+    // 分割网址
+    var apiUrl =
+      "https://api.github.com/repos/" + owner + "/" + repo + "/releases";
+    Log.d(this.URL, "splitUrl", apiUrl);
+    return [apiUrl, repo];
+  } else return null;
 }

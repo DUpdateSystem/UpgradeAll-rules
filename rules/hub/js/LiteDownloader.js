@@ -30,7 +30,7 @@ function getReleaseDownload(releaseNum) {
     this.URL,
     '//div[@id="wx_btn1"]/a/@href'
   );
-  var releaseDownload = JSUtils.getJson();
+  var releaseDownload = JSUtils.getJSONObject();
   releaseDownload.put("apk_file", releaseDownloadUrlList.get(0));
   return releaseDownload.toString();
 }
