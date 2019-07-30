@@ -7,7 +7,7 @@ function getDefaultName() {
     '//p[@class="detail_app_title"]/text()'
   );
   var defaultName = nodeList.get(0);
-  Log.d(this.URL, "defaultName", defaultName);
+  Log.d(defaultName);
   return defaultName;
 }
 function getReleaseNum() {
@@ -20,7 +20,7 @@ function getVersionNumber(releaseNum) {
     '//span[@class="list_app_info"]/text()'
   );
   var versionNumber = nodeList.get(releaseNum);
-  Log.d(this.URL, "versionNumber", versionNumber);
+  Log.d(versionNumber);
   return versionNumber;
 }
 function getReleaseDownload(releaseNum) {
@@ -36,8 +36,8 @@ function getReleaseDownload(releaseNum) {
   releaseDownload = releaseDownload.substr(1, releaseDownload.length - 2);
   var releaseNumber = this.getVersionNumber(releaseNum);
   if (releaseNumber == null && releaseDownload == null) return "";
-  Log.d(this.URL, "releaseNumber", releaseNumber);
-  Log.d(this.URL, "releaseDownload", releaseDownload);
+  Log.d(releaseNumber);
+  Log.d(releaseDownload);
   var releaseDownloadJsonObject = JSUtils.getJSONObject();
   releaseDownloadJsonObject.put(releaseNumber, releaseDownload);
   return releaseDownloadJsonObject.toString();

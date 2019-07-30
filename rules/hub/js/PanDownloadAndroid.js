@@ -7,7 +7,7 @@ function getDefaultName() {
     '//p[@class="article-headline-p"]/text()'
   );
   var defaultName = nodeList.get(0);
-  Log.d(this.URL, "defaultName", defaultName);
+  Log.d(defaultName);
   return defaultName;
 }
 function getReleaseNum() {
@@ -20,7 +20,7 @@ function getVersionNumber(releaseNum) {
     '//div[@id="post-content"]/p[3]/strong[1]/text()'
   );
   var versionNumber = versionNumberList.get(releaseNum);
-  Log.d(this.URL, "versionNumber", versionNumber);
+  Log.d(versionNumber);
   return versionNumber;
 }
 function getReleaseDownload(releaseNum) {

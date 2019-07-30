@@ -7,7 +7,7 @@ function getDefaultName() {
     "//body/div/div[3]/div[1]/div[1]/div/h1/text()"
   );
   var defaultName = nodeList.get(0);
-  Log.d(URL, "defaultName", defaultName);
+  Log.d(defaultName);
   return defaultName;
 }
 function getReleaseNum() {
@@ -25,8 +25,8 @@ function getVersionNumber(releaseNum) {
     "//span[@class='history-verison-app-versionName']/text()"
   );
   var versionNumber = versionNumberList.get(releaseNum);
-  if (releaseNum == null) Log.d(URL, "versionNumber", "NULL");
-  Log.d(URL, "versionNumber", versionNumber);
+  if (releaseNum == null) Log.d("NULL");
+  Log.d(versionNumber);
   return versionNumber;
 }
 function getReleaseDownload(releaseNum) {

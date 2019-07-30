@@ -7,7 +7,7 @@ function getDefaultName() {
     "//section[1]/h1/text()"
   );
   var defaultName = nodeList.get(0);
-  Log.d(this.URL, "defaultName", defaultName);
+  Log.d(defaultName);
   return defaultName;
 }
 function getReleaseNum() {
@@ -20,7 +20,7 @@ function getVersionNumber(releaseNum) {
     "//section[1]/p/code/text()"
   );
   var versionNumber = versionNumberList.get(releaseNum);
-  Log.d(this.URL, "versionNumber", versionNumber);
+  Log.d(versionNumber);
   return versionNumber;
 }
 function getReleaseDownload(releaseNum) {
@@ -40,7 +40,7 @@ function getReleaseDownload(releaseNum) {
     if (releaseDownloadUrl.charAt(0) == ".") {
       releaseDownloadUrl = "https://app.zhibo.at/" + releaseDownloadUrl;
     }
-    Log.d(this.URL, "release", releaseDownloadUrl);
+    Log.d(releaseDownloadUrl);
     releaseDownload.put(releaseDownloadNameList.get(i), releaseDownloadUrl);
   }
   return releaseDownload.toString();

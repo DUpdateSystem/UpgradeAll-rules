@@ -17,7 +17,7 @@ function getVersionNumber(releaseNum) {
   if (versionNumber.equals("null"))
     versionNumber = returnJson.getJSONObject(releaseNum).getString("tag_name");
   if (versionNumber.equals("null")) versionNumber = null;
-  Log.d(this.URL, "versionNumber", versionNumber);
+  Log.d(versionNumber);
   return versionNumber;
 }
 function getReleaseDownload(releaseNum) {
@@ -54,7 +54,7 @@ function splitUrl(url) {
     // 分割网址
     var apiUrl =
       "https://api.github.com/repos/" + owner + "/" + repo + "/releases";
-    Log.d(this.URL, "splitUrl", apiUrl);
+    Log.d(apiUrl);
     return [apiUrl, repo];
   } else return null;
 }

@@ -7,7 +7,7 @@ function getDefaultName() {
     '//div[@class="app-detail"]/h1/text()'
   );
   var defaultName = nodeList.get(0);
-  Log.d(this.URL, "defaultName", defaultName);
+  Log.d(defaultName);
   return defaultName;
 }
 function getReleaseNum() {
@@ -21,7 +21,7 @@ function getVersionNumber(releaseNum) {
   );
   var versionNumber = versionNumberList.get(releaseNum);
   var versionNumber = versionNumber.split(" ")[1];
-  Log.d(this.URL, "versionNumber", versionNumber);
+  Log.d(versionNumber);
   return versionNumber;
 }
 function getReleaseDownload(releaseNum) {
