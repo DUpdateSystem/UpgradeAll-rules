@@ -20,6 +20,14 @@ function getVersionNumber(releaseNum) {
   Log.d(versionNumber);
   return versionNumber;
 }
+function getChangelog(releaseNum) {
+  var apiUrl = getApiUrl(URL);
+  var jsonText = JSUtils.getHttpResponse(apiUrl);
+  var returnJson = JSUtils.getJSONArray(jsonText);
+  var changeLog = returnJson.getJSONObject(releaseNum).getString("body");
+  Log.d(changeLog);
+  return changeLog;
+}
 function getReleaseDownload(releaseNum) {
   var apiUrl = getApiUrl(URL);
   var jsonText = JSUtils.getHttpResponse(apiUrl);
