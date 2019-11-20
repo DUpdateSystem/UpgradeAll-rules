@@ -42,3 +42,15 @@ function getReleaseDownload(releaseNum) {
   releaseDownloadJsonObject.put(releaseNumber, releaseDownload);
   return releaseDownloadJsonObject.toString();
 }
+function downloadReleaseFile(releaseNum, fileIndex) {
+  var downloadReleaseFileJson = JSUtils.getJSONObject(
+    getReleaseDownload(releaseNum)
+  );
+  var fileName =
+    JSUtils.getJSONObjectKeyByIndex[(downloadReleaseFileJson, fileIndex)];
+  var fileUrl = downloadReleaseFileJson.get(fileName);
+  return JSUtils.downloadFile(
+    this.getDefaultName() + "_" + fileName + ".apk",
+    fileUrl
+  );
+}
