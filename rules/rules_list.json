@@ -5,7 +5,9 @@
   },
   "app_list": [
     {
-      "package_name": ""
+      "app_config_name": "UpgradeAll",
+      "app_config_uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
+      "app_config_file_name": "UpgradeAll"
     }
   ],
   "hub_list": [
