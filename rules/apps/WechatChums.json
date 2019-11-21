@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
+  "uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
   "info": {
-    "app_name": "UpgradeAll",
+    "app_name": "Wechat Chums",
     "config_version": 1,
-    "url": "https://github.com/xz-dev/UpgradeAll"
+    "url": "https://github.com/dannyit/WechatChums"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "net.xzos.upgradeall"
+      "extra_string": "me.dannyit.wechat.chum"
     }
   }
 }

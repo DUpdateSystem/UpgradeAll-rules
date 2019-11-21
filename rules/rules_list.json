@@ -8,6 +8,31 @@
       "app_config_name": "UpgradeAll",
       "app_config_uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
       "app_config_file_name": "UpgradeAll"
+    },
+    {
+      "app_config_name": "Tachyomi",
+      "app_config_uuid": "0b39c728-1eba-40e3-a4db-21c906f8b162",
+      "app_config_file_name": "Tachyomi"
+    },
+    {
+      "app_config_name": "Cimoc",
+      "app_config_uuid": "418f2e8d-fbe1-485d-a2d8-1743318621f4",
+      "app_config_file_name": "Cimoc"
+    },
+    {
+      "app_config_name": "Meow",
+      "app_config_uuid": "0bea5a92-4b1d-44c6-b628-7b0eb75dfbd5",
+      "app_config_file_name": "Meow"
+    },
+    {
+      "app_config_name": "MiPushFramework",
+      "app_config_uuid": "f7b2d588-38ae-47d7-a2e8-fb2d6c2e9d51",
+      "app_config_file_name": "MiPushFramework"
+    },
+    {
+      "app_config_name": "Wechat Chums",
+      "app_config_uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
+      "app_config_file_name": "WechatChums"
     }
   ],
   "hub_list": [

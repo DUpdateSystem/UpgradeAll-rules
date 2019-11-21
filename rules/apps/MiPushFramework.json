@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
+  "uuid": "f7b2d588-38ae-47d7-a2e8-fb2d6c2e9d51",
   "info": {
-    "app_name": "UpgradeAll",
+    "app_name": "MiPush",
     "config_version": 1,
-    "url": "https://github.com/xz-dev/UpgradeAll"
+    "url": "https://github.com/MiPushFramework/MiPushFramework"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "net.xzos.upgradeall"
+      "extra_string": "top.trumeet.mipush"
     }
   }
 }
