@@ -14,9 +14,10 @@ function getVersionNumber(releaseNum) {
   var jsonText = JSUtils.getHttpResponse(apiUrl);
   var returnJson = JSUtils.getJSONArray(jsonText);
   var versionNumber = returnJson.getJSONObject(releaseNum).getString("name");
-  if (versionNumber.equals(""))
+  if (JSUtils.matchVersioningString(versionNumber) == null)
     versionNumber = returnJson.getJSONObject(releaseNum).getString("tag_name");
-  if (versionNumber.equals("")) versionNumber = null;
+  if (JSUtils.matchVersioningString(versionNumber) == null)
+    versionNumber = null;
   Log.d(versionNumber);
   return versionNumber;
 }
