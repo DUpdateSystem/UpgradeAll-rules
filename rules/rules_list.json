@@ -10,9 +10,9 @@
       "app_config_file_name": "UpgradeAll"
     },
     {
-      "app_config_name": "Tachyomi",
+      "app_config_name": "Tachiyomi",
       "app_config_uuid": "0b39c728-1eba-40e3-a4db-21c906f8b162",
-      "app_config_file_name": "Tachyomi"
+      "app_config_file_name": "Tachiyomi"
     },
     {
       "app_config_name": "Cimoc",

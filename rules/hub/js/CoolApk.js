@@ -23,6 +23,16 @@ function getVersionNumber(releaseNum) {
   Log.d(versionNumber);
   return versionNumber;
 }
+function getChangelog(releaseNum) {
+  var nodeList = JSUtils.selNByJsoupXpath(
+    this.userAgent,
+    this.URL,
+    '//span[@class="apk_left_title_info"]/text()'
+  );
+  var versionNumber = nodeList.get(releaseNum);
+  Log.d(versionNumber);
+  return versionNumber;
+}
 function getReleaseDownload(releaseNum) {
   var nodeList = JSUtils.selNByJsoupXpath(
     this.userAgent,
