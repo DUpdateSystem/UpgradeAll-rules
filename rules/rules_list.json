@@ -28,11 +28,6 @@
       "app_config_name": "MiPushFramework",
       "app_config_uuid": "f7b2d588-38ae-47d7-a2e8-fb2d6c2e9d51",
       "app_config_file_name": "MiPushFramework"
-    },
-    {
-      "app_config_name": "Wechat Chums",
-      "app_config_uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
-      "app_config_file_name": "WechatChums"
     }
   ],
   "hub_list": [
