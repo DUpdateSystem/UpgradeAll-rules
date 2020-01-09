@@ -35,11 +35,6 @@
       "app_config_file_name": "扫一扫"
     },
     {
-    "app_config_name": "Wechat Chums",
-      "app_config_uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
-      "app_config_file_name": "Wechat Chums"
-    },
-    {
     "app_config_name": "edXposedManager",
       "app_config_uuid": "a7aa927c-32f8-11ea-8d01-bbf5b9f33585",
       "app_config_file_name": "edXposedManager"
