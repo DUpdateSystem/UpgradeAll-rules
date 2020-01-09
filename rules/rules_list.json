@@ -28,6 +28,21 @@
       "app_config_name": "MiPushFramework",
       "app_config_uuid": "f7b2d588-38ae-47d7-a2e8-fb2d6c2e9d51",
       "app_config_file_name": "MiPushFramework"
+    },
+    {
+    "app_config_name": "扫一扫",
+      "app_config_uuid": "19914ee4-32f4-11ea-81e3-21746c6fe699",
+      "app_config_file_name": "扫一扫"
+    },
+    {
+    "app_config_name": "Wechat Chums",
+      "app_config_uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
+      "app_config_file_name": "Wechat Chums"
+    },
+    {
+    "app_config_name": "edXposedManager",
+      "app_config_uuid": "a7aa927c-32f8-11ea-8d01-bbf5b9f33585",
+      "app_config_file_name": "edXposedManager"
     }
   ],
   "hub_list": [
