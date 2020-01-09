@@ -43,6 +43,36 @@
     "app_config_name": "edXposedManager",
       "app_config_uuid": "a7aa927c-32f8-11ea-8d01-bbf5b9f33585",
       "app_config_file_name": "edXposedManager"
+    },
+    {
+    "app_config_name": "QNotified",
+      "app_config_uuid": "93f12aac-32fd-11ea-9d3d-37b8fbe85295",
+      "app_config_file_name": "QNotified"
+    },
+    {
+    "app_config_name": "[Magisk_Module]Fingerprint-pay-alipay",
+      "app_config_uuid": "277bd84a-32fd-11ea-b1be-83b5946898f9",
+      "app_config_file_name": "[Magisk_Module]Fingerprint-pay-alipay"
+    },
+    {
+    "app_config_name": "[Magisk_Module]Fingerprint-pay-qq",
+      "app_config_uuid": "73171f58-32fd-11ea-b72f-ad884749cac0",
+      "app_config_file_name": "[Magisk_Module]Fingerprint-pay-qq"
+    },
+    {
+    "app_config_name": "[Magisk_Module]Fingerprint-pay-taobao",
+      "app_config_uuid": "51e05aa2-32fd-11ea-9637-cf36d21de5ba",
+      "app_config_file_name": "[Magisk_Module]Fingerprint-pay-taobao"
+    },
+    {
+    "app_config_name": "[Magisk_Module]Fingerprint-pay-wechat",
+      "app_config_uuid": "3c15256e-32fc-11ea-87f8-8dede83de5b0",
+      "app_config_file_name": "[Magisk_Module]Fingerprint-pay-wechat"
+    },
+    {
+    "app_config_name": "[Magisk_Module]Riru Core",
+      "app_config_uuid": "bef9e572-32fd-11ea-a82d-f108c61ac67d",
+      "app_config_file_name": "[Magisk_Module]Riru Core"
     }
   ],
   "hub_list": [

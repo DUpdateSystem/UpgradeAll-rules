@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "93f12aac-32fd-11ea-9d3d-37b8fbe85295",
+    "info": {
+        "app_name": "QNotified",
+        "config_version": 1,
+        "url": "https://github.com/cinit/QNotified"
+    },
+    "app_config": {
+        "hub_info": {
+            "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        }
+    },
+    "target_checker": {
+        "api": "App_Package",
+        "extra_string": "nil.nadph.qnotified"
+    }
+}
