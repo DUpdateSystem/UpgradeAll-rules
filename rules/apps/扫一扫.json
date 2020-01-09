@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "19914ee4-32f4-11ea-81e3-21746c6fe699",
+    "info": {
+        "app_name": "扫一扫",
+        "config_version": 1,
+        "url": "https://github.com/ekibun/QrCodeScanner"
+    },
+    "app_config": {
+        "hub_info": {
+            "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        }
+    },
+    "target_checker": {
+        "api": "App_Package",
+        "extra_string": "com.inklin.qrcodescanner"
+    }
+}
