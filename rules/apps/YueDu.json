@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "5a0c569e-7343-4ed0-af5e-3b900c12761a",
+  "info": {
+    "app_name": "阅读",
+    "config_version": 1,
+    "url": "https://github.com/gedoor/MyBookshelf"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0""
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.gedoor.monkeybook"
+    }
+  }
+}
