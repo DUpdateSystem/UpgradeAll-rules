@@ -32,7 +32,8 @@ UpgradeAll 的云规则存储仓库
 >     [QQ群](https://jq.qq.com/?_wv=1027&k=5NC9Q9h)
 
 * 到哪里查看开发者文档?
->     [开发者文档](https://xzos.net/upgradeall-developer-documentation)
+>    [开发者文档](https://xzos.net/upgradeall-developer-documentation/
+)
 
 ​------------
 
