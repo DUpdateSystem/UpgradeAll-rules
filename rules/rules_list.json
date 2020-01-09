@@ -78,7 +78,12 @@
     "app_config_name": "Via",
       "app_config_uuid": "06baf340-27c9-4c43-9f4e-3d0f8443199e",
       "app_config_file_name": "Via"
-    }
+    },
+    {
+    "app_config_name": "Termux",
+      "app_config_uuid": "697d8bda-331b-11ea-823b-55dfdee64a81",
+      "app_config_file_name": "Termux"
+    },
   ],
   "hub_list": [
     {
