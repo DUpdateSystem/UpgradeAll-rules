@@ -83,6 +83,21 @@
     "app_config_name": "Termux",
       "app_config_uuid": "697d8bda-331b-11ea-823b-55dfdee64a81",
       "app_config_file_name": "Termux"
+    },
+    {
+    "app_config_name": "Shadowsocks",
+      "app_config_uuid": "b06ad030-331a-11ea-b7f9-b1ac68735d99",
+      "app_config_file_name": "Shadowsocks"
+    },
+    {
+    "app_config_name": "ShadowsocksR-by bige",
+      "app_config_uuid": "424cddbe-331a-11ea-b647-0fe9c1f2cd8b",
+      "app_config_file_name": "ShadowsocksR-by bige"
+    },
+    {
+    "app_config_name": "V2rayNG",
+      "app_config_uuid": "e7a80428-331a-11ea-9a8b-f504e41fbcbc",
+      "app_config_file_name": "V2rayNG"
     }
   ],
   "hub_list": [
