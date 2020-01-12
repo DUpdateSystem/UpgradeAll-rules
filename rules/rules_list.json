@@ -103,6 +103,11 @@
       "app_config_name": "TrebleShot",
       "app_config_uuid": "91355fb0-3558-11ea-b688-85c15ad46c19",
       "app_config_file_name": "TrebleShot"
+    },
+    {
+      "app_config_name": "厚墨",
+      "app_config_uuid": "b197aa00-3559-11ea-96f2-dde6ad669613",
+      "app_config_file_name": "厚墨"
     }
   ],
   "hub_list": [
