@@ -30,74 +30,79 @@
       "app_config_file_name": "MiPushFramework"
     },
     {
-    "app_config_name": "扫一扫",
+      "app_config_name": "扫一扫",
       "app_config_uuid": "19914ee4-32f4-11ea-81e3-21746c6fe699",
       "app_config_file_name": "扫一扫"
     },
     {
-    "app_config_name": "edXposedManager",
+      "app_config_name": "edXposedManager",
       "app_config_uuid": "a7aa927c-32f8-11ea-8d01-bbf5b9f33585",
       "app_config_file_name": "edXposedManager"
     },
     {
-    "app_config_name": "QNotified",
+      "app_config_name": "QNotified",
       "app_config_uuid": "93f12aac-32fd-11ea-9d3d-37b8fbe85295",
       "app_config_file_name": "QNotified"
     },
     {
-    "app_config_name": "[Magisk_Module]Fingerprint-pay-alipay",
+      "app_config_name": "[Magisk_Module]Fingerprint-pay-alipay",
       "app_config_uuid": "277bd84a-32fd-11ea-b1be-83b5946898f9",
       "app_config_file_name": "[Magisk_Module]Fingerprint-pay-alipay"
     },
     {
-    "app_config_name": "[Magisk_Module]Fingerprint-pay-qq",
+      "app_config_name": "[Magisk_Module]Fingerprint-pay-qq",
       "app_config_uuid": "73171f58-32fd-11ea-b72f-ad884749cac0",
       "app_config_file_name": "[Magisk_Module]Fingerprint-pay-qq"
     },
     {
-    "app_config_name": "[Magisk_Module]Fingerprint-pay-taobao",
+      "app_config_name": "[Magisk_Module]Fingerprint-pay-taobao",
       "app_config_uuid": "51e05aa2-32fd-11ea-9637-cf36d21de5ba",
       "app_config_file_name": "[Magisk_Module]Fingerprint-pay-taobao"
     },
     {
-    "app_config_name": "[Magisk_Module]Fingerprint-pay-wechat",
+      "app_config_name": "[Magisk_Module]Fingerprint-pay-wechat",
       "app_config_uuid": "3c15256e-32fc-11ea-87f8-8dede83de5b0",
       "app_config_file_name": "[Magisk_Module]Fingerprint-pay-wechat"
     },
     {
-    "app_config_name": "[Magisk_Module]Riru Core",
+      "app_config_name": "[Magisk_Module]Riru Core",
       "app_config_uuid": "bef9e572-32fd-11ea-a82d-f108c61ac67d",
       "app_config_file_name": "[Magisk_Module]Riru Core"
     },
     {
-    "app_config_name": "阅读",
+      "app_config_name": "阅读",
       "app_config_uuid": "b90d9126-3303-11ea-b72f-bfb570d9e623",
       "app_config_file_name": "阅读"
     },
     {
-    "app_config_name": "Via",
+      "app_config_name": "Via",
       "app_config_uuid": "06baf340-27c9-4c43-9f4e-3d0f8443199e",
       "app_config_file_name": "Via"
     },
     {
-    "app_config_name": "Termux",
+      "app_config_name": "Termux",
       "app_config_uuid": "697d8bda-331b-11ea-823b-55dfdee64a81",
       "app_config_file_name": "Termux"
     },
     {
-    "app_config_name": "Shadowsocks",
+      "app_config_name": "Shadowsocks",
       "app_config_uuid": "b06ad030-331a-11ea-b7f9-b1ac68735d99",
       "app_config_file_name": "Shadowsocks"
     },
     {
-    "app_config_name": "ShadowsocksR-by bige",
+      "app_config_name": "ShadowsocksR-by bige",
       "app_config_uuid": "424cddbe-331a-11ea-b647-0fe9c1f2cd8b",
       "app_config_file_name": "ShadowsocksR-by bige"
     },
     {
-    "app_config_name": "V2rayNG",
+      "app_config_name": "V2rayNG",
       "app_config_uuid": "e7a80428-331a-11ea-9a8b-f504e41fbcbc",
       "app_config_file_name": "V2rayNG"
+    },
+    {
+      "app_config_name": "TrebleShot",
+      "app_config_uuid": "91355fb0-3558-11ea-b688-85c15ad46c19",
+      "app_config_file_name": "TrebleShot"
     }
   ],
   "hub_list": [
