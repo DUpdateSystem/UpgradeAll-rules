@@ -113,6 +113,11 @@
       "app_config_name": "LinuxDeploy",
       "app_config_uuid": "5d9a2a56-355c-11ea-9439-bff4fe36d20a",
       "app_config_file_name": "LinuxDeploy"
+    },
+    {
+      "app_config_name": "坚果云",
+      "app_config_uuid": "19638b60-355d-11ea-b630-7345aa40e02f",
+      "app_config_file_name": "坚果云"
     }
   ],
   "hub_list": [
