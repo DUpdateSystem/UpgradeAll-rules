@@ -108,6 +108,11 @@
       "app_config_name": "厚墨",
       "app_config_uuid": "b197aa00-3559-11ea-96f2-dde6ad669613",
       "app_config_file_name": "厚墨"
+    },
+    {
+      "app_config_name": "LinuxDeploy",
+      "app_config_uuid": "5d9a2a56-355c-11ea-9439-bff4fe36d20a",
+      "app_config_file_name": "LinuxDeploy"
     }
   ],
   "hub_list": [
