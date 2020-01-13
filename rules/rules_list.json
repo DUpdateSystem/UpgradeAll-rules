@@ -118,6 +118,11 @@
       "app_config_name": "坚果云",
       "app_config_uuid": "19638b60-355d-11ea-b630-7345aa40e02f",
       "app_config_file_name": "坚果云"
+    },
+    {
+      "app_config_name": "Shizuku",
+      "app_config_uuid": "b5180916-8645-ea85-114e-1a389df180d7",
+      "app_config_file_name": "Shizuku"
     }
   ],
   "hub_list": [
