@@ -1,7 +1,7 @@
 {
   "list_url": {
-    "app_list_raw_url": "https://raw.githubusercontent.com/xz-dev/UpgradeAll-rules/dev/rules/apps/",
-    "hub_list_raw_url": "https://raw.githubusercontent.com/xz-dev/UpgradeAll-rules/dev/rules/hub/"
+    "app_list_raw_url": "https://raw.githubusercontent.com/xz-dev/UpgradeAll-rules/master/rules/apps/",
+    "hub_list_raw_url": "https://raw.githubusercontent.com/xz-dev/UpgradeAll-rules/master/rules/hub/"
   },
   "app_list": [
     {
