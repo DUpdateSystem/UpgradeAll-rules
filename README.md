@@ -5,15 +5,17 @@ UpgradeAll 的云规则存储仓库
 
 ​------------
 
-### UpgradeAll最新版本
+### UpgradeAll 最新版本
 ![](https://img.shields.io/github/tag/xz-dev/UpgradeAll.svg) ![](https://img.shields.io/github/release/xz-dev/UpgradeAll.svg)
 
 [下载|Download](https://github.com/xz-dev/UpgradeAll/releases)
 
+### UpgradeAll 法律声明
+
 ​------------
 
 ### FAQ:​
-* 关于UpgradeAll的源配置​
+* 关于 UpgradeAll 的源配置​
 > 稳定源
 >
 > `https://github.com/xz-dev/UpgradeAll-rules`
@@ -22,8 +24,8 @@ UpgradeAll 的云规则存储仓库
 >
 > `https://github.com/xz-dev/UpgradeAll-rules/tree/dev`
 
-* 如何为UpgradeAll添加更多的软件或者提需求?
-> 1. 在Github上提issue
+* 如何为 UpgradeAll 添加更多的软件或者提需求?
+> 1. 在 Github 上提 issue
 >
 >     [我要提建议✔](https://github.com/xz-dev/UpgradeAll-rules/issues)
 >
