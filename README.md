@@ -12,6 +12,7 @@ UpgradeAll 的云规则存储仓库
 [下载|Download](https://github.com/xz-dev/UpgradeAll/releases)
 
 ### UpgradeAll 法律声明
+
 参考 [UpgradeAll README](https://github.com/xz-dev/UpgradeAll/blob/master/README.md#%E6%B3%95%E5%BE%8B%E5%A3%B0%E6%98%8E)
 
 ​------------
