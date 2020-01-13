@@ -3,16 +3,17 @@ function getDefaultName() {
   if (tmpList == null) return null;
   return tmpList[1];
 }
-function getReleaseNum() {
+function getContext() {
   var apiUrl = getApiUrl(URL);
   var jsonText = JSUtils.getHttpResponse(apiUrl);
-  var returnJson = JSUtils.getJSONArray(jsonText);
+  return JSUtils.getJSONArray(jsonText);
+}
+function getReleaseNum() {
+  var returnJson = getContext();
   return returnJson.length();
 }
 function getVersionNumber(releaseNum) {
-  var apiUrl = getApiUrl(URL);
-  var jsonText = JSUtils.getHttpResponse(apiUrl);
-  var returnJson = JSUtils.getJSONArray(jsonText);
+  var returnJson = getContext();
   var versionNumber = returnJson.getJSONObject(releaseNum).getString("name");
   if (JSUtils.matchVersioningString(versionNumber) == null)
     versionNumber = returnJson.getJSONObject(releaseNum).getString("tag_name");
@@ -22,17 +23,13 @@ function getVersionNumber(releaseNum) {
   return versionNumber;
 }
 function getChangelog(releaseNum) {
-  var apiUrl = getApiUrl(URL);
-  var jsonText = JSUtils.getHttpResponse(apiUrl);
-  var returnJson = JSUtils.getJSONArray(jsonText);
+  var returnJson = getContext();
   var changeLog = returnJson.getJSONObject(releaseNum).getString("body");
   Log.d(changeLog);
   return changeLog;
 }
 function getReleaseDownload(releaseNum) {
-  var apiUrl = getApiUrl(URL);
-  var jsonText = JSUtils.getHttpResponse(apiUrl);
-  var returnJson = JSUtils.getJSONArray(jsonText);
+  var returnJson = getContext();
   var releaseAssets = returnJson
     .getJSONObject(releaseNum)
     .getJSONArray("assets");
