@@ -50,8 +50,8 @@ target_checker = {'api':'App_Package','extra_string':packagename}
 data['target_checker'] = target_checker
 config = json.dumps(data, ensure_ascii=False,indent=2)
 path = os.path.abspath(os.path.dirname(os.getcwd()))
-listpath = path+'/rules_list.json'
-apppath  = path+'/apps/%s.json'%(name)
+listpath = path+'/rules/rules_list.json'
+apppath  = path+'/rules/apps/%s.json'%(name)
 #print(listpath)
 #print(apppath)
 open(apppath, 'a').writelines(config)
