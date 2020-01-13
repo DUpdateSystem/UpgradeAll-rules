@@ -123,6 +123,11 @@
       "app_config_name": "Shizuku",
       "app_config_uuid": "b5180916-8645-ea85-114e-1a389df180d7",
       "app_config_file_name": "Shizuku"
+    },
+    {
+      "app_config_name": "应用汇",
+      "app_config_uuid": "6d954d76-35f9-11ea-959e-5d4cf66cc336",
+      "app_config_file_name": "应用汇"
     }
   ],
   "hub_list": [
