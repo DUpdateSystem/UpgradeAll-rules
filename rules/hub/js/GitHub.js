@@ -3,16 +3,17 @@ function getDefaultName() {
   if (tmpList == null) return null;
   return tmpList[1];
 }
-function getReleaseNum() {
+function getContext() {
   var apiUrl = getApiUrl(URL);
   var jsonText = JSUtils.getHttpResponse(apiUrl);
-  var returnJson = JSUtils.getJSONArray(jsonText);
+  return JSUtils.getJSONArray(jsonText);
+}
+function getReleaseNum() {
+  var returnJson = getContext();
   return returnJson.length();
 }
 function getVersionNumber(releaseNum) {
-  var apiUrl = getApiUrl(URL);
-  var jsonText = JSUtils.getHttpResponse(apiUrl);
-  var returnJson = JSUtils.getJSONArray(jsonText);
+  var returnJson = getContext();
   var versionNumber = returnJson.getJSONObject(releaseNum).getString("name");
   if (JSUtils.matchVersioningString(versionNumber) == null)
     versionNumber = returnJson.getJSONObject(releaseNum).getString("tag_name");
@@ -22,17 +23,13 @@ function getVersionNumber(releaseNum) {
   return versionNumber;
 }
 function getChangelog(releaseNum) {
-  var apiUrl = getApiUrl(URL);
-  var jsonText = JSUtils.getHttpResponse(apiUrl);
-  var returnJson = JSUtils.getJSONArray(jsonText);
+  var returnJson = getContext();
   var changeLog = returnJson.getJSONObject(releaseNum).getString("body");
   Log.d(changeLog);
   return changeLog;
 }
 function getReleaseDownload(releaseNum) {
-  var apiUrl = getApiUrl(URL);
-  var jsonText = JSUtils.getHttpResponse(apiUrl);
-  var returnJson = JSUtils.getJSONArray(jsonText);
+  var returnJson = getContext();
   var releaseAssets = returnJson
     .getJSONObject(releaseNum)
     .getJSONArray("assets");
@@ -59,7 +56,7 @@ function splitUrl(url) {
   temp = temp[temp.length - 1].split("/");
   if (temp.length >= 2) {
     var owner = temp[0];
-    var repo = temp[1];
+    var repo = temp[1].split(".git")[0];
     // 分割网址
     var apiUrl =
       "https://api.github.com/repos/" + owner + "/" + repo + "/releases";
