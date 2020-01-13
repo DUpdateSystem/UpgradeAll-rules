@@ -59,7 +59,7 @@ function splitUrl(url) {
   temp = temp[temp.length - 1].split("/");
   if (temp.length >= 2) {
     var owner = temp[0];
-    var repo = temp[1];
+    var repo = temp[1].split(".git")[0];
     // 分割网址
     var apiUrl =
       "https://api.github.com/repos/" + owner + "/" + repo + "/releases";
