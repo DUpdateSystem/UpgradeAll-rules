@@ -31,10 +31,10 @@ function getReleaseInfo() {
       var data = {};
       var assets = [];
       var asset = {};
-      asset["name"] = "[" + App_name + "]" + versionNumber;
+      asset["name"] = "[" + App_name + "]" + returnJson[i].assets[ii].name + versionNumber;
       asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
       assets.push(asset);
-      data["version_number"] = "" + versionNumber;
+      data["version_number"] = "" + versionNumber + returnJson[i].assets[ii].name;
       data["change_log"] = "" + returnJson[i].body;
       data["assets"] = assets;
       datas.push(data);
