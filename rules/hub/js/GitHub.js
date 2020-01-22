@@ -27,23 +27,55 @@ function getReleaseInfo() {
       versionNumber = null;
     }
 
-    for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
-      var data = {};
-      var assets = [];
-      var asset = {};
-      asset["name"] = "[" + App_name + "]" + returnJson[i].assets[ii].name + versionNumber;
-      asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
-      assets.push(asset);
-      data["version_number"] = "" + versionNumber + returnJson[i].assets[ii].name;
-      data["change_log"] = "" + returnJson[i].body;
-      data["assets"] = assets;
-      datas.push(data);
+
+    if (returnJson[i].assets.length == 1) {
+      for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
+        var data = {};
+        var assets = [];
+        var asset = {};
+        asset["name"] = "[" + App_name + "]" + versionNumber;
+        asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
+        assets.push(asset);
+        data["version_number"] = "" + versionNumber;
+        data["change_log"] = "" + returnJson[i].body;
+        data["assets"] = assets;
+        datas.push(data);
+      }
+    } else {
+      //这里立了大坑,if嵌套太多,目前没有想到更好的方法,后续更正.
+      for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
+        if (returnJson[i].assets[ii].name.search("tv") == -1) {
+          if (returnJson[i].assets[ii].name.search("universal") != -1) {
+            var arch = "universal";
+          }
+          if (returnJson[i].assets[ii].name.search("arm64") != -1) {
+            var arch = "arm64-v8a";
+          }
+          if (returnJson[i].assets[ii].name.search("armeabi") != -1) {
+            var arch = "armeabi-v7a";
+          }
+          if (returnJson[i].assets[ii].name.search("x86_64") != -1) {
+            var arch = "x86_64";
+          }
+          if (returnJson[i].assets[ii].name.search("x86") != -1) {
+            var arch = "x86";
+          }
+          var data = {};
+          var assets = [];
+          var asset = {};
+          asset["name"] = "[" + App_name + "]" + versionNumber + "(" + arch + ")";
+          asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
+          assets.push(asset);
+          data["version_number"] = "" + versionNumber + "(" + arch + ")";
+          data["change_log"] = "" + returnJson[i].body;
+          data["assets"] = assets;
+          datas.push(data);
+        }
+      }
     }
   }
   return JSON.stringify(datas);
 }
-
-
 
 //获取应用名称
 //通过splitUrl(URL)分割
