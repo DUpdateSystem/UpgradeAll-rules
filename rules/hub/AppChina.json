@@ -1,5 +1,5 @@
 {
-  "base_version": 3,
+  "base_version": 4,
   "uuid": "4a23c3a5-8200-40bb-b961-c1bb5d7fd921",
   "info": { "hub_name": "应用汇", "config_version": 2 },
   "web_crawler": {
