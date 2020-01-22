@@ -40,7 +40,7 @@ function getReleaseInfo() {
   //定义正则表达式
   var reg = /((ht|f)tps?:)\/\/[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]/g;
   //使用JavaScript的match函数配合正则表达式取出字符串中的下载链接
-  var first_url = first_raw_url.match(reg)[0];
+  var first_url = first_raw_url.match(reg);
   
   //获取软件名称,将它赋值
   var app_name=getDefaultName();
