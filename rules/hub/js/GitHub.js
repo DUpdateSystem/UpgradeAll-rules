@@ -3,13 +3,15 @@ function getReleaseInfo() {
 var App_name = getDefaultName();
 var releaseNum = getReleaseNum();
 var returnJson = getContext();
+//Log.v(returnJson[0].assets[0].browser_download_url);
+//returnJson[i].assets.browser_download_url
   var datas = [];
   for (var i = 0; i < releaseNum; i++) {
     var data = {};
     var assets = [];
     var asset = {};
     asset["name"] = "[" + App_name + "]" + version(returnJson,i);
-    asset["download_url"] = "" + returnJson[i].assets.browser_download_url;
+    asset["download_url"] = "" + returnJson[i].assets[0].browser_download_url;
     assets.push(asset);
     data["version_number"] = "" + version(returnJson,i);
     data["change_log"] = "" + returnJson[i].body;
