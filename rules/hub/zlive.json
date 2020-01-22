@@ -1,7 +1,10 @@
 {
   "base_version": 3,
   "uuid": "28591e65-849f-4417-aead-9d9098520eed",
-  "info": { "hub_name": "Z直播官网", "config_version": 3 },
+  "info": {
+    "hub_name": "Z直播官网",
+    "config_version": 3
+  },
   "web_crawler": {
     "tool": "JavaScript",
     "file_path": "./js/zlive.js"

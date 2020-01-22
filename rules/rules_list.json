@@ -3,8 +3,7 @@
     "app_list_raw_url": "https://raw.githubusercontent.com/DUpdateSystem/UpgradeAll-rules/dev/rules/apps/",
     "hub_list_raw_url": "https://raw.githubusercontent.com/DUpdateSystem/UpgradeAll-rules/dev/rules/hub/"
   },
-  "app_list": [
-    {
+  "app_list": [{
       "app_config_name": "UpgradeAll",
       "app_config_uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
       "app_config_file_name": "UpgradeAll"
@@ -130,8 +129,7 @@
       "app_config_file_name": "应用汇-official"
     }
   ],
-  "hub_list": [
-    {
+  "hub_list": [{
       "hub_config_name": "GitHub",
       "hub_config_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "hub_config_file_name": "GitHub"
