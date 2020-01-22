@@ -40,7 +40,7 @@ function jsonstring(App_name,version_array,url,change){
     asset["download_url"] = "" + url ;
     assets.push(asset);
     data["version_number"] = "" + version_array.get(i);
-    data["change_log"] = "" + change.get(i);
+    data["change_log"] = "" + change;
     data["assets"] = assets;
     datas.push(data);
   }

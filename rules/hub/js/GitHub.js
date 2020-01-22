@@ -1,48 +1,55 @@
+function getReleaseInfo() {
+//将应用名称赋值
+var App_name = getDefaultName();
+var releaseNum = getReleaseNum();
+var returnJson = getContext();
+  var datas = [];
+  for (var i = 0; i < releaseNum; i++) {
+    var data = {};
+    var assets = [];
+    var asset = {};
+    asset["name"] = "[" + App_name + "]" + version(returnJson,i);
+    asset["download_url"] = "" + returnJson[i].assets.browser_download_url;
+    assets.push(asset);
+    data["version_number"] = "" + version(returnJson,i);
+    data["change_log"] = "" + returnJson[i].body;
+    data["assets"] = assets;
+    datas.push(data);
+  }
+  return JSON.stringify(datas);
+
+}
+//获取应用版本号
+function version(returnJson,releaseNum){
+var versionNumber = returnJson[releaseNum].name;
+  if (versionNumber == null)
+    versionNumber = returnJson[releaseNum].tag_name;
+  if (versionNumber == null)
+    versionNumber = null;
+ return versionNumber;
+}
+
+
+//获取应用名称
+//通过splitUrl(URL)分割
 function getDefaultName() {
   var tmpList = splitUrl(URL);
   if (tmpList == null) return null;
   return tmpList[1];
 }
+
 function getContext() {
   var apiUrl = getApiUrl(URL);
   var jsonText = JSUtils.getHttpResponse(apiUrl);
-  return JSUtils.getJSONArray(jsonText);
+  //Log.v(JSON.parse(jsonText)[0]);
+  return JSON.parse(jsonText);
 }
 function getReleaseNum() {
   var returnJson = getContext();
-  return returnJson.length();
+  //Log.v(returnJson.length);
+  return returnJson.length;
 }
-function getVersionNumber(releaseNum) {
-  var returnJson = getContext();
-  var versionNumber = returnJson.getJSONObject(releaseNum).getString("name");
-  if (JSUtils.matchVersioningString(versionNumber) == null)
-    versionNumber = returnJson.getJSONObject(releaseNum).getString("tag_name");
-  if (JSUtils.matchVersioningString(versionNumber) == null)
-    versionNumber = null;
-  Log.d(versionNumber);
-  return versionNumber;
-}
-function getChangelog(releaseNum) {
-  var returnJson = getContext();
-  var changeLog = returnJson.getJSONObject(releaseNum).getString("body");
-  Log.d(changeLog);
-  return changeLog;
-}
-function getReleaseDownload(releaseNum) {
-  var returnJson = getContext();
-  var releaseAssets = returnJson
-    .getJSONObject(releaseNum)
-    .getJSONArray("assets");
-  var releaseDownload = JSUtils.getJSONObject();
-  for (var i = 0; i < releaseAssets.length(); i++) {
-    var tmpJsonObject = releaseAssets.getJSONObject(i);
-    releaseDownload.put(
-      tmpJsonObject.getString("name"),
-      tmpJsonObject.getString("browser_download_url")
-    );
-  }
-  return releaseDownload.toString();
-}
+
 function getApiUrl(url) {
   //获取api地址的独立方法
   var apiUrlStringList = splitUrl(url);
@@ -50,7 +57,6 @@ function getApiUrl(url) {
   // 网址不符合规则返回 false
   else return apiUrlStringList[0];
 }
-
 function splitUrl(url) {
   var temp = url.split("github.com/");
   temp = temp[temp.length - 1].split("/");
@@ -63,4 +69,4 @@ function splitUrl(url) {
     Log.d(apiUrl);
     return [apiUrl, repo];
   } else return null;
-}
+  }
