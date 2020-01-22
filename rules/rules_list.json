@@ -128,6 +128,11 @@
       "app_config_name": "应用汇",
       "app_config_uuid": "6d954d76-35f9-11ea-959e-5d4cf66cc336",
       "app_config_file_name": "应用汇"
+    },
+    {
+      "app_config_name": "HP Print Service 插件",
+      "app_config_uuid": "b2621e24-3d07-11ea-97a8-65791a38250f",
+      "app_config_file_name": "HP Print Service 插件"
     }
   ],
   "hub_list": [

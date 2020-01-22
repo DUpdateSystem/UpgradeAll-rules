@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "b2621e24-3d07-11ea-97a8-65791a38250f",
+  "info": {
+    "app_name": "HP Print Service 插件",
+    "config_version": 1,
+    "url": "http://www.appchina.com/app/com.hp.android.printservice"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "4a23c3a5-8200-40bb-b961-c1bb5d7fd921"
+    }
+  },
+  "target_checker": {
+    "api": "App_Package",
+    "extra_string": "com.hp.android.printservice"
+  }
+}
