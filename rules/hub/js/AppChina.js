@@ -111,7 +111,7 @@ function jsonstring(App_name,version_array,url_array,change){
     asset["download_url"] = "" + url_array.get(i);
     assets.push(asset);
     data["version_number"] = "" + version_array.get(i);
-    data["change_log"] = change.get(i);
+    data["change_log"] ="" + change.get(i);
     data["assets"] = assets;
     datas.push(data);
   }

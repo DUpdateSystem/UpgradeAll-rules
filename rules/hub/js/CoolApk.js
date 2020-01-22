@@ -27,10 +27,7 @@ var version = JSUtils.selNByJsoupXpath(
  releaseDownload = releaseDownload.substr(1, releaseDownload.length - 2);
  //Log.d(changelog);
  //Log.d(changelog.get(0));
-  
-  //更新日志太大，暂时不起用
-  changelo = "null";
-  return jsonstring(getDefaultName(),version,releaseDownload,changelo);
+  return jsonstring(getDefaultName(),version,releaseDownload,changelog);
 }
   
 function jsonstring(App_name,version_array,url,change){
@@ -43,7 +40,7 @@ function jsonstring(App_name,version_array,url,change){
     asset["download_url"] = "" + url ;
     assets.push(asset);
     data["version_number"] = "" + version_array.get(i);
-    data["change_log"] = change;
+    data["change_log"] = "" + change.get(i);
     data["assets"] = assets;
     datas.push(data);
   }
