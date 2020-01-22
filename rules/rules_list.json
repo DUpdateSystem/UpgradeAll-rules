@@ -163,6 +163,11 @@
       "hub_config_name": "应用汇-official",
       "hub_config_uuid": "4a23c3a5-8200-40bb-b988-c1bb5d7fd921",
       "hub_config_file_name": "AppChina_official"
+    },
+    {
+      "hub_config_name": "手机乐园",
+      "hub_config_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
+      "hub_config_file_name": "Sjly"
     }
   ]
 }
