@@ -1,35 +1,48 @@
+/*
+ * 提交须知:
+ * 1.提交前先本地调试脚本运行状态
+ * 2.提交前查看脚本的调试标记
+ * (将Log.v,等调试函数注释)
+ * 3.每个脚本增加注释
+ * (提高脚本可读性,维护性)
+ *
+ */
+
 function getReleaseInfo() {
-//将应用名称赋值
-var App_name = getDefaultName();
-var releaseNum = getReleaseNum();
-var returnJson = getContext();
-//Log.v(returnJson[0].assets[0].browser_download_url);
-//returnJson[i].assets.browser_download_url
+  //将应用名称赋值
+  var App_name = getDefaultName();
+  var releaseNum = getReleaseNum();
+  var returnJson = getContext();
+  //Log.v(returnJson[0].assets[0].browser_download_url);
+  //returnJson[i].assets.browser_download_url
   var datas = [];
   for (var i = 0; i < releaseNum; i++) {
-    var data = {};
-    var assets = [];
-    var asset = {};
-    asset["name"] = "[" + App_name + "]" + version(returnJson,i);
-    asset["download_url"] = "" + returnJson[i].assets[0].browser_download_url;
-    assets.push(asset);
-    data["version_number"] = "" + version(returnJson,i);
-    data["change_log"] = "" + returnJson[i].body;
-    data["assets"] = assets;
-    datas.push(data);
+    //获取应用版本号
+    var versionNumber = "";
+    var versionNumber = returnJson[i].name;
+    if (versionNumber.replace(/(^s*)|(s*$)/g, "").length == 0) {
+      versionNumber = returnJson[i].tag_name;
+    }
+    if (versionNumber.replace(/(^s*)|(s*$)/g, "").length == 0) {
+      versionNumber = null;
+    }
+
+    for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
+      var data = {};
+      var assets = [];
+      var asset = {};
+      asset["name"] = "[" + App_name + "]" + versionNumber;
+      asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
+      assets.push(asset);
+      data["version_number"] = "" + versionNumber;
+      data["change_log"] = "" + returnJson[i].body;
+      data["assets"] = assets;
+      datas.push(data);
+    }
   }
   return JSON.stringify(datas);
+}
 
-}
-//获取应用版本号
-function version(returnJson,releaseNum){
-var versionNumber = returnJson[releaseNum].name;
-  if (versionNumber == null)
-    versionNumber = returnJson[releaseNum].tag_name;
-  if (versionNumber == null)
-    versionNumber = null;
- return versionNumber;
-}
 
 
 //获取应用名称
@@ -46,6 +59,7 @@ function getContext() {
   //Log.v(JSON.parse(jsonText)[0]);
   return JSON.parse(jsonText);
 }
+
 function getReleaseNum() {
   var returnJson = getContext();
   //Log.v(returnJson.length);
@@ -59,6 +73,7 @@ function getApiUrl(url) {
   // 网址不符合规则返回 false
   else return apiUrlStringList[0];
 }
+
 function splitUrl(url) {
   var temp = url.split("github.com/");
   temp = temp[temp.length - 1].split("/");
@@ -71,4 +86,4 @@ function splitUrl(url) {
     Log.d(apiUrl);
     return [apiUrl, repo];
   } else return null;
-  }
+}

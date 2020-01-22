@@ -41,10 +41,10 @@ function getReleaseInfo() {
   var reg = /((ht|f)tps?:)\/\/[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]/g;
   //使用JavaScript的match函数配合正则表达式取出字符串中的下载链接
   var first_url = first_raw_url.match(reg);
-  
+
   //获取软件名称,将它赋值
-  var app_name=getDefaultName();
-  
+  var app_name = getDefaultName();
+
   //获取更新日志
   //第一个
   var changelog1 = JSUtils.selNByJsoupXpath(
@@ -52,12 +52,12 @@ function getReleaseInfo() {
     URL,
     "//p[@class='art-content'][2]/text()"
   );
-  
+
   //将所有数据转化成json,并返回
-  return  jsonstring(app_name,versionNumberList,first_raw_url,changelog1);
+  return jsonstring(app_name, versionNumberList, first_raw_url, changelog1);
 }
 
-function jsonstring(App_name,version_array,url_array,change){
+function jsonstring(App_name, version_array, url_array, change) {
   var datas = [];
   for (var i = 0; i < version_array.size(); i++) {
     var data = {};
