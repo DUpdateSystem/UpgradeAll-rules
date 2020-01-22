@@ -2,13 +2,13 @@
   "base_version": 1,
   "uuid": "6d954d76-35f9-11ea-959e-5d4cf66cc336",
   "info": {
-    "app_name": "应用汇",
+    "app_name": "应用汇-official",
     "config_version": 1,
-    "url": "http://m.appchina.com/app/com.yingyonghui.market"
+    "url": "http://www.appchina.com/app/com.yingyonghui.market"
   },
   "app_config": {
     "hub_info": {
-      "hub_uuid": "4a23c3a5-8200-40bb-b961-c1bb5d7fd921"
+      "hub_uuid": "4a23c3a5-8200-40bb-b988-c1bb5d7fd921"
     }
   },
   "target_checker": {
