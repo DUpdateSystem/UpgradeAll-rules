@@ -133,6 +133,11 @@
       "app_config_name": "QQ浏览器",
       "app_config_uuid": "823f0b56-3d4f-11ea-b50d-d3504aa1f700",
       "app_config_file_name": "QQ浏览器"
+    },
+    {
+      "app_config_name": "zlive-official",
+      "app_config_uuid": "4fded25c-3f63-11ea-a838-751dda094b37",
+      "app_config_file_name": "zlive-official"
     }
   ],
   "hub_list": [
@@ -147,19 +152,14 @@
       "hub_config_file_name": "AppChina"
     },
     {
-      "hub_config_name": "Z直播",
+      "hub_config_name": "Z直播-official",
       "hub_config_uuid": "28591e65-849f-4417-aead-9d9098520eed",
-      "hub_config_file_name": "zlive"
+      "hub_config_file_name": "zlive_official"
     },
     {
       "hub_config_name": "酷安",
       "hub_config_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "hub_config_file_name": "CoolApk"
-    },
-    {
-      "hub_config_name": "PanDownloadAndroid",
-      "hub_config_uuid": "e6ea0f60-0e72-4157-ba75-23940a12b2b1",
-      "hub_config_file_name": "PanDownloadAndroid"
     },
     {
       "hub_config_name": "闪电下载官网",

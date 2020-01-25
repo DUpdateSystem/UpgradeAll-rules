@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "4fded25c-3f63-11ea-a838-751dda094b37",
+  "info": {
+    "app_name": "zlive_official",
+    "config_version": 1,
+    "url": "https://app.zhibo.at/a"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "28591e65-849f-4417-aead-9d9098520eed"
+    }
+  },
+  "target_checker": {
+    "api": "App_Package",
+    "extra_string": "com.linroid.zlive"
+  }
+}
