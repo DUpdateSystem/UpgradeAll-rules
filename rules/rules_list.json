@@ -135,9 +135,14 @@
       "app_config_file_name": "QQ浏览器"
     },
     {
-      "app_config_name": "zlive-official",
+      "app_config_name": "z直播-official",
       "app_config_uuid": "4fded25c-3f63-11ea-a838-751dda094b37",
-      "app_config_file_name": "zlive-official"
+      "app_config_file_name": "z直播-official"
+    },
+    {
+      "app_config_name": "PanDownload",
+      "app_config_uuid": "56ec3b06-4018-11ea-91ba-a101ea1426c3",
+      "app_config_file_name": "PanDownload"
     }
   ],
   "hub_list": [
