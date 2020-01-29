@@ -20,13 +20,13 @@ function getReleaseInfo() {
     //获取应用版本号
     var versionNumber = "";
     var versionNumber = returnJson[i].name;
-    if (versionNumber.replace(/(^s*)|(s*$)/g, "").length == 0) {
+    if (
+      versionNumber.search(
+        "(\\d+(\\.\\d+)*)(([\\.|\\-|\\+|_| ]|[0-9A-Za-z])*)"
+      ) != -1
+    ) {
       versionNumber = returnJson[i].tag_name;
     }
-    if (versionNumber.replace(/(^s*)|(s*$)/g, "").length == 0) {
-      versionNumber = null;
-    }
-
 
     if (returnJson[i].assets.length == 1) {
       for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
@@ -34,7 +34,8 @@ function getReleaseInfo() {
         var assets = [];
         var asset = {};
         asset["name"] = "[" + App_name + "]" + versionNumber;
-        asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
+        asset["download_url"] =
+          "" + returnJson[i].assets[ii].browser_download_url;
         assets.push(asset);
         data["version_number"] = "" + versionNumber;
         data["change_log"] = "" + returnJson[i].body;
@@ -63,8 +64,10 @@ function getReleaseInfo() {
           var data = {};
           var assets = [];
           var asset = {};
-          asset["name"] = "[" + App_name + "]" + versionNumber + "(" + arch + ")";
-          asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
+          asset["name"] =
+            "[" + App_name + "]" + versionNumber + "(" + arch + ")";
+          asset["download_url"] =
+            "" + returnJson[i].assets[ii].browser_download_url;
           assets.push(asset);
           data["version_number"] = "" + versionNumber + "(" + arch + ")";
           data["change_log"] = "" + returnJson[i].body;
