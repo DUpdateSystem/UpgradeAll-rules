@@ -19,63 +19,65 @@ function getReleaseInfo() {
   for (var i = 0; i < releaseNum; i++) {
     //获取应用版本号
     var versionNumber = "";
-    var versionNumber = returnJson[i].name;
-    if (
-      versionNumber.search(
-        "(\\d+(\\.\\d+)*)(([\\.|\\-|\\+|_| ]|[0-9A-Za-z])*)"
-      ) != -1
-    ) {
-      versionNumber = returnJson[i].tag_name;
-    }
-
-    if (returnJson[i].assets.length == 1) {
-      for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
-        var data = {};
-        var assets = [];
-        var asset = {};
-        asset["name"] = "[" + App_name + "]" + versionNumber;
-        asset["download_url"] =
-          "" + returnJson[i].assets[ii].browser_download_url;
-        assets.push(asset);
-        data["version_number"] = "" + versionNumber;
-        data["change_log"] = "" + returnJson[i].body;
-        data["assets"] = assets;
-        datas.push(data);
-      }
+    var versionNumber = returnJson[i].name.replace(/(^s*)|(s*$)/g, "");
+    if (versionNumber.length != 0) {
+      versionNumber = versionNumber.match(/\d+(\.\d+){0,6}/g);
+    } else if (returnJson[i].tag_name.replace(/(^s*)|(s*$)/g, "").length != 0) {
+      versionNumber = returnJson[i].tag_name.replace(/(^s*)|(s*$)/g, "");
+      versionNumber = versionNumber.match(/\d+(\.\d+){0,6}/g);
     } else {
-      //这里立了大坑,if嵌套太多,目前没有想到更好的方法,后续更正.
-      for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
-        if (returnJson[i].assets[ii].name.search("tv") == -1) {
-          if (returnJson[i].assets[ii].name.search("universal") != -1) {
-            var arch = "universal";
-          }
-          if (returnJson[i].assets[ii].name.search("arm64") != -1) {
-            var arch = "arm64-v8a";
-          }
-          if (returnJson[i].assets[ii].name.search("armeabi") != -1) {
-            var arch = "armeabi-v7a";
-          }
-          if (returnJson[i].assets[ii].name.search("x86_64") != -1) {
-            var arch = "x86_64";
-          }
-          if (returnJson[i].assets[ii].name.search("x86") != -1) {
-            var arch = "x86";
-          }
-          var data = {};
-          var assets = [];
-          var asset = {};
-          asset["name"] =
-            "[" + App_name + "]" + versionNumber + "(" + arch + ")";
-          asset["download_url"] =
-            "" + returnJson[i].assets[ii].browser_download_url;
-          assets.push(asset);
-          data["version_number"] = "" + versionNumber + "(" + arch + ")";
-          data["change_log"] = "" + returnJson[i].body;
-          data["assets"] = assets;
-          datas.push(data);
-        }
-      }
+      versionNumber = "null"
     }
+    var assets = [];
+    for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
+
+      if (returnJson[i].assets[ii].name.indexOf(".apk") != -1) {
+
+        if (returnJson[i].assets[ii].name.indexOf("tv") == -1) {
+
+          if (returnJson[i].assets[ii].name.indexOf("arm64") != -1) {
+            var arch = "apk/arm64-v8a";
+          } else if (returnJson[i].assets[ii].name.indexOf("armeabi") != -1) {
+            var arch = "apk/armeabi-v7a";
+          } else if (returnJson[i].assets[ii].name.indexOf("x86_64") != -1) {
+            var arch = "apk/x86_64";
+          } else if (returnJson[i].assets[ii].name.indexOf("x86") != -1) {
+            var arch = "apk/x86";
+          } else {
+            var arch = "apk/universal";
+          }
+
+        } else {
+
+          if (returnJson[i].assets[ii].name.indexOf("arm64") != -1) {
+            var arch = "apk/tv-arm64-v8a";
+          } else if (returnJson[i].assets[ii].name.indexOf("armeabi") != -1) {
+            var arch = "apk/tv-armeabi-v7a";
+          } else if (returnJson[i].assets[ii].name.indexOf("x86_64") != -1) {
+            var arch = "apk/tv-x86_64";
+          } else if (returnJson[i].assets[ii].name.indexOf("x86") != -1) {
+            var arch = "apk/tv-x86";
+          } else {
+            var arch = "apk/tv-universal";
+          }
+
+        }
+
+      } else {
+        arch = "magisk_module_zip";
+      }
+
+      var asset = {};
+      asset["name"] = "" + App_name;
+      asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
+      asset["file_type"] = "" + arch;
+      assets.push(asset);
+    }
+    var data = {};
+    data["version_number"] = "" + versionNumber;
+    data["change_log"] = "" + returnJson[i].body;
+    data["assets"] = assets;
+    datas.push(data);
   }
   return JSON.stringify(datas);
 }
