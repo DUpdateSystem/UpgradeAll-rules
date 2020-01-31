@@ -139,6 +139,11 @@
       "app_config_name": "PanDownload",
       "app_config_uuid": "56ec3b06-4018-11ea-91ba-a101ea1426c3",
       "app_config_file_name": "PanDownload"
+    },
+    {
+      "app_config_name": "JBusDriver",
+      "app_config_uuid": "cc000d32-4423-11ea-b683-e358bc562313",
+      "app_config_file_name": "JBusDriver"
     }
   ],
   "hub_list": [
