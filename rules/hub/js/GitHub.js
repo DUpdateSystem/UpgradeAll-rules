@@ -19,10 +19,10 @@ function getReleaseInfo() {
   for (var i = 0; i < releaseNum; i++) {
     //获取应用版本号
     var versionNumber = "";
-    var versionNumber = returnJson[i].name;
-    /*if (versionNumber.search("(\\d+(\\.\\d+)*)(([\\.|\\-|\\+|_| ]|[0-9A-Za-z])*)") == -1) {
+    var versionNumber = "" + returnJson[i].name;
+    if (versionNumber.search("(\\d+(\\.\\d+)*)(([\\.|\\-|\\+|_| ]|[0-9A-Za-z])*)") == -1) {
       var versionNumber = returnJson[i].tag_name;
-    }*/
+    }
     var assets = [];
     for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
 
