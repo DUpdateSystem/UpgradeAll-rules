@@ -12,33 +12,34 @@ var userAgent =
   "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0";
 
 function getReleaseInfo() {
-  //获取版本号
+  /*获取版本号
+  *版本号包括了历史版本的两个版本号
+  */
   var version = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//strong/a/text()'
+    '//div[@class="package-version-header"]/b/text()'
   );
-
   //获取更新日志
+  //包括历史版本
   var changelog = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//span[@class="adown"]/text()'
+    '//p[@class="package-version-requirement"]/text()'
   );
-
   //获取下载链接
+  //包括历史版本
   var d_url = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//span[@class="bdown"]/a/@href'
+    '//p[@class="package-version-download"]/b/a/@href'
   );
-
   return jsonstring(version, d_url, changelog);
 }
 
-function jsonstring( version_array, url, change) {
+function jsonstring(version, url, change) {
   var datas = [];
-  for (var i = 0; i < version_array.size(); i++) {
+  for (var i = 0; i < version.size(); i++) {
     var data = {};
     var assets = [];
     var asset = {};
@@ -46,7 +47,7 @@ function jsonstring( version_array, url, change) {
     asset["download_url"] = "" + url.get(i);
     asset["file_type"] = "" + "apk/universal";
     assets.push(asset);
-    data["version_number"] = "" + version_array.get(i);
+    data["version_number"] = "" + version.get(i);
     data["change_log"] = "" + change.get(i);
     data["assets"] = assets;
     datas.push(data);
@@ -54,11 +55,12 @@ function jsonstring( version_array, url, change) {
   return JSON.stringify(datas);
 }
 
+//获取应用名称
 function getDefaultName() {
   var nodeList = JSUtils.selNByJsoupXpath(
     this.userAgent,
     this.URL,
-    '//@data-appname'
+    '//h3[@class="package-name"]/text()'
   );
   var defaultName = nodeList.get(0);
   return defaultName;

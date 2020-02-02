@@ -10,7 +10,7 @@
 
 function getReleaseInfo() {
   //将应用名称赋值
-  var App_name = getDefaultName();
+  //var App_name = getDefaultName();
   var releaseNum = getReleaseNum();
   var returnJson = getContext();
   //Log.v(returnJson[0].assets[0].browser_download_url);

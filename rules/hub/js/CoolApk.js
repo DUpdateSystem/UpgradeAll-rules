@@ -37,17 +37,18 @@ function getReleaseInfo() {
   releaseDownload = releaseDownload.substr(1, releaseDownload.length - 2);
   //Log.d(changelog);
   //Log.d(changelog.get(0));
-  return jsonstring(getDefaultName(), version, releaseDownload, changelog);
+  return jsonstring(version, releaseDownload, changelog);
 }
 
-function jsonstring(App_name, version_array, url, change) {
+function jsonstring(version_array, url, change) {
   var datas = [];
   for (var i = 0; i < version_array.size(); i++) {
     var data = {};
     var assets = [];
     var asset = {};
-    asset["name"] = "[" + App_name + "]" + version_array.get(i);
+    asset["name"] = "" + "universal";
     asset["download_url"] = "" + url;
+    asset["file_type"] = "" + "apk/universal";
     assets.push(asset);
     data["version_number"] = "" + version_array.get(i);
     data["change_log"] = "" + change;

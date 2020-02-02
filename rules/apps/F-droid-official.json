@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "e1faee32-45b2-11ea-995b-f38b990fe97e",
+  "info": {
+    "app_name": "F-droid_official",
+    "config_version": 1,
+    "url": "https://f-droid.org/zh_Hans/packages/org.fdroid.fdroid/"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+    }
+  },
+  "target_checker": {
+    "api": "App_Package",
+    "extra_string": "org.fdroid.fdroid"
+  }
+}

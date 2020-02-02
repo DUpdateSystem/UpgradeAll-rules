@@ -2,23 +2,24 @@ var userAgent =
   "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0";
   
  function getReleaseInfo() {
-	 app_name = getDefaultName();
+	 //app_name = getDefaultName();
 	 version = getVersionNumber();
 	 d_url = getReleaseDownload();
 	 
-	 return jsonstring(app_name,version,d_url,"");
+	 return jsonstring(version,d_url);
 	 }
 	 
-function jsonstring(App_name, version_array, url, change) {
+function jsonstring(version_array, url) {
   var datas = [];
     var data = {};
     var assets = [];
     var asset = {};
-    asset["name"] = "[" + App_name + "]" + version_array;
+    asset["name"] = "" + "universal";
     asset["download_url"] = "" + url;
+    asset["file_type"] = "" + "apk/universal";
     assets.push(asset);
     data["version_number"] = "" + version_array;
-    data["change_log"] = "" + change;
+    data["change_log"] = "" + "null";
     data["assets"] = assets;
     datas.push(data);
   return JSON.stringify(datas);

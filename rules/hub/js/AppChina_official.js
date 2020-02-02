@@ -43,7 +43,7 @@ function getReleaseInfo() {
   var first_url = first_raw_url.match(reg);
 
   //获取软件名称,将它赋值
-  var app_name = getDefaultName();
+  //var app_name = getDefaultName();
 
   //获取更新日志
   //第一个
@@ -54,17 +54,18 @@ function getReleaseInfo() {
   );
 
   //将所有数据转化成json,并返回
-  return jsonstring(app_name, versionNumberList, first_raw_url, changelog1);
+  return jsonstring(versionNumberList, first_raw_url, changelog1);
 }
 
-function jsonstring(App_name, version_array, url_array, change) {
+function jsonstring(version_array, url_array, change) {
   var datas = [];
   for (var i = 0; i < version_array.size(); i++) {
     var data = {};
     var assets = [];
     var asset = {};
-    asset["name"] = "[" + App_name + "]" + version_array.get(i);
+    asset["name"] = "" + "universal";
     asset["download_url"] = "" + String(url_array);
+    asset["file_type"] = "" + "apk/universal";
     assets.push(asset);
     data["version_number"] = "" + version_array.get(i);
     data["change_log"] = "" + change.get(i);
