@@ -13,8 +13,8 @@ var userAgent =
 
 function getReleaseInfo() {
   /*获取版本号
-  *版本号包括了历史版本的两个版本号
-  */
+   *版本号包括了历史版本的两个版本号
+   */
   var version = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
