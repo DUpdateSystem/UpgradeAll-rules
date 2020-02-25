@@ -22,8 +22,9 @@ function getReleaseInfo() {
   var changelog = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//div[@class="apk_left_title_info"]/text()'
+    '//div[@class="apk_left_title"][1]/p[@class="apk_left_title_info"]/text()'
   );
+
   //获取下载链接
   var d_url = JSUtils.selNByJsoupXpath(
     userAgent,
