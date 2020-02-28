@@ -164,6 +164,16 @@
       "app_config_name": "F-droid-official",
       "app_config_uuid": "e1faee32-45b2-11ea-995b-f38b990fe97e",
       "app_config_file_name": "F-droid-official"
+    },
+    {
+      "app_config_name": "Shadowsocksrb",
+      "app_config_uuid": "bab763c3-59c7-11ea-a131-f460e239c9a2",
+      "app_config_file_name": "Shadowsocksrb"
+    },
+    {
+      "app_config_name": "ClashForAndroid",
+      "app_config_uuid": "ca09f319-59c7-11ea-9a4d-f460e239c9a2",
+      "app_config_file_name": "ClashForAndroid"
     }
   ],
   "hub_list": [
