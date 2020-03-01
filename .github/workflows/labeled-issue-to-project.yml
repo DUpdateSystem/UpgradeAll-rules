@@ -22,7 +22,7 @@ jobs:
         column-name: "添加源支持[Add Mirrors]"
         label-name: "添加源支持[Add Mirrors]"
         columns-to-ignore: "已完成"
-  add-mirror-issue-to-project:
+  suggest-issue-to-project:
     runs-on: ubuntu-latest
     steps:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
