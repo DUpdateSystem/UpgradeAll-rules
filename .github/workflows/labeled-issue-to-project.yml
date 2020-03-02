@@ -29,6 +29,6 @@ jobs:
       with:
         action-token: "${{ secrets.GH_TOKEN }}"
         project-url: "https://github.com/orgs/DUpdateSystem/projects/1"
-        column-name: "提出建议[Suggest]"
-        label-name: "建议[Suggest]"
+        column-name: "建议[Suggest]"
+        label-name: "提出建议[Suggest]"
         columns-to-ignore: "已完成"
