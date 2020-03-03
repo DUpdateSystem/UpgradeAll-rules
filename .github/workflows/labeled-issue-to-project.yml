@@ -1,0 +1,34 @@
+on:
+  issues:
+    types: [labeled]
+jobs:
+  add-app-issue-to-project:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.GH_TOKEN }}"
+        project-url: "https://github.com/orgs/DUpdateSystem/projects/1"
+        column-name: "添加软件[Add App]"
+        label-name: "添加软件[Add App]"
+        columns-to-ignore: "已完成"
+  add-mirror-issue-to-project:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.GH_TOKEN }}"
+        project-url: "https://github.com/orgs/DUpdateSystem/projects/1"
+        column-name: "添加源支持[Add Mirrors]"
+        label-name: "添加源支持[Add Mirrors]"
+        columns-to-ignore: "已完成"
+  suggest-issue-to-project:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.GH_TOKEN }}"
+        project-url: "https://github.com/orgs/DUpdateSystem/projects/1"
+        column-name: "建议[Suggest]"
+        label-name: "提出建议[Suggest]"
+        columns-to-ignore: "已完成"

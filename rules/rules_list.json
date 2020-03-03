@@ -179,6 +179,31 @@
       "app_config_name": "JavbuslibraryRealse",
       "app_config_uuid": "12fa8a06-5b77-11ea-ad60-f460e239c9a2",
       "app_config_file_name": "JavbuslibraryRealse"
+    },
+    {
+      "app_config_name": "微漫",
+      "app_config_uuid": "6eaa2794-5d4b-11ea-880e-378a2dc8f725",
+      "app_config_file_name": "微漫"
+    },
+    {
+      "app_config_name": "JAViewer",
+      "app_config_uuid": "94203c2a-5d4b-11ea-832d-3d7e6c9c7464",
+      "app_config_file_name": "JAViewer"
+    },
+    {
+      "app_config_name": "Nekogram",
+      "app_config_uuid": "a8f8d198-5d4b-11ea-8e22-775d5f37a025",
+      "app_config_file_name": "Nekogram"
+    },
+    {
+      "app_config_name": "qksms",
+      "app_config_uuid": "bd1553fe-5d4b-11ea-8f95-f3f224497f67",
+      "app_config_file_name": "qksms"
+    },
+    {
+      "app_config_name": "微聚",
+      "app_config_uuid": "cff75012-5d4b-11ea-8bd1-f927d2b28ba4",
+      "app_config_file_name": "微聚"
     }
   ],
   "hub_list": [
