@@ -44,7 +44,7 @@ function getReleaseInfo() {
             var arch_name = "x86";
           } else {
             var arch = "apk/universal";
-            var arch_name = "universal";
+            var arch_name = "整合包[universal]";
           }
 
         } else {

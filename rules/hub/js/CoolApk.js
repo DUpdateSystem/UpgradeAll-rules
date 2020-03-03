@@ -47,7 +47,7 @@ function jsonstring(version_array, url, change) {
     var data = {};
     var assets = [];
     var asset = {};
-    asset["name"] = "" + "universal";
+    asset["name"] = "" + "整合包[universal]";
     asset["download_url"] = "" + url;
     asset["file_type"] = "" + "apk/universal";
     assets.push(asset);
