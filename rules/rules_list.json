@@ -67,9 +67,8 @@
     },
     {
       "app_config_name": "[Magisk_Module]QTI-MEM-OPT",
-      "app_config_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "app_config_uuid": "e00754b3-837e-41c3-aff6-ba09f85711a0",
       "app_config_file_name": "[Magisk_Module]QTI-MEM-OPT"
-      
     },
     {
       "app_config_name": "阅读",
@@ -167,6 +166,11 @@
       "app_config_file_name": "OwnCloud"
     },
     {
+      "app_config_name": "Aurora Store",
+      "app_config_uuid": "da1d58d3-40b5-400b-8f27-50bb50d3cf8d",
+      "app_config_file_name": "Aurora Store"
+    },
+    {
       "app_config_name": "F-droid-official",
       "app_config_uuid": "e1faee32-45b2-11ea-995b-f38b990fe97e",
       "app_config_file_name": "F-droid-official"
@@ -247,12 +251,6 @@
       "hub_config_name": "手机乐园",
       "hub_config_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
       "hub_config_file_name": "Sjly"
-    },
-    {
-      "app_config_name": "Aurora Store",
-      "app_config_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
-      "app_config_file_name": "Aurora Store"
-      
     },
     {
       "hub_config_name": "F-droid",
