@@ -1,0 +1,17 @@
+{
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+    },
+    "target_checker": {
+      "api": "app_package",
+      "extra_string": "com.aurora.store"
+    }
+  },
+  "base_version": 1,
+  "info": {
+    "app_name": "Aurora Store",
+    "config_version": 1,
+    "url": "https://f-droid.org/app/com.aurora.store"
+  }
+}
