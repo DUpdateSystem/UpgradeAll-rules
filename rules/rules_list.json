@@ -231,13 +231,13 @@
       "app_config_file_name": "几何天气"
     },
     {
-      "app_config_name": "Kiwi Browser"
-      "app_config_uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0"
+      "app_config_name": "Kiwi Browser",
+      "app_config_uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0",
       "app_config_file_name": "Kiwi Browser"
     },
     {
-      "app_config_name": "Mysplash"
-      "app_config_uuid": "129561b2-5e13-11ea-a78b-a1b2811c9caa"
+      "app_config_name": "Mysplash",
+      "app_config_uuid": "129561b2-5e13-11ea-a78b-a1b2811c9caa",
       "app_config_file_name": "Mysplash"
     }
   ],
