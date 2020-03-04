@@ -239,6 +239,11 @@
       "app_config_name": "Mysplash",
       "app_config_uuid": "129561b2-5e13-11ea-a78b-a1b2811c9caa",
       "app_config_file_name": "Mysplash"
+    },
+    {
+      "app_config_name": "ClashR",
+      "app_config_uuid": "b3bbc886-5e1f-11ea-8e5e-c9aa920b7115",
+      "app_config_file_name": "ClashR"
     }
   ],
   "hub_list": [
