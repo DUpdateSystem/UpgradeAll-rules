@@ -219,6 +219,26 @@
       "app_config_name": "Telegram-FOSS",
       "app_config_uuid": "17bf74ae-bffa-44c1-9223-4dc586d6e995",
       "app_config_file_name": "Telegram-FOSS"
+    },
+    {
+      "app_config_name": "Feeder",
+      "app_config_uuid": "65b1a6f2-6399-4503-a87f-4548990f5cfc",
+      "app_config_file_name": "Feeder"
+    },
+    {
+      "app_config_name": "几何天气",
+      "app_config_uuid": "ef51e957-485c-425f-b28c-f5e10b3612be",
+      "app_config_file_name": "几何天气"
+    },
+    {
+      "app_config_name": "Kiwi Browser"
+      "app_config_uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0"
+      "app_config_file_name": "Kiwi Browser"
+    },
+    {
+      "app_config_name": "Mysplash"
+      "app_config_uuid": "129561b2-5e13-11ea-a78b-a1b2811c9caa"
+      "app_config_file_name": "Mysplash"
     }
   ],
   "hub_list": [
