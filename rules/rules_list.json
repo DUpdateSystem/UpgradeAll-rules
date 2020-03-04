@@ -210,6 +210,12 @@
       "app_config_name": "微聚",
       "app_config_uuid": "cff75012-5d4b-11ea-8bd1-f927d2b28ba4",
       "app_config_file_name": "微聚"
+    },
+    {
+      "app_config_name": "Aurora Store",
+      "app_config_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
+      "app_config_file_name": "Aurora Store"
+      
     }
   ],
   "hub_list": [
@@ -247,12 +253,6 @@
       "hub_config_name": "手机乐园",
       "hub_config_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
       "hub_config_file_name": "Sjly"
-    },
-    {
-      "app_config_name": "Aurora Store",
-      "app_config_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
-      "app_config_file_name": "Aurora Store"
-      
     },
     {
       "hub_config_name": "F-droid",
