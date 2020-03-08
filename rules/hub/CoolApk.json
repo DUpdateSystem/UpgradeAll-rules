@@ -5,5 +5,13 @@
   "web_crawler": {
     "tool": "JavaScript",
     "file_path": "./js/CoolApk.js"
+  },
+  "applications_mode": {
+    "app_url_template": [
+      {
+        "url": "https://www.coolapk.com/apk/%Android_App_Package/",
+        "description": "软件"
+      }
+    ]
   }
 }
