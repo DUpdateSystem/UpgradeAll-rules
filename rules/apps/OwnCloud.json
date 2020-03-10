@@ -9,10 +9,10 @@
   "app_config": {
     "hub_info": {
       "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.owncloud.android"
     }
-  },
-  "target_checker": {
-    "api": "App_Package",
-    "extra_string": "com.owncloud.android"
   }
 }
