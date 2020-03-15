@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "b5180916-8645-ea85-114e-1a389df180d7",
+  "uuid": "77b4fbe0-45ac-11ea-8bca-d7af92c02572",
   "info": {
-    "app_name": "Shizuku",
+    "app_name": "草榴社区",
     "config_version": 1,
-    "url": "https://github.com/RikkaApps/Shizuku"
+    "url": "https://github.com/yuuwill/1024app-android/releases"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "moe.shizuku.privileged.api"
+      "extra_string": "com.cl.newt66y"
     }
   }
 }

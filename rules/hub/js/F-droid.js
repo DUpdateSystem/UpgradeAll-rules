@@ -12,60 +12,56 @@ var userAgent =
   "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0";
 
 function getReleaseInfo() {
-  //获取版本号
+  /*获取版本号
+   *版本号包括了历史版本的两个版本号
+   */
   var version = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//span[@class="list_app_info"]/text()'
+    '//div[@class="package-version-header"]/b/text()'
   );
   //获取更新日志
+  //包括历史版本
   var changelog = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//div[@class="apk_left_title"][1]/p[@class="apk_left_title_info"]/text()'
+    '//p[@class="package-version-requirement"]/text()'
   );
-
   //获取下载链接
+  //包括历史版本
   var d_url = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//script[@type="text/javascript"][1]/text()'
+    '//p[@class="package-version-download"]/b/a/@href'
   );
-  var releaseDownloadText = d_url.get(0);
-  var releaseDownloadRegList = releaseDownloadText.match('"(.*?)"');
-  //if (releaseDownloadRegList.length == 0) return "";
-  var releaseDownload = releaseDownloadRegList[0];
-  releaseDownload = releaseDownload.substr(1, releaseDownload.length - 2);
-  //Log.d(changelog);
-  //Log.d(changelog.get(0));
-  return jsonstring(version, releaseDownload, changelog);
+  return jsonstring(version, d_url, changelog);
 }
 
-function jsonstring(version_array, url, change) {
+function jsonstring(version, url, change) {
   var datas = [];
-  for (var i = 0; i < version_array.size(); i++) {
+  for (var i = 0; i < version.size(); i++) {
     var data = {};
     var assets = [];
     var asset = {};
-    asset["name"] = "" + "整合包[universal]";
-    asset["download_url"] = "" + url;
+    asset["name"] = "" + "universal";
+    asset["download_url"] = "" + url.get(i);
     asset["file_type"] = "" + "apk/universal";
     assets.push(asset);
-    data["version_number"] = "" + version_array.get(i);
-    data["change_log"] = "" + change;
+    data["version_number"] = "" + version.get(i);
+    data["change_log"] = "" + change.get(i);
     data["assets"] = assets;
     datas.push(data);
   }
   return JSON.stringify(datas);
 }
 
+//获取应用名称
 function getDefaultName() {
   var nodeList = JSUtils.selNByJsoupXpath(
     this.userAgent,
     this.URL,
-    '//p[@class="detail_app_title"]/text()'
+    '//h3[@class="package-name"]/text()'
   );
   var defaultName = nodeList.get(0);
-  //Log.d(defaultName);
   return defaultName;
 }

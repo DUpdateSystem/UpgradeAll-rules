@@ -16,43 +16,38 @@ function getReleaseInfo() {
   var version = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//span[@class="list_app_info"]/text()'
+    '//strong/a/text()'
   );
+
   //获取更新日志
   var changelog = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//div[@class="apk_left_title"][1]/p[@class="apk_left_title_info"]/text()'
+    '//span[@class="adown"]/text()'
   );
 
   //获取下载链接
   var d_url = JSUtils.selNByJsoupXpath(
     userAgent,
     URL,
-    '//script[@type="text/javascript"][1]/text()'
+    '//span[@class="bdown"]/a/@href'
   );
-  var releaseDownloadText = d_url.get(0);
-  var releaseDownloadRegList = releaseDownloadText.match('"(.*?)"');
-  //if (releaseDownloadRegList.length == 0) return "";
-  var releaseDownload = releaseDownloadRegList[0];
-  releaseDownload = releaseDownload.substr(1, releaseDownload.length - 2);
-  //Log.d(changelog);
-  //Log.d(changelog.get(0));
-  return jsonstring(version, releaseDownload, changelog);
+
+  return jsonstring(version, d_url, changelog);
 }
 
-function jsonstring(version_array, url, change) {
+function jsonstring( version_array, url, change) {
   var datas = [];
   for (var i = 0; i < version_array.size(); i++) {
     var data = {};
     var assets = [];
     var asset = {};
     asset["name"] = "" + "整合包[universal]";
-    asset["download_url"] = "" + url;
+    asset["download_url"] = "" + url.get(i);
     asset["file_type"] = "" + "apk/universal";
     assets.push(asset);
     data["version_number"] = "" + version_array.get(i);
-    data["change_log"] = "" + change;
+    data["change_log"] = "" + change.get(i);
     data["assets"] = assets;
     datas.push(data);
   }
@@ -63,9 +58,8 @@ function getDefaultName() {
   var nodeList = JSUtils.selNByJsoupXpath(
     this.userAgent,
     this.URL,
-    '//p[@class="detail_app_title"]/text()'
+    '//@data-appname'
   );
   var defaultName = nodeList.get(0);
-  //Log.d(defaultName);
   return defaultName;
 }

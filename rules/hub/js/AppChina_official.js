@@ -22,21 +22,6 @@ function getReleaseInfo() {
     URL,
     "//div[@class='intro app-other-info-intro']/p[4]/text()"
   );
-  /*
-   * 获取版本号
-   * 得到历史版本
-   * 数据格式: [版本 : 1.1.1,版本 : 2.2.2]
-   * 使用提供的addAll,可以将两个数组合并
-   *
-   */
-  versionNumberList.addAll(
-    JSUtils.selNByJsoupXpath(
-      userAgent,
-      URL,
-      "//span[@class='history-verison-app-versionName']/text()"
-    )
-  );
-  //Log.d(versionNumberList);
 
   /*
    * 获取下载链接
@@ -57,24 +42,8 @@ function getReleaseInfo() {
   //使用JavaScript的match函数配合正则表达式取出字符串中的下载链接
   var first_url = first_raw_url.match(reg);
 
-  //得到历史版本的下载链接,输出一个数组
-  var releaseDownloadUrlList = JSUtils.selNByJsoupXpath(
-    userAgent,
-    URL,
-    "//a[@class='historyVerison-download fright download_app']/@href"
-  );
-  /*
-   * 将第一个链接和历史版本的链接合并
-   * 使用add函数
-   * add(位置,数据)
-   * add(0,url)
-   * 将第一次获得的链接使用add函数添加到数组的"0"起始位置
-   */
-  releaseDownloadUrlList.add(0, first_url);
-  //Log.e(releaseDownloadUrlList);
   //获取软件名称,将它赋值
   //var app_name = getDefaultName();
-
 
   //获取更新日志
   //第一个
@@ -82,23 +51,10 @@ function getReleaseInfo() {
     userAgent,
     URL,
     "//p[@class='art-content'][2]/text()"
-  ).get(0);
-  var changelog2 =
-    JSUtils.selNByJsoupXpath(
-      userAgent,
-      URL,
-      "//div[@class='history-version-app-updateMsg']/text()"
-
-    );
-  //更新日志
-  changelog2.add(0, changelog1);
-  //Log.d(changelog2.size());
-  //Log.d(changelog2.get(0));
-  //Log.d(changelog2.get(1));
-  //Log.d(changelog2.get(10));
+  );
 
   //将所有数据转化成json,并返回
-  return jsonstring(versionNumberList, releaseDownloadUrlList, changelog2);
+  return jsonstring(versionNumberList, first_raw_url, changelog1);
 }
 
 function jsonstring(version_array, url_array, change) {
@@ -108,7 +64,7 @@ function jsonstring(version_array, url_array, change) {
     var assets = [];
     var asset = {};
     asset["name"] = "" + "整合包[universal]";
-    asset["download_url"] = "" + url_array.get(i);
+    asset["download_url"] = "" + String(url_array);
     asset["file_type"] = "" + "apk/universal";
     assets.push(asset);
     data["version_number"] = "" + version_array.get(i);

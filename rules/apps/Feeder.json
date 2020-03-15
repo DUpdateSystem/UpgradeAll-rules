@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "19638b60-355d-11ea-b630-7345aa40e02f",
+  "uuid": "65b1a6f2-6399-4503-a87f-4548990f5cfc",
   "info": {
-    "app_name": "坚果云",
+    "app_name": "Feeder",
     "config_version": 1,
-    "url": "https://www.coolapk.com/apk/nutstore.android"
+    "url": "https://www.coolapk.com/apk/me.zsr.feeder"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "nutstore.android"
+      "extra_string": "me.zsr.feeder"
     }
   }
 }

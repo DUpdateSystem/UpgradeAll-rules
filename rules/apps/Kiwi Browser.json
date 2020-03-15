@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "b5180916-8645-ea85-114e-1a389df180d7",
+  "uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0",
   "info": {
-    "app_name": "Shizuku",
+    "app_name": "Kiwi Browser",
     "config_version": 1,
-    "url": "https://github.com/RikkaApps/Shizuku"
+    "url": "https://github.com/kiwibrowser/android"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "moe.shizuku.privileged.api"
+      "extra_string": "com.kiwibrowser.browser"
     }
   }
 }

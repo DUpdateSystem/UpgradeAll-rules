@@ -1,7 +1,10 @@
 {
   "base_version": 3,
   "uuid": "4220fd3f-cae0-4fed-8340-c14d2f6477a3",
-  "info": { "hub_name": "闪电下载官网", "config_version": 1 },
+  "info": {
+    "hub_name": "闪电下载官网",
+    "config_version": 1
+  },
   "web_crawler": {
     "tool": "JavaScript",
     "file_path": "./js/LiteDownloader.js"

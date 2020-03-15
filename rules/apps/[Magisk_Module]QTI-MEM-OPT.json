@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "73171f58-32fd-11ea-b72f-ad884749cac0",
+  "uuid": "e00754b3-837e-41c3-aff6-ba09f85711a0",
   "info": {
-    "app_name": "[Magisk_Module]Fingerprint-pay-qq",
+    "app_name": "[Magisk_Module]QTI-MEM-OPT",
     "config_version": 1,
-    "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-qq"
+    "url": "https://github.com/yc9559/qti-mem-opt/"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "Magisk_Module",
-      "extra_string": "riru-module-xfingerprint-pay-qq"
+      "extra_string": "qti-mem-opt"
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "base_version": 1,
+  "uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
+  "info": {
+    "hub_name": "F-droid",
+    "config_version": 1
+  },
+  "web_crawler": {
+    "tool": "JavaScript",
+    "file_path": "./js/F-droid.js"
+  },
+  "applications_mode": {
+    "app_url_template": [
+      {
+        "url": "https://f-droid.org/zh_Hans/packages/%Android_App_Package/",
+        "description": "中文版本"
+      },
+      {
+        "url": "https://f-droid.org/en/packages/%Android_App_Package/",
+        "description": "Engish Version"
+      }
+    ]
+  }
+}

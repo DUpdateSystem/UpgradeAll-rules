@@ -1,8 +1,4 @@
 {
-  "list_url": {
-    "app_list_raw_url": "https://raw.githubusercontent.com/DUpdateSystem/UpgradeAll-rules/master/rules/apps/",
-    "hub_list_raw_url": "https://raw.githubusercontent.com/DUpdateSystem/UpgradeAll-rules/master/rules/hub/"
-  },
   "app_list": [
     {
       "app_config_name": "UpgradeAll",
@@ -70,6 +66,11 @@
       "app_config_file_name": "[Magisk_Module]Riru Core"
     },
     {
+      "app_config_name": "[Magisk_Module]QTI-MEM-OPT",
+      "app_config_uuid": "e00754b3-837e-41c3-aff6-ba09f85711a0",
+      "app_config_file_name": "[Magisk_Module]QTI-MEM-OPT"
+    },
+    {
       "app_config_name": "阅读",
       "app_config_uuid": "b90d9126-3303-11ea-b72f-bfb570d9e623",
       "app_config_file_name": "阅读"
@@ -125,9 +126,124 @@
       "app_config_file_name": "Shizuku"
     },
     {
-      "app_config_name": "应用汇",
+      "app_config_name": "应用汇-official",
       "app_config_uuid": "6d954d76-35f9-11ea-959e-5d4cf66cc336",
-      "app_config_file_name": "应用汇"
+      "app_config_file_name": "应用汇-official"
+    },
+    {
+      "app_config_name": "QQ浏览器",
+      "app_config_uuid": "823f0b56-3d4f-11ea-b50d-d3504aa1f700",
+      "app_config_file_name": "QQ浏览器"
+    },
+    {
+      "app_config_name": "z直播-official",
+      "app_config_uuid": "4fded25c-3f63-11ea-a838-751dda094b37",
+      "app_config_file_name": "z直播-official"
+    },
+    {
+      "app_config_name": "PanDownload",
+      "app_config_uuid": "56ec3b06-4018-11ea-91ba-a101ea1426c3",
+      "app_config_file_name": "PanDownload"
+    },
+    {
+      "app_config_name": "JBusDriver",
+      "app_config_uuid": "cc000d32-4423-11ea-b683-e358bc562313",
+      "app_config_file_name": "JBusDriver"
+    },
+    {
+      "app_config_name": "草榴社区",
+      "app_config_uuid": "77b4fbe0-45ac-11ea-8bca-d7af92c02572",
+      "app_config_file_name": "草榴社区"
+    },
+    {
+      "app_config_name": "Zoysii",
+      "app_config_uuid": "90b97c28-45b2-11ea-8d3d-5fc162dd0111",
+      "app_config_file_name": "Zoysii"
+    },
+    {
+      "app_config_name": "OwnCloud",
+      "app_config_uuid": "aed4f818-45b2-11ea-8ee2-f1133bd1066b",
+      "app_config_file_name": "OwnCloud"
+    },
+    {
+      "app_config_name": "Aurora Store",
+      "app_config_uuid": "da1d58d3-40b5-400b-8f27-50bb50d3cf8d",
+      "app_config_file_name": "Aurora Store"
+    },
+    {
+      "app_config_name": "F-droid-official",
+      "app_config_uuid": "e1faee32-45b2-11ea-995b-f38b990fe97e",
+      "app_config_file_name": "F-droid-official"
+    },
+    {
+      "app_config_name": "Shadowsocksrb",
+      "app_config_uuid": "bab763c3-59c7-11ea-a131-f460e239c9a2",
+      "app_config_file_name": "Shadowsocksrb"
+    },
+    {
+      "app_config_name": "ClashForAndroid",
+      "app_config_uuid": "ca09f319-59c7-11ea-9a4d-f460e239c9a2",
+      "app_config_file_name": "ClashForAndroid"
+    },
+    {
+      "app_config_name": "JavbuslibraryRealse",
+      "app_config_uuid": "12fa8a06-5b77-11ea-ad60-f460e239c9a2",
+      "app_config_file_name": "JavbuslibraryRealse"
+    },
+    {
+      "app_config_name": "微漫",
+      "app_config_uuid": "6eaa2794-5d4b-11ea-880e-378a2dc8f725",
+      "app_config_file_name": "微漫"
+    },
+    {
+      "app_config_name": "JAViewer",
+      "app_config_uuid": "94203c2a-5d4b-11ea-832d-3d7e6c9c7464",
+      "app_config_file_name": "JAViewer"
+    },
+    {
+      "app_config_name": "Nekogram",
+      "app_config_uuid": "a8f8d198-5d4b-11ea-8e22-775d5f37a025",
+      "app_config_file_name": "Nekogram"
+    },
+    {
+      "app_config_name": "qksms",
+      "app_config_uuid": "bd1553fe-5d4b-11ea-8f95-f3f224497f67",
+      "app_config_file_name": "qksms"
+    },
+    {
+      "app_config_name": "微聚",
+      "app_config_uuid": "cff75012-5d4b-11ea-8bd1-f927d2b28ba4",
+      "app_config_file_name": "微聚"
+    },
+    {
+      "app_config_name": "Telegram-FOSS",
+      "app_config_uuid": "17bf74ae-bffa-44c1-9223-4dc586d6e995",
+      "app_config_file_name": "Telegram-FOSS"
+    },
+    {
+      "app_config_name": "Feeder",
+      "app_config_uuid": "65b1a6f2-6399-4503-a87f-4548990f5cfc",
+      "app_config_file_name": "Feeder"
+    },
+    {
+      "app_config_name": "几何天气",
+      "app_config_uuid": "ef51e957-485c-425f-b28c-f5e10b3612be",
+      "app_config_file_name": "几何天气"
+    },
+    {
+      "app_config_name": "Kiwi Browser",
+      "app_config_uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0",
+      "app_config_file_name": "Kiwi Browser"
+    },
+    {
+      "app_config_name": "Mysplash",
+      "app_config_uuid": "129561b2-5e13-11ea-a78b-a1b2811c9caa",
+      "app_config_file_name": "Mysplash"
+    },
+    {
+      "app_config_name": "ClashR",
+      "app_config_uuid": "b3bbc886-5e1f-11ea-8e5e-c9aa920b7115",
+      "app_config_file_name": "ClashR"
     }
   ],
   "hub_list": [
@@ -142,9 +258,9 @@
       "hub_config_file_name": "AppChina"
     },
     {
-      "hub_config_name": "Z直播",
+      "hub_config_name": "Z直播-official",
       "hub_config_uuid": "28591e65-849f-4417-aead-9d9098520eed",
-      "hub_config_file_name": "zlive"
+      "hub_config_file_name": "zlive_official"
     },
     {
       "hub_config_name": "酷安",
@@ -152,14 +268,24 @@
       "hub_config_file_name": "CoolApk"
     },
     {
-      "hub_config_name": "PanDownloadAndroid",
-      "hub_config_uuid": "e6ea0f60-0e72-4157-ba75-23940a12b2b1",
-      "hub_config_file_name": "PanDownloadAndroid"
-    },
-    {
       "hub_config_name": "闪电下载官网",
       "hub_config_uuid": "4220fd3f-cae0-4fed-8340-c14d2f6477a3",
       "hub_config_file_name": "LiteDownloader"
+    },
+    {
+      "hub_config_name": "应用汇-official",
+      "hub_config_uuid": "4a23c3a5-8200-40bb-b988-c1bb5d7fd921",
+      "hub_config_file_name": "AppChina_official"
+    },
+    {
+      "hub_config_name": "手机乐园",
+      "hub_config_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
+      "hub_config_file_name": "Sjly"
+    },
+    {
+      "hub_config_name": "F-droid",
+      "hub_config_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
+      "hub_config_file_name": "F-droid"
     }
   ]
 }

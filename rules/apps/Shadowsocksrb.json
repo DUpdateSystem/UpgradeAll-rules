@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "b5180916-8645-ea85-114e-1a389df180d7",
+  "uuid": "bab763c3-59c7-11ea-a131-f460e239c9a2",
   "info": {
-    "app_name": "Shizuku",
+    "app_name": "Shadowsocksrb",
     "config_version": 1,
-    "url": "https://github.com/RikkaApps/Shizuku"
+    "url": "https://github.com/shadowsocksRb/shadowsocksRb-android"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "moe.shizuku.privileged.api"
+      "extra_string": "io.github.shadowsocksrb"
     }
   }
 }
