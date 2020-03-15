@@ -20,62 +20,51 @@ function getReleaseInfo() {
     //获取应用版本号
     var versionNumber = "";
     var versionNumber = "" + returnJson[i].name;
-    if (versionNumber.search("(\\d+(\\.\\d+)*)(([\\.|\\-|\\+|_| ]|[0-9A-Za-z])*)") == -1) {
+    if (
+      versionNumber.search(
+        "(\\d+(\\.\\d+)*)(([\\.|\\-|\\+|_| ]|[0-9A-Za-z])*)"
+      ) == -1
+    ) {
       var versionNumber = returnJson[i].tag_name;
     }
     var assets = [];
     for (var ii = 0; ii < returnJson[i].assets.length; ii++) {
+      var file_name = returnJson[i].assets[ii].name;
 
-      if (returnJson[i].assets[ii].name.indexOf(".apk") != -1) {
-
-        if (returnJson[i].assets[ii].name.indexOf("tv") == -1) {
-
-          if (returnJson[i].assets[ii].name.indexOf("arm64") != -1) {
+      if (file_name.indexOf(".apk") != -1) {
+        if (file_name.indexOf("tv") == -1) {
+          if (file_name.indexOf("arm64") != -1) {
             var arch = "apk/arm64-v8a";
-            var arch_name = "arm64-v8a";
-          } else if (returnJson[i].assets[ii].name.indexOf("armeabi") != -1) {
+          } else if (file_name.indexOf("armeabi") != -1) {
             var arch = "apk/armeabi-v7a";
-            var arch_name = "armeabi-v7a";
-          } else if (returnJson[i].assets[ii].name.indexOf("x86_64") != -1) {
+          } else if (file_name.indexOf("x86_64") != -1) {
             var arch = "apk/x86_64";
-            var arch_name = "x86_64";
-          } else if (returnJson[i].assets[ii].name.indexOf("x86") != -1) {
+          } else if (file_name.indexOf("x86") != -1) {
             var arch = "apk/x86";
-            var arch_name = "x86";
           } else {
             var arch = "apk/universal";
-            var arch_name = "整合包[universal]";
           }
-
         } else {
-
-          if (returnJson[i].assets[ii].name.indexOf("arm64") != -1) {
+          if (file_name.indexOf("arm64") != -1) {
             var arch = "apk/tv-arm64-v8a";
-            var arch_name = "tv-arm64-v8a";
-          } else if (returnJson[i].assets[ii].name.indexOf("armeabi") != -1) {
+          } else if (file_name.indexOf("armeabi") != -1) {
             var arch = "apk/tv-armeabi-v7a";
-            var arch_name = "tv-armeabi-v7a";
-          } else if (returnJson[i].assets[ii].name.indexOf("x86_64") != -1) {
+          } else if (file_name.indexOf("x86_64") != -1) {
             var arch = "apk/tv-x86_64";
-            var arch_name = "tv-x86_64";
-          } else if (returnJson[i].assets[ii].name.indexOf("x86") != -1) {
+          } else if (file_name.indexOf("x86") != -1) {
             var arch = "apk/tv-x86";
-            var arch_name = "tv-x86";
           } else {
             var arch = "apk/tv-universal";
-            var arch_name = "tv-universal";
           }
-
         }
-
       } else {
         var arch = "magisk_module_zip";
-        var arch_name = "magisk_module";
       }
 
       var asset = {};
-      asset["name"] = "" + arch_name;
-      asset["download_url"] = "" + returnJson[i].assets[ii].browser_download_url;
+      asset["name"] = "" + file_name;
+      asset["download_url"] =
+        "" + returnJson[i].assets[ii].browser_download_url;
       asset["file_type"] = "" + arch;
       assets.push(asset);
     }
