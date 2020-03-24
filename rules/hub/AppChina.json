@@ -1,20 +1,13 @@
 {
-  "base_version": 4,
+  "base_version": 5,
   "uuid": "4a23c3a5-8200-40bb-b961-c1bb5d7fd921",
   "info": {
     "hub_name": "应用汇",
-    "config_version": 2
+    "config_version": 3
   },
-  "web_crawler": {
-    "tool": "JavaScript",
-    "file_path": "./js/AppChina.js"
-  },
-  "applications_mode": {
-    "app_url_template": [
-      {
-        "url": "http://www.appchina.com/app/%Android_App_Package/",
-        "description": "默认"
-      }
-    ]
-  }
+  "api_keywords": ["android_app_package"],
+  "app_url_templates": [
+    "http://www.appchina.com/app/%android_app_package/",
+    "http://m.appchina.com/app/%android_app_package/"
+  ]
 }
