@@ -1,11 +1,14 @@
+name: issue to project
 on:
   issues:
     types: [labeled]
 jobs:
-  add-app-issue-to-project:
+  labeled-issue-to-project:
     runs-on: ubuntu-latest
     steps:
-      - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      - name: labeled add app
+        uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+        if: contains(github.event.issue.labels.*.name, '添加软件[Add App]')
         with:
           action-token: '${{ secrets.GH_TOKEN }}'
           project-url: 'https://github.com/orgs/DUpdateSystem/projects/3'
@@ -13,10 +16,9 @@ jobs:
           label-name: '添加软件[Add App]'
           columns-to-ignore: '已完成'
 
-  add-mirror-issue-to-project:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      - name: labeled add mirrors
+        uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+        if: contains(github.event.issue.labels.*.name, '添加源支持[Add Mirrors]')
         with:
           action-token: '${{ secrets.GH_TOKEN }}'
           project-url: 'https://github.com/orgs/DUpdateSystem/projects/3'
@@ -24,10 +26,9 @@ jobs:
           label-name: '添加源支持[Add Mirrors]'
           columns-to-ignore: '已完成'
 
-  suggest-issue-to-project:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      - name: labeled suggest
+        uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+        if: contains(github.event.issue.labels.*.name, '提出建议[Suggest]')
         with:
           action-token: '${{ secrets.GH_TOKEN }}'
           project-url: 'https://github.com/orgs/DUpdateSystem/projects/3'
