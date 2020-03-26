@@ -1,17 +1,10 @@
 {
-  "base_version": 4,
+  "base_version": 5,
   "uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
-  "info": { "hub_name": "酷安", "config_version": 2 },
-  "web_crawler": {
-    "tool": "JavaScript",
-    "file_path": "./js/CoolApk.js"
+  "info": {
+    "hub_name": "酷安",
+    "config_version": 3
   },
-  "applications_mode": {
-    "app_url_template": [
-      {
-        "url": "https://www.coolapk.com/apk/%Android_App_Package/",
-        "description": "软件"
-      }
-    ]
-  }
+  "api_keywords": ["android_app_package"],
+  "app_url_templates": ["https://www.coolapk.com/apk/%android_app_package/"]
 }
