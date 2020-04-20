@@ -26,6 +26,11 @@
       "app_config_file_name": "MiPushFramework"
     },
     {
+      "app_config_name": "uperf",
+      "app_config_uuid": "ad0d7155-226e-40e1-b82b-5a317c66cbb9",
+      "app_config_file_name": "uperf"
+    },
+    {
       "app_config_name": "扫一扫",
       "app_config_uuid": "19914ee4-32f4-11ea-81e3-21746c6fe699",
       "app_config_file_name": "扫一扫"
