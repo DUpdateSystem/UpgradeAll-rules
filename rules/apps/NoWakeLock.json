@@ -1,0 +1,18 @@
+{
+  "base_version": 4,
+  "uuid":"01e4b852-8d6b-403e-9f3a-228526b3aa27",
+  "info": {
+    "app_name": "NoWakeLock",
+    "config_version": 1,
+    "url": "https://github.com/Jasper-1024/NoWakeLock"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+    },
+    "target_checker": {
+      "api": "app_package",
+      "extra_string": "com.js.nowakelock"
+    }
+  }
+}

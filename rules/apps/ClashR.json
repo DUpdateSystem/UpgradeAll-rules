@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.github.kr328.clashr"
+      "extra_string": "com.github.ClashRforAndroid"
     }
   }
 }

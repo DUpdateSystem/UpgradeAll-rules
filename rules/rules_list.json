@@ -249,6 +249,11 @@
       "app_config_name": "ClashR",
       "app_config_uuid": "b3bbc886-5e1f-11ea-8e5e-c9aa920b7115",
       "app_config_file_name": "ClashR"
+    },
+    {
+      "app_config_name": "NoWakeLock",
+      "app_config_uuid": "01e4b852-8d6b-403e-9f3a-228526b3aa27",
+      "app_config_file_name": "NoWakeLock"
     }
   ],
   "hub_list": [
