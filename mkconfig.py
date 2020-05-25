@@ -24,7 +24,9 @@ def complete_config_list(sort: str, config_list: list) -> list:
     for app_config_row_name in os.listdir(f"./rules/{sort}"):
         app_config_name = app_config_row_name[:-5]
         if app_config_name not in app_list:
-            config_list.append(get_config(app_config_name, sort))
+            config = get_config(app_config_name, sort)
+            if config:
+                config_list.append(config)
     return config_list
 
 
