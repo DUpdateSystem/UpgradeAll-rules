@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "00f07f27-1c03-4c09-ac8b-211a162982b1",
+  "info": {
+    "app_name": "Simple Thank You",
+    "config_version": 1,
+    "url": "https://github.com/SimpleMobileTools/Simple-Thank-You"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.simplemobiletools.thankyou"
+    }
+  }
+}

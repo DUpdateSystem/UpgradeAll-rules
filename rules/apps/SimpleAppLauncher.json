@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "d4a30f44-8a03-4c20-9b0f-d30c2a491309",
+  "info": {
+    "app_name": "Simple App Launcher",
+    "config_version": 1,
+    "url": "https://github.com/SimpleMobileTools/Simple-App-Launcher"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.simplemobiletools.applauncher"
+    }
+  }
+}
