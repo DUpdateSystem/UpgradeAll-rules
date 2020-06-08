@@ -1527,16 +1527,14 @@
       ]
     },
     {
-      "base_version": 4,
+      "base_version": 5,
       "uuid": "28591e65-849f-4417-aead-9d9098520eed",
       "info": {
         "hub_name": "Z直播官网",
-        "config_version": 4
+        "config_version": 5
       },
-      "web_crawler": {
-        "tool": "JavaScript",
-        "file_path": "./js/zlive_official.js"
-      }
+      "api_keywords": [],
+      "app_url_templates": []
     },
     {
       "base_version": 5,
@@ -1631,6 +1629,21 @@
       ],
       "app_url_templates": [
         "https://repo.xposed.info/module/%android_app_package/"
+      ]
+    },
+    {
+      "base_version": 5,
+      "uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "hub_name": "Gitlab",
+        "config_version": 1
+      },
+      "api_keywords": [
+        "owner",
+        "repo"
+      ],
+      "app_url_templates": [
+        "https://gitlab.com/%owner/%repo/"
       ]
     }
   ]
