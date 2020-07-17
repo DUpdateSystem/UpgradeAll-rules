@@ -4,4 +4,5 @@ commitlint.config.js
 
 package.json
 node_modules
+.ropeproject
 
