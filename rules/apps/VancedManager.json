@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "acae88dd-9192-416e-863a-75b0dbd43422",
+  "info": {
+    "app_name": "Vanced Manager",
+    "config_version": 1,
+    "url": "https://github.com/YTVanced/VancedManager"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.vanced.manager"
+    }
+  }
+}
