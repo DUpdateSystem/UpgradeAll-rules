@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "da862bd8-1743-4475-a447-3b50fca0af4a",
+  "info": {
+    "app_name": "QuickPic Gallery (WST Mod)",
+    "config_version": 1,
+    "url": "https://github.com/WSTxda/QP-Gallery-Releases"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.alensw.PicFolder"
+    }
+  }
+}
