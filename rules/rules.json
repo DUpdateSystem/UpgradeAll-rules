@@ -41,8 +41,8 @@
       "uuid": "418f2e8d-fbe1-485d-a2d8-1743318621f4",
       "info": {
         "app_name": "Cimoc",
-        "config_version": 1,
-        "url": "https://github.com/feilongfl/Cimoc"
+        "config_version": 2,
+        "url": "https://github.com/Haleydu/Cimoc"
       },
       "app_config": {
         "hub_info": {
@@ -956,11 +956,11 @@
     },
     {
       "base_version": 1,
-      "uuid": "9f2812a5-f0a9-4122-a8b4-f189a39b147a",
+      "uuid": "ff5ab4f9-493e-48ef-8458-5e2b0c8b0241",
       "info": {
-        "app_name": "Telegram SMS",
+        "app_name": "Split APKs Installer (SAI)",
         "config_version": 1,
-        "url": "https://github.com/telegram-sms/telegram-sms"
+        "url": "https://github.com/Aefyr/SAI"
       },
       "app_config": {
         "hub_info": {
@@ -968,7 +968,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.qwe7002.telegram_sms"
+          "extra_string": "com.aefyr.sai"
         }
       }
     },
@@ -1154,11 +1154,11 @@
     },
     {
       "base_version": 1,
-      "uuid": "004f12da-9c40-4642-baeb-2e34a4a692b7",
+      "uuid": "d01cbb03-0936-4150-b996-e9e471441bfe",
       "info": {
-        "app_name": "SandVXposed",
+        "app_name": "PowerTube",
         "config_version": 1,
-        "url": "https://github.com/ganyao114/SandVXposed"
+        "url": "https://github.com/razar-dev/PowerTube"
       },
       "app_config": {
         "hub_info": {
@@ -1166,17 +1166,17 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "io.virtualapp.sandvxposed"
+          "extra_string": "ussr.razar.youtube_dl"
         }
       }
     },
     {
       "base_version": 1,
-      "uuid": "27b4e2aa-830b-43eb-9199-88cff5818306",
+      "uuid": "d4a30f44-8a03-4c20-9b0f-d30c2a491309",
       "info": {
-        "app_name": "Simple Calculator",
+        "app_name": "Simple App Launcher",
         "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Calculator"
+        "url": "https://github.com/SimpleMobileTools/Simple-App-Launcher"
       },
       "app_config": {
         "hub_info": {
@@ -1184,17 +1184,17 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.simplemobiletools.calculator"
+          "extra_string": "com.simplemobiletools.applauncher"
         }
       }
     },
     {
       "base_version": 1,
-      "uuid": "6ea85ace-0e49-48e9-b927-2afa6a1ec681",
+      "uuid": "e1189536-2c9c-48dc-850f-e03d30c9b1ec",
       "info": {
-        "app_name": "Simple Camera",
+        "app_name": "Simple Calendar Pro",
         "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Camera"
+        "url": "https://github.com/SimpleMobileTools/Simple-Calendar"
       },
       "app_config": {
         "hub_info": {
@@ -1202,7 +1202,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.simplemobiletools.camera"
+          "extra_string": "com.simplemobiletools.calendar.pro"
         }
       }
     },
@@ -1334,11 +1334,11 @@
     },
     {
       "base_version": 1,
-      "uuid": "d01cbb03-0936-4150-b996-e9e471441bfe",
+      "uuid": "a2031e48-e20e-4e5c-bf98-35c796821d57",
       "info": {
-        "app_name": "PowerTube",
+        "app_name": "Native Alpha",
         "config_version": 1,
-        "url": "https://github.com/razar-dev/PowerTube"
+        "url": "https://github.com/cylonid/NativeAlphaForAndroid/"
       },
       "app_config": {
         "hub_info": {
@@ -1346,17 +1346,17 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "ussr.razar.youtube_dl"
+          "extra_string": "com.cylonid.nativealpha"
         }
       }
     },
     {
       "base_version": 1,
-      "uuid": "d4a30f44-8a03-4c20-9b0f-d30c2a491309",
+      "uuid": "004f12da-9c40-4642-baeb-2e34a4a692b7",
       "info": {
-        "app_name": "Simple App Launcher",
+        "app_name": "SandVXposed",
         "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-App-Launcher"
+        "url": "https://github.com/ganyao114/SandVXposed"
       },
       "app_config": {
         "hub_info": {
@@ -1364,17 +1364,17 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.simplemobiletools.applauncher"
+          "extra_string": "io.virtualapp.sandvxposed"
         }
       }
     },
     {
       "base_version": 1,
-      "uuid": "e1189536-2c9c-48dc-850f-e03d30c9b1ec",
+      "uuid": "27b4e2aa-830b-43eb-9199-88cff5818306",
       "info": {
-        "app_name": "Simple Calendar Pro",
+        "app_name": "Simple Calculator",
         "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Calendar"
+        "url": "https://github.com/SimpleMobileTools/Simple-Calculator"
       },
       "app_config": {
         "hub_info": {
@@ -1382,7 +1382,25 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.simplemobiletools.calendar.pro"
+          "extra_string": "com.simplemobiletools.calculator"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "6ea85ace-0e49-48e9-b927-2afa6a1ec681",
+      "info": {
+        "app_name": "Simple Camera",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Camera"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.camera"
         }
       }
     },
@@ -1478,11 +1496,11 @@
     },
     {
       "base_version": 1,
-      "uuid": "ff5ab4f9-493e-48ef-8458-5e2b0c8b0241",
+      "uuid": "9f2812a5-f0a9-4122-a8b4-f189a39b147a",
       "info": {
-        "app_name": "Split APKs Installer (SAI)",
+        "app_name": "Telegram SMS",
         "config_version": 1,
-        "url": "https://github.com/Aefyr/SAI"
+        "url": "https://github.com/telegram-sms/telegram-sms"
       },
       "app_config": {
         "hub_info": {
@@ -1490,7 +1508,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.aefyr.sai"
+          "extra_string": "com.qwe7002.telegram_sms"
         }
       }
     }
@@ -1606,6 +1624,21 @@
       }
     },
     {
+      "base_version": 5,
+      "uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "hub_name": "Gitlab",
+        "config_version": 1
+      },
+      "api_keywords": [
+        "owner",
+        "repo"
+      ],
+      "app_url_templates": [
+        "https://gitlab.com/%owner/%repo/"
+      ]
+    },
+    {
       "base_version": 3,
       "info": {
         "config_version": 1,
@@ -1629,21 +1662,6 @@
       ],
       "app_url_templates": [
         "https://repo.xposed.info/module/%android_app_package/"
-      ]
-    },
-    {
-      "base_version": 5,
-      "uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
-      "info": {
-        "hub_name": "Gitlab",
-        "config_version": 1
-      },
-      "api_keywords": [
-        "owner",
-        "repo"
-      ],
-      "app_url_templates": [
-        "https://gitlab.com/%owner/%repo/"
       ]
     }
   ]
