@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "418f2e8d-fbe1-485d-a2d8-1743318621f4",
+  "uuid": "ec2f237e-a502-4a1c-864b-3b64eaa75303",
   "info": {
-    "app_name": "Cimoc",
-    "config_version": 2,
-    "url": "https://github.com/Haleydu/Cimoc"
+    "app_name": "APKGrabber",
+    "config_version": 1,
+    "url": "https://github.com/hemker/apkgrabber"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.hiroshi.cimoc"
+      "extra_string": "de.apkgrabber"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "b3bbc886-5e1f-11ea-8e5e-c9aa920b7115",
+  "uuid": "9f2812a5-f0a9-4122-a8b4-f189a39b147a",
   "info": {
-    "app_name": "ClashR",
+    "app_name": "Telegram SMS",
     "config_version": 1,
-    "url": "https://github.com/BROBIRD/ClashForAndroid"
+    "url": "https://github.com/telegram-sms/telegram-sms"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.github.ClashRforAndroid"
+      "extra_string": "com.qwe7002.telegram_sms"
     }
   }
 }

@@ -1,0 +1,10 @@
+{
+  "base_version": 5,
+  "uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "hub_name": "酷安",
+    "config_version": 3
+  },
+  "api_keywords": ["android_app_package"],
+  "app_url_templates": ["https://www.coolapk.com/apk/%android_app_package/"]
+}

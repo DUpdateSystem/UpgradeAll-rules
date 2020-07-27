@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "418f2e8d-fbe1-485d-a2d8-1743318621f4",
+  "uuid": "aa590ed0-91c0-4071-a97e-6b7974d2c1f7",
   "info": {
-    "app_name": "Cimoc",
-    "config_version": 2,
-    "url": "https://github.com/Haleydu/Cimoc"
+    "app_name": "AdAway",
+    "config_version": 1,
+    "url": "https://github.com/AdAway/AdAway"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.hiroshi.cimoc"
+      "extra_string": "org.adaway"
     }
   }
 }

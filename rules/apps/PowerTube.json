@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "b3bbc886-5e1f-11ea-8e5e-c9aa920b7115",
+  "uuid": "d01cbb03-0936-4150-b996-e9e471441bfe",
   "info": {
-    "app_name": "ClashR",
+    "app_name": "PowerTube",
     "config_version": 1,
-    "url": "https://github.com/BROBIRD/ClashForAndroid"
+    "url": "https://github.com/razar-dev/PowerTube"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.github.ClashRforAndroid"
+      "extra_string": "ussr.razar.youtube_dl"
     }
   }
 }

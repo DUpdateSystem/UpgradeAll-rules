@@ -1,0 +1,10 @@
+{
+  "base_version": 5,
+  "uuid": "e02a95a2-af76-426c-9702-c4c39a01f891",
+  "info": {
+    "hub_name": "Xposed Module Repository",
+    "config_version": 3
+  },
+  "api_keywords": ["android_app_package"],
+  "app_url_templates": ["https://repo.xposed.info/module/%android_app_package/"]
+}
