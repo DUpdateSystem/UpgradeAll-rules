@@ -2,8 +2,8 @@
   "base_version": 1,
   "uuid": "b90d9126-3303-11ea-b72f-bfb570d9e623",
   "info": {
-    "app_name": "阅读",
-    "config_version": 1,
+    "app_name": "阅读 2.0",
+    "config_version": 2,
     "url": "https://github.com/gedoor/MyBookshelf"
   },
   "app_config": {

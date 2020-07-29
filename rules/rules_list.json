@@ -1,6 +1,8 @@
 {
   "app_list": [
     "UpgradeAll",
+    "阅读2.0",
+    "阅读3.0",
     "Tachiyomi",
     "Cimoc",
     "Meow",
@@ -15,7 +17,6 @@
     "[Magisk_Module]Fingerprint-pay-wechat",
     "[Magisk_Module]Riru Core",
     "[Magisk_Module]QTI-MEM-OPT",
-    "阅读",
     "Via",
     "Termux",
     "Shadowsocks",

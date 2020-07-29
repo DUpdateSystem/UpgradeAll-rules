@@ -20,6 +20,42 @@
     },
     {
       "base_version": 1,
+      "uuid": "b90d9126-3303-11ea-b72f-bfb570d9e623",
+      "info": {
+        "app_name": "阅读 2.0",
+        "config_version": 2,
+        "url": "https://github.com/gedoor/MyBookshelf"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.gedoor.monkeybook"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "6f04d3b8-4842-4076-b89e-bd1e26eab401",
+      "info": {
+        "app_name": "阅读 3.0",
+        "config_version": 1,
+        "url": "https://github.com/gedoor/legado"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "io.legado.app.release"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "0b39c728-1eba-40e3-a4db-21c906f8b162",
       "info": {
         "app_name": "Tachiyomi",
@@ -267,24 +303,6 @@
         "target_checker": {
           "api": "Magisk_Module",
           "extra_string": "qti-mem-opt"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "b90d9126-3303-11ea-b72f-bfb570d9e623",
-      "info": {
-        "app_name": "阅读",
-        "config_version": 1,
-        "url": "https://github.com/gedoor/MyBookshelf"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.gedoor.monkeybook"
         }
       }
     },
