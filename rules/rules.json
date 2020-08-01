@@ -77,8 +77,8 @@
       "uuid": "418f2e8d-fbe1-485d-a2d8-1743318621f4",
       "info": {
         "app_name": "Cimoc",
-        "config_version": 2,
-        "url": "https://github.com/Haleydu/Cimoc"
+        "config_version": 3,
+        "url": "https://github.com/feilongfl/Cimoc"
       },
       "app_config": {
         "hub_info": {
@@ -87,6 +87,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.hiroshi.cimoc"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "433fdb51-30e5-48f6-9a9c-a72149642e44",
+      "info": {
+        "app_name": "Cimoc(Haleydu)",
+        "config_version": 1,
+        "url": "https://github.com/Haleydu/Cimoc"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.haleydu.cimoc"
         }
       }
     },
