@@ -49,4 +49,4 @@ complete_config_list("hubs", hub_list, json_data["hub_config_list"])
 
 with open('./rules/rules.json', 'w') as f:
     f.write(json.dumps(json_data, indent=2, ensure_ascii=False))
-print(Done)
+print("Done")
