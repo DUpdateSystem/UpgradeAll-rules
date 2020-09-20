@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
+  "uuid": "5cdb731e-16db-4e32-9e48-cdd4a4e3d9bc",
   "info": {
-    "app_name": "Pix-EzViewer",
+    "app_name": "PixEz-flutter",
     "config_version": 1,
-    "url": "https://github.com/ultranity/Pix-EzViewer"
+    "url": "https://github.com/Notsfsssf/pixez-flutter"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.perol.asdpl.play.pixivez"
+      "extra_string": "com.perol.pixez"
     }
   }
 }
