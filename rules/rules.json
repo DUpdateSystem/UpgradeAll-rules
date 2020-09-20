@@ -348,11 +348,11 @@
       "info": {
         "app_name": "Termux",
         "config_version": 2,
-        "url": "https://www.coolapk.com/apk/com.termux"
+        "url": "https://f-droid.org/zh_Hans/packages/com.termux/"
       },
       "app_config": {
         "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
         },
         "target_checker": {
           "api": "App_Package",
@@ -1302,7 +1302,7 @@
       "info": {
         "app_name": "Pix-EzViewer",
         "config_version": 1,
-        "url": "https://github.com/Notsfsssf/Pix-EzViewer"
+        "url": "https://github.com/ultranity/Pix-EzViewer"
       },
       "app_config": {
         "hub_info": {
@@ -1635,6 +1635,60 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.aefyr.sai"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "5cdb731e-16db-4e32-9e48-cdd4a4e3d9bc",
+      "info": {
+        "app_name": "PixEz-flutter",
+        "config_version": 1,
+        "url": "https://github.com/Notsfsssf/pixez-flutter"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.perol.pixez"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
+      "info": {
+        "app_name": "MoegirlViewer",
+        "config_version": 1,
+        "url": "https://github.com/koharubiyori/MoegirlViewer"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.moegirlviewer"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
+      "info": {
+        "app_name": "SakuraAnime",
+        "config_version": 1,
+        "url": "https://github.com/670848654/SakuraAnime"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "my.project.sakuraproject"
         }
       }
     }
