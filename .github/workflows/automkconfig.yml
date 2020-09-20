@@ -26,6 +26,6 @@ jobs:
          python mkconfig.py
          git config --global user.name "JohnsonRan"
          git config --global user.email "Johnson_Ran@hotmail.com"
-         git add .
+         git add rules/rules.json
          git commit -m "build: 构建规则文件"
          git push --force  "https://${{ secrets.PUSH_TOKEN }}@$GITHUB_REPO" master:master
