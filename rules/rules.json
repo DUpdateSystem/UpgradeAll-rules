@@ -974,11 +974,11 @@
     },
     {
       "base_version": 1,
-      "uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
+      "uuid": "5cdb731e-16db-4e32-9e48-cdd4a4e3d9bc",
       "info": {
-        "app_name": "Wechat Chums",
+        "app_name": "PixEz-flutter",
         "config_version": 1,
-        "url": "https://github.com/dannyit/WechatChums"
+        "url": "https://github.com/Notsfsssf/pixez-flutter"
       },
       "app_config": {
         "hub_info": {
@@ -986,43 +986,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "me.dannyit.wechat.chum"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "e1189536-2c9c-48dc-850f-e03d30c9b1ec",
-      "info": {
-        "app_name": "Simple Calendar Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Calendar"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.calendar.pro"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5dcfecc1-21d4-480c-a2ef-ae6d12ccbeaf",
-      "info": {
-        "app_name": "Simple Draw Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Draw"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.draw.pro"
+          "extra_string": "com.perol.pixez"
         }
       }
     },
@@ -1046,11 +1010,11 @@
     },
     {
       "base_version": 1,
-      "uuid": "00f07f27-1c03-4c09-ac8b-211a162982b1",
+      "uuid": "97866240-9d37-4183-8ee6-82a8c584c8ea",
       "info": {
-        "app_name": "Simple Thank You",
+        "app_name": "NewPipe",
         "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Thank-You"
+        "url": "https://github.com/TeamNewPipe/NewPipe"
       },
       "app_config": {
         "hub_info": {
@@ -1058,259 +1022,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.simplemobiletools.thankyou"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "9f2812a5-f0a9-4122-a8b4-f189a39b147a",
-      "info": {
-        "app_name": "Telegram SMS",
-        "config_version": 1,
-        "url": "https://github.com/telegram-sms/telegram-sms"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.qwe7002.telegram_sms"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "eaf41c5a-474b-454b-acfd-40f30c597572",
-      "info": {
-        "app_name": "Vanced MicroG",
-        "config_version": 1,
-        "url": "https://github.com/YTVanced/VancedMicroG"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.mgoogle.android.gms"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "57365af4-d968-4eba-bd14-5846b33fad16",
-      "info": {
-        "app_name": "Simple Contacts Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Contacts"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.contacts.pro"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "58950375-1a4a-4458-b834-888b60e37563",
-      "info": {
-        "app_name": "Simple Music Player",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Music-Player"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.musicplayer"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "64bbfca8-6bf5-4d3b-a762-2c9eff520b2d",
-      "info": {
-        "app_name": "Simple Voice Recorder",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Voice-Recorder"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.voicerecorder"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "89686b18-c76f-4a4f-be5f-5966f76633a9",
-      "info": {
-        "app_name": "VirtualXposed",
-        "config_version": 1,
-        "url": "https://github.com/android-hacker/VirtualXposed"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.va.exposed"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "8b6f57c6-d28d-468c-943b-3ad9c1078477",
-      "info": {
-        "app_name": "LibreraReader",
-        "config_version": 1,
-        "url": "https://github.com/foobnix/LibreraReader/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.foobnix.pro.pdf.reader"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "da862bd8-1743-4475-a447-3b50fca0af4a",
-      "info": {
-        "app_name": "QuickPic Gallery (WST Mod)",
-        "config_version": 1,
-        "url": "https://github.com/WSTxda/QP-Gallery-Releases"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.alensw.PicFolder"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "acae88dd-9192-416e-863a-75b0dbd43422",
-      "info": {
-        "app_name": "Vanced Manager",
-        "config_version": 1,
-        "url": "https://github.com/YTVanced/VancedManager"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.vanced.manager"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ec2f237e-a502-4a1c-864b-3b64eaa75303",
-      "info": {
-        "app_name": "APKGrabber",
-        "config_version": 1,
-        "url": "https://github.com/hemker/apkgrabber"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "de.apkgrabber"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "1b5cf410-182d-4f96-8299-a19dbf3a5e6e",
-      "info": {
-        "app_name": "APKUpdater",
-        "config_version": 1,
-        "url": "https://github.com/rumboalla/apkupdater"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.apkupdater"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "61cc1a9a-cf38-4fc2-a6a8-6baddab376f6",
-      "info": {
-        "app_name": "Blokada",
-        "config_version": 1,
-        "url": "https://github.com/blokadaorg/blokada"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.blokada.origin.alarm"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "a2031e48-e20e-4e5c-bf98-35c796821d57",
-      "info": {
-        "app_name": "Native Alpha",
-        "config_version": 1,
-        "url": "https://github.com/cylonid/NativeAlphaForAndroid/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.cylonid.nativealpha"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
-      "info": {
-        "app_name": "Pix-EzViewer",
-        "config_version": 2,
-        "url": "https://github.com/ultranity/Pix-EzViewer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.perol.asdpl.play.pixivez"
+          "extra_string": "org.schabi.newpipe"
         }
       }
     },
@@ -1334,78 +1046,6 @@
     },
     {
       "base_version": 1,
-      "uuid": "d4a30f44-8a03-4c20-9b0f-d30c2a491309",
-      "info": {
-        "app_name": "Simple App Launcher",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-App-Launcher"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.applauncher"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "6ea85ace-0e49-48e9-b927-2afa6a1ec681",
-      "info": {
-        "app_name": "Simple Camera",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Camera"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.camera"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "83a1055b-bf8a-4462-9e6b-08730ffe7b84",
-      "info": {
-        "app_name": "Simple Dialer",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Dialer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.dialer"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "67f0addf-a014-4f27-bc45-d093d7667874",
-      "info": {
-        "app_name": "Simple Flashlight",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Flashlight"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.flashlight"
-        }
-      }
-    },
-    {
-      "base_version": 1,
       "uuid": "929cd2d0-532e-47f3-9651-bf7a2f6ac447",
       "info": {
         "app_name": "Simple SMS Messenger",
@@ -1419,6 +1059,42 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.simplemobiletools.smsmessenger"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "da862bd8-1743-4475-a447-3b50fca0af4a",
+      "info": {
+        "app_name": "QuickPic Gallery (WST Mod)",
+        "config_version": 1,
+        "url": "https://github.com/WSTxda/QP-Gallery-Releases"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.alensw.PicFolder"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
+      "info": {
+        "app_name": "Wechat Chums",
+        "config_version": 1,
+        "url": "https://github.com/dannyit/WechatChums"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "me.dannyit.wechat.chum"
         }
       }
     },
@@ -1442,78 +1118,6 @@
     },
     {
       "base_version": 1,
-      "uuid": "aa590ed0-91c0-4071-a97e-6b7974d2c1f7",
-      "info": {
-        "app_name": "AdAway",
-        "config_version": 1,
-        "url": "https://github.com/AdAway/AdAway"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.adaway"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "344f0907-86f3-476c-911c-8d283181546c",
-      "info": {
-        "app_name": "DarQ",
-        "config_version": 1,
-        "url": "https://github.com/KieronQuinn/DarQ"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.kieronquinn.app.darq"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "8c3c5735-1987-42a1-921f-7ab9b33f6e51",
-      "info": {
-        "app_name": "Magisk Detector",
-        "config_version": 1,
-        "url": "https://github.com/vvb2060/MagiskDetector"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.vvb2060.magiskdetector"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "97866240-9d37-4183-8ee6-82a8c584c8ea",
-      "info": {
-        "app_name": "NewPipe",
-        "config_version": 1,
-        "url": "https://github.com/TeamNewPipe/NewPipe"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.schabi.newpipe"
-        }
-      }
-    },
-    {
-      "base_version": 1,
       "uuid": "ea811abf-971f-4591-80c4-319c0d2c3dce",
       "info": {
         "app_name": "PixShaft",
@@ -1527,42 +1131,6 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "ceui.lisa.pixiv"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "004f12da-9c40-4642-baeb-2e34a4a692b7",
-      "info": {
-        "app_name": "SandVXposed",
-        "config_version": 1,
-        "url": "https://github.com/ganyao114/SandVXposed"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.virtualapp.sandvxposed"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "27b4e2aa-830b-43eb-9199-88cff5818306",
-      "info": {
-        "app_name": "Simple Calculator",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Calculator"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.calculator"
         }
       }
     },
@@ -1586,11 +1154,11 @@
     },
     {
       "base_version": 1,
-      "uuid": "c0caf95b-0224-4451-b299-cbe455b66c5d",
+      "uuid": "89686b18-c76f-4a4f-be5f-5966f76633a9",
       "info": {
-        "app_name": "Simple File Manager Pro",
+        "app_name": "VirtualXposed",
         "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-File-Manager"
+        "url": "https://github.com/android-hacker/VirtualXposed"
       },
       "app_config": {
         "hub_info": {
@@ -1598,17 +1166,35 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.simplemobiletools.filemanager.pro"
+          "extra_string": "io.va.exposed"
         }
       }
     },
     {
       "base_version": 1,
-      "uuid": "faad9c73-08c2-4124-beaf-9e74690a5a82",
+      "uuid": "c3c275f0-3938-4fb4-b3e2-c9bb987c32ee",
       "info": {
-        "app_name": "Simple Notes Pro",
+        "app_name": "一个木函",
         "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Notes"
+        "url": "https://coolapk.com/apk/com.One.WoodenLetter"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.One.WoodenLetter"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "58950375-1a4a-4458-b834-888b60e37563",
+      "info": {
+        "app_name": "Simple Music Player",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Music-Player"
       },
       "app_config": {
         "hub_info": {
@@ -1616,7 +1202,25 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.simplemobiletools.notes.pro"
+          "extra_string": "com.simplemobiletools.musicplayer"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "aa590ed0-91c0-4071-a97e-6b7974d2c1f7",
+      "info": {
+        "app_name": "AdAway",
+        "config_version": 1,
+        "url": "https://github.com/AdAway/AdAway"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.adaway"
         }
       }
     },
@@ -1640,11 +1244,29 @@
     },
     {
       "base_version": 1,
-      "uuid": "5cdb731e-16db-4e32-9e48-cdd4a4e3d9bc",
+      "uuid": "20a9d2a2-d30b-4f37-ac22-9c198f2d8155",
       "info": {
-        "app_name": "PixEz-flutter",
+        "app_name": "Greenify绿色守护",
         "config_version": 1,
-        "url": "https://github.com/Notsfsssf/pixez-flutter"
+        "url": "https://coolapk.com/apk/com.oasisfeng.greenify"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.oasisfeng.greenify"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "9f2812a5-f0a9-4122-a8b4-f189a39b147a",
+      "info": {
+        "app_name": "Telegram SMS",
+        "config_version": 1,
+        "url": "https://github.com/telegram-sms/telegram-sms"
       },
       "app_config": {
         "hub_info": {
@@ -1652,7 +1274,43 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.perol.pixez"
+          "extra_string": "com.qwe7002.telegram_sms"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
+      "info": {
+        "app_name": "Pix-EzViewer",
+        "config_version": 2,
+        "url": "https://github.com/ultranity/Pix-EzViewer"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.perol.asdpl.play.pixivez"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "e1189536-2c9c-48dc-850f-e03d30c9b1ec",
+      "info": {
+        "app_name": "Simple Calendar Pro",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Calendar"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.calendar.pro"
         }
       }
     },
@@ -1676,6 +1334,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "57365af4-d968-4eba-bd14-5846b33fad16",
+      "info": {
+        "app_name": "Simple Contacts Pro",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Contacts"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.contacts.pro"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
       "info": {
         "app_name": "SakuraAnime",
@@ -1694,19 +1370,307 @@
     },
     {
       "base_version": 1,
-      "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
+      "uuid": "8c3c5735-1987-42a1-921f-7ab9b33f6e51",
       "info": {
-        "app_name": "LibChecker",
+        "app_name": "Magisk Detector",
         "config_version": 1,
-        "url": "https://www.coolapk.com/apk/com.absinthe.libchecker"
+        "url": "https://github.com/vvb2060/MagiskDetector"
       },
       "app_config": {
         "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.absinthe.libchecker"
+          "extra_string": "io.github.vvb2060.magiskdetector"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "00f07f27-1c03-4c09-ac8b-211a162982b1",
+      "info": {
+        "app_name": "Simple Thank You",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Thank-You"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.thankyou"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "eaf41c5a-474b-454b-acfd-40f30c597572",
+      "info": {
+        "app_name": "Vanced MicroG",
+        "config_version": 1,
+        "url": "https://github.com/YTVanced/VancedMicroG"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.mgoogle.android.gms"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "ec2f237e-a502-4a1c-864b-3b64eaa75303",
+      "info": {
+        "app_name": "APKGrabber",
+        "config_version": 1,
+        "url": "https://github.com/hemker/apkgrabber"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "de.apkgrabber"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "83a1055b-bf8a-4462-9e6b-08730ffe7b84",
+      "info": {
+        "app_name": "Simple Dialer",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Dialer"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.dialer"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "8b6f57c6-d28d-468c-943b-3ad9c1078477",
+      "info": {
+        "app_name": "LibreraReader",
+        "config_version": 1,
+        "url": "https://github.com/foobnix/LibreraReader/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.foobnix.pro.pdf.reader"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "c0caf95b-0224-4451-b299-cbe455b66c5d",
+      "info": {
+        "app_name": "Simple File Manager Pro",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-File-Manager"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.filemanager.pro"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "1b5cf410-182d-4f96-8299-a19dbf3a5e6e",
+      "info": {
+        "app_name": "APKUpdater",
+        "config_version": 1,
+        "url": "https://github.com/rumboalla/apkupdater"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.apkupdater"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "5dcfecc1-21d4-480c-a2ef-ae6d12ccbeaf",
+      "info": {
+        "app_name": "Simple Draw Pro",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Draw"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.draw.pro"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "004f12da-9c40-4642-baeb-2e34a4a692b7",
+      "info": {
+        "app_name": "SandVXposed",
+        "config_version": 1,
+        "url": "https://github.com/ganyao114/SandVXposed"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "io.virtualapp.sandvxposed"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "d4a30f44-8a03-4c20-9b0f-d30c2a491309",
+      "info": {
+        "app_name": "Simple App Launcher",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-App-Launcher"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.applauncher"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "acae88dd-9192-416e-863a-75b0dbd43422",
+      "info": {
+        "app_name": "Vanced Manager",
+        "config_version": 1,
+        "url": "https://github.com/YTVanced/VancedManager"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.vanced.manager"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "61cc1a9a-cf38-4fc2-a6a8-6baddab376f6",
+      "info": {
+        "app_name": "Blokada",
+        "config_version": 1,
+        "url": "https://github.com/blokadaorg/blokada"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.blokada.origin.alarm"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "344f0907-86f3-476c-911c-8d283181546c",
+      "info": {
+        "app_name": "DarQ",
+        "config_version": 1,
+        "url": "https://github.com/KieronQuinn/DarQ"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.kieronquinn.app.darq"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "67f0addf-a014-4f27-bc45-d093d7667874",
+      "info": {
+        "app_name": "Simple Flashlight",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Flashlight"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.flashlight"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "6ea85ace-0e49-48e9-b927-2afa6a1ec681",
+      "info": {
+        "app_name": "Simple Camera",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Camera"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.camera"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "27b4e2aa-830b-43eb-9199-88cff5818306",
+      "info": {
+        "app_name": "Simple Calculator",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Calculator"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.calculator"
         }
       }
     },
@@ -1730,11 +1694,29 @@
     },
     {
       "base_version": 1,
-      "uuid": "c3c275f0-3938-4fb4-b3e2-c9bb987c32ee",
+      "uuid": "faad9c73-08c2-4124-beaf-9e74690a5a82",
       "info": {
-        "app_name": "一个木函",
+        "app_name": "Simple Notes Pro",
         "config_version": 1,
-        "url": "https://coolapk.com/apk/com.One.WoodenLetter"
+        "url": "https://github.com/SimpleMobileTools/Simple-Notes"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.notes.pro"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
+      "info": {
+        "app_name": "LibChecker",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/com.absinthe.libchecker"
       },
       "app_config": {
         "hub_info": {
@@ -1742,7 +1724,61 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.One.WoodenLetter"
+          "extra_string": "com.absinthe.libchecker"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "64bbfca8-6bf5-4d3b-a762-2c9eff520b2d",
+      "info": {
+        "app_name": "Simple Voice Recorder",
+        "config_version": 1,
+        "url": "https://github.com/SimpleMobileTools/Simple-Voice-Recorder"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.simplemobiletools.voicerecorder"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "03168aae-41cc-431f-a77d-3f37152a536f",
+      "info": {
+        "app_name": "X浏览器",
+        "config_version": 1,
+        "url": "https://coolapk.com/apk/com.mmbox.xbrowser"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.mmbox.xbrowser"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "a2031e48-e20e-4e5c-bf98-35c796821d57",
+      "info": {
+        "app_name": "Native Alpha",
+        "config_version": 1,
+        "url": "https://github.com/cylonid/NativeAlphaForAndroid/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.cylonid.nativealpha"
         }
       }
     }
@@ -1831,6 +1867,18 @@
       ]
     },
     {
+      "base_version": 3,
+      "info": {
+        "config_version": 1,
+        "hub_name": "PanDownloadAndroid"
+      },
+      "uuid": "e6ea0f60-0e72-4157-ba75-23940a12b2b1",
+      "web_crawler": {
+        "file_path": "./js/PanDownloadAndroid.js",
+        "tool": "JavaScript"
+      }
+    },
+    {
       "base_version": 5,
       "uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
       "info": {
@@ -1858,18 +1906,6 @@
       "app_url_templates": [
         "https://repo.xposed.info/module/%android_app_package/"
       ]
-    },
-    {
-      "base_version": 3,
-      "info": {
-        "config_version": 1,
-        "hub_name": "PanDownloadAndroid"
-      },
-      "uuid": "e6ea0f60-0e72-4157-ba75-23940a12b2b1",
-      "web_crawler": {
-        "file_path": "./js/PanDownloadAndroid.js",
-        "tool": "JavaScript"
-      }
     }
   ]
 }
