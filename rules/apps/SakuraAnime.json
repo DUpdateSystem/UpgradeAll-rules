@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
+    "info": {
+      "app_name": "SakuraAnime",
+      "config_version": 1,
+      "url": "https://github.com/670848654/SakuraAnime"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "my.project.sakuraproject"
+      }
+    }
+  }

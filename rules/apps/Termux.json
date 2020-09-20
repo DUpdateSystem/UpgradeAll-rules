@@ -4,11 +4,11 @@
   "info": {
     "app_name": "Termux",
     "config_version": 2,
-    "url": "https://www.coolapk.com/apk/com.termux"
+    "url": "https://f-droid.org/zh_Hans/packages/com.termux/"
   },
   "app_config": {
     "hub_info": {
-      "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+      "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
     },
     "target_checker": {
       "api": "App_Package",
