@@ -347,8 +347,8 @@
       "uuid": "697d8bda-331b-11ea-823b-55dfdee64a81",
       "info": {
         "app_name": "Termux",
-        "config_version": 2,
-        "url": "https://f-droid.org/zh_Hans/packages/com.termux/"
+        "config_version": 3,
+        "url": "https://f-droid.org/packages/com.termux/"
       },
       "app_config": {
         "hub_info": {
@@ -1301,7 +1301,7 @@
       "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
       "info": {
         "app_name": "Pix-EzViewer",
-        "config_version": 1,
+        "config_version": 2,
         "url": "https://github.com/ultranity/Pix-EzViewer"
       },
       "app_config": {
