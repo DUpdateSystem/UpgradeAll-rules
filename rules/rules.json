@@ -1691,6 +1691,60 @@
           "extra_string": "my.project.sakuraproject"
         }
       }
+    },
+    {
+      "base_version": 1,
+      "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
+      "info": {
+        "app_name": "LibChecker",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/com.absinthe.libchecker"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.absinthe.libchecker"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "5e0d81ba-1f24-4518-8e46-159b7f81c67c",
+      "info": {
+        "app_name": "Pure天气",
+        "config_version": 1,
+        "url": "https://coolapk.com/apk/hanjie.app.pureweather"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "hanjie.app.pureweather"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "c3c275f0-3938-4fb4-b3e2-c9bb987c32ee",
+      "info": {
+        "app_name": "一个木函",
+        "config_version": 1,
+        "url": "https://coolapk.com/apk/com.One.WoodenLetter"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.One.WoodenLetter"
+        }
+      }
     }
   ],
   "hub_config_list": [
