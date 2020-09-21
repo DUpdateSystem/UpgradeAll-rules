@@ -1874,6 +1874,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "cb37623e-c5b8-4da6-bbcf-3b1c60fb3aac",
+      "info": {
+        "app_name": "冰箱 IceBox",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/com.catchingnow.icebox"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.catchingnow.icebox"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "03168aae-41cc-431f-a77d-3f37152a536f",
       "info": {
         "app_name": "X浏览器",
