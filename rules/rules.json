@@ -1082,6 +1082,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "4a098735-779c-4477-ac0b-4a07475ce253",
+      "info": {
+        "app_name": "App Ops",
+        "config_version": 1,
+        "url": "https://coolapk.com/apk/rikka.appops"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "rikka.appops"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
       "info": {
         "app_name": "Wechat Chums",
@@ -1509,6 +1527,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "my.project.sakuraproject"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "c4f3d216-5377-4eee-8beb-ae169fbcdd84",
+      "info": {
+        "app_name": "NoPopping-自动勿扰模式",
+        "config_version": 1,
+        "url": "https://coolapk.com/apk/rikka.nopeeking"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "rikka.nopeeking"
         }
       }
     },
