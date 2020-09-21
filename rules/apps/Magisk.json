@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "a78704d0-3dfe-4b7e-9de4-5086f6c2e67e",
+    "info": {
+      "app_name": "Magisk Detector",
+      "config_version": 1,
+      "url": "https://github.com/topjohnwu/Magisk"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "com.topjohnwu.magisk"
+      }
+    }
+  }

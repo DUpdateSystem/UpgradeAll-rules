@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "82da690e-4761-4a85-8592-52b56d5d1254",
+    "info": {
+      "app_name": "ES文件浏览器",
+      "config_version": 1,
+      "url": "https://www.coolapk.com/apk/com.estrongs.android.pop"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "com.estrongs.android.pop"
+      }
+    }
+  }
