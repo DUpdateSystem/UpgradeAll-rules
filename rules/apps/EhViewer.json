@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "833e2880-f0e9-430c-b19e-9512a50b7752",
+  "uuid": "6ad8f6ff-38ea-47db-98e3-9477731549cd",
   "info": {
     "app_name": "EhViewer",
     "config_version": 1,
-    "url": "https://github.com/seven332/EhViewer"
+    "url": "https://github.com/Dar9586/NClientV2"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.hippo.ehviewer"
+      "extra_string": "com.dar.nclientv2"
     }
   }
 }
