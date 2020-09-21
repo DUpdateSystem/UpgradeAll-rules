@@ -25,6 +25,8 @@ jobs:
          git clone https://github.com/DUpdateSystem/UpgradeAll-rules
          cd UpgradeAll-rules
          python mkconfig.py
+         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+         git config --local user.name "github-actions[bot]"
          git add rules/rules.json
-         git commit --allow-empty --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "build: 构建规则文件"
+         git commit  -m "build: 构建规则文件"
          git push --force  "https://${{ secrets.GH_TOKEN }}@$GITHUB_REPO" master:master
