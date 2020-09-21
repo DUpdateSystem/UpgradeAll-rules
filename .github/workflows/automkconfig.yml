@@ -13,7 +13,6 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-    - uses: actions/checkout@v1
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
@@ -21,6 +20,7 @@ jobs:
     - name: Automkconfig
       env:
         GITHUB_REPO: github.com/DUpdateSystem/UpgradeAll-rules
+        GITHUB_COMMIT: ${{ github.event.head_commit.message }}
       run: |
          git clone https://github.com/DUpdateSystem/UpgradeAll-rules
          cd UpgradeAll-rules
@@ -28,5 +28,5 @@ jobs:
          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
          git config --local user.name "github-actions[bot]"
          git add rules/rules.json
-         git commit  -m "build: 构建规则文件"
-         git push --force  "https://${{ secrets.GH_TOKEN }}@$GITHUB_REPO" master:master
+         git commit  -m "$GITHUB_COMMIT"
+         git push --force  "https://${{ secrets.BOT_TOKEN }}@$GITHUB_REPO" master:master

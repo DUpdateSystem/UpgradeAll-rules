@@ -10,7 +10,7 @@ jobs:
         uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
         if: contains(github.event.issue.labels.*.name, '添加软件[Add App]')
         with:
-          action-token: '${{ secrets.GH_TOKEN }}'
+          action-token: '${{ secrets.BOT_TOKEN }}'
           project-url: 'https://github.com/orgs/DUpdateSystem/projects/3'
           column-name: '软件适配'
           label-name: '添加软件[Add App]'
@@ -20,7 +20,7 @@ jobs:
         uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
         if: contains(github.event.issue.labels.*.name, '添加源支持[Add Mirrors]')
         with:
-          action-token: '${{ secrets.GH_TOKEN }}'
+          action-token: '${{ secrets.BOT_TOKEN }}'
           project-url: 'https://github.com/orgs/DUpdateSystem/projects/3'
           column-name: '软件源适配'
           label-name: '添加源支持[Add Mirrors]'
@@ -30,7 +30,7 @@ jobs:
         uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
         if: contains(github.event.issue.labels.*.name, '提出建议[Suggest]')
         with:
-          action-token: '${{ secrets.GH_TOKEN }}'
+          action-token: '${{ secrets.BOT_TOKEN }}'
           project-url: 'https://github.com/orgs/DUpdateSystem/projects/3'
           column-name: '建议'
           label-name: '提出建议[Suggest]'
