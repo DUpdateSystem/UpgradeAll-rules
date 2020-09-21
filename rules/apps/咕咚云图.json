@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "2f702333-dcf5-4af7-bb9c-7fd381a702cc",
+  "info": {
+    "app_name": "咕咚云图",
+    "config_version": 1,
+    "url": "https://www.coolapk.com/apk/name.gudong.pic"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "name.gudong.pic"
+    }
+  }
+}
