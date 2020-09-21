@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 import json
-import logging
 import os
 from collections import OrderedDict
 
@@ -21,7 +20,7 @@ def init_config_list(init_list: list, sort: str, config_list: list) -> list:
         if config:
             uuid = config["uuid"]
             if uuid in uuid_list:
-                logging.exception(f"sort: {sort}, name: {config_name}")
+                print(f"sort: {sort}, name: {config_name}")
                 raise KeyError
             uuid_list.append(uuid)
             config_list.append(config)
@@ -38,7 +37,7 @@ def complete_config_list(sort: str, init_list: list,
             if config:
                 uuid = config["uuid"]
                 if uuid in uuid_list:
-                    logging.exception(f"sort: {sort}, name: {config_name}")
+                    print(f"sort: {sort}, name: {config_name}")
                     raise KeyError
                 uuid_list.append(uuid)
                 config_list.append(config)
@@ -62,3 +61,5 @@ complete_config_list("hubs", hub_list, json_data["hub_config_list"])
 
 with open('./rules/rules.json', 'w') as f:
     f.write(json.dumps(json_data, indent=2, ensure_ascii=False))
+
+print("Done")
