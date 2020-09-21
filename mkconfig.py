@@ -1,5 +1,6 @@
 #! /usr/bin/python3
 import json
+import logging
 import os
 from collections import OrderedDict
 
@@ -14,20 +15,32 @@ def get_config(file_name: str, dir: str) -> OrderedDict or None:
 
 
 def init_config_list(init_list: list, sort: str, config_list: list) -> list:
+    uuid_list = [config["uuid"] for config in config_list]
     for config_name in init_list:
-        app_config = get_config(config_name, sort)
-        if app_config:
-            config_list.append(app_config)
+        config = get_config(config_name, sort)
+        if config:
+            uuid = config["uuid"]
+            if uuid in uuid_list:
+                logging.exception(f"sort: {sort}, name: {config_name}")
+                raise KeyError
+            uuid_list.append(uuid)
+            config_list.append(config)
     return config_list
 
 
 def complete_config_list(sort: str, init_list: list,
                          config_list: list) -> list:
+    uuid_list = [config["uuid"] for config in config_list]
     for config_row_name in os.listdir(f"./rules/{sort}"):
         config_name = config_row_name[:-5]
         if config_name not in init_list:
             config = get_config(config_name, sort)
             if config:
+                uuid = config["uuid"]
+                if uuid in uuid_list:
+                    logging.exception(f"sort: {sort}, name: {config_name}")
+                    raise KeyError
+                uuid_list.append(uuid)
                 config_list.append(config)
     return config_list
 
@@ -49,4 +62,3 @@ complete_config_list("hubs", hub_list, json_data["hub_config_list"])
 
 with open('./rules/rules.json', 'w') as f:
     f.write(json.dumps(json_data, indent=2, ensure_ascii=False))
-print("Done")
