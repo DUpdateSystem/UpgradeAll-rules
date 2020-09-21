@@ -1118,6 +1118,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "4825fda3-fb3e-4e7b-a75e-f1c694bf1da1",
+      "info": {
+        "app_name": "纯纯写作",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/com.drakeet.purewriter"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.drakeet.purewriter"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "ea811abf-971f-4591-80c4-319c0d2c3dce",
       "info": {
         "app_name": "PixShaft",
@@ -1257,6 +1275,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.oasisfeng.greenify"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "82da690e-4761-4a85-8592-52b56d5d1254",
+      "info": {
+        "app_name": "ES文件浏览器",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/com.estrongs.android.pop"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.estrongs.android.pop"
         }
       }
     },
@@ -1676,6 +1712,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "a78704d0-3dfe-4b7e-9de4-5086f6c2e67e",
+      "info": {
+        "app_name": "Magisk Detector",
+        "config_version": 1,
+        "url": "https://github.com/topjohnwu/Magisk"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.topjohnwu.magisk"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "5e0d81ba-1f24-4518-8e46-159b7f81c67c",
       "info": {
         "app_name": "Pure天气",
@@ -1725,6 +1779,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.absinthe.libchecker"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "1e22da80-0b11-41c8-a179-299314071939",
+      "info": {
+        "app_name": "太极",
+        "config_version": 1,
+        "url": "https://github.com/taichi-framework/TaiChi"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "me.weishu.exp"
         }
       }
     },
