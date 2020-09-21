@@ -1352,6 +1352,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "1a91285d-3de3-4869-942c-b1b7c3736e55",
+      "info": {
+        "app_name": "NClientV2",
+        "config_version": 1,
+        "url": "https://github.com/Dar9586/NClientV2"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.dar.nclientv2"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
       "info": {
         "app_name": "Pix-EzViewer",
