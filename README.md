@@ -2,7 +2,7 @@
 
 UpgradeAll 的云规则存储仓库
 
-![](https://img.shields.io/github/stars/DUpdateSystem/UpgradeAll-rules.svg) ![](https://img.shields.io/github/forks/xz-dev/UpgradeAll-rules.svg)  ![](https://img.shields.io/github/issues/xz-dev/UpgradeAll-rules.svg)​
+![](https://img.shields.io/github/stars/DUpdateSystem/UpgradeAll-rules.svg) ![](https://img.shields.io/github/forks/xz-dev/UpgradeAll-rules.svg)  ![](https://img.shields.io/github/issues/xz-dev/UpgradeAll-rules.svg)![](https://github.com/DUpdateSystem/UpgradeAll-rules/workflows/Automkconfig/badge.svg)![](https://github.com/DUpdateSystem/UpgradeAll-rules/workflows/issue to project/badge.svg)​
 
 ​------------
 
