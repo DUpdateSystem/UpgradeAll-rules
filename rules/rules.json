@@ -1244,6 +1244,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "457adb18-248f-41ed-abdb-a4368843bda9",
+      "info": {
+        "app_name": "喵滴-Markdown&Todo",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/cn.sunshinesudio.libv"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "cn.sunshinesudio.libv"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "ff5ab4f9-493e-48ef-8458-5e2b0c8b0241",
       "info": {
         "app_name": "Split APKs Installer (SAI)",
