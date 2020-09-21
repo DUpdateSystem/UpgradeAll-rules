@@ -1766,6 +1766,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "0ada89b0-9426-4a64-b076-d5f970820e08",
+      "info": {
+        "app_name": "V2er",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/me.ghui.v2er"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "me.ghui.v2er"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "344f0907-86f3-476c-911c-8d283181546c",
       "info": {
         "app_name": "DarQ",
@@ -1838,6 +1856,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "0cb0f89e-30a8-422b-b08f-e5bf0b0a5210",
+      "info": {
+        "app_name": "Intra",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/app.intra"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "app.intra"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "27b4e2aa-830b-43eb-9199-88cff5818306",
       "info": {
         "app_name": "Simple Calculator",
@@ -1887,6 +1923,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.topjohnwu.magisk"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "2f702333-dcf5-4af7-bb9c-7fd381a702cc",
+      "info": {
+        "app_name": "咕咚云图",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/name.gudong.pic"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "name.gudong.pic"
         }
       }
     },
