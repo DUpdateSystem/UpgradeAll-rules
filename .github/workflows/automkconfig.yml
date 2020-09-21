@@ -1,8 +1,9 @@
 name: Automkconfig
 on: 
   push:
-    branches: 
-    - master
+    paths:
+    - 'rules/apps/**.json'
+    - 'rules/hubs/**.json'
 jobs:
   mkconfig:
     runs-on: 
