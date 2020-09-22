@@ -1082,6 +1082,42 @@
     },
     {
       "base_version": 1,
+      "uuid": "4a098735-779c-4477-ac0b-4a07475ce253",
+      "info": {
+        "app_name": "App Ops",
+        "config_version": 1,
+        "url": "https://coolapk.com/apk/rikka.appops"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "rikka.appops"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "93c5562a-2038-4f3e-ae9b-0f6affcbfdc9",
+      "info": {
+        "app_name": "Easy163",
+        "config_version": 1,
+        "url": "https://github.com/ndroi/easy163"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.ndroi.easy163"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
       "info": {
         "app_name": "Wechat Chums",
@@ -1167,6 +1203,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.simplemobiletools.clock"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "f15b69ca-e14a-48d4-80e5-df390f918ceb",
+      "info": {
+        "app_name": "Auto.js",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/org.autojs.autojspro"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.autojs.autojspro"
         }
       }
     },
@@ -1316,6 +1370,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "88fb5f83-6566-44ad-bccf-ed0b63122b47",
+      "info": {
+        "app_name": "琉璃神社",
+        "config_version": 1,
+        "url": "https://github.com/yueeng/hacg"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "io.github.yueeng.hacg"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "9f2812a5-f0a9-4122-a8b4-f189a39b147a",
       "info": {
         "app_name": "Telegram SMS",
@@ -1329,6 +1401,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.qwe7002.telegram_sms"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "1a91285d-3de3-4869-942c-b1b7c3736e55",
+      "info": {
+        "app_name": "NClientV2",
+        "config_version": 1,
+        "url": "https://github.com/Dar9586/NClientV2"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.dar.nclientv2"
         }
       }
     },
@@ -1370,6 +1460,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "d097063b-b3a0-4075-bec2-250d7cc7fd17",
+      "info": {
+        "app_name": "Igniter",
+        "config_version": 1,
+        "url": "https://github.com/trojan-gfw/igniter"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "io.github.trojan_gfw.igniter"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
       "info": {
         "app_name": "MoegirlViewer",
@@ -1383,6 +1491,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.moegirlviewer"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "833e2880-f0e9-430c-b19e-9512a50b7752",
+      "info": {
+        "app_name": "EhViewer",
+        "config_version": 1,
+        "url": "https://github.com/seven332/EhViewer"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.hippo.ehviewer"
         }
       }
     },
@@ -1419,6 +1545,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "my.project.sakuraproject"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "c4f3d216-5377-4eee-8beb-ae169fbcdd84",
+      "info": {
+        "app_name": "NoPopping-自动勿扰模式",
+        "config_version": 1,
+        "url": "https://coolapk.com/apk/rikka.nopeeking"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "rikka.nopeeking"
         }
       }
     },
@@ -1473,6 +1617,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.mgoogle.android.gms"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "c28625f2-735b-405c-9773-0847587f6e8d",
+      "info": {
+        "app_name": "AdGuard",
+        "config_version": 1,
+        "url": "https://github.com/AdguardTeam/AdguardForAndroid"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.adguard.android"
         }
       }
     },
@@ -1658,6 +1820,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "0ada89b0-9426-4a64-b076-d5f970820e08",
+      "info": {
+        "app_name": "V2er",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/me.ghui.v2er"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "me.ghui.v2er"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "344f0907-86f3-476c-911c-8d283181546c",
       "info": {
         "app_name": "DarQ",
@@ -1693,6 +1873,24 @@
       }
     },
     {
+      "base_version": 2,
+      "uuid": "a59ab5a6-4ff4-4484-b641-23cb8fe55a4c",
+      "info": {
+        "app_name": "存储空间隔离",
+        "config_version": 2,
+        "url": "https://coolapk.com/apk/moe.shizuku.redirectstorage"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "moe.shizuku.redirectstorage"
+        }
+      }
+    },
+    {
       "base_version": 1,
       "uuid": "6ea85ace-0e49-48e9-b927-2afa6a1ec681",
       "info": {
@@ -1707,6 +1905,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.simplemobiletools.camera"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "0cb0f89e-30a8-422b-b08f-e5bf0b0a5210",
+      "info": {
+        "app_name": "Intra",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/app.intra"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "app.intra"
         }
       }
     },
@@ -1729,6 +1945,24 @@
       }
     },
     {
+      "base_version": 1,
+      "uuid": "bf2fd422-35bb-4b10-8c3b-6fb4d7309173",
+      "info": {
+        "app_name": "弹弹Play概念版",
+        "config_version": 1,
+        "url": "https://github.com/xyoye/DanDanPlayForAndroid"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.xyoye.dandanplay"
+        }
+      }
+    },
+    {
       "base_version": 2,
       "uuid": "a78704d0-3dfe-4b7e-9de4-5086f6c2e67e",
       "info": {
@@ -1743,6 +1977,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.topjohnwu.magisk"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "2f702333-dcf5-4af7-bb9c-7fd381a702cc",
+      "info": {
+        "app_name": "咕咚云图",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/name.gudong.pic"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "name.gudong.pic"
         }
       }
     },
@@ -1783,11 +2035,11 @@
       }
     },
     {
-      "base_version": 1,
-      "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
+      "base_version": 2,
+      "uuid": "1a2e6c3f-0871-490b-8b01-0f8795d3264e",
       "info": {
         "app_name": "LibChecker",
-        "config_version": 1,
+        "config_version": 2,
         "url": "https://www.coolapk.com/apk/com.absinthe.libchecker"
       },
       "app_config": {
@@ -1833,6 +2085,42 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.simplemobiletools.voicerecorder"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "909dd525-364e-4af8-b7da-df0f33a88764",
+      "info": {
+        "app_name": "Dora.js",
+        "config_version": 1,
+        "url": "https://coolapk.com/apk/com.linroid.dora"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.linroid.dora"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "cb37623e-c5b8-4da6-bbcf-3b1c60fb3aac",
+      "info": {
+        "app_name": "冰箱 IceBox",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/com.catchingnow.icebox"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.catchingnow.icebox"
         }
       }
     },
