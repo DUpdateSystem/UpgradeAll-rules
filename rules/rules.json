@@ -974,6 +974,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "eaf6d7dd-908a-400c-b2c7-4783be19638b",
+      "info": {
+        "app_name": "轻小说文库",
+        "config_version": 1,
+        "url": "https://github.com/shirokurakana/thdog"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.shiro.thdog"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "104586a2-91ca-4750-b0bd-11dedfa8eb55",
       "info": {
         "app_name": "Simple Gallery Pro",
@@ -1514,6 +1532,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "d38222ad-56e3-41a1-a708-c10fb72360ab",
+      "info": {
+        "app_name": "轻小说文库",
+        "config_version": 1,
+        "url": "https://github.com/MewX/light-novel-library_Wenku8_Android"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.mewx.wenku8"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "57365af4-d968-4eba-bd14-5846b33fad16",
       "info": {
         "app_name": "Simple Contacts Pro",
@@ -1851,6 +1887,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "me.ghui.v2er"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "1739dd7b-2c2c-4db5-8fb1-eba5751114f8",
+      "info": {
+        "app_name": "Meitu-美图",
+        "config_version": 1,
+        "url": "https://github.com/yueeng/meitu"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.github.kr328.clash"
         }
       }
     },
