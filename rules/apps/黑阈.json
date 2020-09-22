@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "c25014d5-f9dc-4dfb-b88b-3f8fddecef96",
+  "info": {
+    "app_name": "黑阈",
+    "config_version": 1,
+    "url": "https://m.shouji.com.cn/down/33532.html"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "me.piebridge.brevent"
+    }
+  }
+}
