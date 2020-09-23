@@ -1894,8 +1894,8 @@
       "base_version": 1,
       "uuid": "1739dd7b-2c2c-4db5-8fb1-eba5751114f8",
       "info": {
-        "app_name": "Meitu-美图",
-        "config_version": 1,
+        "app_name": "爱套图",
+        "config_version": 2,
         "url": "https://github.com/yueeng/meitu"
       },
       "app_config": {
@@ -1904,7 +1904,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.github.kr328.clash"
+          "extra_string": "io.github.yueeng.aitaotu"
         }
       }
     },
