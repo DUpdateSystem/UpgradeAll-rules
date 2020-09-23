@@ -1262,6 +1262,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "557c94dd-3b82-428e-ac7f-f04c6c0fedac",
+      "info": {
+        "app_name": "Iceraven Browser",
+        "config_version": 1,
+        "url": "https://github.com/fork-maintainers/iceraven-browser"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "io.github.forkmaintainers.iceraven"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "58950375-1a4a-4458-b834-888b60e37563",
       "info": {
         "app_name": "Simple Music Player",
@@ -2180,6 +2198,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "c755c153-e1b1-4bc3-a1bf-5d81f87bedf2",
+      "info": {
+        "app_name": "SSVPN",
+        "config_version": 1,
+        "url": "https://github.com/bannedbook/ssvpn"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "free.shadowsocks.proxy.VPN"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "909dd525-364e-4af8-b7da-df0f33a88764",
       "info": {
         "app_name": "Dora.js",
@@ -2247,6 +2283,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.cylonid.nativealpha"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "62e80fd3-df9d-4b94-968c-023dbaf31109",
+      "info": {
+        "app_name": "南博",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/cn.krait.nabo"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "cn.krait.nabo"
         }
       }
     }
