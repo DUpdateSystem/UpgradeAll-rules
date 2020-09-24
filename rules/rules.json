@@ -523,24 +523,6 @@
       }
     },
     {
-      "base_version": 4,
-      "uuid": "6d954d76-35f9-11ea-959e-5d4cf66cc336",
-      "info": {
-        "app_name": "应用汇-official",
-        "config_version": 1,
-        "url": "http://www.appchina.com/app/com.yingyonghui.market"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "4a23c3a5-8200-40bb-b988-c1bb5d7fd921"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.yingyonghui.market"
-        }
-      }
-    },
-    {
       "base_version": 1,
       "uuid": "823f0b56-3d4f-11ea-b50d-d3504aa1f700",
       "info": {
