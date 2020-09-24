@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "8cff2737-c659-484a-93fc-813bc7ea7fac",
+    "info": {
+      "app_name": "V9Porn",
+      "config_version": 1,
+      "url": "https://github.com/techGay/v9porn"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "com.u9porn"
+      }
+    }
+  }
