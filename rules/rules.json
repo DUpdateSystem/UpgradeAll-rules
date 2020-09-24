@@ -1838,6 +1838,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "5b317f8f-9ec6-416d-a893-d3b35333350b",
+      "info": {
+        "app_name": "Bitwarden",
+        "config_version": 1,
+        "url": "https://github.com/bitwarden/mobile"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.x8bit.bitwarden"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "004f12da-9c40-4642-baeb-2e34a4a692b7",
       "info": {
         "app_name": "SandVXposed",
@@ -2301,6 +2319,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.mmbox.xbrowser"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "9aaa78ef-fe61-4c68-9860-c188f3aefb73",
+      "info": {
+        "app_name": "Amaze File Manager",
+        "config_version": 1,
+        "url": "https://f-droid.org/zh_Hans/packages/com.amaze.filemanager/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "ccom.amaze.filemanager"
         }
       }
     },
