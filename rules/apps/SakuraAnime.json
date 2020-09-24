@@ -1,9 +1,9 @@
 {
-    "base_version": 1,
+    "base_version": 2,
     "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
     "info": {
-      "app_name": "SakuraAnime",
-      "config_version": 1,
+      "app_name": "樱花动漫",
+      "config_version": 2,
       "url": "https://github.com/670848654/SakuraAnime"
     },
     "app_config": {
