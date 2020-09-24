@@ -974,6 +974,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "b72855dd-881d-4ec2-a07f-59dcb684c2bb",
+      "info": {
+        "app_name": "吐槽弹幕网",
+        "config_version": 1,
+        "url": "https://github.com/blackbbc/Tucao"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "me.sweetll.tucao"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "104586a2-91ca-4750-b0bd-11dedfa8eb55",
       "info": {
         "app_name": "Simple Gallery Pro",
@@ -1585,11 +1603,11 @@
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
       "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
       "info": {
-        "app_name": "SakuraAnime",
-        "config_version": 1,
+        "app_name": "樱花动漫",
+        "config_version": 2,
         "url": "https://github.com/670848654/SakuraAnime"
       },
       "app_config": {
@@ -1995,6 +2013,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "moe.shizuku.redirectstorage"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "ed655c80-d793-4286-8cf2-167545577778",
+      "info": {
+        "app_name": "嘶哩嘶哩",
+        "config_version": 1,
+        "url": "https://github.com/670848654/Silisili"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "my.project.silisili"
         }
       }
     },
