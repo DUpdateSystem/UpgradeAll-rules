@@ -938,6 +938,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "26a4dac2-70a3-4fe7-9516-cbe5a95b8384",
+      "info": {
+        "app_name": "XAutoDaily",
+        "config_version": 1,
+        "url": "https://github.com/teble/XAutoDaily"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "me.teble.xposed.autodaily"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "5cdb731e-16db-4e32-9e48-cdd4a4e3d9bc",
       "info": {
         "app_name": "PixEz-flutter",
