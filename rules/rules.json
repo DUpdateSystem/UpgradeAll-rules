@@ -1712,6 +1712,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "c7d7b3c6-9a94-4c44-be60-5aae0872c07c",
+      "info": {
+        "app_name": "Blokada 4",
+        "config_version": 1,
+        "url": "https://github.com/blokadaorg/fem"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.blokada.origin.alarm"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "c4f3d216-5377-4eee-8beb-ae169fbcdd84",
       "info": {
         "app_name": "NoPopping-自动勿扰模式",
@@ -1981,11 +1999,11 @@
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
       "uuid": "61cc1a9a-cf38-4fc2-a6a8-6baddab376f6",
       "info": {
-        "app_name": "Blokada",
-        "config_version": 1,
+        "app_name": "Blokada 4",
+        "config_version": 2,
         "url": "https://github.com/blokadaorg/blokada"
       },
       "app_config": {
