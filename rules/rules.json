@@ -887,8 +887,8 @@
       "uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0",
       "info": {
         "app_name": "Kiwi Browser",
-        "config_version": 1,
-        "url": "https://github.com/kiwibrowser/android"
+        "config_version": 2,
+        "url": "https://github.com/kiwibrowser/src"
       },
       "app_config": {
         "hub_info": {
@@ -1586,6 +1586,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "6dee3c1f-247f-4356-a626-f7c1f2acdcf1",
+      "info": {
+        "app_name": "Bromite System WebView",
+        "config_version": 1,
+        "url": "https://github.com/bromite/bromite"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.android.webview"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
       "info": {
         "app_name": "MoegirlViewer",
@@ -1995,6 +2013,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.vanced.manager"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "9e35ed7d-14ad-4505-a616-309f444320d1",
+      "info": {
+        "app_name": "Bromite Browser",
+        "config_version": 1,
+        "url": "https://github.com/bromite/bromite"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.bromite.bromite"
         }
       }
     },
