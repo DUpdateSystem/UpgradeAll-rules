@@ -1,0 +1,19 @@
+{
+    "base_version": 1,
+    "uuid": "dda8361a-4f49-4b53-83fe-09254b522481",
+    "info": {
+      "app_name": "Firefox",
+      "config_version": 1,
+      "url": "https://github.com/mozilla-mobile/fenix"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "org.mozilla.firefox"
+      }
+    }
+  }
+  
