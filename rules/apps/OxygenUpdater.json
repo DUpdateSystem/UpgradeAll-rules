@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "93f079f1-5bf1-4ae0-9bfd-1eb4b0eb2fc3",
+    "info": {
+      "app_name": "Oxygen Updater",
+      "config_version": 1,
+      "url": "https://github.com/oxygen-updater/oxygen-updater"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "com.arjanvlek.oxygenupdater"
+      }
+    }
+  }
