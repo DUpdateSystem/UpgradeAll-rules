@@ -974,6 +974,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "fd66e96f-0b1c-4237-a855-f686df666d1e",
+      "info": {
+        "app_name": "FeedMe",
+        "config_version": 1,
+        "url": "https://github.com/seazon/FeedMe"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.seazon.feedme"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "bac972f7-c1b1-4ccd-b42e-c90757c34514",
       "info": {
         "app_name": "去你大爷的内置浏览器",
