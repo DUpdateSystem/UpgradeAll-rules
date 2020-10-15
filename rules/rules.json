@@ -1622,6 +1622,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "1f65e68b-d36d-4fc4-aa31-541d9d180acd",
+      "info": {
+        "app_name": "Auto.js",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/game/com.wonderplay.mhwo"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.wonderplay.mhwo"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "93f079f1-5bf1-4ae0-9bfd-1eb4b0eb2fc3",
       "info": {
         "app_name": "Oxygen Updater",
