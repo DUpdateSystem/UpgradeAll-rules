@@ -1,0 +1,10 @@
+{
+  "base_version": 5,
+  "uuid": "d3a89f2b-968a-547b-9d77-766080c2e617",
+  "info": {
+    "hub_name": "GitHub-Mirror",
+    "config_version": 1
+  },
+  "api_keywords": ["owner", "repo"],
+  "app_url_templates": ["https://gh.haval.gq/%owner/%repo/"]
+}
