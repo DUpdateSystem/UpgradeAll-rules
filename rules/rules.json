@@ -2360,6 +2360,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "02415d37-dfa5-4d02-a0a3-4014bc86298b",
+      "info": {
+        "app_name": "VikACG",
+        "config_version": 1,
+        "url": "https://github.com/Sailoud/VikACG_Rescue"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.vikacg.zh.hans"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "88fb5f83-6566-44ad-bccf-ed0b63122b47",
       "info": {
         "app_name": "琉璃神社",
