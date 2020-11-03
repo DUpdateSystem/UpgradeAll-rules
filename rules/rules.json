@@ -1946,6 +1946,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "6fcabf69-8df5-49d1-a3dd-22401c673168",
+      "info": {
+        "app_name": "Geekbench 5",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.primatelabs.geekbench5"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.primatelabs.geekbench5"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "be869707-7f22-47ef-a4d9-4846a65157b9",
       "info": {
         "app_name": "JustTrustMe",
@@ -2157,6 +2175,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.lerist.xposed.apptranslator"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "099519a8-fcbd-4e3d-bd10-77882a645d5b",
+      "info": {
+        "app_name": "Idle Daddy",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.steevsapps.idledaddy"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.steevsapps.idledaddy"
         }
       }
     },
@@ -2504,6 +2540,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "787d0e54-5633-4ada-8e19-6e45fd37dbdf",
+      "info": {
+        "app_name": "微博国际版",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.weico.international"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.weico.international"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "909dd525-364e-4af8-b7da-df0f33a88764",
       "info": {
         "app_name": "Dora.js",
@@ -2720,6 +2774,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "62253cda-bf14-4f19-9bea-f1ba409c11bc",
+      "info": {
+        "app_name": "XPrivacyLua Pro",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=eu.faircode.xlua.pro"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "eu.faircode.xlua.pro"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "faad9c73-08c2-4124-beaf-9e74690a5a82",
       "info": {
         "app_name": "Simple Notes Pro",
@@ -2769,6 +2841,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.aurora.warden"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "6a2a1edc-227a-4fc5-8a1b-4ab8dd25a7e8",
+      "info": {
+        "app_name": "比特舟Pro",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=cili.niao.search.bt.ci.li"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "cili.niao.search.bt.ci.li"
         }
       }
     },
