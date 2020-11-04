@@ -1063,6 +1063,24 @@
       }
     },
     {
+      "base_version": 1,
+      "uuid": "4b81f571-4cbc-4c48-b98e-8125140b2cef",
+      "info": {
+        "app_name": "Lawnchair 2",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "ch.deletescape.lawnchair.plah"
+        }
+      }
+    },
+    {
       "base_version": 2,
       "uuid": "a59ab5a6-4ff4-4484-b641-23cb8fe55a4c",
       "info": {
@@ -1148,7 +1166,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "air.thix.sciencesense.beaker\""
+          "extra_string": "air.thix.sciencesense.beaker"
         }
       }
     },
@@ -2234,6 +2252,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "ab037433-b558-44a2-92a1-07950182c74a",
+      "info": {
+        "app_name": "Remote Fingerprint Unlock",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=ro.andreimircius.remotefingerauth"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "ro.andreimircius.remotefingerauth"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "099519a8-fcbd-4e3d-bd10-77882a645d5b",
       "info": {
         "app_name": "Idle Daddy",
@@ -2355,6 +2391,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.adguard.android"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "7a269e5a-961a-4a25-a22e-13c08ff6dc12",
+      "info": {
+        "app_name": "Remote Fingerprint Unlock",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.onscripter.plus"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.onscripter.plus"
         }
       }
     },
@@ -2517,6 +2571,42 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "io.github.yueeng.hacg"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "cdf366c4-6bb4-4468-a432-14b954f35dcf",
+      "info": {
+        "app_name": "音量面板样式",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.tombayley.volumepanel"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.tombayley.volumepanel"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "237b31de-f186-44dd-9af9-2710aec5cec4",
+      "info": {
+        "app_name": "KDE Connect",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.kde.kdeconnect_tp"
         }
       }
     },
@@ -3039,6 +3129,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "github.tornaco.android.thanos"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "9741a79b-af01-4ba8-ab57-07efb431d594",
+      "info": {
+        "app_name": "Muviz Edge",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.sparkine.muvizedge"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.sparkine.muvizedge"
         }
       }
     },
