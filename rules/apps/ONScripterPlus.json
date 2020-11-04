@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "a3dd917a-03e1-40f6-8e7a-b7001bc51af6",
+  "uuid": "7a269e5a-961a-4a25-a22e-13c08ff6dc12",
   "info": {
-    "app_name": "Tor Browser",
+    "app_name": "Remote Fingerprint Unlock",
     "config_version": 1,
-    "url": "https://play.google.com/store/apps/details?id=air.thix.sciencesense.beaker"
+    "url": "https://play.google.com/store/apps/details?id=com.onscripter.plus"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "air.thix.sciencesense.beaker"
+      "extra_string": "com.onscripter.plus"
     }
   }
 }
