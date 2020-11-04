@@ -1514,6 +1514,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "2caddcbf-dd46-4d48-b0d8-84e70dcb7c2d",
+      "info": {
+        "app_name": "TachiyomiEH",
+        "config_version": 1,
+        "url": "https://github.com/NerdNumber9/TachiyomiEH"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "eu.kanade.tachiyomi.eh2"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "457adb18-248f-41ed-abdb-a4368843bda9",
       "info": {
         "app_name": "喵滴-Markdown&Todo",
@@ -1905,6 +1923,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "org.blokada.origin.alarm"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "25bf4ebb-851b-4364-ab5e-da593748e629",
+      "info": {
+        "app_name": "Neko",
+        "config_version": 1,
+        "url": "https://github.com/CarlosEsco/Neko"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "tachiyomi.mangadex"
         }
       }
     },
@@ -2504,6 +2540,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "5ab2d3ea-84c3-4e6b-8572-3131ffefb68b",
+      "info": {
+        "app_name": "TachiyomiAZ",
+        "config_version": 1,
+        "url": "https://github.com/az4521/TachiyomiAZ"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "eu.kanade.tachiyomi.az"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "9cc3165d-a307-48e0-ac96-4b2c83929c58",
       "info": {
         "app_name": "Nekogram",
@@ -2684,6 +2738,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "6c0a6609-bf0d-403f-a949-beb64214fd00",
+      "info": {
+        "app_name": "TachiyomiSY",
+        "config_version": 1,
+        "url": "https://github.com/jobobby04/TachiyomiSY"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "eu.kanade.tachiyomi.sy"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "89686b18-c76f-4a4f-be5f-5966f76633a9",
       "info": {
         "app_name": "VirtualXposed",
@@ -2841,6 +2913,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.simplemobiletools.flashlight"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "17bef821-631c-43a3-ab17-4be7a5fb605f",
+      "info": {
+        "app_name": "TachiyomiJ2K",
+        "config_version": 1,
+        "url": "https://github.com/Jays2Kings/tachiyomiJ2K"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "eu.kanade.tachiyomi.j2k"
         }
       }
     },
