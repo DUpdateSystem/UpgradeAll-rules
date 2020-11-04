@@ -1478,6 +1478,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "4d41c9ef-181a-43e0-890b-aab04d1e71f9",
+      "info": {
+        "app_name": "phyphox",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=de.rwth_aachen.phyphox"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "de.rwth_aachen.phyphox"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
       "info": {
         "app_name": "Pix-EzViewer",
@@ -2360,6 +2378,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "b0f3a13f-d2f1-4d57-bd98-ea48693fe656",
+      "info": {
+        "app_name": "Inware",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.evo.inware"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.evo.inware"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "9cc3165d-a307-48e0-ac96-4b2c83929c58",
       "info": {
         "app_name": "Nekogram",
@@ -2571,6 +2607,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.linroid.dora"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "5f26f6a9-e62c-4d9f-bdcb-6a95e57a6f91",
+      "info": {
+        "app_name": "Google Chrome",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.android.chrome"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.android.chrome"
         }
       }
     },
