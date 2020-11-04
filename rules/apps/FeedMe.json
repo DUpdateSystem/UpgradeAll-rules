@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0",
+  "uuid": "fd66e96f-0b1c-4237-a855-f686df666d1e",
   "info": {
-    "app_name": "Kiwi Browser",
-    "config_version": 2,
-    "url": "https://github.com/kiwibrowser/src"
+    "app_name": "FeedMe",
+    "config_version": 1,
+    "url": "https://github.com/seazon/FeedMe"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.kiwibrowser.browser"
+      "extra_string": "com.seazon.feedme"
     }
   }
 }

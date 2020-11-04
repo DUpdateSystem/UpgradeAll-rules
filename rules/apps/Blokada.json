@@ -1,9 +1,9 @@
 {
-  "base_version": 1,
+  "base_version": 2,
   "uuid": "61cc1a9a-cf38-4fc2-a6a8-6baddab376f6",
   "info": {
-    "app_name": "Blokada",
-    "config_version": 1,
+    "app_name": "Blokada 4",
+    "config_version": 2,
     "url": "https://github.com/blokadaorg/blokada"
   },
   "app_config": {

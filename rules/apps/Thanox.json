@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "fd6ecc03-2c9c-42e8-bb2c-959177f68b50",
+    "info": {
+      "app_name": "Thanox",
+      "config_version": 1,
+      "url": "https://github.com/Tornaco/Thanox"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "github.tornaco.android.thanos"
+      }
+    }
+  }

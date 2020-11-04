@@ -1,10 +1,10 @@
 {
     "base_version": 1,
-    "uuid": "03168aae-41cc-431f-a77d-3f37152a536f",
+    "uuid": "bc6fc3e1-e9de-4cad-a39c-29d20d6d2cc1",
     "info": {
-      "app_name": "X浏览器",
-      "config_version": 2,
-      "url": "https://www.coolapk.com/apk/com.mmbox.xbrowser"
+      "app_name": "简单水印",
+      "config_version": 1,
+      "url": "https://www.coolapk.com/apk/me.rosuh.easywatermark"
     },
     "app_config": {
       "hub_info": {
@@ -12,7 +12,7 @@
       },
       "target_checker": {
         "api": "App_Package",
-        "extra_string": "com.mmbox.xbrowser"
+        "extra_string": "me.rosuh.easywatermark"
       }
     }
   }

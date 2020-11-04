@@ -1,0 +1,18 @@
+{
+    "base_version": 2,
+    "uuid": "2273bc9d-42b0-416c-8c50-1d0c00f0132e",
+    "info": {
+      "app_name": "XPrivacyLua",
+      "config_version": 3,
+      "url": "https://f-droid.org/zh_Hans/packages/eu.faircode.xlua/"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "eu.faircode.xlua"
+      }
+    }
+  }

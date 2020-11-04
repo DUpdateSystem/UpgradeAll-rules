@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "ed655c80-d793-4286-8cf2-167545577778",
+    "info": {
+      "app_name": "嘶哩嘶哩",
+      "config_version": 1,
+      "url": "https://github.com/670848654/Silisili"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "my.project.silisili"
+      }
+    }
+  }

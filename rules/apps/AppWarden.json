@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "b3b39acd-c70a-48c0-9613-ef863b4fa489",
+    "info": {
+      "app_name": "AppWarden",
+      "config_version": 1,
+      "url": "https://gitlab.com/AuroraOSS/AppWarden"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "com.aurora.warden"
+      }
+    }
+  }

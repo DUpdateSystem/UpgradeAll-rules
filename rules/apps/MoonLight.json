@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid":"f397bced-361b-45d0-805a-9bf94b9b6a5a",
+    "info": {
+      "app_name": "MoonLight",
+      "config_version": 1,
+      "url": "https://github.com/moonlight-stream/moonlight-android"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "app_package",
+        "extra_string": "com.limelight"
+      }
+    }
+  }

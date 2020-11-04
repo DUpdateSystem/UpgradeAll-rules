@@ -1,10 +1,10 @@
 {
-    "base_version": 2,
-    "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
+    "base_version": 1,
+    "uuid": "1739dd7b-2c2c-4db5-8fb1-eba5751114f8",
     "info": {
-      "app_name": "樱花动漫",
+      "app_name": "爱套图",
       "config_version": 2,
-      "url": "https://github.com/670848654/SakuraAnime"
+      "url": "https://github.com/yueeng/meitu"
     },
     "app_config": {
       "hub_info": {
@@ -12,7 +12,7 @@
       },
       "target_checker": {
         "api": "App_Package",
-        "extra_string": "my.project.sakuraproject"
+        "extra_string": "io.github.yueeng.aitaotu"
       }
     }
   }

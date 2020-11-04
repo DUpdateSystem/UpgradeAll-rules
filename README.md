@@ -1,16 +1,16 @@
-# UpgradeAllRules
+# UpgradeAll-Rules
 
 UpgradeAll 的云规则存储仓库
 
-![](https://img.shields.io/github/stars/DUpdateSystem/UpgradeAll-rules.svg) ![](https://img.shields.io/github/forks/xz-dev/UpgradeAll-rules.svg)  ![](https://img.shields.io/github/issues/xz-dev/UpgradeAll-rules.svg)![](https://github.com/DUpdateSystem/UpgradeAll-rules/workflows/Automkconfig/badge.svg)![](https://github.com/DUpdateSystem/UpgradeAll-rules/workflows/issue%20to%20project/badge.svg)​
+![](https://img.shields.io/github/stars/DUpdateSystem/UpgradeAll-rules?style=for-the-badge&logo=appveyor) ![](https://img.shields.io/github/forks/DUpdateSystem/UpgradeAll-rules?style=for-the-badge&logo=appveyor) ![](https://img.shields.io/github/issues/DUpdateSystem/UpgradeAll-rules?style=for-the-badge&logo=appveyor) ![](https://img.shields.io/github/workflow/status/DUpdateSystem/UpgradeAll-rules/Automkconfig?style=for-the-badge) ![](https://img.shields.io/github/workflow/status/DUpdateSystem/UpgradeAll-rules/issue%20to%20project?style=for-the-badge)
 
-​------------
+------
 
 ### UpgradeAll 最新版本
-![](https://img.shields.io/github/tag/DUpdateSystem/UpgradeAll.svg) ![](https://img.shields.io/github/release/xz-dev/UpgradeAll.svg)
+![](https://img.shields.io/github/v/tag/DUpdateSystem/UpgradeAll.svg?logo=appveyor&sort=semver&style=for-the-badge) ![](https://img.shields.io/github/v/release/DUpdateSystem/UpgradeAll.svg?logo=appveyor&sort=semver&style=for-the-badge)
 
-[下载|Download](https://github.com/DUpdateSystem/UpgradeAll/releases)
-
+[下载 | Github](https://github.com/DUpdateSystem/UpgradeAll/releases)  
+[下载 | 酷安](https://www.coolapk.com/apk/net.xzos.upgradeall)
 ### UpgradeAll 法律声明
 
 参考 [UpgradeAll README](https://github.com/DUpdateSystem/UpgradeAll/blob/master/README.md#%E6%B3%95%E5%BE%8B%E5%A3%B0%E6%98%8E)
@@ -30,7 +30,8 @@ UpgradeAll 的云规则存储仓库
 >
 > 2. 加入我们的粉丝群
 >
->     [QQ群](https://jq.qq.com/?_wv=1027&k=5NC9Q9h)
+>     [QQ群](https://jq.qq.com/?_wv=1027&k=5NC9Q9h)  
+>     [TG群](https://t.me/DUpdateSystem)
 
 * 到哪里查看开发者文档和使用教程?
 > 1. 开发者文档
@@ -44,3 +45,4 @@ UpgradeAll 的云规则存储仓库
 ​------------
 
 **如果您想支持我们，请素质三连哦<sup>❤️❤️❤️</sup>!!!**
+

@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "6a2a1edc-227a-4fc5-8a1b-4ab8dd25a7e8",
+  "info": {
+    "app_name": "比特舟Pro",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=cili.niao.search.bt.ci.li"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "cili.niao.search.bt.ci.li"
+    }
+  }
+}
