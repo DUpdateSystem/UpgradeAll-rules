@@ -1226,6 +1226,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "989bfded-8ecc-4194-99cb-f33d7da93d8c",
+      "info": {
+        "app_name": "Telegram",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.telegram.messenger"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "bf2fd422-35bb-4b10-8c3b-6fb4d7309173",
       "info": {
         "app_name": "弹弹Play概念版",
@@ -3039,6 +3057,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "hanjie.app.pureweather"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "1dabd9ea-fd57-4c5b-a8c1-51a757dd0824",
+      "info": {
+        "app_name": "Magic iPerf",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.nextdoordeveloper.miperf.miperf"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.nextdoordeveloper.miperf.miperf"
         }
       }
     },
