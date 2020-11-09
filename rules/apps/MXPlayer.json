@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "daa15e1e-7015-4946-998a-4d24dff4d020",
+  "info": {
+    "app_name": "MX Player",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.mxtech.videoplayer.ad"
+    }
+  }
+}
