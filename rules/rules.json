@@ -2216,6 +2216,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "8f57238f-fb86-4749-967a-e023327bac32",
+      "info": {
+        "app_name": "Resilio Sync",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.resilio.sync"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.resilio.sync"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "344f0907-86f3-476c-911c-8d283181546c",
       "info": {
         "app_name": "DarQ",
@@ -2355,6 +2373,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.simplemobiletools.calculator"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "03f32741-3f62-4373-b1ea-3dba287a4c03",
+      "info": {
+        "app_name": "SoundWire",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.georgie.SoundWireFree"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.georgie.SoundWireFree"
         }
       }
     },
@@ -2949,6 +2985,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "eu.kanade.tachiyomi.j2k"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "daa15e1e-7015-4946-998a-4d24dff4d020",
+      "info": {
+        "app_name": "MX Player",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.mxtech.videoplayer.ad"
         }
       }
     },
