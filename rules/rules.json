@@ -1226,6 +1226,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "ed423111-9f9e-43bd-bc88-b680d531c82c",
+      "info": {
+        "app_name": "Firefox Browser",
+        "config_version": 1,
+        "url": "https://github.com/mozilla-mobile/fenix"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.mozilla.firefox"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "989bfded-8ecc-4194-99cb-f33d7da93d8c",
       "info": {
         "app_name": "Telegram",
@@ -3008,6 +3026,42 @@
     },
     {
       "base_version": 1,
+      "uuid": "4b6ab7d7-34c7-4f0a-a611-c39c95cc4e81",
+      "info": {
+        "app_name": "Firefox Beta",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox_beta"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.mozilla.firefox_beta"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "56621b60-cbfb-4fd3-abc9-09d3f093b5e5",
+      "info": {
+        "app_name": "Firefox Focus",
+        "config_version": 1,
+        "url": "https://github.com/mozilla-mobile/focus-android"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.mozilla.focus"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "a2031e48-e20e-4e5c-bf98-35c796821d57",
       "info": {
         "app_name": "Native Alpha",
@@ -3273,6 +3327,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "eu.faircode.xlua"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "d5df5dc2-9165-4f5a-83ff-0604d2f64853",
+      "info": {
+        "app_name": "Firefox Lockwise",
+        "config_version": 1,
+        "url": "https://github.com/mozilla-lockwise/lockwise-android"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "mozilla.lockbox"
         }
       }
     },
