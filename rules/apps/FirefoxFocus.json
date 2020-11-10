@@ -1,0 +1,19 @@
+{
+    "base_version": 1,
+    "uuid": "56621b60-cbfb-4fd3-abc9-09d3f093b5e5",
+    "info": {
+      "app_name": "Firefox Focus",
+      "config_version": 1,
+      "url": "https://github.com/mozilla-mobile/focus-android"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "org.mozilla.focus"
+      }
+    }
+  }
+  
