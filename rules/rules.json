@@ -2684,6 +2684,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "bb7c6bf1-02b1-45a6-ae6d-801a31e6cb1a",
+      "info": {
+        "app_name": "Monerujo",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.m2049r.xmrwallet"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "bac972f7-c1b1-4ccd-b42e-c90757c34514",
       "info": {
         "app_name": "去你大爷的内置浏览器",
