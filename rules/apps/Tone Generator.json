@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "a0a1526a-593e-4994-bd90-3133d6671c41",
+  "info": {
+    "app_name": "Tone Generator",
+    "config_version": 1,
+    "url": "https://gitlab.com/axet/android-tone-generator"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.github.axet.tonegenerator"
+    }
+  }
+}
