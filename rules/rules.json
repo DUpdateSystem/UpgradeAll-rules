@@ -1103,12 +1103,12 @@
       "uuid": "833e2880-f0e9-430c-b19e-9512a50b7752",
       "info": {
         "app_name": "EhViewer",
-        "config_version": 3,
-        "url": "https://github.com/NekoInverter/EhViewer"
+        "config_version": 4,
+        "url": "https://gitlab.com/NekoInverter/EhViewer"
       },
       "app_config": {
         "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
         },
         "target_checker": {
           "api": "App_Package",
