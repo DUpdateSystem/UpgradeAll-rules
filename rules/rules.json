@@ -1820,6 +1820,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "cb40eef6-6c73-4dc8-928f-3e4090f6f639",
+      "info": {
+        "app_name": "Google Task",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.tasks"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.google.android.apps.tasks"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "ea811abf-971f-4591-80c4-319c0d2c3dce",
       "info": {
         "app_name": "PixShaft",
@@ -3147,6 +3165,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.github.axet.callrecorder"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "98ca87f8-716d-4bc5-9ff5-03d0c32db3a5",
+      "info": {
+        "app_name": "微软数学",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.microsoft.math"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.microsoft.math"
         }
       }
     },
