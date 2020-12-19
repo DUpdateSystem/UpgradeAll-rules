@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "98ca87f8-716d-4bc5-9ff5-03d0c32db3a5",
+  "info": {
+    "app_name": "微软数学",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=com.microsoft.math"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.microsoft.math"
+    }
+  }
+}
