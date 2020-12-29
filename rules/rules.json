@@ -2198,6 +2198,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "c31de18d-b56e-41b9-b43b-a1c6d69ec6a0",
+      "info": {
+        "app_name": "1Password",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.agilebits.onepassword"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.agilebits.onepassword"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "9741a79b-af01-4ba8-ab57-07efb431d594",
       "info": {
         "app_name": "Muviz Edge",
@@ -2612,6 +2630,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "bb81a15d-7118-4b9e-8371-8a0f640c54b6",
+      "info": {
+        "app_name": "Hackuna",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=org.cryptors.hackuna002"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.cryptors.hackuna002"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "ed655c80-d793-4286-8cf2-167545577778",
       "info": {
         "app_name": "嘶哩嘶哩",
@@ -2751,6 +2787,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.perol.pixez"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "dca900f2-b95d-451d-b930-12d113ce8944",
+      "info": {
+        "app_name": "欧路词典",
+        "config_version": 1,
+        "url": "https://play.google.com/store/apps/details?id=com.qianyan.eudic"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.qianyan.eudic"
         }
       }
     },
