@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "0b7064a8-9fb5-4a5c-86a5-7b0c2acf8ecf",
+  "info": {
+    "app_name": "IDM",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=idm.internet.download.manager"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "idm.internet.download.manager"
+    }
+  }
+}
