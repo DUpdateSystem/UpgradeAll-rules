@@ -779,12 +779,12 @@
       "uuid": "a8f8d198-5d4b-11ea-8e22-775d5f37a025",
       "info": {
         "app_name": "Nekogram",
-        "config_version": 1,
-        "url": "https://github.com/Nekogram/Nekogram"
+        "config_version": 2,
+        "url": "https://gitlab.com/Nekogram/Nekogram"
       },
       "app_config": {
         "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
         },
         "target_checker": {
           "api": "App_Package",
