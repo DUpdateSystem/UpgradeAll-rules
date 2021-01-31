@@ -249,19 +249,14 @@
     },
     {
       "base_version": 2,
+      "config_version": 3,
       "uuid": "697d8bda-331b-11ea-823b-55dfdee64a81",
+      "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
       "info": {
-        "app_name": "Termux",
-        "config_version": 3,
-        "url": "https://f-droid.org/packages/com.termux/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.termux"
+        "name": "Termux",
+        "url": "https://f-droid.org/packages/com.termux/",
+        "extra_map": {
+          "android_app_package": "com.termux"
         }
       }
     },
@@ -669,164 +664,119 @@
       }
     },
     {
-      "base_version": 4,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "01e4b852-8d6b-403e-9f3a-228526b3aa27",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "NoWakeLock",
-        "config_version": 1,
-        "url": "https://github.com/Jasper-1024/NoWakeLock"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "app_package",
-          "extra_string": "com.js.nowakelock"
+        "name": "NoWakeLock",
+        "url": "https://github.com/Jasper-1024/NoWakeLock",
+        "extra_map": {
+          "android_app_package": "com.js.nowakelock"
         }
       }
     },
     {
       "base_version": 2,
+      "config_version": 2,
       "uuid": "9aaa78ef-fe61-4c68-9860-c188f3aefb73",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Amaze File Manager",
-        "config_version": 2,
-        "url": "https://github.com/TeamAmaze/AmazeFileManager"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "ccom.amaze.filemanager"
+        "name": "Amaze File Manager",
+        "url": "https://github.com/TeamAmaze/AmazeFileManager",
+        "extra_map": {
+          "android_app_package": "ccom.amaze.filemanager"
         }
       }
     },
     {
       "base_version": 2,
+      "config_version": 2,
       "uuid": "61cc1a9a-cf38-4fc2-a6a8-6baddab376f6",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Blokada 4",
-        "config_version": 2,
-        "url": "https://github.com/blokadaorg/blokada"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.blokada.origin.alarm"
+        "name": "Blokada 4",
+        "url": "https://github.com/blokadaorg/blokada",
+        "extra_map": {
+          "android_app_package": "org.blokada.origin.alarm"
         }
       }
     },
     {
       "base_version": 2,
+      "config_version": 2,
       "uuid": "1a2e6c3f-0871-490b-8b01-0f8795d3264e",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
-        "app_name": "LibChecker",
-        "config_version": 2,
-        "url": "https://www.coolapk.com/apk/com.absinthe.libchecker"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.absinthe.libchecker"
+        "name": "LibChecker",
+        "url": "https://www.coolapk.com/apk/com.absinthe.libchecker",
+        "extra_map": {
+          "android_app_package": "com.absinthe.libchecker"
         }
       }
     },
     {
       "base_version": 2,
+      "config_version": 2,
       "uuid": "a78704d0-3dfe-4b7e-9de4-5086f6c2e67e",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Magisk",
-        "config_version": 2,
-        "url": "https://github.com/topjohnwu/Magisk"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.topjohnwu.magisk"
+        "name": "Magisk",
+        "url": "https://github.com/topjohnwu/Magisk",
+        "extra_map": {
+          "android_app_package": "com.topjohnwu.magisk"
         }
       }
     },
     {
       "base_version": 2,
+      "config_version": 2,
       "uuid": "a59ab5a6-4ff4-4484-b641-23cb8fe55a4c",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
-        "app_name": "存储空间隔离",
-        "config_version": 2,
-        "url": "https://coolapk.com/apk/moe.shizuku.redirectstorage"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "moe.shizuku.redirectstorage"
+        "name": "存储空间隔离",
+        "url": "https://coolapk.com/apk/moe.shizuku.redirectstorage",
+        "extra_map": {
+          "android_app_package": "moe.shizuku.redirectstorage"
         }
       }
     },
     {
       "base_version": 2,
+      "config_version": 2,
       "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "樱花动漫",
-        "config_version": 2,
-        "url": "https://github.com/670848654/SakuraAnime"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "my.project.sakuraproject"
+        "name": "樱花动漫",
+        "url": "https://github.com/670848654/SakuraAnime",
+        "extra_map": {
+          "android_app_package": "my.project.sakuraproject"
         }
       }
     },
     {
       "base_version": 2,
+      "config_version": 3,
       "uuid": "2273bc9d-42b0-416c-8c50-1d0c00f0132e",
+      "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
       "info": {
-        "app_name": "XPrivacyLua",
-        "config_version": 3,
-        "url": "https://f-droid.org/zh_Hans/packages/eu.faircode.xlua/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "eu.faircode.xlua"
+        "name": "XPrivacyLua",
+        "url": "https://f-droid.org/zh_Hans/packages/eu.faircode.xlua/",
+        "extra_map": {
+          "android_app_package": "eu.faircode.xlua"
         }
       }
     },
     {
       "base_version": 2,
+      "config_version": 2,
       "uuid": "0b7064a8-9fb5-4a5c-86a5-7b0c2acf8ecf",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
-        "app_name": "IDM+",
-        "config_version": 2,
-        "url": "https://www.coolapk.com/apk/idm.internet.download.manager.plus"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "idm.internet.download.manager.plus"
+        "name": "IDM+",
+        "url": "https://www.coolapk.com/apk/idm.internet.download.manager.plus",
+        "extra_map": {
+          "android_app_package": "idm.internet.download.manager.plus"
         }
       }
     },
@@ -3004,12 +2954,14 @@
       }
     },
     {
-      "base_version": 1,
+      "base_version": 6,
+      "config_version": 1,
       "uuid": "56fca689-47a7-496a-b290-8bd717c06960",
       "info": {
         "hub_name": "GitHub(加速)",
-        "config_version": 1
+        "hub_icon_url": ""
       },
+      "target_check_api": "",
       "api_keywords": [
         "owner",
         "repo"

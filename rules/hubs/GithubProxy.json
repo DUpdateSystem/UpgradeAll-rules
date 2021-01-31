@@ -1,12 +1,17 @@
 {
-  "base_version": 1,
+  "base_version": 6,
+  "config_version": 1,
   "uuid": "56fca689-47a7-496a-b290-8bd717c06960",
   "info": {
     "hub_name": "GitHub(加速)",
-    "config_version": 1
+    "hub_icon_url": ""
   },
-  "api_keywords": ["owner", "repo"],
+  "target_check_api": "",
+  "api_keywords": [
+    "owner",
+    "repo"
+  ],
   "app_url_templates": [
-	  "https://github.com/%owner/%repo/"
+    "https://github.com/%owner/%repo/"
   ]
 }

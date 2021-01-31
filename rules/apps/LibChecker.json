@@ -1,18 +1,13 @@
 {
-    "base_version": 2,
-    "uuid": "1a2e6c3f-0871-490b-8b01-0f8795d3264e",
-    "info": {
-      "app_name": "LibChecker",
-      "config_version": 2,
-      "url": "https://www.coolapk.com/apk/com.absinthe.libchecker"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "com.absinthe.libchecker"
-      }
+  "base_version": 2,
+  "config_version": 2,
+  "uuid": "1a2e6c3f-0871-490b-8b01-0f8795d3264e",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "LibChecker",
+    "url": "https://www.coolapk.com/apk/com.absinthe.libchecker",
+    "extra_map": {
+      "android_app_package": "com.absinthe.libchecker"
     }
   }
+}

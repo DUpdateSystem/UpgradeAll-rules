@@ -1,18 +1,13 @@
 {
-    "base_version": 2,
-    "uuid": "9aaa78ef-fe61-4c68-9860-c188f3aefb73",
-    "info": {
-      "app_name": "Amaze File Manager",
-      "config_version": 2,
-      "url": "https://github.com/TeamAmaze/AmazeFileManager"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "ccom.amaze.filemanager"
-      }
+  "base_version": 2,
+  "config_version": 2,
+  "uuid": "9aaa78ef-fe61-4c68-9860-c188f3aefb73",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Amaze File Manager",
+    "url": "https://github.com/TeamAmaze/AmazeFileManager",
+    "extra_map": {
+      "android_app_package": "ccom.amaze.filemanager"
     }
   }
+}

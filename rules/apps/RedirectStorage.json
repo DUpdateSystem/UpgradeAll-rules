@@ -1,18 +1,13 @@
 {
-    "base_version": 2,
-    "uuid": "a59ab5a6-4ff4-4484-b641-23cb8fe55a4c",
-    "info": {
-      "app_name": "存储空间隔离",
-      "config_version": 2,
-      "url": "https://coolapk.com/apk/moe.shizuku.redirectstorage"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "moe.shizuku.redirectstorage"
-      }
+  "base_version": 2,
+  "config_version": 2,
+  "uuid": "a59ab5a6-4ff4-4484-b641-23cb8fe55a4c",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "存储空间隔离",
+    "url": "https://coolapk.com/apk/moe.shizuku.redirectstorage",
+    "extra_map": {
+      "android_app_package": "moe.shizuku.redirectstorage"
     }
   }
+}

@@ -1,18 +1,13 @@
 {
   "base_version": 2,
+  "config_version": 2,
   "uuid": "0b7064a8-9fb5-4a5c-86a5-7b0c2acf8ecf",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
   "info": {
-    "app_name": "IDM+",
-    "config_version": 2,
-    "url": "https://www.coolapk.com/apk/idm.internet.download.manager.plus"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "idm.internet.download.manager.plus"
+    "name": "IDM+",
+    "url": "https://www.coolapk.com/apk/idm.internet.download.manager.plus",
+    "extra_map": {
+      "android_app_package": "idm.internet.download.manager.plus"
     }
   }
 }

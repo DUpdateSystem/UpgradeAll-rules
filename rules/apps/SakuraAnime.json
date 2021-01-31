@@ -1,18 +1,13 @@
 {
-    "base_version": 2,
-    "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
-    "info": {
-      "app_name": "樱花动漫",
-      "config_version": 2,
-      "url": "https://github.com/670848654/SakuraAnime"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "my.project.sakuraproject"
-      }
+  "base_version": 2,
+  "config_version": 2,
+  "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "樱花动漫",
+    "url": "https://github.com/670848654/SakuraAnime",
+    "extra_map": {
+      "android_app_package": "my.project.sakuraproject"
     }
   }
+}
