@@ -1,10 +1,12 @@
 {
-  "base_version": 5,
+  "base_version": 6,
+  "config_version": 5,
   "uuid": "28591e65-849f-4417-aead-9d9098520eed",
   "info": {
     "hub_name": "Z直播官网",
-    "config_version": 5
+    "hub_icon_url": ""
   },
+  "target_check_api": "",
   "api_keywords": [],
   "app_url_templates": []
 }

@@ -1,11 +1,15 @@
 {
-  "base_version": 5,
+  "base_version": 6,
+  "config_version": 2,
   "uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
   "info": {
     "hub_name": "F-droid",
-    "config_version": 2
+    "hub_icon_url": ""
   },
-  "api_keywords": ["android_app_package"],
+  "target_check_api": "",
+  "api_keywords": [
+    "android_app_package"
+  ],
   "app_url_templates": [
     "https://f-droid.org/%language/packages/%android_app_package/",
     "https://f-droid.org/packages/%android_app_package/"

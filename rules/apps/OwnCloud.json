@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "aed4f818-45b2-11ea-8ee2-f1133bd1066b",
+  "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
   "info": {
-    "app_name": "OwnCloud",
-    "config_version": 1,
-    "url": "https://f-droid.org/zh_Hans/packages/com.owncloud.android/"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.owncloud.android"
+    "name": "OwnCloud",
+    "url": "https://f-droid.org/zh_Hans/packages/com.owncloud.android/",
+    "extra_map": {
+      "android_app_package": "com.owncloud.android"
     }
   }
 }

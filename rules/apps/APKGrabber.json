@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "ec2f237e-a502-4a1c-864b-3b64eaa75303",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "APKGrabber",
-    "config_version": 1,
-    "url": "https://github.com/hemker/apkgrabber"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "de.apkgrabber"
+    "name": "APKGrabber",
+    "url": "https://github.com/hemker/apkgrabber",
+    "extra_map": {
+      "android_app_package": "de.apkgrabber"
     }
   }
 }

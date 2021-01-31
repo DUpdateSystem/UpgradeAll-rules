@@ -1,12 +1,17 @@
 {
-  "base_version": 5,
+  "base_version": 6,
+  "config_version": 1,
   "uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
   "info": {
     "hub_name": "Gitlab",
-    "config_version": 1
+    "hub_icon_url": ""
   },
-  "api_keywords": ["owner", "repo"],
+  "target_check_api": "",
+  "api_keywords": [
+    "owner",
+    "repo"
+  ],
   "app_url_templates": [
-	  "https://gitlab.com/%owner/%repo/"
+    "https://gitlab.com/%owner/%repo/"
   ]
 }

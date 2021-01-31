@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "62e80fd3-df9d-4b94-968c-023dbaf31109",
-    "info": {
-      "app_name": "南博",
-      "config_version": 1,
-      "url": "https://www.coolapk.com/apk/cn.krait.nabo"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "cn.krait.nabo"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "62e80fd3-df9d-4b94-968c-023dbaf31109",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "南博",
+    "url": "https://www.coolapk.com/apk/cn.krait.nabo",
+    "extra_map": {
+      "android_app_package": "cn.krait.nabo"
     }
   }
+}

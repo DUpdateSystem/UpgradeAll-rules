@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "ab3d4046-a4bf-4337-8d49-7ae2aa8db4be",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
   "info": {
-    "app_name": "Bilibili",
-    "config_version": 1,
-    "url": "https://play.google.com/store/apps/details?id=com.bilibili.app.in"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.bilibili.app.in"
+    "name": "Bilibili",
+    "url": "https://play.google.com/store/apps/details?id=com.bilibili.app.in",
+    "extra_map": {
+      "android_app_package": "com.bilibili.app.in"
     }
   }
 }

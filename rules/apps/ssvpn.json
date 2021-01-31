@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "c755c153-e1b1-4bc3-a1bf-5d81f87bedf2",
-    "info": {
-      "app_name": "SSVPN",
-      "config_version": 1,
-      "url": "https://github.com/bannedbook/ssvpn"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "free.shadowsocks.proxy.VPN"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "c755c153-e1b1-4bc3-a1bf-5d81f87bedf2",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "SSVPN",
+    "url": "https://github.com/bannedbook/ssvpn",
+    "extra_map": {
+      "android_app_package": "free.shadowsocks.proxy.VPN"
     }
   }
+}

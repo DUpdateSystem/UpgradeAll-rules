@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "83a34413-9602-4907-adb6-e57ce7f4c386",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "Ungoogled Chromium",
-    "config_version": 1,
-    "url": "https://github.com/ungoogled-software/ungoogled-chromium-android"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "org.ungoogled.chromium.stable"
+    "name": "Ungoogled Chromium",
+    "url": "https://github.com/ungoogled-software/ungoogled-chromium-android",
+    "extra_map": {
+      "android_app_package": "org.ungoogled.chromium.stable"
     }
   }
 }

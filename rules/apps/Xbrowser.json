@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "03168aae-41cc-431f-a77d-3f37152a536f",
-    "info": {
-      "app_name": "X浏览器",
-      "config_version": 2,
-      "url": "https://www.coolapk.com/apk/com.mmbox.xbrowser"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "com.mmbox.xbrowser"
-      }
+  "base_version": 2,
+  "config_version": 2,
+  "uuid": "03168aae-41cc-431f-a77d-3f37152a536f",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "X浏览器",
+    "url": "https://www.coolapk.com/apk/com.mmbox.xbrowser",
+    "extra_map": {
+      "android_app_package": "com.mmbox.xbrowser"
     }
   }
+}

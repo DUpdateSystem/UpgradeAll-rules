@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "bf2fd422-35bb-4b10-8c3b-6fb4d7309173",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "弹弹Play概念版",
-    "config_version": 1,
-    "url": "https://github.com/xyoye/DanDanPlayForAndroid"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.xyoye.dandanplay"
+    "name": "弹弹Play概念版",
+    "url": "https://github.com/xyoye/DanDanPlayForAndroid",
+    "extra_map": {
+      "android_app_package": "com.xyoye.dandanplay"
     }
   }
 }

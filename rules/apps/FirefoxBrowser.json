@@ -1,19 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "ed423111-9f9e-43bd-bc88-b680d531c82c",
-    "info": {
-      "app_name": "Firefox Browser",
-      "config_version": 1,
-      "url": "https://github.com/mozilla-mobile/fenix"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "org.mozilla.firefox"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "ed423111-9f9e-43bd-bc88-b680d531c82c",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Firefox Browser",
+    "url": "https://github.com/mozilla-mobile/fenix",
+    "extra_map": {
+      "android_app_package": "org.mozilla.firefox"
     }
   }
-  
+}

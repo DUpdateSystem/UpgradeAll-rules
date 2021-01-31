@@ -1,19 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "d5df5dc2-9165-4f5a-83ff-0604d2f64853",
-    "info": {
-      "app_name": "Firefox Lockwise",
-      "config_version": 1,
-      "url": "https://github.com/mozilla-lockwise/lockwise-android"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "mozilla.lockbox"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "d5df5dc2-9165-4f5a-83ff-0604d2f64853",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Firefox Lockwise",
+    "url": "https://github.com/mozilla-lockwise/lockwise-android",
+    "extra_map": {
+      "android_app_package": "mozilla.lockbox"
     }
   }
-  
+}

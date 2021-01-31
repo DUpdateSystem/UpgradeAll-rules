@@ -1,18 +1,13 @@
-  {
-    "base_version": 1,
-    "uuid": "6dee3c1f-247f-4356-a626-f7c1f2acdcf1",
-    "info": {
-      "app_name": "Bromite System WebView",
-      "config_version": 1,
-      "url": "https://github.com/bromite/bromite"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "com.android.webview"
-      }
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "6dee3c1f-247f-4356-a626-f7c1f2acdcf1",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Bromite System WebView",
+    "url": "https://github.com/bromite/bromite",
+    "extra_map": {
+      "android_app_package": "com.android.webview"
     }
   }
+}

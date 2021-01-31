@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 2,
   "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "Pix-EzViewer",
-    "config_version": 2,
-    "url": "https://github.com/ultranity/Pix-EzViewer"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.perol.asdpl.play.pixivez"
+    "name": "Pix-EzViewer",
+    "url": "https://github.com/ultranity/Pix-EzViewer",
+    "extra_map": {
+      "android_app_package": "com.perol.asdpl.play.pixivez"
     }
   }
 }

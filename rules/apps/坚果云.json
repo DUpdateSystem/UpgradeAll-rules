@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "19638b60-355d-11ea-b630-7345aa40e02f",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
   "info": {
-    "app_name": "坚果云",
-    "config_version": 1,
-    "url": "https://www.coolapk.com/apk/nutstore.android"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "nutstore.android"
+    "name": "坚果云",
+    "url": "https://www.coolapk.com/apk/nutstore.android",
+    "extra_map": {
+      "android_app_package": "nutstore.android"
     }
   }
 }

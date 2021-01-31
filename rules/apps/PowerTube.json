@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "d01cbb03-0936-4150-b996-e9e471441bfe",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "PowerTube",
-    "config_version": 1,
-    "url": "https://github.com/razar-dev/PowerTube"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "ussr.razar.youtube_dl"
+    "name": "PowerTube",
+    "url": "https://github.com/razar-dev/PowerTube",
+    "extra_map": {
+      "android_app_package": "ussr.razar.youtube_dl"
     }
   }
 }

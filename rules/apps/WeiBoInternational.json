@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "787d0e54-5633-4ada-8e19-6e45fd37dbdf",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
   "info": {
-    "app_name": "微博国际版",
-    "config_version": 1,
-    "url": "https://play.google.com/store/apps/details?id=com.weico.international"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.weico.international"
+    "name": "微博国际版",
+    "url": "https://play.google.com/store/apps/details?id=com.weico.international",
+    "extra_map": {
+      "android_app_package": "com.weico.international"
     }
   }
 }

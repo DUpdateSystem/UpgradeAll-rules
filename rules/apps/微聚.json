@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "cff75012-5d4b-11ea-8bd1-f927d2b28ba4",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
   "info": {
-    "app_name": "微聚-酷安",
-    "config_version": 1,
-    "url": "https://www.coolapk.com/apk/io.ikws4.weiju"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "io.ikws4.weiju"
+    "name": "微聚-酷安",
+    "url": "https://www.coolapk.com/apk/io.ikws4.weiju",
+    "extra_map": {
+      "android_app_package": "io.ikws4.weiju"
     }
   }
 }

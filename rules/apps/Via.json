@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "06baf340-27c9-4c43-9f4e-3d0f8443199e",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
   "info": {
-    "app_name": "Via浏览器",
-    "config_version": 1,
-    "url": "https://www.coolapk.com/apk/mark.via"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "mark.via"
+    "name": "Via浏览器",
+    "url": "https://www.coolapk.com/apk/mark.via",
+    "extra_map": {
+      "android_app_package": "mark.via"
     }
   }
 }

@@ -1,14 +1,18 @@
 {
-  "base_version": 5,
+  "base_version": 6,
+  "config_version": 2,
   "uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
   "info": {
     "hub_name": "手机乐园",
-    "config_version": 2
+    "hub_icon_url": ""
   },
-  "api_keywords": ["app_id"],
+  "target_check_api": "",
+  "api_keywords": [
+    "app_id"
+  ],
   "app_url_templates": [
-	  "https://soft.shouji.com.cn/down/%app_id.html",
-	  "https://wap.shouji.com.cn/mip/down/%app_id.html",
-	  "https://wap.shouji.com.cn/share/soft.jsp?id=%app_id"
+    "https://soft.shouji.com.cn/down/%app_id.html",
+    "https://wap.shouji.com.cn/mip/down/%app_id.html",
+    "https://wap.shouji.com.cn/share/soft.jsp?id=%app_id"
   ]
 }

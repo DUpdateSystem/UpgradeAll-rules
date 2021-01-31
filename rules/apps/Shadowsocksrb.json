@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "bab763c3-59c7-11ea-a131-f460e239c9a2",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "Shadowsocksrb",
-    "config_version": 1,
-    "url": "https://github.com/shadowsocksRb/shadowsocksRb-android"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "io.github.shadowsocksrb"
+    "name": "Shadowsocksrb",
+    "url": "https://github.com/shadowsocksRb/shadowsocksRb-android",
+    "extra_map": {
+      "android_app_package": "io.github.shadowsocksrb"
     }
   }
 }

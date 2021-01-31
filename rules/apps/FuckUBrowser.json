@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "bac972f7-c1b1-4ccd-b42e-c90757c34514",
-    "info": {
-      "app_name": "去你大爷的内置浏览器",
-      "config_version": 1,
-      "url": "https://www.coolapk.com/apk/com.xloger.exlink.app"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "com.xloger.exlink.app"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "bac972f7-c1b1-4ccd-b42e-c90757c34514",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "去你大爷的内置浏览器",
+    "url": "https://www.coolapk.com/apk/com.xloger.exlink.app",
+    "extra_map": {
+      "android_app_package": "com.xloger.exlink.app"
     }
   }
+}

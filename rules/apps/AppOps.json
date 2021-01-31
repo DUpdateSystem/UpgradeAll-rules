@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "4a098735-779c-4477-ac0b-4a07475ce253",
-    "info": {
-      "app_name": "App Ops",
-      "config_version": 1,
-      "url": "https://coolapk.com/apk/rikka.appops"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "rikka.appops"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "4a098735-779c-4477-ac0b-4a07475ce253",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "App Ops",
+    "url": "https://coolapk.com/apk/rikka.appops",
+    "extra_map": {
+      "android_app_package": "rikka.appops"
     }
   }
+}

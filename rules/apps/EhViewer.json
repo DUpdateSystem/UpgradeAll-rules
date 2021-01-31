@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 4,
   "uuid": "833e2880-f0e9-430c-b19e-9512a50b7752",
+  "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
   "info": {
-    "app_name": "EhViewer",
-    "config_version": 4,
-    "url": "https://gitlab.com/NekoInverter/EhViewer"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "io.github.nekoinverter.ehviewer"
+    "name": "EhViewer",
+    "url": "https://gitlab.com/NekoInverter/EhViewer",
+    "extra_map": {
+      "android_app_package": "io.github.nekoinverter.ehviewer"
     }
   }
 }

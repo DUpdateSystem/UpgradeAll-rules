@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "f7b2d588-38ae-47d7-a2e8-fb2d6c2e9d51",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "MiPush",
-    "config_version": 1,
-    "url": "https://github.com/MiPushFramework/MiPushFramework"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "top.trumeet.mipush"
+    "name": "MiPush",
+    "url": "https://github.com/MiPushFramework/MiPushFramework",
+    "extra_map": {
+      "android_app_package": "top.trumeet.mipush"
     }
   }
 }

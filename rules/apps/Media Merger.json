@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "c684ca72-11e8-4b78-8430-2de112441344",
+  "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
   "info": {
-    "app_name": "Media Merger",
-    "config_version": 1,
-    "url": "https://gitlab.com/axet/android-media-merger"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.github.axet.mover"
+    "name": "Media Merger",
+    "url": "https://gitlab.com/axet/android-media-merger",
+    "extra_map": {
+      "android_app_package": "com.github.axet.mover"
     }
   }
 }

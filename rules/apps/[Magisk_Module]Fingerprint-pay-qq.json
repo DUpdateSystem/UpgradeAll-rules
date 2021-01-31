@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "73171f58-32fd-11ea-b72f-ad884749cac0",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "[Magisk_Module]Fingerprint-pay-qq",
-    "config_version": 1,
-    "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-qq"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "Magisk_Module",
-      "extra_string": "riru-module-xfingerprint-pay-qq"
+    "name": "[Magisk_Module]Fingerprint-pay-qq",
+    "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-qq",
+    "extra_map": {
+      "android_magisk_module": "riru-module-xfingerprint-pay-qq"
     }
   }
 }

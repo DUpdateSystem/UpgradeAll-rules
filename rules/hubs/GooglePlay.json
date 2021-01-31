@@ -1,11 +1,15 @@
 {
-  "base_version": 5,
+  "base_version": 6,
+  "config_version": 2,
   "uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
   "info": {
     "hub_name": "Google Play",
-    "config_version": 2
+    "hub_icon_url": ""
   },
-  "api_keywords": ["android_app_package"],
+  "target_check_api": "",
+  "api_keywords": [
+    "android_app_package"
+  ],
   "app_url_templates": [
     "https://play.google.com/store/apps/details?id=%android_app_package"
   ]

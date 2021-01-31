@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "3dc20305-1768-411e-9df7-ec1cae74df9b",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "FTPShare",
-    "config_version": 1,
-    "url": "https://github.com/ghmxr/ftpshare"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.github.ghmxr.ftpshare"
+    "name": "FTPShare",
+    "url": "https://github.com/ghmxr/ftpshare",
+    "extra_map": {
+      "android_app_package": "com.github.ghmxr.ftpshare"
     }
   }
 }

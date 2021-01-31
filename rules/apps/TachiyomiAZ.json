@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "5ab2d3ea-84c3-4e6b-8572-3131ffefb68b",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "TachiyomiAZ",
-    "config_version": 1,
-    "url": "https://github.com/az4521/TachiyomiAZ"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "eu.kanade.tachiyomi.az"
+    "name": "TachiyomiAZ",
+    "url": "https://github.com/az4521/TachiyomiAZ",
+    "extra_map": {
+      "android_app_package": "eu.kanade.tachiyomi.az"
     }
   }
 }

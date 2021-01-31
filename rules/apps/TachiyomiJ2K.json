@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "17bef821-631c-43a3-ab17-4be7a5fb605f",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "TachiyomiJ2K",
-    "config_version": 1,
-    "url": "https://github.com/Jays2Kings/tachiyomiJ2K"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "eu.kanade.tachiyomi.j2k"
+    "name": "TachiyomiJ2K",
+    "url": "https://github.com/Jays2Kings/tachiyomiJ2K",
+    "extra_map": {
+      "android_app_package": "eu.kanade.tachiyomi.j2k"
     }
   }
 }

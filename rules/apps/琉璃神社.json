@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "88fb5f83-6566-44ad-bccf-ed0b63122b47",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "琉璃神社",
-    "config_version": 1,
-    "url": "https://github.com/yueeng/hacg"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "io.github.yueeng.hacg"
+    "name": "琉璃神社",
+    "url": "https://github.com/yueeng/hacg",
+    "extra_map": {
+      "android_app_package": "io.github.yueeng.hacg"
     }
   }
 }

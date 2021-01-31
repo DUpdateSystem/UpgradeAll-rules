@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "c5d40cd2-429e-4ed6-8a03-b7324f12956d",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "动漫之家Flutter",
-    "config_version": 1,
-    "url": "https://github.com/xiaoyaocz/dmzj_flutter"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.nsapp.dmzj"
+    "name": "动漫之家Flutter",
+    "url": "https://github.com/xiaoyaocz/dmzj_flutter",
+    "extra_map": {
+      "android_app_package": "com.nsapp.dmzj"
     }
   }
 }

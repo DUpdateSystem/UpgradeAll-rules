@@ -1,12 +1,17 @@
 {
-  "base_version": 5,
+  "base_version": 6,
+  "config_version": 3,
   "uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
     "hub_name": "GitHub",
-    "config_version": 3
+    "hub_icon_url": ""
   },
-  "api_keywords": ["owner", "repo"],
+  "target_check_api": "",
+  "api_keywords": [
+    "owner",
+    "repo"
+  ],
   "app_url_templates": [
-	  "https://github.com/%owner/%repo/"
+    "https://github.com/%owner/%repo/"
   ]
 }

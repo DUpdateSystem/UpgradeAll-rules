@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "5d632b4d-0826-4b88-b4ff-a90e1fb3a2db",
-    "info": {
-      "app_name": "H-Viewer",
-      "config_version": 1,
-      "url": "https://github.com/PureDark/H-Viewer"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "ml.puredark.hviewer"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "5d632b4d-0826-4b88-b4ff-a90e1fb3a2db",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "H-Viewer",
+    "url": "https://github.com/PureDark/H-Viewer",
+    "extra_map": {
+      "android_app_package": "ml.puredark.hviewer"
     }
   }
+}

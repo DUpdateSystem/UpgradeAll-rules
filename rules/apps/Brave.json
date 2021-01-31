@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "7d72f8a8-8f48-4d2f-ac6d-daa90168b27e",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
   "info": {
-    "app_name": "Brave Browser",
-    "config_version": 1,
-    "url": "https://play.google.com/store/apps/details?id=com.brave.browser"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.brave.browser"
+    "name": "Brave Browser",
+    "url": "https://play.google.com/store/apps/details?id=com.brave.browser",
+    "extra_map": {
+      "android_app_package": "com.brave.browser"
     }
   }
 }

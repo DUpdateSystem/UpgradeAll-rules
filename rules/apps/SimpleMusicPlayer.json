@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "58950375-1a4a-4458-b834-888b60e37563",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "Simple Music Player",
-    "config_version": 1,
-    "url": "https://github.com/SimpleMobileTools/Simple-Music-Player"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.simplemobiletools.musicplayer"
+    "name": "Simple Music Player",
+    "url": "https://github.com/SimpleMobileTools/Simple-Music-Player",
+    "extra_map": {
+      "android_app_package": "com.simplemobiletools.musicplayer"
     }
   }
 }

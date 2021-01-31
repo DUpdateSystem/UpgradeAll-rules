@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "5f26f6a9-e62c-4d9f-bdcb-6a95e57a6f91",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
   "info": {
-    "app_name": "Google Chrome",
-    "config_version": 1,
-    "url": "https://play.google.com/store/apps/details?id=com.android.chrome"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.android.chrome"
+    "name": "Google Chrome",
+    "url": "https://play.google.com/store/apps/details?id=com.android.chrome",
+    "extra_map": {
+      "android_app_package": "com.android.chrome"
     }
   }
 }

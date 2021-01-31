@@ -1,18 +1,13 @@
 {
-  "base_version": 1,
+  "base_version": 2,
+  "config_version": 1,
   "uuid": "929cd2d0-532e-47f3-9651-bf7a2f6ac447",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "Simple SMS Messenger",
-    "config_version": 1,
-    "url": "https://github.com/SimpleMobileTools/Simple-SMS-Messenger"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "com.simplemobiletools.smsmessenger"
+    "name": "Simple SMS Messenger",
+    "url": "https://github.com/SimpleMobileTools/Simple-SMS-Messenger",
+    "extra_map": {
+      "android_app_package": "com.simplemobiletools.smsmessenger"
     }
   }
 }

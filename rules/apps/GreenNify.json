@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "20a9d2a2-d30b-4f37-ac22-9c198f2d8155",
-    "info": {
-      "app_name": "Greenify绿色守护",
-      "config_version": 1,
-      "url": "https://coolapk.com/apk/com.oasisfeng.greenify"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "com.oasisfeng.greenify"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "20a9d2a2-d30b-4f37-ac22-9c198f2d8155",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "Greenify绿色守护",
+    "url": "https://coolapk.com/apk/com.oasisfeng.greenify",
+    "extra_map": {
+      "android_app_package": "com.oasisfeng.greenify"
     }
   }
+}

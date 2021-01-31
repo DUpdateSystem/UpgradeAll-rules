@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "e2601643-69a2-4205-8caf-af0ee301d023",
-    "info": {
-      "app_name": "App Translator",
-      "config_version": 1,
-      "url": "https://www.coolapk.com/apk/com.lerist.xposed.apptranslator"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "com.lerist.xposed.apptranslator"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "e2601643-69a2-4205-8caf-af0ee301d023",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "App Translator",
+    "url": "https://www.coolapk.com/apk/com.lerist.xposed.apptranslator",
+    "extra_map": {
+      "android_app_package": "com.lerist.xposed.apptranslator"
     }
   }
+}

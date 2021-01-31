@@ -1,18 +1,13 @@
 {
-    "base_version": 1,
-    "uuid": "c196d9c0-0b5f-4228-a33b-484908099e5a",
-    "info": {
-      "app_name": "NetPatch Firewall",
-      "config_version": 1,
-      "url": "https://github.com/netpatch/firewall"
-    },
-    "app_config": {
-      "hub_info": {
-        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-      },
-      "target_checker": {
-        "api": "App_Package",
-        "extra_string": "co.netpatch.firewall"
-      }
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "c196d9c0-0b5f-4228-a33b-484908099e5a",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "NetPatch Firewall",
+    "url": "https://github.com/netpatch/firewall",
+    "extra_map": {
+      "android_app_package": "co.netpatch.firewall"
     }
   }
+}
