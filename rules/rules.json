@@ -1,344 +1,249 @@
 {
   "app_config_list": [
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "UpgradeAll",
-        "config_version": 1,
-        "url": "https://github.com/xz-dev/UpgradeAll"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "net.xzos.upgradeall"
+        "name": "UpgradeAll",
+        "url": "https://github.com/xz-dev/UpgradeAll",
+        "extra_map": {
+          "android_app_package": "net.xzos.upgradeall"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 2,
       "uuid": "b90d9126-3303-11ea-b72f-bfb570d9e623",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "阅读 2.0",
-        "config_version": 2,
-        "url": "https://github.com/gedoor/MyBookshelf"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.gedoor.monkeybook"
+        "name": "阅读 2.0",
+        "url": "https://github.com/gedoor/MyBookshelf",
+        "extra_map": {
+          "android_app_package": "com.gedoor.monkeybook"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "6f04d3b8-4842-4076-b89e-bd1e26eab401",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "阅读 3.0",
-        "config_version": 1,
-        "url": "https://github.com/gedoor/legado"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.legado.app.release"
+        "name": "阅读 3.0",
+        "url": "https://github.com/gedoor/legado",
+        "extra_map": {
+          "android_app_package": "io.legado.app.release"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "0b39c728-1eba-40e3-a4db-21c906f8b162",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Tachiyomi",
-        "config_version": 1,
-        "url": "https://github.com/inorichi/tachiyomi"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "eu.kanade.tachiyomi"
+        "name": "Tachiyomi",
+        "url": "https://github.com/inorichi/tachiyomi",
+        "extra_map": {
+          "android_app_package": "eu.kanade.tachiyomi"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 3,
       "uuid": "418f2e8d-fbe1-485d-a2d8-1743318621f4",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Cimoc",
-        "config_version": 3,
-        "url": "https://github.com/feilongfl/Cimoc"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.hiroshi.cimoc"
+        "name": "Cimoc",
+        "url": "https://github.com/feilongfl/Cimoc",
+        "extra_map": {
+          "android_app_package": "com.hiroshi.cimoc"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "433fdb51-30e5-48f6-9a9c-a72149642e44",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Cimoc(Haleydu)",
-        "config_version": 1,
-        "url": "https://github.com/Haleydu/Cimoc"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.haleydu.cimoc"
+        "name": "Cimoc(Haleydu)",
+        "url": "https://github.com/Haleydu/Cimoc",
+        "extra_map": {
+          "android_app_package": "com.haleydu.cimoc"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "0bea5a92-4b1d-44c6-b628-7b0eb75dfbd5",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Meow",
-        "config_version": 1,
-        "url": "https://github.com/neverfelly/Meow"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "top.rechinx.meow"
+        "name": "Meow",
+        "url": "https://github.com/neverfelly/Meow",
+        "extra_map": {
+          "android_app_package": "top.rechinx.meow"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "f7b2d588-38ae-47d7-a2e8-fb2d6c2e9d51",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "MiPush",
-        "config_version": 1,
-        "url": "https://github.com/MiPushFramework/MiPushFramework"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "top.trumeet.mipush"
+        "name": "MiPush",
+        "url": "https://github.com/MiPushFramework/MiPushFramework",
+        "extra_map": {
+          "android_app_package": "top.trumeet.mipush"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "ad0d7155-226e-40e1-b82b-5a317c66cbb9",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "uperf",
-        "config_version": 1,
-        "url": "https://github.com/yc9559/uperf"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "Magisk_Module",
-          "extra_string": "uperf"
+        "name": "uperf",
+        "url": "https://github.com/yc9559/uperf",
+        "extra_map": {
+          "android_magisk_module": "uperf"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "19914ee4-32f4-11ea-81e3-21746c6fe699",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "扫一扫",
-        "config_version": 1,
-        "url": "https://github.com/ekibun/QrCodeScanner"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.inklin.qrcodescanner"
+        "name": "扫一扫",
+        "url": "https://github.com/ekibun/QrCodeScanner",
+        "extra_map": {
+          "android_app_package": "com.inklin.qrcodescanner"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "a7aa927c-32f8-11ea-8d01-bbf5b9f33585",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "edXposedManager",
-        "config_version": 1,
-        "url": "https://github.com/ElderDrivers/EdXposedManager"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.meowcat.edxposed.manager"
+        "name": "edXposedManager",
+        "url": "https://github.com/ElderDrivers/EdXposedManager",
+        "extra_map": {
+          "android_app_package": "org.meowcat.edxposed.manager"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "93f12aac-32fd-11ea-9d3d-37b8fbe85295",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "QNotified",
-        "config_version": 1,
-        "url": "https://github.com/cinit/QNotified"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "nil.nadph.qnotified"
+        "name": "QNotified",
+        "url": "https://github.com/cinit/QNotified",
+        "extra_map": {
+          "android_app_package": "nil.nadph.qnotified"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "277bd84a-32fd-11ea-b1be-83b5946898f9",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "[Magisk_Module]Fingerprint-pay-alipay",
-        "config_version": 1,
-        "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-alipay"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "Magisk_Module",
-          "extra_string": "riru-module-xfingerprint-pay-alipay"
+        "name": "[Magisk_Module]Fingerprint-pay-alipay",
+        "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-alipay",
+        "extra_map": {
+          "android_magisk_module": "riru-module-xfingerprint-pay-alipay"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "73171f58-32fd-11ea-b72f-ad884749cac0",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "[Magisk_Module]Fingerprint-pay-qq",
-        "config_version": 1,
-        "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-qq"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "Magisk_Module",
-          "extra_string": "riru-module-xfingerprint-pay-qq"
+        "name": "[Magisk_Module]Fingerprint-pay-qq",
+        "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-qq",
+        "extra_map": {
+          "android_magisk_module": "riru-module-xfingerprint-pay-qq"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "51e05aa2-32fd-11ea-9637-cf36d21de5ba",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "[Magisk_Module]Fingerprint-pay-taobao",
-        "config_version": 1,
-        "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-taobao"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "Magisk_Module",
-          "extra_string": "riru-module-xfingerprint-pay-taobao"
+        "name": "[Magisk_Module]Fingerprint-pay-taobao",
+        "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-taobao",
+        "extra_map": {
+          "android_magisk_module": "riru-module-xfingerprint-pay-taobao"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "3c15256e-32fc-11ea-87f8-8dede83de5b0",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "[Magisk_Module]Fingerprint-pay-wechat",
-        "config_version": 1,
-        "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-wechat"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "Magisk_Module",
-          "extra_string": "riru-module-xfingerprint-pay-wechat"
+        "name": "[Magisk_Module]Fingerprint-pay-wechat",
+        "url": "https://github.com/eritpchy/Fingerprint-pay-magisk-wechat",
+        "extra_map": {
+          "android_magisk_module": "riru-module-xfingerprint-pay-wechat"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "bef9e572-32fd-11ea-a82d-f108c61ac67d",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "[Magisk_Module]Riru Core",
-        "config_version": 1,
-        "url": "https://github.com/RikkaApps/Riru"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "Magisk_Module",
-          "extra_string": "riru-core"
+        "name": "[Magisk_Module]Riru Core",
+        "url": "https://github.com/RikkaApps/Riru",
+        "extra_map": {
+          "android_magisk_module": "riru-core"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "e00754b3-837e-41c3-aff6-ba09f85711a0",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "[Magisk_Module]QTI-MEM-OPT",
-        "config_version": 1,
-        "url": "https://github.com/yc9559/qti-mem-opt/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "Magisk_Module",
-          "extra_string": "qti-mem-opt"
+        "name": "[Magisk_Module]QTI-MEM-OPT",
+        "url": "https://github.com/yc9559/qti-mem-opt/",
+        "extra_map": {
+          "android_magisk_module": "qti-mem-opt"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "06baf340-27c9-4c43-9f4e-3d0f8443199e",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
-        "app_name": "Via浏览器",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/mark.via"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "mark.via"
+        "name": "Via浏览器",
+        "url": "https://www.coolapk.com/apk/mark.via",
+        "extra_map": {
+          "android_app_package": "mark.via"
         }
       }
     },
@@ -361,560 +266,405 @@
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "c259c0e0-a764-4afd-aea5-1de87bf48eb1",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "AlpineTerm",
-        "config_version": 1,
-        "url": "https://github.com/xeffyr/alpine-term/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "xeffyr.alpine.term"
+        "name": "AlpineTerm",
+        "url": "https://github.com/xeffyr/alpine-term/",
+        "extra_map": {
+          "android_app_package": "xeffyr.alpine.term"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "b06ad030-331a-11ea-b7f9-b1ac68735d99",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Shadowsocks",
-        "config_version": 1,
-        "url": "https://github.com/shadowsocks/shadowsocks-android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.shadowsocks"
+        "name": "Shadowsocks",
+        "url": "https://github.com/shadowsocks/shadowsocks-android",
+        "extra_map": {
+          "android_app_package": "com.github.shadowsocks"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "424cddbe-331a-11ea-b647-0fe9c1f2cd8b",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "ShadowsocksR-by bige",
-        "config_version": 1,
-        "url": "https://github.com/HMBSbige/ShadowsocksR-Android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.bige0.shadowsocksr"
+        "name": "ShadowsocksR-by bige",
+        "url": "https://github.com/HMBSbige/ShadowsocksR-Android",
+        "extra_map": {
+          "android_app_package": "com.bige0.shadowsocksr"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "e7a80428-331a-11ea-9a8b-f504e41fbcbc",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "V2rayNG",
-        "config_version": 1,
-        "url": "https://github.com/2dust/v2rayNG"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.v2ray.ang"
+        "name": "V2rayNG",
+        "url": "https://github.com/2dust/v2rayNG",
+        "extra_map": {
+          "android_app_package": "com.v2ray.ang"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "91355fb0-3558-11ea-b688-85c15ad46c19",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "TrebleShot",
-        "config_version": 1,
-        "url": "https://github.com/genonbeta/TrebleShot"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.genonbeta.TrebleShot"
+        "name": "TrebleShot",
+        "url": "https://github.com/genonbeta/TrebleShot",
+        "extra_map": {
+          "android_app_package": "com.genonbeta.TrebleShot"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "b197aa00-3559-11ea-96f2-dde6ad669613",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
-        "app_name": "厚墨",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/cn.deepink.reader"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "cn.deepink.reader"
+        "name": "厚墨",
+        "url": "https://www.coolapk.com/apk/cn.deepink.reader",
+        "extra_map": {
+          "android_app_package": "cn.deepink.reader"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "5d9a2a56-355c-11ea-9439-bff4fe36d20a",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "LinuxDeploy",
-        "config_version": 1,
-        "url": "https://github.com/meefik/linuxdeploy"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "ru.meefik.linuxdeploy"
+        "name": "LinuxDeploy",
+        "url": "https://github.com/meefik/linuxdeploy",
+        "extra_map": {
+          "android_app_package": "ru.meefik.linuxdeploy"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "19638b60-355d-11ea-b630-7345aa40e02f",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
-        "app_name": "坚果云",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/nutstore.android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "nutstore.android"
+        "name": "坚果云",
+        "url": "https://www.coolapk.com/apk/nutstore.android",
+        "extra_map": {
+          "android_app_package": "nutstore.android"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "b5180916-8645-ea85-114e-1a389df180d7",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Shizuku",
-        "config_version": 1,
-        "url": "https://github.com/RikkaApps/Shizuku"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "moe.shizuku.privileged.api"
+        "name": "Shizuku",
+        "url": "https://github.com/RikkaApps/Shizuku",
+        "extra_map": {
+          "android_app_package": "moe.shizuku.privileged.api"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "823f0b56-3d4f-11ea-b50d-d3504aa1f700",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
       "info": {
-        "app_name": "QQ浏览器",
-        "config_version": 1,
-        "url": "https://soft.shouji.com.cn/down/19140.html"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.tencent.mtt"
+        "name": "QQ浏览器",
+        "url": "https://soft.shouji.com.cn/down/19140.html",
+        "extra_map": {
+          "android_app_package": "com.tencent.mtt"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "4fded25c-3f63-11ea-a838-751dda094b37",
+      "base_hub_uuid": "28591e65-849f-4417-aead-9d9098520eed",
       "info": {
-        "app_name": "zlive_official",
-        "config_version": 1,
-        "url": "https://app.zhibo.at/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "28591e65-849f-4417-aead-9d9098520eed"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.linroid.zlive"
+        "name": "zlive_official",
+        "url": "https://app.zhibo.at/",
+        "extra_map": {
+          "android_app_package": "com.linroid.zlive"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "56ec3b06-4018-11ea-91ba-a101ea1426c3",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
       "info": {
-        "app_name": "PanDownload",
-        "config_version": 1,
-        "url": "https://soft.shouji.com.cn/down/1552946.html"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "top.linesoft.kiryuu.pandownload"
+        "name": "PanDownload",
+        "url": "https://soft.shouji.com.cn/down/1552946.html",
+        "extra_map": {
+          "android_app_package": "top.linesoft.kiryuu.pandownload"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "cc000d32-4423-11ea-b683-e358bc562313",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "JBusDriver",
-        "config_version": 1,
-        "url": "https://github.com/Ccixyj/JBusDriver"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.jbusdriver"
+        "name": "JBusDriver",
+        "url": "https://github.com/Ccixyj/JBusDriver",
+        "extra_map": {
+          "android_app_package": "me.jbusdriver"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "77b4fbe0-45ac-11ea-8bca-d7af92c02572",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "草榴社区",
-        "config_version": 1,
-        "url": "https://github.com/yuuwill/1024app-android/releases"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.cl.newt66y"
+        "name": "草榴社区",
+        "url": "https://github.com/yuuwill/1024app-android/releases",
+        "extra_map": {
+          "android_app_package": "com.cl.newt66y"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "90b97c28-45b2-11ea-8d3d-5fc162dd0111",
+      "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
       "info": {
-        "app_name": "Zoysii",
-        "config_version": 1,
-        "url": "https://f-droid.org/zh_Hans/packages/xyz.deepdaikon.zoysii/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "xyz.deepdaikon.zoysii"
+        "name": "Zoysii",
+        "url": "https://f-droid.org/zh_Hans/packages/xyz.deepdaikon.zoysii/",
+        "extra_map": {
+          "android_app_package": "xyz.deepdaikon.zoysii"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "aed4f818-45b2-11ea-8ee2-f1133bd1066b",
+      "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
       "info": {
-        "app_name": "OwnCloud",
-        "config_version": 1,
-        "url": "https://f-droid.org/zh_Hans/packages/com.owncloud.android/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.owncloud.android"
+        "name": "OwnCloud",
+        "url": "https://f-droid.org/zh_Hans/packages/com.owncloud.android/",
+        "extra_map": {
+          "android_app_package": "com.owncloud.android"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 2,
       "uuid": "da1d58d3-40b5-400b-8f27-50bb50d3cf8d",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
       "info": {
-        "app_name": "Aurora Store",
-        "config_version": 2,
-        "url": "https://gitlab.com/AuroraOSS/AuroraStore"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.aurora.store"
+        "name": "Aurora Store",
+        "url": "https://gitlab.com/AuroraOSS/AuroraStore",
+        "extra_map": {
+          "android_app_package": "com.aurora.store"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "e1faee32-45b2-11ea-995b-f38b990fe97e",
+      "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
       "info": {
-        "app_name": "F-droid_official",
-        "config_version": 1,
-        "url": "https://f-droid.org/zh_Hans/packages/org.fdroid.fdroid/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.fdroid.fdroid"
+        "name": "F-droid_official",
+        "url": "https://f-droid.org/zh_Hans/packages/org.fdroid.fdroid/",
+        "extra_map": {
+          "android_app_package": "org.fdroid.fdroid"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "bab763c3-59c7-11ea-a131-f460e239c9a2",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Shadowsocksrb",
-        "config_version": 1,
-        "url": "https://github.com/shadowsocksRb/shadowsocksRb-android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.shadowsocksrb"
+        "name": "Shadowsocksrb",
+        "url": "https://github.com/shadowsocksRb/shadowsocksRb-android",
+        "extra_map": {
+          "android_app_package": "io.github.shadowsocksrb"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "ca09f319-59c7-11ea-9a4d-f460e239c9a2",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "ClashForAndroid",
-        "config_version": 1,
-        "url": "https://github.com/Kr328/ClashForAndroid"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.kr328.clash"
+        "name": "ClashForAndroid",
+        "url": "https://github.com/Kr328/ClashForAndroid",
+        "extra_map": {
+          "android_app_package": "com.github.kr328.clash"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "12fa8a06-5b77-11ea-ad60-f460e239c9a2",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "JavRocket",
-        "config_version": 1,
-        "url": "https://github.com/gentlemansolo/JavbuslibraryRealse"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "cn.slh.javdb"
+        "name": "JavRocket",
+        "url": "https://github.com/gentlemansolo/JavbuslibraryRealse",
+        "extra_map": {
+          "android_app_package": "cn.slh.javdb"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "6eaa2794-5d4b-11ea-880e-378a2dc8f725",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "微漫",
-        "config_version": 1,
-        "url": "https://github.com/nrop19/weiman_app"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.nrop19.weiman"
+        "name": "微漫",
+        "url": "https://github.com/nrop19/weiman_app",
+        "extra_map": {
+          "android_app_package": "com.nrop19.weiman"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "94203c2a-5d4b-11ea-832d-3d7e6c9c7464",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "JAViewer",
-        "config_version": 1,
-        "url": "https://github.com/SplashCodes/JAViewer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.javiewer"
+        "name": "JAViewer",
+        "url": "https://github.com/SplashCodes/JAViewer",
+        "extra_map": {
+          "android_app_package": "io.github.javiewer"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 2,
       "uuid": "a8f8d198-5d4b-11ea-8e22-775d5f37a025",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
       "info": {
-        "app_name": "Nekogram",
-        "config_version": 2,
-        "url": "https://gitlab.com/Nekogram/Nekogram"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "tw.nekomimi.nekogram"
+        "name": "Nekogram",
+        "url": "https://gitlab.com/Nekogram/Nekogram",
+        "extra_map": {
+          "android_app_package": "tw.nekomimi.nekogram"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "bd1553fe-5d4b-11ea-8f95-f3f224497f67",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "qksms",
-        "config_version": 1,
-        "url": "https://github.com/moezbhatti/qksms"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": " com.moez.QKSMS"
+        "name": "qksms",
+        "url": "https://github.com/moezbhatti/qksms",
+        "extra_map": {
+          "android_app_package": " com.moez.QKSMS"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "cff75012-5d4b-11ea-8bd1-f927d2b28ba4",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
-        "app_name": "微聚-酷安",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/io.ikws4.weiju"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.ikws4.weiju"
+        "name": "微聚-酷安",
+        "url": "https://www.coolapk.com/apk/io.ikws4.weiju",
+        "extra_map": {
+          "android_app_package": "io.ikws4.weiju"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "17bf74ae-bffa-44c1-9223-4dc586d6e995",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Telegram-FOSS",
-        "config_version": 1,
-        "url": "https://github.com/Telegram-FOSS-Team/Telegram-FOSS"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.telegram.messenger.beta"
+        "name": "Telegram-FOSS",
+        "url": "https://github.com/Telegram-FOSS-Team/Telegram-FOSS",
+        "extra_map": {
+          "android_app_package": "org.telegram.messenger.beta"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "65b1a6f2-6399-4503-a87f-4548990f5cfc",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
-        "app_name": "Feeder",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/me.zsr.feeder"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.zsr.feeder"
+        "name": "Feeder",
+        "url": "https://www.coolapk.com/apk/me.zsr.feeder",
+        "extra_map": {
+          "android_app_package": "me.zsr.feeder"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "ef51e957-485c-425f-b28c-f5e10b3612be",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "几何天气",
-        "config_version": 1,
-        "url": "https://github.com/WangDaYeeeeee/GeometricWeather"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "wangdaye.com.geometricweather"
+        "name": "几何天气",
+        "url": "https://github.com/WangDaYeeeeee/GeometricWeather",
+        "extra_map": {
+          "android_app_package": "wangdaye.com.geometricweather"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 2,
       "uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Kiwi Browser",
-        "config_version": 2,
-        "url": "https://github.com/kiwibrowser/src"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.kiwibrowser.browser"
+        "name": "Kiwi Browser",
+        "url": "https://github.com/kiwibrowser/src",
+        "extra_map": {
+          "android_app_package": "com.kiwibrowser.browser"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "129561b2-5e13-11ea-a78b-a1b2811c9caa",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Mysplash",
-        "config_version": 1,
-        "url": "https://github.com/WangDaYeeeeee/Mysplash"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.wangdaye.mysplash"
+        "name": "Mysplash",
+        "url": "https://github.com/WangDaYeeeeee/Mysplash",
+        "extra_map": {
+          "android_app_package": "com.wangdaye.mysplash"
         }
       }
     },
@@ -937,498 +687,12 @@
       }
     },
     {
-      "base_version": 1,
-      "uuid": "077364cc-3dae-4408-b3cf-b8580698dbaf",
-      "info": {
-        "app_name": "Audio Recorder",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-audio-recorder"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.audiorecorder"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "4a098735-779c-4477-ac0b-4a07475ce253",
-      "info": {
-        "app_name": "App Ops",
-        "config_version": 1,
-        "url": "https://coolapk.com/apk/rikka.appops"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "rikka.appops"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "cb37623e-c5b8-4da6-bbcf-3b1c60fb3aac",
-      "info": {
-        "app_name": "冰箱 IceBox",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/com.catchingnow.icebox"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.catchingnow.icebox"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ab3d4046-a4bf-4337-8d49-7ae2aa8db4be",
-      "info": {
-        "app_name": "Bilibili",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.bilibili.app.in"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.bilibili.app.in"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "27b4e2aa-830b-43eb-9199-88cff5818306",
-      "info": {
-        "app_name": "Simple Calculator",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Calculator"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.calculator"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "1b5cf410-182d-4f96-8299-a19dbf3a5e6e",
-      "info": {
-        "app_name": "APKUpdater",
-        "config_version": 1,
-        "url": "https://github.com/rumboalla/apkupdater"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.apkupdater"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "9e35ed7d-14ad-4505-a616-309f444320d1",
-      "info": {
-        "app_name": "Bromite Browser",
-        "config_version": 1,
-        "url": "https://github.com/bromite/bromite"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.bromite.bromite"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "909dd525-364e-4af8-b7da-df0f33a88764",
-      "info": {
-        "app_name": "Dora.js",
-        "config_version": 1,
-        "url": "https://coolapk.com/apk/com.linroid.dora"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.linroid.dora"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "2caddcbf-dd46-4d48-b0d8-84e70dcb7c2d",
-      "info": {
-        "app_name": "TachiyomiEH",
-        "config_version": 1,
-        "url": "https://github.com/NerdNumber9/TachiyomiEH"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "eu.kanade.tachiyomi.eh2"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "bf2fd422-35bb-4b10-8c3b-6fb4d7309173",
-      "info": {
-        "app_name": "弹弹Play概念版",
-        "config_version": 1,
-        "url": "https://github.com/xyoye/DanDanPlayForAndroid"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.xyoye.dandanplay"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "83a34413-9602-4907-adb6-e57ce7f4c386",
-      "info": {
-        "app_name": "Ungoogled Chromium",
-        "config_version": 1,
-        "url": "https://github.com/ungoogled-software/ungoogled-chromium-android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.ungoogled.chromium.stable"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "6ea85ace-0e49-48e9-b927-2afa6a1ec681",
-      "info": {
-        "app_name": "Simple Camera",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Camera"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.camera"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "93f079f1-5bf1-4ae0-9bfd-1eb4b0eb2fc3",
-      "info": {
-        "app_name": "Oxygen Updater",
-        "config_version": 1,
-        "url": "https://github.com/oxygen-updater/oxygen-updater"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.arjanvlek.oxygenupdater"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "6c0a6609-bf0d-403f-a949-beb64214fd00",
-      "info": {
-        "app_name": "TachiyomiSY",
-        "config_version": 1,
-        "url": "https://github.com/jobobby04/TachiyomiSY"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "eu.kanade.tachiyomi.sy"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c25014d5-f9dc-4dfb-b88b-3f8fddecef96",
-      "info": {
-        "app_name": "黑阈",
-        "config_version": 1,
-        "url": "https://m.shouji.com.cn/down/33532.html"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.piebridge.brevent"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "8b6f57c6-d28d-468c-943b-3ad9c1078477",
-      "info": {
-        "app_name": "LibreraReader",
-        "config_version": 1,
-        "url": "https://github.com/foobnix/LibreraReader/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.foobnix.pro.pdf.reader"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
-      "info": {
-        "app_name": "Wechat Chums",
-        "config_version": 1,
-        "url": "https://github.com/dannyit/WechatChums"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.dannyit.wechat.chum"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "a51575dc-5cf6-4d03-8ff9-66f8a10a8cf9",
-      "info": {
-        "app_name": "Material Files",
-        "config_version": 1,
-        "url": "https://github.com/zhanghai/MaterialFiles"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.zhanghai.android.files"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "8cff2737-c659-484a-93fc-813bc7ea7fac",
-      "info": {
-        "app_name": "V9Porn",
-        "config_version": 1,
-        "url": "https://github.com/techGay/v9porn"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.u9porn"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "787d0e54-5633-4ada-8e19-6e45fd37dbdf",
-      "info": {
-        "app_name": "微博国际版",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.weico.international"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.weico.international"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "d9515359-66d1-4eaf-9ad6-1085f3f15cfa",
-      "info": {
-        "app_name": "电影天堂",
-        "config_version": 1,
-        "url": "https://github.com/XboxYan/DYTT"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.dytt"
-        }
-      }
-    },
-    {
       "base_version": 2,
-      "uuid": "0b7064a8-9fb5-4a5c-86a5-7b0c2acf8ecf",
+      "uuid": "9aaa78ef-fe61-4c68-9860-c188f3aefb73",
       "info": {
-        "app_name": "IDM+",
+        "app_name": "Amaze File Manager",
         "config_version": 2,
-        "url": "https://www.coolapk.com/apk/idm.internet.download.manager.plus"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "idm.internet.download.manager.plus"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "4b6ab7d7-34c7-4f0a-a611-c39c95cc4e81",
-      "info": {
-        "app_name": "Firefox Beta",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox_beta"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.mozilla.firefox_beta"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "39bdc643-a987-4a88-9fc7-11acce066a99",
-      "info": {
-        "app_name": "Torrent Client",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-torrent-client"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.torrentclient"
-        }
-      }
-    },
-    {
-      "base_version": 2,
-      "uuid": "1a2e6c3f-0871-490b-8b01-0f8795d3264e",
-      "info": {
-        "app_name": "LibChecker",
-        "config_version": 2,
-        "url": "https://www.coolapk.com/apk/com.absinthe.libchecker"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.absinthe.libchecker"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "03f32741-3f62-4373-b1ea-3dba287a4c03",
-      "info": {
-        "app_name": "SoundWire",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.georgie.SoundWireFree"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.georgie.SoundWireFree"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "2f702333-dcf5-4af7-bb9c-7fd381a702cc",
-      "info": {
-        "app_name": "咕咚云图",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/name.gudong.pic"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "name.gudong.pic"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "4e80d8a6-4e57-4e10-964f-90a1ebeea6ce",
-      "info": {
-        "app_name": "贴吧Lite",
-        "config_version": 1,
-        "url": "https://github.com/HuanCheng65/TiebaLite"
+        "url": "https://github.com/TeamAmaze/AmazeFileManager"
       },
       "app_config": {
         "hub_info": {
@@ -1436,367 +700,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.huanchengfly.tieba.post"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "1a91285d-3de3-4869-942c-b1b7c3736e55",
-      "info": {
-        "app_name": "NClientV2",
-        "config_version": 1,
-        "url": "https://github.com/Dar9586/NClientV2"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.dar.nclientv2"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "f15b69ca-e14a-48d4-80e5-df390f918ceb",
-      "info": {
-        "app_name": "Auto.js",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/org.autojs.autojspro"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.autojs.autojspro"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ff5ab4f9-493e-48ef-8458-5e2b0c8b0241",
-      "info": {
-        "app_name": "Split APKs Installer (SAI)",
-        "config_version": 1,
-        "url": "https://github.com/Aefyr/SAI"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.aefyr.sai"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "6dee3c1f-247f-4356-a626-f7c1f2acdcf1",
-      "info": {
-        "app_name": "Bromite System WebView",
-        "config_version": 1,
-        "url": "https://github.com/bromite/bromite"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.android.webview"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "b72855dd-881d-4ec2-a07f-59dcb684c2bb",
-      "info": {
-        "app_name": "吐槽弹幕网",
-        "config_version": 1,
-        "url": "https://github.com/blackbbc/Tucao"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.sweetll.tucao"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "acae88dd-9192-416e-863a-75b0dbd43422",
-      "info": {
-        "app_name": "Vanced Manager",
-        "config_version": 1,
-        "url": "https://github.com/YTVanced/VancedManager"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.vanced.manager"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "d3958780-bd09-4853-9bbf-dc912c8eebaf",
-      "info": {
-        "app_name": "OneNote",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.microsoft.todos"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.microsoft.todos"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "e2601643-69a2-4205-8caf-af0ee301d023",
-      "info": {
-        "app_name": "App Translator",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/com.lerist.xposed.apptranslator"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.lerist.xposed.apptranslator"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "6a2a1edc-227a-4fc5-8a1b-4ab8dd25a7e8",
-      "info": {
-        "app_name": "比特舟Pro",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=cili.niao.search.bt.ci.li"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "cili.niao.search.bt.ci.li"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "8c3c5735-1987-42a1-921f-7ab9b33f6e51",
-      "info": {
-        "app_name": "Magisk Detector",
-        "config_version": 1,
-        "url": "https://github.com/vvb2060/MagiskDetector"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.vvb2060.magiskdetector"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c196d9c0-0b5f-4228-a33b-484908099e5a",
-      "info": {
-        "app_name": "NetPatch Firewall",
-        "config_version": 1,
-        "url": "https://github.com/netpatch/firewall"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "co.netpatch.firewall"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "d097063b-b3a0-4075-bec2-250d7cc7fd17",
-      "info": {
-        "app_name": "Igniter",
-        "config_version": 1,
-        "url": "https://github.com/trojan-gfw/igniter"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.trojan_gfw.igniter"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5dcfecc1-21d4-480c-a2ef-ae6d12ccbeaf",
-      "info": {
-        "app_name": "Simple Draw Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Draw"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.draw.pro"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c755c153-e1b1-4bc3-a1bf-5d81f87bedf2",
-      "info": {
-        "app_name": "SSVPN",
-        "config_version": 1,
-        "url": "https://github.com/bannedbook/ssvpn"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "free.shadowsocks.proxy.VPN"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ec2f237e-a502-4a1c-864b-3b64eaa75303",
-      "info": {
-        "app_name": "APKGrabber",
-        "config_version": 1,
-        "url": "https://github.com/hemker/apkgrabber"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "de.apkgrabber"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "1f65e68b-d36d-4fc4-aa31-541d9d180acd",
-      "info": {
-        "app_name": "MHW伙伴",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/game/com.wonderplay.mhwo"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.wonderplay.mhwo"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
-      "info": {
-        "app_name": "MoegirlViewer",
-        "config_version": 1,
-        "url": "https://github.com/koharubiyori/MoegirlViewer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.moegirlviewer"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5d632b4d-0826-4b88-b4ff-a90e1fb3a2db",
-      "info": {
-        "app_name": "H-Viewer",
-        "config_version": 1,
-        "url": "https://github.com/PureDark/H-Viewer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "ml.puredark.hviewer"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "0ada89b0-9426-4a64-b076-d5f970820e08",
-      "info": {
-        "app_name": "V2er",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/me.ghui.v2er"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.ghui.v2er"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "1aa8292c-44ad-4683-8c31-509f0c28d45c",
-      "info": {
-        "app_name": "AppManager",
-        "config_version": 1,
-        "url": "https://github.com/MuntashirAkon/AppManager"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.muntashirakon.AppManager"
+          "extra_string": "ccom.amaze.filemanager"
         }
       }
     },
@@ -1819,660 +723,12 @@
       }
     },
     {
-      "base_version": 1,
-      "uuid": "56621b60-cbfb-4fd3-abc9-09d3f093b5e5",
-      "info": {
-        "app_name": "Firefox Focus",
-        "config_version": 1,
-        "url": "https://github.com/mozilla-mobile/focus-android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.mozilla.focus"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "cb40eef6-6c73-4dc8-928f-3e4090f6f639",
-      "info": {
-        "app_name": "Google Task",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.tasks"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.google.android.apps.tasks"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ea811abf-971f-4591-80c4-319c0d2c3dce",
-      "info": {
-        "app_name": "PixShaft",
-        "config_version": 1,
-        "url": "https://github.com/CeuiLiSA/Pixiv-Shaft"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "ceui.lisa.pixiv"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "f9786ee6-1b96-4156-abc6-2220662de2b0",
-      "info": {
-        "app_name": "Gboard",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.google.android.inputmethod.latin"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "b3b39acd-c70a-48c0-9613-ef863b4fa489",
-      "info": {
-        "app_name": "AppWarden",
-        "config_version": 1,
-        "url": "https://gitlab.com/AuroraOSS/AppWarden"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.aurora.warden"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c3c275f0-3938-4fb4-b3e2-c9bb987c32ee",
-      "info": {
-        "app_name": "一个木函",
-        "config_version": 1,
-        "url": "https://coolapk.com/apk/com.One.WoodenLetter"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.One.WoodenLetter"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "9f2812a5-f0a9-4122-a8b4-f189a39b147a",
-      "info": {
-        "app_name": "Telegram SMS",
-        "config_version": 1,
-        "url": "https://github.com/telegram-sms/telegram-sms"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.qwe7002.telegram_sms"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "833e2880-f0e9-430c-b19e-9512a50b7752",
-      "info": {
-        "app_name": "EhViewer",
-        "config_version": 4,
-        "url": "https://gitlab.com/NekoInverter/EhViewer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.nekoinverter.ehviewer"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "7d72f8a8-8f48-4d2f-ac6d-daa90168b27e",
-      "info": {
-        "app_name": "Brave Browser",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.brave.browser"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.brave.browser"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "aa590ed0-91c0-4071-a97e-6b7974d2c1f7",
-      "info": {
-        "app_name": "AdAway",
-        "config_version": 1,
-        "url": "https://github.com/AdAway/AdAway"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.adaway"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "d01cbb03-0936-4150-b996-e9e471441bfe",
-      "info": {
-        "app_name": "PowerTube",
-        "config_version": 1,
-        "url": "https://github.com/razar-dev/PowerTube"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "ussr.razar.youtube_dl"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "00f07f27-1c03-4c09-ac8b-211a162982b1",
-      "info": {
-        "app_name": "Simple Thank You",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Thank-You"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.thankyou"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "17bef821-631c-43a3-ab17-4be7a5fb605f",
-      "info": {
-        "app_name": "TachiyomiJ2K",
-        "config_version": 1,
-        "url": "https://github.com/Jays2Kings/tachiyomiJ2K"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "eu.kanade.tachiyomi.j2k"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
-      "info": {
-        "app_name": "Pix-EzViewer",
-        "config_version": 2,
-        "url": "https://github.com/ultranity/Pix-EzViewer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.perol.asdpl.play.pixivez"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5603b4cf-bd45-485e-b101-a4185e37a42e",
-      "info": {
-        "app_name": "Permission Manager X",
-        "config_version": 1,
-        "url": "https://github.com/mirfatif/PermissionManagerX"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.mirfatif.permissionmanagerx"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ab037433-b558-44a2-92a1-07950182c74a",
-      "info": {
-        "app_name": "Remote Fingerprint Unlock",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=ro.andreimircius.remotefingerauth"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "ro.andreimircius.remotefingerauth"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "4825fda3-fb3e-4e7b-a75e-f1c694bf1da1",
-      "info": {
-        "app_name": "纯纯写作",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/com.drakeet.purewriter"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.drakeet.purewriter"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "0cb0f89e-30a8-422b-b08f-e5bf0b0a5210",
-      "info": {
-        "app_name": "Intra",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/app.intra"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "app.intra"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "6fcabf69-8df5-49d1-a3dd-22401c673168",
-      "info": {
-        "app_name": "Geekbench 5",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.primatelabs.geekbench5"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.primatelabs.geekbench5"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "25057ca2-05ab-458f-b54e-14b6e3dbd04b",
-      "info": {
-        "app_name": "Google翻译",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.google.android.apps.translate"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "58950375-1a4a-4458-b834-888b60e37563",
-      "info": {
-        "app_name": "Simple Music Player",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Music-Player"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.musicplayer"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c31de18d-b56e-41b9-b43b-a1c6d69ec6a0",
-      "info": {
-        "app_name": "1Password",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.agilebits.onepassword"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.agilebits.onepassword"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "9741a79b-af01-4ba8-ab57-07efb431d594",
-      "info": {
-        "app_name": "Muviz Edge",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.sparkine.muvizedge"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.sparkine.muvizedge"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "be869707-7f22-47ef-a4d9-4846a65157b9",
-      "info": {
-        "app_name": "JustTrustMe",
-        "config_version": 1,
-        "url": "https://github.com/Fuzion24/JustTrustMe"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "just.trust.me"
-        }
-      }
-    },
-    {
       "base_version": 2,
-      "uuid": "9aaa78ef-fe61-4c68-9860-c188f3aefb73",
+      "uuid": "1a2e6c3f-0871-490b-8b01-0f8795d3264e",
       "info": {
-        "app_name": "Amaze File Manager",
+        "app_name": "LibChecker",
         "config_version": 2,
-        "url": "https://github.com/TeamAmaze/AmazeFileManager"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "ccom.amaze.filemanager"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "08df069b-d435-45bc-8f97-5731bdb02202",
-      "info": {
-        "app_name": "Keepass2Andoid",
-        "config_version": 1,
-        "url": "https://github.com/PhilippC/keepass2android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "keepass2android.keepass2android"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "7a269e5a-961a-4a25-a22e-13c08ff6dc12",
-      "info": {
-        "app_name": "Remote Fingerprint Unlock",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.onscripter.plus"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.onscripter.plus"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "f397bced-361b-45d0-805a-9bf94b9b6a5a",
-      "info": {
-        "app_name": "MoonLight",
-        "config_version": 1,
-        "url": "https://github.com/moonlight-stream/moonlight-android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "app_package",
-          "extra_string": "com.limelight"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "03dd00c4-fa77-46fd-9e9a-fbad8469b245",
-      "info": {
-        "app_name": "Hourly Reminder",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-hourly-reminder"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.hourlyreminder"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "104586a2-91ca-4750-b0bd-11dedfa8eb55",
-      "info": {
-        "app_name": "Simple Gallery Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Gallery"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.gallery.pro"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "8d6fb13d-7935-484a-b6f6-9fbb20e67234",
-      "info": {
-        "app_name": "Termius",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.server.auditor.ssh.client"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "344f0907-86f3-476c-911c-8d283181546c",
-      "info": {
-        "app_name": "DarQ",
-        "config_version": 1,
-        "url": "https://github.com/KieronQuinn/DarQ"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.kieronquinn.app.darq"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "7fa49b5e-3358-4cdd-a126-22c3f4caf4b9",
-      "info": {
-        "app_name": "Binaural Beats",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-binaural-beats"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.binauralbeats"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "eaf41c5a-474b-454b-acfd-40f30c597572",
-      "info": {
-        "app_name": "Vanced MicroG",
-        "config_version": 1,
-        "url": "https://github.com/YTVanced/VancedMicroG"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.mgoogle.android.gms"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "1739dd7b-2c2c-4db5-8fb1-eba5751114f8",
-      "info": {
-        "app_name": "爱套图",
-        "config_version": 2,
-        "url": "https://github.com/yueeng/meitu"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.yueeng.aitaotu"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "d38222ad-56e3-41a1-a708-c10fb72360ab",
-      "info": {
-        "app_name": "轻小说文库",
-        "config_version": 1,
-        "url": "https://github.com/MewX/light-novel-library_Wenku8_Android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.mewx.wenku8"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5d3a25fc-728e-46ca-968f-61f3484f3e20",
-      "info": {
-        "app_name": "Pure 轻雨",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/me.morirain.dev.iconpack.pure"
+        "url": "https://www.coolapk.com/apk/com.absinthe.libchecker"
       },
       "app_config": {
         "hub_info": {
@@ -2480,529 +736,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "me.morirain.dev.iconpack.pure"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "3dc20305-1768-411e-9df7-ec1cae74df9b",
-      "info": {
-        "app_name": "FTPShare",
-        "config_version": 1,
-        "url": "https://github.com/ghmxr/ftpshare"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.ghmxr.ftpshare"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "d4a30f44-8a03-4c20-9b0f-d30c2a491309",
-      "info": {
-        "app_name": "Simple App Launcher",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-App-Launcher"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.applauncher"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "1dabd9ea-fd57-4c5b-a8c1-51a757dd0824",
-      "info": {
-        "app_name": "Magic iPerf",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.nextdoordeveloper.miperf.miperf"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.nextdoordeveloper.miperf.miperf"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "39d52bd5-7ad1-4d6d-bd5d-a4485976328b",
-      "info": {
-        "app_name": "WO Mic",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.wo.voice2"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.wo.voice2"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "fd66e96f-0b1c-4237-a855-f686df666d1e",
-      "info": {
-        "app_name": "FeedMe",
-        "config_version": 1,
-        "url": "https://github.com/seazon/FeedMe"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.seazon.feedme"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "e1189536-2c9c-48dc-850f-e03d30c9b1ec",
-      "info": {
-        "app_name": "Simple Calendar Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Calendar"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.calendar.pro"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "03168aae-41cc-431f-a77d-3f37152a536f",
-      "info": {
-        "app_name": "X浏览器",
-        "config_version": 2,
-        "url": "https://www.coolapk.com/apk/com.mmbox.xbrowser"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.mmbox.xbrowser"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "bac972f7-c1b1-4ccd-b42e-c90757c34514",
-      "info": {
-        "app_name": "去你大爷的内置浏览器",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/com.xloger.exlink.app"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.xloger.exlink.app"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "67f0addf-a014-4f27-bc45-d093d7667874",
-      "info": {
-        "app_name": "Simple Flashlight",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Flashlight"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.flashlight"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "bb81a15d-7118-4b9e-8371-8a0f640c54b6",
-      "info": {
-        "app_name": "Hackuna",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=org.cryptors.hackuna002"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.cryptors.hackuna002"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ed655c80-d793-4286-8cf2-167545577778",
-      "info": {
-        "app_name": "嘶哩嘶哩",
-        "config_version": 1,
-        "url": "https://github.com/670848654/Silisili"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "my.project.silisili"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c5d40cd2-429e-4ed6-8a03-b7324f12956d",
-      "info": {
-        "app_name": "动漫之家Flutter",
-        "config_version": 1,
-        "url": "https://github.com/xiaoyaocz/dmzj_flutter"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.nsapp.dmzj"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "88fb5f83-6566-44ad-bccf-ed0b63122b47",
-      "info": {
-        "app_name": "琉璃神社",
-        "config_version": 1,
-        "url": "https://github.com/yueeng/hacg"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.yueeng.hacg"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "a2031e48-e20e-4e5c-bf98-35c796821d57",
-      "info": {
-        "app_name": "Native Alpha",
-        "config_version": 1,
-        "url": "https://github.com/cylonid/NativeAlphaForAndroid/"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.cylonid.nativealpha"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "557c94dd-3b82-428e-ac7f-f04c6c0fedac",
-      "info": {
-        "app_name": "Iceraven Browser",
-        "config_version": 1,
-        "url": "https://github.com/fork-maintainers/iceraven-browser"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.github.forkmaintainers.iceraven"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "fd6ecc03-2c9c-42e8-bb2c-959177f68b50",
-      "info": {
-        "app_name": "Thanox",
-        "config_version": 1,
-        "url": "https://github.com/Tornaco/Thanox"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "github.tornaco.android.thanos"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "62e80fd3-df9d-4b94-968c-023dbaf31109",
-      "info": {
-        "app_name": "南博",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/cn.krait.nabo"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "cn.krait.nabo"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5cdb731e-16db-4e32-9e48-cdd4a4e3d9bc",
-      "info": {
-        "app_name": "PixEz-flutter",
-        "config_version": 1,
-        "url": "https://github.com/Notsfsssf/pixez-flutter"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.perol.pixez"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "dca900f2-b95d-451d-b930-12d113ce8944",
-      "info": {
-        "app_name": "欧路词典",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.qianyan.eudic"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.qianyan.eudic"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "da862bd8-1743-4475-a447-3b50fca0af4a",
-      "info": {
-        "app_name": "QuickPic Gallery (WST Mod)",
-        "config_version": 1,
-        "url": "https://github.com/WSTxda/QP-Gallery-Releases"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.alensw.PicFolder"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c28625f2-735b-405c-9773-0847587f6e8d",
-      "info": {
-        "app_name": "AdGuard",
-        "config_version": 1,
-        "url": "https://github.com/AdguardTeam/AdguardForAndroid"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.adguard.android"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "bf45458f-b031-476a-b20a-2654f6f7da11",
-      "info": {
-        "app_name": "Minecraft",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.mojang.minecraftpe"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "20a9d2a2-d30b-4f37-ac22-9c198f2d8155",
-      "info": {
-        "app_name": "Greenify绿色守护",
-        "config_version": 1,
-        "url": "https://coolapk.com/apk/com.oasisfeng.greenify"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.oasisfeng.greenify"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "57d97773-ac32-4b78-966d-7f806fb42ad9",
-      "info": {
-        "app_name": "NextCloud",
-        "config_version": 1,
-        "url": "https://github.com/nextcloud/android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "app_package",
-          "extra_string": "com.nextcloud.android"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "929cd2d0-532e-47f3-9651-bf7a2f6ac447",
-      "info": {
-        "app_name": "Simple SMS Messenger",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-SMS-Messenger"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.smsmessenger"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "27d49162-8ef1-4f56-93ec-e81b6c820e4b",
-      "info": {
-        "app_name": "CNode社区",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/org.cnodejs.android.md"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.cnodejs.android.md"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "1e22da80-0b11-41c8-a179-299314071939",
-      "info": {
-        "app_name": "太极",
-        "config_version": 1,
-        "url": "https://github.com/taichi-framework/TaiChi"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.weishu.exp"
-        }
-      }
-    },
-    {
-      "base_version": 2,
-      "uuid": "a59ab5a6-4ff4-4484-b641-23cb8fe55a4c",
-      "info": {
-        "app_name": "存储空间隔离",
-        "config_version": 2,
-        "url": "https://coolapk.com/apk/moe.shizuku.redirectstorage"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "moe.shizuku.redirectstorage"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5e0d81ba-1f24-4518-8e46-159b7f81c67c",
-      "info": {
-        "app_name": "Pure天气",
-        "config_version": 2,
-        "url": "https://www.coolapk.com/apk/hanjie.app.pureweather"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "hanjie.app.pureweather"
+          "extra_string": "com.absinthe.libchecker"
         }
       }
     },
@@ -3025,84 +759,12 @@
       }
     },
     {
-      "base_version": 1,
-      "uuid": "25bf4ebb-851b-4364-ab5e-da593748e629",
+      "base_version": 2,
+      "uuid": "a59ab5a6-4ff4-4484-b641-23cb8fe55a4c",
       "info": {
-        "app_name": "Neko",
-        "config_version": 1,
-        "url": "https://github.com/CarlosEsco/Neko"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "tachiyomi.mangadex"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "b0f3a13f-d2f1-4d57-bd98-ea48693fe656",
-      "info": {
-        "app_name": "Inware",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.evo.inware"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.evo.inware"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "02415d37-dfa5-4d02-a0a3-4014bc86298b",
-      "info": {
-        "app_name": "VikACG",
-        "config_version": 1,
-        "url": "https://github.com/Sailoud/VikACG_Rescue"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.vikacg.zh.hans"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "bb7c6bf1-02b1-45a6-ae6d-801a31e6cb1a",
-      "info": {
-        "app_name": "Monerujo",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.m2049r.xmrwallet"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "bc6fc3e1-e9de-4cad-a39c-29d20d6d2cc1",
-      "info": {
-        "app_name": "简单水印",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/me.rosuh.easywatermark"
+        "app_name": "存储空间隔离",
+        "config_version": 2,
+        "url": "https://coolapk.com/apk/moe.shizuku.redirectstorage"
       },
       "app_config": {
         "hub_info": {
@@ -3110,385 +772,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "me.rosuh.easywatermark"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "26a4dac2-70a3-4fe7-9516-cbe5a95b8384",
-      "info": {
-        "app_name": "XAutoDaily",
-        "config_version": 1,
-        "url": "https://github.com/teble/XAutoDaily"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "me.teble.xposed.autodaily"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "78cb0aaf-a417-4798-a757-8ea336fa9c45",
-      "info": {
-        "app_name": "Unicode Pad",
-        "config_version": 1,
-        "url": "https://github.com/Ryosuke839/UnicodePad"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "jp.ddo.hotmist.unicodepad"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "8cda200a-1465-498e-b7a1-2bb16197980b",
-      "info": {
-        "app_name": "Simple Clock",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Clock"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.clock"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "83a1055b-bf8a-4462-9e6b-08730ffe7b84",
-      "info": {
-        "app_name": "Simple Dialer",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Dialer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.dialer"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "89686b18-c76f-4a4f-be5f-5966f76633a9",
-      "info": {
-        "app_name": "VirtualXposed",
-        "config_version": 1,
-        "url": "https://github.com/android-hacker/VirtualXposed"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.va.exposed"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "237b31de-f186-44dd-9af9-2710aec5cec4",
-      "info": {
-        "app_name": "KDE Connect",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.kde.kdeconnect_tp"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "57365af4-d968-4eba-bd14-5846b33fad16",
-      "info": {
-        "app_name": "Simple Contacts Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Contacts"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.contacts.pro"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c4f3d216-5377-4eee-8beb-ae169fbcdd84",
-      "info": {
-        "app_name": "NoPopping-自动勿扰模式",
-        "config_version": 1,
-        "url": "https://coolapk.com/apk/rikka.nopeeking"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "rikka.nopeeking"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "099519a8-fcbd-4e3d-bd10-77882a645d5b",
-      "info": {
-        "app_name": "Idle Daddy",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.steevsapps.idledaddy"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.steevsapps.idledaddy"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "a0a1526a-593e-4994-bd90-3133d6671c41",
-      "info": {
-        "app_name": "Tone Generator",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-tone-generator"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.tonegenerator"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "9ab13f57-b6ea-4abe-a437-fbd1383f6677",
-      "info": {
-        "app_name": "Call Recorder",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-call-recorder"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.callrecorder"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "98ca87f8-716d-4bc5-9ff5-03d0c32db3a5",
-      "info": {
-        "app_name": "微软数学",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.microsoft.math"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.microsoft.math"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "4b81f571-4cbc-4c48-b98e-8125140b2cef",
-      "info": {
-        "app_name": "Lawnchair 2",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "ch.deletescape.lawnchair.plah"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "291da919-9b44-441d-8bac-1555e568a6a6",
-      "info": {
-        "app_name": "Darkness Immunity",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-darkness-immunity"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.darknessimmunity"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "a3dd917a-03e1-40f6-8e7a-b7001bc51af6",
-      "info": {
-        "app_name": "BEAKER",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=air.thix.sciencesense.beaker"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "air.thix.sciencesense.beaker"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "457adb18-248f-41ed-abdb-a4368843bda9",
-      "info": {
-        "app_name": "喵滴-Markdown&Todo",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/cn.sunshinesudio.libv"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "cn.sunshinesudio.libv"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "4d41c9ef-181a-43e0-890b-aab04d1e71f9",
-      "info": {
-        "app_name": "phyphox",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=de.rwth_aachen.phyphox"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "de.rwth_aachen.phyphox"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "004f12da-9c40-4642-baeb-2e34a4a692b7",
-      "info": {
-        "app_name": "SandVXposed",
-        "config_version": 1,
-        "url": "https://github.com/ganyao114/SandVXposed"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "io.virtualapp.sandvxposed"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c7d7b3c6-9a94-4c44-be60-5aae0872c07c",
-      "info": {
-        "app_name": "Blokada 5",
-        "config_version": 1,
-        "url": "https://github.com/blokadaorg/fem"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.blokada.origin.alarm"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "cdf366c4-6bb4-4468-a432-14b954f35dcf",
-      "info": {
-        "app_name": "音量面板样式",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.tombayley.volumepanel"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.tombayley.volumepanel"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "64bbfca8-6bf5-4d3b-a762-2c9eff520b2d",
-      "info": {
-        "app_name": "Simple Voice Recorder",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Voice-Recorder"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.voicerecorder"
+          "extra_string": "moe.shizuku.redirectstorage"
         }
       }
     },
@@ -3511,132 +795,6 @@
       }
     },
     {
-      "base_version": 1,
-      "uuid": "9cc3165d-a307-48e0-ac96-4b2c83929c58",
-      "info": {
-        "app_name": "NekoX",
-        "config_version": 1,
-        "url": "https://github.com/NekoX-Dev/NekoX"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "nekox.messenger"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5ab2d3ea-84c3-4e6b-8572-3131ffefb68b",
-      "info": {
-        "app_name": "TachiyomiAZ",
-        "config_version": 1,
-        "url": "https://github.com/az4521/TachiyomiAZ"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "eu.kanade.tachiyomi.az"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "d0c36951-b076-4585-9834-4d71a6570ab0",
-      "info": {
-        "app_name": "Retro Music Player",
-        "config_version": 1,
-        "url": "https://github.com/h4h13/RetroMusicPlayer"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "code.name.monkey.retromusic"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "5f26f6a9-e62c-4d9f-bdcb-6a95e57a6f91",
-      "info": {
-        "app_name": "Google Chrome",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.android.chrome"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.android.chrome"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c684ca72-11e8-4b78-8430-2de112441344",
-      "info": {
-        "app_name": "Media Merger",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-media-merger"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.mover"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "8f57238f-fb86-4749-967a-e023327bac32",
-      "info": {
-        "app_name": "Resilio Sync",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.resilio.sync"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.resilio.sync"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "93c5562a-2038-4f3e-ae9b-0f6affcbfdc9",
-      "info": {
-        "app_name": "Easy163",
-        "config_version": 1,
-        "url": "https://github.com/ndroi/easy163"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.ndroi.easy163"
-        }
-      }
-    },
-    {
       "base_version": 2,
       "uuid": "2273bc9d-42b0-416c-8c50-1d0c00f0132e",
       "info": {
@@ -3655,192 +813,12 @@
       }
     },
     {
-      "base_version": 1,
-      "uuid": "d5df5dc2-9165-4f5a-83ff-0604d2f64853",
+      "base_version": 2,
+      "uuid": "0b7064a8-9fb5-4a5c-86a5-7b0c2acf8ecf",
       "info": {
-        "app_name": "Firefox Lockwise",
-        "config_version": 1,
-        "url": "https://github.com/mozilla-lockwise/lockwise-android"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "mozilla.lockbox"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "4e216232-3558-4e95-9b92-341383097fc4",
-      "info": {
-        "app_name": "OAndBackupX",
-        "config_version": 1,
-        "url": "https://github.com/machiav3lli/oandbackupx"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "app_package",
-          "extra_string": "com.machiav3lli.backup"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "ed423111-9f9e-43bd-bc88-b680d531c82c",
-      "info": {
-        "app_name": "Firefox Browser",
-        "config_version": 1,
-        "url": "https://github.com/mozilla-mobile/fenix"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.mozilla.firefox"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "daa15e1e-7015-4946-998a-4d24dff4d020",
-      "info": {
-        "app_name": "MX Player",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.mxtech.videoplayer.ad"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "367ba5d5-1839-40e4-9b60-d5fc25ff1a87",
-      "info": {
-        "app_name": "Tor Browser",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=org.torproject.torbrowser"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.torproject.torbrowser"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "eaf6d7dd-908a-400c-b2c7-4783be19638b",
-      "info": {
-        "app_name": "东方狗",
-        "config_version": 1,
-        "url": "https://github.com/shirokurakana/thdog"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.shiro.thdog"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "97866240-9d37-4183-8ee6-82a8c584c8ea",
-      "info": {
-        "app_name": "NewPipe",
-        "config_version": 1,
-        "url": "https://github.com/TeamNewPipe/NewPipe"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.schabi.newpipe"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "7a94d1a7-1dc9-4f24-a960-9d42b881d035",
-      "info": {
-        "app_name": "SMS Gate",
-        "config_version": 1,
-        "url": "https://gitlab.com/axet/android-sms-gate"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.github.axet.smsgate"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "c0caf95b-0224-4451-b299-cbe455b66c5d",
-      "info": {
-        "app_name": "Simple File Manager Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-File-Manager"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.filemanager.pro"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "d75ae05b-85d1-4e81-b2f8-b2da7c33fbd8",
-      "info": {
-        "app_name": "PxView",
-        "config_version": 1,
-        "url": "https://github.com/alphasp/pxview"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.utopia.pxview"
-        }
-      }
-    },
-    {
-      "base_version": 1,
-      "uuid": "82da690e-4761-4a85-8592-52b56d5d1254",
-      "info": {
-        "app_name": "ES文件浏览器",
-        "config_version": 1,
-        "url": "https://www.coolapk.com/apk/com.estrongs.android.pop"
+        "app_name": "IDM+",
+        "config_version": 2,
+        "url": "https://www.coolapk.com/apk/idm.internet.download.manager.plus"
       },
       "app_config": {
         "hub_info": {
@@ -3848,109 +826,2088 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.estrongs.android.pop"
+          "extra_string": "idm.internet.download.manager.plus"
         }
       }
     },
     {
-      "base_version": 1,
-      "uuid": "989bfded-8ecc-4194-99cb-f33d7da93d8c",
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c31de18d-b56e-41b9-b43b-a1c6d69ec6a0",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
       "info": {
-        "app_name": "Telegram",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "org.telegram.messenger"
+        "name": "1Password",
+        "url": "https://play.google.com/store/apps/details?id=com.agilebits.onepassword",
+        "extra_map": {
+          "android_app_package": "com.agilebits.onepassword"
         }
       }
     },
     {
-      "base_version": 1,
-      "uuid": "a5959e28-8536-4c60-8ebb-7e9c891f790b",
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "ec2f237e-a502-4a1c-864b-3b64eaa75303",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "OneNote",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.onenote"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.microsoft.office.onenote"
+        "name": "APKGrabber",
+        "url": "https://github.com/hemker/apkgrabber",
+        "extra_map": {
+          "android_app_package": "de.apkgrabber"
         }
       }
     },
     {
-      "base_version": 1,
-      "uuid": "62253cda-bf14-4f19-9bea-f1ba409c11bc",
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "1b5cf410-182d-4f96-8299-a19dbf3a5e6e",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "XPrivacyLua Pro",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=eu.faircode.xlua.pro"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "eu.faircode.xlua.pro"
+        "name": "APKUpdater",
+        "url": "https://github.com/rumboalla/apkupdater",
+        "extra_map": {
+          "android_app_package": "com.apkupdater"
         }
       }
     },
     {
-      "base_version": 1,
-      "uuid": "faad9c73-08c2-4124-beaf-9e74690a5a82",
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "aa590ed0-91c0-4071-a97e-6b7974d2c1f7",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Simple Notes Pro",
-        "config_version": 1,
-        "url": "https://github.com/SimpleMobileTools/Simple-Notes"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.simplemobiletools.notes.pro"
+        "name": "AdAway",
+        "url": "https://github.com/AdAway/AdAway",
+        "extra_map": {
+          "android_app_package": "org.adaway"
         }
       }
     },
     {
-      "base_version": 1,
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c28625f2-735b-405c-9773-0847587f6e8d",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "AdGuard",
+        "url": "https://github.com/AdguardTeam/AdguardForAndroid",
+        "extra_map": {
+          "android_app_package": "com.adguard.android"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "1aa8292c-44ad-4683-8c31-509f0c28d45c",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "AppManager",
+        "url": "https://github.com/MuntashirAkon/AppManager",
+        "extra_map": {
+          "android_app_package": "io.github.muntashirakon.AppManager"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "4a098735-779c-4477-ac0b-4a07475ce253",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "App Ops",
+        "url": "https://coolapk.com/apk/rikka.appops",
+        "extra_map": {
+          "android_app_package": "rikka.appops"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "e2601643-69a2-4205-8caf-af0ee301d023",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "App Translator",
+        "url": "https://www.coolapk.com/apk/com.lerist.xposed.apptranslator",
+        "extra_map": {
+          "android_app_package": "com.lerist.xposed.apptranslator"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "b3b39acd-c70a-48c0-9613-ef863b4fa489",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "AppWarden",
+        "url": "https://gitlab.com/AuroraOSS/AppWarden",
+        "extra_map": {
+          "android_app_package": "com.aurora.warden"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "077364cc-3dae-4408-b3cf-b8580698dbaf",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "Audio Recorder",
+        "url": "https://gitlab.com/axet/android-audio-recorder",
+        "extra_map": {
+          "android_app_package": "com.github.axet.audiorecorder"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "f15b69ca-e14a-48d4-80e5-df390f918ceb",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "Auto.js",
+        "url": "https://www.coolapk.com/apk/org.autojs.autojspro",
+        "extra_map": {
+          "android_app_package": "org.autojs.autojspro"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "a3dd917a-03e1-40f6-8e7a-b7001bc51af6",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "BEAKER",
+        "url": "https://play.google.com/store/apps/details?id=air.thix.sciencesense.beaker",
+        "extra_map": {
+          "android_app_package": "air.thix.sciencesense.beaker"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "7fa49b5e-3358-4cdd-a126-22c3f4caf4b9",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "Binaural Beats",
+        "url": "https://gitlab.com/axet/android-binaural-beats",
+        "extra_map": {
+          "android_app_package": "com.github.axet.binauralbeats"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
       "uuid": "5b317f8f-9ec6-416d-a893-d3b35333350b",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
-        "app_name": "Bitwarden",
-        "config_version": 1,
-        "url": "https://github.com/bitwarden/mobile"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "com.x8bit.bitwarden"
+        "name": "Bitwarden",
+        "url": "https://github.com/bitwarden/mobile",
+        "extra_map": {
+          "android_app_package": "com.x8bit.bitwarden"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c7d7b3c6-9a94-4c44-be60-5aae0872c07c",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Blokada 5",
+        "url": "https://github.com/blokadaorg/fem",
+        "extra_map": {
+          "android_app_package": "org.blokada.origin.alarm"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "7d72f8a8-8f48-4d2f-ac6d-daa90168b27e",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Brave Browser",
+        "url": "https://play.google.com/store/apps/details?id=com.brave.browser",
+        "extra_map": {
+          "android_app_package": "com.brave.browser"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "9e35ed7d-14ad-4505-a616-309f444320d1",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Bromite Browser",
+        "url": "https://github.com/bromite/bromite",
+        "extra_map": {
+          "android_app_package": "org.bromite.bromite"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "6dee3c1f-247f-4356-a626-f7c1f2acdcf1",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Bromite System WebView",
+        "url": "https://github.com/bromite/bromite",
+        "extra_map": {
+          "android_app_package": "com.android.webview"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "27d49162-8ef1-4f56-93ec-e81b6c820e4b",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "CNode社区",
+        "url": "https://www.coolapk.com/apk/org.cnodejs.android.md",
+        "extra_map": {
+          "android_app_package": "org.cnodejs.android.md"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "9ab13f57-b6ea-4abe-a437-fbd1383f6677",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "Call Recorder",
+        "url": "https://gitlab.com/axet/android-call-recorder",
+        "extra_map": {
+          "android_app_package": "com.github.axet.callrecorder"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "5f26f6a9-e62c-4d9f-bdcb-6a95e57a6f91",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Google Chrome",
+        "url": "https://play.google.com/store/apps/details?id=com.android.chrome",
+        "extra_map": {
+          "android_app_package": "com.android.chrome"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d9515359-66d1-4eaf-9ad6-1085f3f15cfa",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "电影天堂",
+        "url": "https://github.com/XboxYan/DYTT",
+        "extra_map": {
+          "android_app_package": "com.dytt"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "344f0907-86f3-476c-911c-8d283181546c",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "DarQ",
+        "url": "https://github.com/KieronQuinn/DarQ",
+        "extra_map": {
+          "android_app_package": "com.kieronquinn.app.darq"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "291da919-9b44-441d-8bac-1555e568a6a6",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "Darkness Immunity",
+        "url": "https://gitlab.com/axet/android-darkness-immunity",
+        "extra_map": {
+          "android_app_package": "com.github.axet.darknessimmunity"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "909dd525-364e-4af8-b7da-df0f33a88764",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "Dora.js",
+        "url": "https://coolapk.com/apk/com.linroid.dora",
+        "extra_map": {
+          "android_app_package": "com.linroid.dora"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "93c5562a-2038-4f3e-ae9b-0f6affcbfdc9",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Easy163",
+        "url": "https://github.com/ndroi/easy163",
+        "extra_map": {
+          "android_app_package": "org.ndroi.easy163"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "bc6fc3e1-e9de-4cad-a39c-29d20d6d2cc1",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "简单水印",
+        "url": "https://www.coolapk.com/apk/me.rosuh.easywatermark",
+        "extra_map": {
+          "android_app_package": "me.rosuh.easywatermark"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 4,
+      "uuid": "833e2880-f0e9-430c-b19e-9512a50b7752",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "EhViewer",
+        "url": "https://gitlab.com/NekoInverter/EhViewer",
+        "extra_map": {
+          "android_app_package": "io.github.nekoinverter.ehviewer"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "3dc20305-1768-411e-9df7-ec1cae74df9b",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "FTPShare",
+        "url": "https://github.com/ghmxr/ftpshare",
+        "extra_map": {
+          "android_app_package": "com.github.ghmxr.ftpshare"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "fd66e96f-0b1c-4237-a855-f686df666d1e",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "FeedMe",
+        "url": "https://github.com/seazon/FeedMe",
+        "extra_map": {
+          "android_app_package": "com.seazon.feedme"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "4b6ab7d7-34c7-4f0a-a611-c39c95cc4e81",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Firefox Beta",
+        "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox_beta",
+        "extra_map": {
+          "android_app_package": "org.mozilla.firefox_beta"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "ed423111-9f9e-43bd-bc88-b680d531c82c",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Firefox Browser",
+        "url": "https://github.com/mozilla-mobile/fenix",
+        "extra_map": {
+          "android_app_package": "org.mozilla.firefox"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "56621b60-cbfb-4fd3-abc9-09d3f093b5e5",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Firefox Focus",
+        "url": "https://github.com/mozilla-mobile/focus-android",
+        "extra_map": {
+          "android_app_package": "org.mozilla.focus"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d5df5dc2-9165-4f5a-83ff-0604d2f64853",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Firefox Lockwise",
+        "url": "https://github.com/mozilla-lockwise/lockwise-android",
+        "extra_map": {
+          "android_app_package": "mozilla.lockbox"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "bac972f7-c1b1-4ccd-b42e-c90757c34514",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "去你大爷的内置浏览器",
+        "url": "https://www.coolapk.com/apk/com.xloger.exlink.app",
+        "extra_map": {
+          "android_app_package": "com.xloger.exlink.app"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "f9786ee6-1b96-4156-abc6-2220662de2b0",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Gboard",
+        "url": "https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin",
+        "extra_map": {
+          "android_app_package": "com.google.android.inputmethod.latin"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "6fcabf69-8df5-49d1-a3dd-22401c673168",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Geekbench 5",
+        "url": "https://play.google.com/store/apps/details?id=com.primatelabs.geekbench5",
+        "extra_map": {
+          "android_app_package": "com.primatelabs.geekbench5"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "cb40eef6-6c73-4dc8-928f-3e4090f6f639",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Google Task",
+        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.tasks",
+        "extra_map": {
+          "android_app_package": "com.google.android.apps.tasks"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "25057ca2-05ab-458f-b54e-14b6e3dbd04b",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Google翻译",
+        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate",
+        "extra_map": {
+          "android_app_package": "com.google.android.apps.translate"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "20a9d2a2-d30b-4f37-ac22-9c198f2d8155",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "Greenify绿色守护",
+        "url": "https://coolapk.com/apk/com.oasisfeng.greenify",
+        "extra_map": {
+          "android_app_package": "com.oasisfeng.greenify"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "5d632b4d-0826-4b88-b4ff-a90e1fb3a2db",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "H-Viewer",
+        "url": "https://github.com/PureDark/H-Viewer",
+        "extra_map": {
+          "android_app_package": "ml.puredark.hviewer"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "bb81a15d-7118-4b9e-8371-8a0f640c54b6",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Hackuna",
+        "url": "https://play.google.com/store/apps/details?id=org.cryptors.hackuna002",
+        "extra_map": {
+          "android_app_package": "org.cryptors.hackuna002"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "03dd00c4-fa77-46fd-9e9a-fbad8469b245",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "Hourly Reminder",
+        "url": "https://gitlab.com/axet/android-hourly-reminder",
+        "extra_map": {
+          "android_app_package": "com.github.axet.hourlyreminder"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "cb37623e-c5b8-4da6-bbcf-3b1c60fb3aac",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "冰箱 IceBox",
+        "url": "https://www.coolapk.com/apk/com.catchingnow.icebox",
+        "extra_map": {
+          "android_app_package": "com.catchingnow.icebox"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "557c94dd-3b82-428e-ac7f-f04c6c0fedac",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Iceraven Browser",
+        "url": "https://github.com/fork-maintainers/iceraven-browser",
+        "extra_map": {
+          "android_app_package": "io.github.forkmaintainers.iceraven"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "099519a8-fcbd-4e3d-bd10-77882a645d5b",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Idle Daddy",
+        "url": "https://play.google.com/store/apps/details?id=com.steevsapps.idledaddy",
+        "extra_map": {
+          "android_app_package": "com.steevsapps.idledaddy"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d097063b-b3a0-4075-bec2-250d7cc7fd17",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Igniter",
+        "url": "https://github.com/trojan-gfw/igniter",
+        "extra_map": {
+          "android_app_package": "io.github.trojan_gfw.igniter"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "0cb0f89e-30a8-422b-b08f-e5bf0b0a5210",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "Intra",
+        "url": "https://www.coolapk.com/apk/app.intra",
+        "extra_map": {
+          "android_app_package": "app.intra"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "b0f3a13f-d2f1-4d57-bd98-ea48693fe656",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Inware",
+        "url": "https://play.google.com/store/apps/details?id=com.evo.inware",
+        "extra_map": {
+          "android_app_package": "com.evo.inware"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "be869707-7f22-47ef-a4d9-4846a65157b9",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "JustTrustMe",
+        "url": "https://github.com/Fuzion24/JustTrustMe",
+        "extra_map": {
+          "android_app_package": "just.trust.me"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "237b31de-f186-44dd-9af9-2710aec5cec4",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "KDE Connect",
+        "url": "https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp",
+        "extra_map": {
+          "android_app_package": "org.kde.kdeconnect_tp"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "4b81f571-4cbc-4c48-b98e-8125140b2cef",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Lawnchair 2",
+        "url": "https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah",
+        "extra_map": {
+          "android_app_package": "ch.deletescape.lawnchair.plah"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "8b6f57c6-d28d-468c-943b-3ad9c1078477",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "LibreraReader",
+        "url": "https://github.com/foobnix/LibreraReader/",
+        "extra_map": {
+          "android_app_package": "com.foobnix.pro.pdf.reader"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d38222ad-56e3-41a1-a708-c10fb72360ab",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "轻小说文库",
+        "url": "https://github.com/MewX/light-novel-library_Wenku8_Android",
+        "extra_map": {
+          "android_app_package": "org.mewx.wenku8"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "1f65e68b-d36d-4fc4-aa31-541d9d180acd",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "MHW伙伴",
+        "url": "https://www.coolapk.com/game/com.wonderplay.mhwo",
+        "extra_map": {
+          "android_app_package": "com.wonderplay.mhwo"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "daa15e1e-7015-4946-998a-4d24dff4d020",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "MX Player",
+        "url": "https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad",
+        "extra_map": {
+          "android_app_package": "com.mxtech.videoplayer.ad"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "1dabd9ea-fd57-4c5b-a8c1-51a757dd0824",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Magic iPerf",
+        "url": "https://play.google.com/store/apps/details?id=com.nextdoordeveloper.miperf.miperf",
+        "extra_map": {
+          "android_app_package": "com.nextdoordeveloper.miperf.miperf"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "8c3c5735-1987-42a1-921f-7ab9b33f6e51",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Magisk Detector",
+        "url": "https://github.com/vvb2060/MagiskDetector",
+        "extra_map": {
+          "android_app_package": "io.github.vvb2060.magiskdetector"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "a51575dc-5cf6-4d03-8ff9-66f8a10a8cf9",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Material Files",
+        "url": "https://github.com/zhanghai/MaterialFiles",
+        "extra_map": {
+          "android_app_package": "me.zhanghai.android.files"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c684ca72-11e8-4b78-8430-2de112441344",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "Media Merger",
+        "url": "https://gitlab.com/axet/android-media-merger",
+        "extra_map": {
+          "android_app_package": "com.github.axet.mover"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 2,
+      "uuid": "1739dd7b-2c2c-4db5-8fb1-eba5751114f8",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "爱套图",
+        "url": "https://github.com/yueeng/meitu",
+        "extra_map": {
+          "android_app_package": "io.github.yueeng.aitaotu"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "457adb18-248f-41ed-abdb-a4368843bda9",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "喵滴-Markdown&Todo",
+        "url": "https://www.coolapk.com/apk/cn.sunshinesudio.libv",
+        "extra_map": {
+          "android_app_package": "cn.sunshinesudio.libv"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "98ca87f8-716d-4bc5-9ff5-03d0c32db3a5",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "微软数学",
+        "url": "https://play.google.com/store/apps/details?id=com.microsoft.math",
+        "extra_map": {
+          "android_app_package": "com.microsoft.math"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "bf45458f-b031-476a-b20a-2654f6f7da11",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Minecraft",
+        "url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+        "extra_map": {
+          "android_app_package": "com.mojang.minecraftpe"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "18f2b16b-8b15-4825-aa51-3368eb410d07",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "MoegirlViewer",
+        "url": "https://github.com/koharubiyori/MoegirlViewer",
+        "extra_map": {
+          "android_app_package": "com.moegirlviewer"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "bb7c6bf1-02b1-45a6-ae6d-801a31e6cb1a",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Monerujo",
+        "url": "https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet",
+        "extra_map": {
+          "android_app_package": "com.m2049r.xmrwallet"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "f397bced-361b-45d0-805a-9bf94b9b6a5a",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "MoonLight",
+        "url": "https://github.com/moonlight-stream/moonlight-android",
+        "extra_map": {
+          "android_app_package": "com.limelight"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "9741a79b-af01-4ba8-ab57-07efb431d594",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Muviz Edge",
+        "url": "https://play.google.com/store/apps/details?id=com.sparkine.muvizedge",
+        "extra_map": {
+          "android_app_package": "com.sparkine.muvizedge"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "1a91285d-3de3-4869-942c-b1b7c3736e55",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "NClientV2",
+        "url": "https://github.com/Dar9586/NClientV2",
+        "extra_map": {
+          "android_app_package": "com.dar.nclientv2"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "62e80fd3-df9d-4b94-968c-023dbaf31109",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "南博",
+        "url": "https://www.coolapk.com/apk/cn.krait.nabo",
+        "extra_map": {
+          "android_app_package": "cn.krait.nabo"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "a2031e48-e20e-4e5c-bf98-35c796821d57",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Native Alpha",
+        "url": "https://github.com/cylonid/NativeAlphaForAndroid/",
+        "extra_map": {
+          "android_app_package": "com.cylonid.nativealpha"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "25bf4ebb-851b-4364-ab5e-da593748e629",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Neko",
+        "url": "https://github.com/CarlosEsco/Neko",
+        "extra_map": {
+          "android_app_package": "tachiyomi.mangadex"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "9cc3165d-a307-48e0-ac96-4b2c83929c58",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "NekoX",
+        "url": "https://github.com/NekoX-Dev/NekoX",
+        "extra_map": {
+          "android_app_package": "nekox.messenger"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c196d9c0-0b5f-4228-a33b-484908099e5a",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "NetPatch Firewall",
+        "url": "https://github.com/netpatch/firewall",
+        "extra_map": {
+          "android_app_package": "co.netpatch.firewall"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "97866240-9d37-4183-8ee6-82a8c584c8ea",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "NewPipe",
+        "url": "https://github.com/TeamNewPipe/NewPipe",
+        "extra_map": {
+          "android_app_package": "org.schabi.newpipe"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "57d97773-ac32-4b78-966d-7f806fb42ad9",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "NextCloud",
+        "url": "https://github.com/nextcloud/android",
+        "extra_map": {
+          "android_app_package": "com.nextcloud.android"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c4f3d216-5377-4eee-8beb-ae169fbcdd84",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "NoPopping-自动勿扰模式",
+        "url": "https://coolapk.com/apk/rikka.nopeeking",
+        "extra_map": {
+          "android_app_package": "rikka.nopeeking"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "4e216232-3558-4e95-9b92-341383097fc4",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "OAndBackupX",
+        "url": "https://github.com/machiav3lli/oandbackupx",
+        "extra_map": {
+          "android_app_package": "com.machiav3lli.backup"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "7a269e5a-961a-4a25-a22e-13c08ff6dc12",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Remote Fingerprint Unlock",
+        "url": "https://play.google.com/store/apps/details?id=com.onscripter.plus",
+        "extra_map": {
+          "android_app_package": "com.onscripter.plus"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "a5959e28-8536-4c60-8ebb-7e9c891f790b",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "OneNote",
+        "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.onenote",
+        "extra_map": {
+          "android_app_package": "com.microsoft.office.onenote"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "93f079f1-5bf1-4ae0-9bfd-1eb4b0eb2fc3",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Oxygen Updater",
+        "url": "https://github.com/oxygen-updater/oxygen-updater",
+        "extra_map": {
+          "android_app_package": "com.arjanvlek.oxygenupdater"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "5603b4cf-bd45-485e-b101-a4185e37a42e",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Permission Manager X",
+        "url": "https://github.com/mirfatif/PermissionManagerX",
+        "extra_map": {
+          "android_app_package": "com.mirfatif.permissionmanagerx"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 2,
+      "uuid": "3c9d06cd-5764-4dd6-877c-022023876a31",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Pix-EzViewer",
+        "url": "https://github.com/ultranity/Pix-EzViewer",
+        "extra_map": {
+          "android_app_package": "com.perol.asdpl.play.pixivez"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "5cdb731e-16db-4e32-9e48-cdd4a4e3d9bc",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "PixEz-flutter",
+        "url": "https://github.com/Notsfsssf/pixez-flutter",
+        "extra_map": {
+          "android_app_package": "com.perol.pixez"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "ea811abf-971f-4591-80c4-319c0d2c3dce",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "PixShaft",
+        "url": "https://github.com/CeuiLiSA/Pixiv-Shaft",
+        "extra_map": {
+          "android_app_package": "ceui.lisa.pixiv"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d01cbb03-0936-4150-b996-e9e471441bfe",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "PowerTube",
+        "url": "https://github.com/razar-dev/PowerTube",
+        "extra_map": {
+          "android_app_package": "ussr.razar.youtube_dl"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "5d3a25fc-728e-46ca-968f-61f3484f3e20",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "Pure 轻雨",
+        "url": "https://www.coolapk.com/apk/me.morirain.dev.iconpack.pure",
+        "extra_map": {
+          "android_app_package": "me.morirain.dev.iconpack.pure"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 2,
+      "uuid": "5e0d81ba-1f24-4518-8e46-159b7f81c67c",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "Pure天气",
+        "url": "https://www.coolapk.com/apk/hanjie.app.pureweather",
+        "extra_map": {
+          "android_app_package": "hanjie.app.pureweather"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "4825fda3-fb3e-4e7b-a75e-f1c694bf1da1",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "纯纯写作",
+        "url": "https://www.coolapk.com/apk/com.drakeet.purewriter",
+        "extra_map": {
+          "android_app_package": "com.drakeet.purewriter"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d75ae05b-85d1-4e81-b2f8-b2da7c33fbd8",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "PxView",
+        "url": "https://github.com/alphasp/pxview",
+        "extra_map": {
+          "android_app_package": "com.utopia.pxview"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "da862bd8-1743-4475-a447-3b50fca0af4a",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "QuickPic Gallery (WST Mod)",
+        "url": "https://github.com/WSTxda/QP-Gallery-Releases",
+        "extra_map": {
+          "android_app_package": "com.alensw.PicFolder"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "ab037433-b558-44a2-92a1-07950182c74a",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Remote Fingerprint Unlock",
+        "url": "https://play.google.com/store/apps/details?id=ro.andreimircius.remotefingerauth",
+        "extra_map": {
+          "android_app_package": "ro.andreimircius.remotefingerauth"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "8f57238f-fb86-4749-967a-e023327bac32",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Resilio Sync",
+        "url": "https://play.google.com/store/apps/details?id=com.resilio.sync",
+        "extra_map": {
+          "android_app_package": "com.resilio.sync"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d0c36951-b076-4585-9834-4d71a6570ab0",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Retro Music Player",
+        "url": "https://github.com/h4h13/RetroMusicPlayer",
+        "extra_map": {
+          "android_app_package": "code.name.monkey.retromusic"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "7a94d1a7-1dc9-4f24-a960-9d42b881d035",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "SMS Gate",
+        "url": "https://gitlab.com/axet/android-sms-gate",
+        "extra_map": {
+          "android_app_package": "com.github.axet.smsgate"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "004f12da-9c40-4642-baeb-2e34a4a692b7",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "SandVXposed",
+        "url": "https://github.com/ganyao114/SandVXposed",
+        "extra_map": {
+          "android_app_package": "io.virtualapp.sandvxposed"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "ed655c80-d793-4286-8cf2-167545577778",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "嘶哩嘶哩",
+        "url": "https://github.com/670848654/Silisili",
+        "extra_map": {
+          "android_app_package": "my.project.silisili"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d4a30f44-8a03-4c20-9b0f-d30c2a491309",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple App Launcher",
+        "url": "https://github.com/SimpleMobileTools/Simple-App-Launcher",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.applauncher"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "27b4e2aa-830b-43eb-9199-88cff5818306",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Calculator",
+        "url": "https://github.com/SimpleMobileTools/Simple-Calculator",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.calculator"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "e1189536-2c9c-48dc-850f-e03d30c9b1ec",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Calendar Pro",
+        "url": "https://github.com/SimpleMobileTools/Simple-Calendar",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.calendar.pro"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "6ea85ace-0e49-48e9-b927-2afa6a1ec681",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Camera",
+        "url": "https://github.com/SimpleMobileTools/Simple-Camera",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.camera"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "8cda200a-1465-498e-b7a1-2bb16197980b",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Clock",
+        "url": "https://github.com/SimpleMobileTools/Simple-Clock",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.clock"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "57365af4-d968-4eba-bd14-5846b33fad16",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Contacts Pro",
+        "url": "https://github.com/SimpleMobileTools/Simple-Contacts",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.contacts.pro"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "83a1055b-bf8a-4462-9e6b-08730ffe7b84",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Dialer",
+        "url": "https://github.com/SimpleMobileTools/Simple-Dialer",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.dialer"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "5dcfecc1-21d4-480c-a2ef-ae6d12ccbeaf",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Draw Pro",
+        "url": "https://github.com/SimpleMobileTools/Simple-Draw",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.draw.pro"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c0caf95b-0224-4451-b299-cbe455b66c5d",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple File Manager Pro",
+        "url": "https://github.com/SimpleMobileTools/Simple-File-Manager",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.filemanager.pro"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "67f0addf-a014-4f27-bc45-d093d7667874",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Flashlight",
+        "url": "https://github.com/SimpleMobileTools/Simple-Flashlight",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.flashlight"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "104586a2-91ca-4750-b0bd-11dedfa8eb55",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Gallery Pro",
+        "url": "https://github.com/SimpleMobileTools/Simple-Gallery",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.gallery.pro"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "58950375-1a4a-4458-b834-888b60e37563",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Music Player",
+        "url": "https://github.com/SimpleMobileTools/Simple-Music-Player",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.musicplayer"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "faad9c73-08c2-4124-beaf-9e74690a5a82",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Notes Pro",
+        "url": "https://github.com/SimpleMobileTools/Simple-Notes",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.notes.pro"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "929cd2d0-532e-47f3-9651-bf7a2f6ac447",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple SMS Messenger",
+        "url": "https://github.com/SimpleMobileTools/Simple-SMS-Messenger",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.smsmessenger"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "00f07f27-1c03-4c09-ac8b-211a162982b1",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Thank You",
+        "url": "https://github.com/SimpleMobileTools/Simple-Thank-You",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.thankyou"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "64bbfca8-6bf5-4d3b-a762-2c9eff520b2d",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Simple Voice Recorder",
+        "url": "https://github.com/SimpleMobileTools/Simple-Voice-Recorder",
+        "extra_map": {
+          "android_app_package": "com.simplemobiletools.voicerecorder"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "03f32741-3f62-4373-b1ea-3dba287a4c03",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "SoundWire",
+        "url": "https://play.google.com/store/apps/details?id=com.georgie.SoundWireFree",
+        "extra_map": {
+          "android_app_package": "com.georgie.SoundWireFree"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "ff5ab4f9-493e-48ef-8458-5e2b0c8b0241",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Split APKs Installer (SAI)",
+        "url": "https://github.com/Aefyr/SAI",
+        "extra_map": {
+          "android_app_package": "com.aefyr.sai"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "5ab2d3ea-84c3-4e6b-8572-3131ffefb68b",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "TachiyomiAZ",
+        "url": "https://github.com/az4521/TachiyomiAZ",
+        "extra_map": {
+          "android_app_package": "eu.kanade.tachiyomi.az"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "2caddcbf-dd46-4d48-b0d8-84e70dcb7c2d",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "TachiyomiEH",
+        "url": "https://github.com/NerdNumber9/TachiyomiEH",
+        "extra_map": {
+          "android_app_package": "eu.kanade.tachiyomi.eh2"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "17bef821-631c-43a3-ab17-4be7a5fb605f",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "TachiyomiJ2K",
+        "url": "https://github.com/Jays2Kings/tachiyomiJ2K",
+        "extra_map": {
+          "android_app_package": "eu.kanade.tachiyomi.j2k"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "6c0a6609-bf0d-403f-a949-beb64214fd00",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "TachiyomiSY",
+        "url": "https://github.com/jobobby04/TachiyomiSY",
+        "extra_map": {
+          "android_app_package": "eu.kanade.tachiyomi.sy"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "1e22da80-0b11-41c8-a179-299314071939",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "太极",
+        "url": "https://github.com/taichi-framework/TaiChi",
+        "extra_map": {
+          "android_app_package": "me.weishu.exp"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "989bfded-8ecc-4194-99cb-f33d7da93d8c",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Telegram",
+        "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+        "extra_map": {
+          "android_app_package": "org.telegram.messenger"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "9f2812a5-f0a9-4122-a8b4-f189a39b147a",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Telegram SMS",
+        "url": "https://github.com/telegram-sms/telegram-sms",
+        "extra_map": {
+          "android_app_package": "com.qwe7002.telegram_sms"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "8d6fb13d-7935-484a-b6f6-9fbb20e67234",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Termius",
+        "url": "https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client",
+        "extra_map": {
+          "android_app_package": "com.server.auditor.ssh.client"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "fd6ecc03-2c9c-42e8-bb2c-959177f68b50",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Thanox",
+        "url": "https://github.com/Tornaco/Thanox",
+        "extra_map": {
+          "android_app_package": "github.tornaco.android.thanos"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "4e80d8a6-4e57-4e10-964f-90a1ebeea6ce",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "贴吧Lite",
+        "url": "https://github.com/HuanCheng65/TiebaLite",
+        "extra_map": {
+          "android_app_package": "com.huanchengfly.tieba.post"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "d3958780-bd09-4853-9bbf-dc912c8eebaf",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "OneNote",
+        "url": "https://play.google.com/store/apps/details?id=com.microsoft.todos",
+        "extra_map": {
+          "android_app_package": "com.microsoft.todos"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "a0a1526a-593e-4994-bd90-3133d6671c41",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "Tone Generator",
+        "url": "https://gitlab.com/axet/android-tone-generator",
+        "extra_map": {
+          "android_app_package": "com.github.axet.tonegenerator"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "367ba5d5-1839-40e4-9b60-d5fc25ff1a87",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Tor Browser",
+        "url": "https://play.google.com/store/apps/details?id=org.torproject.torbrowser",
+        "extra_map": {
+          "android_app_package": "org.torproject.torbrowser"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "39bdc643-a987-4a88-9fc7-11acce066a99",
+      "base_hub_uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
+      "info": {
+        "name": "Torrent Client",
+        "url": "https://gitlab.com/axet/android-torrent-client",
+        "extra_map": {
+          "android_app_package": "com.github.axet.torrentclient"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "b72855dd-881d-4ec2-a07f-59dcb684c2bb",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "吐槽弹幕网",
+        "url": "https://github.com/blackbbc/Tucao",
+        "extra_map": {
+          "android_app_package": "me.sweetll.tucao"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "83a34413-9602-4907-adb6-e57ce7f4c386",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Ungoogled Chromium",
+        "url": "https://github.com/ungoogled-software/ungoogled-chromium-android",
+        "extra_map": {
+          "android_app_package": "org.ungoogled.chromium.stable"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "78cb0aaf-a417-4798-a757-8ea336fa9c45",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Unicode Pad",
+        "url": "https://github.com/Ryosuke839/UnicodePad",
+        "extra_map": {
+          "android_app_package": "jp.ddo.hotmist.unicodepad"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "0ada89b0-9426-4a64-b076-d5f970820e08",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "V2er",
+        "url": "https://www.coolapk.com/apk/me.ghui.v2er",
+        "extra_map": {
+          "android_app_package": "me.ghui.v2er"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "8cff2737-c659-484a-93fc-813bc7ea7fac",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "V9Porn",
+        "url": "https://github.com/techGay/v9porn",
+        "extra_map": {
+          "android_app_package": "com.u9porn"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "acae88dd-9192-416e-863a-75b0dbd43422",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Vanced Manager",
+        "url": "https://github.com/YTVanced/VancedManager",
+        "extra_map": {
+          "android_app_package": "com.vanced.manager"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "eaf41c5a-474b-454b-acfd-40f30c597572",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Vanced MicroG",
+        "url": "https://github.com/YTVanced/VancedMicroG",
+        "extra_map": {
+          "android_app_package": "com.mgoogle.android.gms"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "02415d37-dfa5-4d02-a0a3-4014bc86298b",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "VikACG",
+        "url": "https://github.com/Sailoud/VikACG_Rescue",
+        "extra_map": {
+          "android_app_package": "com.vikacg.zh.hans"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "89686b18-c76f-4a4f-be5f-5966f76633a9",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "VirtualXposed",
+        "url": "https://github.com/android-hacker/VirtualXposed",
+        "extra_map": {
+          "android_app_package": "io.va.exposed"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "cdf366c4-6bb4-4468-a432-14b954f35dcf",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "音量面板样式",
+        "url": "https://play.google.com/store/apps/details?id=com.tombayley.volumepanel",
+        "extra_map": {
+          "android_app_package": "com.tombayley.volumepanel"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "39d52bd5-7ad1-4d6d-bd5d-a4485976328b",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "WO Mic",
+        "url": "https://play.google.com/store/apps/details?id=com.wo.voice2",
+        "extra_map": {
+          "android_app_package": "com.wo.voice2"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "ecd4e853-6ba2-4cf5-a1ab-449596856844",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Wechat Chums",
+        "url": "https://github.com/dannyit/WechatChums",
+        "extra_map": {
+          "android_app_package": "me.dannyit.wechat.chum"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "787d0e54-5633-4ada-8e19-6e45fd37dbdf",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "微博国际版",
+        "url": "https://play.google.com/store/apps/details?id=com.weico.international",
+        "extra_map": {
+          "android_app_package": "com.weico.international"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c3c275f0-3938-4fb4-b3e2-c9bb987c32ee",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "一个木函",
+        "url": "https://coolapk.com/apk/com.One.WoodenLetter",
+        "extra_map": {
+          "android_app_package": "com.One.WoodenLetter"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "26a4dac2-70a3-4fe7-9516-cbe5a95b8384",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "XAutoDaily",
+        "url": "https://github.com/teble/XAutoDaily",
+        "extra_map": {
+          "android_app_package": "me.teble.xposed.autodaily"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "62253cda-bf14-4f19-9bea-f1ba409c11bc",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "XPrivacyLua Pro",
+        "url": "https://play.google.com/store/apps/details?id=eu.faircode.xlua.pro",
+        "extra_map": {
+          "android_app_package": "eu.faircode.xlua.pro"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 2,
+      "uuid": "03168aae-41cc-431f-a77d-3f37152a536f",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "X浏览器",
+        "url": "https://www.coolapk.com/apk/com.mmbox.xbrowser",
+        "extra_map": {
+          "android_app_package": "com.mmbox.xbrowser"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "ab3d4046-a4bf-4337-8d49-7ae2aa8db4be",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "Bilibili",
+        "url": "https://play.google.com/store/apps/details?id=com.bilibili.app.in",
+        "extra_map": {
+          "android_app_package": "com.bilibili.app.in"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "82da690e-4761-4a85-8592-52b56d5d1254",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "ES文件浏览器",
+        "url": "https://www.coolapk.com/apk/com.estrongs.android.pop",
+        "extra_map": {
+          "android_app_package": "com.estrongs.android.pop"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "08df069b-d435-45bc-8f97-5731bdb02202",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "Keepass2Andoid",
+        "url": "https://github.com/PhilippC/keepass2android",
+        "extra_map": {
+          "android_app_package": "keepass2android.keepass2android"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "4d41c9ef-181a-43e0-890b-aab04d1e71f9",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "phyphox",
+        "url": "https://play.google.com/store/apps/details?id=de.rwth_aachen.phyphox",
+        "extra_map": {
+          "android_app_package": "de.rwth_aachen.phyphox"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c755c153-e1b1-4bc3-a1bf-5d81f87bedf2",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "SSVPN",
+        "url": "https://github.com/bannedbook/ssvpn",
+        "extra_map": {
+          "android_app_package": "free.shadowsocks.proxy.VPN"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "eaf6d7dd-908a-400c-b2c7-4783be19638b",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "东方狗",
+        "url": "https://github.com/shirokurakana/thdog",
+        "extra_map": {
+          "android_app_package": "com.shiro.thdog"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c5d40cd2-429e-4ed6-8a03-b7324f12956d",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "动漫之家Flutter",
+        "url": "https://github.com/xiaoyaocz/dmzj_flutter",
+        "extra_map": {
+          "android_app_package": "com.nsapp.dmzj"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "2f702333-dcf5-4af7-bb9c-7fd381a702cc",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+      "info": {
+        "name": "咕咚云图",
+        "url": "https://www.coolapk.com/apk/name.gudong.pic",
+        "extra_map": {
+          "android_app_package": "name.gudong.pic"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "bf2fd422-35bb-4b10-8c3b-6fb4d7309173",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "弹弹Play概念版",
+        "url": "https://github.com/xyoye/DanDanPlayForAndroid",
+        "extra_map": {
+          "android_app_package": "com.xyoye.dandanplay"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "dca900f2-b95d-451d-b930-12d113ce8944",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "欧路词典",
+        "url": "https://play.google.com/store/apps/details?id=com.qianyan.eudic",
+        "extra_map": {
+          "android_app_package": "com.qianyan.eudic"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "6a2a1edc-227a-4fc5-8a1b-4ab8dd25a7e8",
+      "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "name": "比特舟Pro",
+        "url": "https://play.google.com/store/apps/details?id=cili.niao.search.bt.ci.li",
+        "extra_map": {
+          "android_app_package": "cili.niao.search.bt.ci.li"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "88fb5f83-6566-44ad-bccf-ed0b63122b47",
+      "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+      "info": {
+        "name": "琉璃神社",
+        "url": "https://github.com/yueeng/hacg",
+        "extra_map": {
+          "android_app_package": "io.github.yueeng.hacg"
+        }
+      }
+    },
+    {
+      "base_version": 2,
+      "config_version": 1,
+      "uuid": "c25014d5-f9dc-4dfb-b88b-3f8fddecef96",
+      "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
+      "info": {
+        "name": "黑阈",
+        "url": "https://m.shouji.com.cn/down/33532.html",
+        "extra_map": {
+          "android_app_package": "me.piebridge.brevent"
         }
       }
     }
   ],
   "hub_config_list": [
     {
-      "base_version": 5,
+      "base_version": 6,
+      "config_version": 3,
       "uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
       "info": {
         "hub_name": "GitHub",
-        "config_version": 3
+        "hub_icon_url": ""
       },
+      "target_check_api": "",
       "api_keywords": [
         "owner",
         "repo"
@@ -3960,22 +2917,26 @@
       ]
     },
     {
-      "base_version": 5,
+      "base_version": 6,
+      "config_version": 5,
       "uuid": "28591e65-849f-4417-aead-9d9098520eed",
       "info": {
         "hub_name": "Z直播官网",
-        "config_version": 5
+        "hub_icon_url": ""
       },
+      "target_check_api": "",
       "api_keywords": [],
       "app_url_templates": []
     },
     {
-      "base_version": 5,
+      "base_version": 6,
+      "config_version": 3,
       "uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
       "info": {
         "hub_name": "酷安",
-        "config_version": 3
+        "hub_icon_url": ""
       },
+      "target_check_api": "",
       "api_keywords": [
         "android_app_package"
       ],
@@ -3996,12 +2957,14 @@
       }
     },
     {
-      "base_version": 5,
+      "base_version": 6,
+      "config_version": 2,
       "uuid": "1c010cc9-cff8-4461-8993-a86mm190d377",
       "info": {
         "hub_name": "手机乐园",
-        "config_version": 2
+        "hub_icon_url": ""
       },
+      "target_check_api": "",
       "api_keywords": [
         "app_id"
       ],
@@ -4012,12 +2975,14 @@
       ]
     },
     {
-      "base_version": 5,
+      "base_version": 6,
+      "config_version": 2,
       "uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
       "info": {
         "hub_name": "F-droid",
-        "config_version": 2
+        "hub_icon_url": ""
       },
+      "target_check_api": "",
       "api_keywords": [
         "android_app_package"
       ],
@@ -4039,20 +3004,6 @@
       }
     },
     {
-      "base_version": 5,
-      "uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
-      "info": {
-        "hub_name": "Google Play",
-        "config_version": 2
-      },
-      "api_keywords": [
-        "android_app_package"
-      ],
-      "app_url_templates": [
-        "https://play.google.com/store/apps/details?id=%android_app_package"
-      ]
-    },
-    {
       "base_version": 1,
       "uuid": "56fca689-47a7-496a-b290-8bd717c06960",
       "info": {
@@ -4068,32 +3019,52 @@
       ]
     },
     {
-      "base_version": 5,
-      "uuid": "e02a95a2-af76-426c-9702-c4c39a01f891",
-      "info": {
-        "hub_name": "Xposed Module Repository",
-        "config_version": 3
-      },
-      "api_keywords": [
-        "android_app_package"
-      ],
-      "app_url_templates": [
-        "https://repo.xposed.info/module/%android_app_package/"
-      ]
-    },
-    {
-      "base_version": 5,
+      "base_version": 6,
+      "config_version": 1,
       "uuid": "a84e2fbe-1478-4db5-80ae-75d00454c7eb",
       "info": {
         "hub_name": "Gitlab",
-        "config_version": 1
+        "hub_icon_url": ""
       },
+      "target_check_api": "",
       "api_keywords": [
         "owner",
         "repo"
       ],
       "app_url_templates": [
         "https://gitlab.com/%owner/%repo/"
+      ]
+    },
+    {
+      "base_version": 6,
+      "config_version": 2,
+      "uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+      "info": {
+        "hub_name": "Google Play",
+        "hub_icon_url": ""
+      },
+      "target_check_api": "",
+      "api_keywords": [
+        "android_app_package"
+      ],
+      "app_url_templates": [
+        "https://play.google.com/store/apps/details?id=%android_app_package"
+      ]
+    },
+    {
+      "base_version": 6,
+      "config_version": 3,
+      "uuid": "e02a95a2-af76-426c-9702-c4c39a01f891",
+      "info": {
+        "hub_name": "Xposed Module Repository",
+        "hub_icon_url": ""
+      },
+      "target_check_api": "",
+      "api_keywords": [
+        "android_app_package"
+      ],
+      "app_url_templates": [
+        "https://repo.xposed.info/module/%android_app_package/"
       ]
     }
   ]
