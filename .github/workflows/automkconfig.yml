@@ -1,6 +1,8 @@
 name: Automkconfig
 on: 
   push:
+    branches:
+    - master
     paths:
     - 'rules/apps/**.json'
     - 'rules/hubs/**.json'
@@ -9,9 +11,8 @@ jobs:
     runs-on: 
     - ubuntu-latest
     strategy:
-      max-parallel: 1
       matrix:
-        python-version: [3.8]
+        python-version: [3.9]
     steps:
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
