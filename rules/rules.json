@@ -2521,6 +2521,24 @@
       }
     },
     {
+      "base_version": 1,
+      "uuid": "a34e6d22-1a1a-4f19-8676-ac507296cb8c",
+      "info": {
+        "app_name": "Termux:API",
+        "config_version": 1,
+        "url": "https://f-droid.org/packages/com.termux.api/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.termux.api"
+        }
+      }
+    },
+    {
       "base_version": 2,
       "uuid": "f0ab86f2-8439-4099-ab90-bacc2a7de09b",
       "info": {
@@ -2913,6 +2931,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "me.teble.xposed.autodaily"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "91d636e6-b507-451c-962f-7ddcd636808a",
+      "info": {
+        "app_name": "Termux:Tasker",
+        "config_version": 1,
+        "url": "https://f-droid.org/packages/com.termux.tasker/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.termux.tasker"
         }
       }
     },
@@ -3332,6 +3368,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "996b82ff-f62a-48a0-bcbd-892c1615afa1",
+      "info": {
+        "app_name": "Termux:Float",
+        "config_version": 1,
+        "url": "https://f-droid.org/packages/com.termux.float/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.termux.float"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "c755c153-e1b1-4bc3-a1bf-5d81f87bedf2",
       "info": {
         "app_name": "SSVPN",
@@ -3345,6 +3399,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "free.shadowsocks.proxy.VPN"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "478a5666-74be-4e37-91dc-4e46ad3031e9",
+      "info": {
+        "app_name": "Termux:Boot",
+        "config_version": 1,
+        "url": "https://f-droid.org/packages/com.termux.boot/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.termux.boot"
         }
       }
     },
@@ -3525,6 +3597,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "jp.ddo.hotmist.unicodepad"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "dc275e68-0873-49cd-80fc-e966699a10ef",
+      "info": {
+        "app_name": "Termux:Widget",
+        "config_version": 1,
+        "url": "https://f-droid.org/packages/com.termux.widget/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.termux.widget"
         }
       }
     },
@@ -3759,6 +3849,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "com.arjanvlek.oxygenupdater"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "20845fd8-b2cf-4031-a5c1-ce73302344c3",
+      "info": {
+        "app_name": "Termux:Styling",
+        "config_version": 1,
+        "url": "https://f-droid.org/packages/com.termux.styling/"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.termux.styling"
         }
       }
     },
