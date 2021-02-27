@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "dc275e68-0873-49cd-80fc-e966699a10ef",
+  "info": {
+    "app_name": "Termux:Widget",
+    "config_version": 1,
+    "url": "https://f-droid.org/packages/com.termux.widget/"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.termux.widget"
+    }
+  }
+}

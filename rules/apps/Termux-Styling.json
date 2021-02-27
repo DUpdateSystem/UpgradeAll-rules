@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "20845fd8-b2cf-4031-a5c1-ce73302344c3",
+  "info": {
+    "app_name": "Termux:Styling",
+    "config_version": 1,
+    "url": "https://f-droid.org/packages/com.termux.styling/"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.termux.styling"
+    }
+  }
+}
