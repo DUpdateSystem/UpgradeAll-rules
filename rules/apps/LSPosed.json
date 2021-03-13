@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "f4786519-0590-4b6b-bd8d-c2d2903b3532",
+    "info": {
+      "app_name": "LSPosed",
+      "config_version": 1,
+      "url": "https://github.com/LSPosed/LSPosed"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "io.github.lsposed.manager"
+      }
+    }
+  }
