@@ -3656,6 +3656,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "7a549860-ebac-4145-a84d-8e58d3f29e05",
+      "info": {
+        "app_name": "(Bromite) Chromium Browser",
+        "config_version": 1,
+        "url": "https://github.com/bromite/chromium"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "org.bromite.chromium"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "bc6fc3e1-e9de-4cad-a39c-29d20d6d2cc1",
       "info": {
         "app_name": "简单水印",
@@ -3795,6 +3813,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "cili.niao.search.bt.ci.li"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "2b566efe-b476-4159-9b9b-cf624ee474ba",
+      "info": {
+        "app_name": "(Bromite) Chromium System WebView",
+        "config_version": 1,
+        "url": "https://github.com/bromite/chromium"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "com.android.webview"
         }
       }
     },
