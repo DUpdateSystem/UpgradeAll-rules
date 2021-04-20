@@ -3098,6 +3098,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "2c5188ac-d3a0-42de-b650-b04a2246bbcc",
+      "info": {
+        "app_name": "M浏览器",
+        "config_version": 1,
+        "url": "https://www.coolapk.com/apk/cn.nr19.mbrowser"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "cn.nr19.mbrowser"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "39bdc643-a987-4a88-9fc7-11acce066a99",
       "info": {
         "app_name": "Torrent Client",
