@@ -1,6 +1,6 @@
 {
   "base_version": 1,
-  "uuid": "150ae3b4-1835-402c-afa1-aa91a060aff0",
+  "uuid": "de22dfab-becf-4ca3-81e1-17e1c342ea5d",
   "info": {
     "app_name": "李跳跳",
     "config_version": 1,
@@ -8,7 +8,7 @@
   },
   "app_config": {
     "hub_info": {
-      "hub_uuid": "de22dfab-becf-4ca3-81e1-17e1c342ea5d"
+      "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
     },
     "target_checker": {
       "api": "App_Package",
