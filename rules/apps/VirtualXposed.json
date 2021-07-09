@@ -3,7 +3,7 @@
   "uuid": "89686b18-c76f-4a4f-be5f-5966f76633a9",
   "info": {
     "app_name": "VirtualXposed",
-    "config_version": 1,
+    "config_version": 2,
     "url": "https://github.com/android-hacker/VirtualXposed"
   },
   "app_config": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "io.va.exposed"
+      "extra_string": "io.va.exposed64"
     }
   }
 }
