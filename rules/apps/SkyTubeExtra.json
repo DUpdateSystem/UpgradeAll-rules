@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "42c542f2-b80d-4c9b-84f5-d8eccc0d2236",
+    "info": {
+      "app_name": "SkyTube Extra",
+      "config_version": 1,
+      "url": "https://github.com/SkyTubeTeam/SkyTube"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "free.rm.skytube.extra"
+      }
+    }
+  }
