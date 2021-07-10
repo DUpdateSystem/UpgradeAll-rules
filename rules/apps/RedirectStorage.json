@@ -1,5 +1,5 @@
 {
-    "base_version": 2,
+    "base_version": 1,
     "uuid": "a59ab5a6-4ff4-4484-b641-23cb8fe55a4c",
     "info": {
       "app_name": "存储空间隔离",

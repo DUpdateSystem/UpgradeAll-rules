@@ -1,5 +1,5 @@
 {
-  "base_version": 2,
+  "base_version": 1,
   "uuid": "697d8bda-331b-11ea-823b-55dfdee64a81",
   "info": {
     "app_name": "Termux",
