@@ -8,7 +8,7 @@ def get_config(file_name: str, dir: str) -> OrderedDict or None:
     if not file_name or not dir:
         return None
 
-    with open(f'./rules/{dir}/{file_name}.json', 'r') as f:
+    with open(f'./rules/{dir}/{file_name}.json', 'r', encoding='utf-8') as f:
         text = f.read()
         return json.loads(text, object_pairs_hook=OrderedDict)
 
@@ -47,7 +47,7 @@ def complete_config_list(sort: str, init_list: list,
 json_data = {"app_config_list": [], "hub_config_list": []}
 app_list = []
 hub_list = []
-with open('./rules/rules_list.json', 'r') as f:
+with open('./rules/rules_list.json', 'r', encoding='utf-8') as f:
     text = f.read()
     data = json.loads(text)
     app_list = data["app_list"]
@@ -59,7 +59,7 @@ init_config_list(hub_list, "hubs", json_data["hub_config_list"])
 complete_config_list("apps", app_list, json_data["app_config_list"])
 complete_config_list("hubs", hub_list, json_data["hub_config_list"])
 
-with open('./rules/rules.json', 'w') as f:
+with open('./rules/rules.json', 'w', encoding='utf-8') as f:
     f.write(json.dumps(json_data, indent=2, ensure_ascii=False))
 
 print("Done")
