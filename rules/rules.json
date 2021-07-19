@@ -4489,7 +4489,7 @@
       }
     },
     {
-      "base_version": 1,
+      "base_version": 5,
       "uuid": "56fca689-47a7-496a-b290-8bd717c06960",
       "info": {
         "hub_name": "GitHub(加速)",
