@@ -3,8 +3,8 @@
   "uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0",
   "info": {
     "app_name": "Kiwi Browser",
-    "config_version": 2,
-    "url": "https://github.com/kiwibrowser/src"
+    "config_version": 3,
+    "url": "https://github.com/kiwibrowser/src.next"
   },
   "app_config": {
     "hub_info": {
