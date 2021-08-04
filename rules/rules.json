@@ -3080,24 +3080,6 @@
     },
     {
       "base_version": 1,
-      "uuid": "6bae7232-7416-4090-903a-42d6278f47ef",
-      "info": {
-        "app_name": "Swift Backup",
-        "config_version": 1,
-        "url": "https://play.google.com/store/apps/details?id=moe.shizuku.redirectstorage"
-      },
-      "app_config": {
-        "hub_info": {
-          "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
-        },
-        "target_checker": {
-          "api": "App_Package",
-          "extra_string": "moe.shizuku.redirectstorage"
-        }
-      }
-    },
-    {
-      "base_version": 1,
       "uuid": "ab037433-b558-44a2-92a1-07950182c74a",
       "info": {
         "app_name": "Remote Fingerprint Unlock",
