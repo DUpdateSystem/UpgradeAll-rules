@@ -1463,8 +1463,8 @@
       "uuid": "56689a74-d64e-4f19-a7f6-b9440b828af0",
       "info": {
         "app_name": "Catogram",
-        "config_version": 1,
-        "url": "http://github.com/catogram/catogram"
+        "config_version": 2,
+        "url": "https://github.com/catogram/catogram"
       },
       "app_config": {
         "hub_info": {
