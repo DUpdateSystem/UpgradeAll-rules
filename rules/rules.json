@@ -104,7 +104,7 @@
         },
         "target_checker": {
           "api": "App_Package",
-          "extra_string": "com.haleydu.cimoc"
+          "extra_string": "com.cimoc.haleydu"
         }
       }
     },
@@ -2522,6 +2522,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "60bdb23a-5aed-4f5a-88c5-fa372ec48bb3",
+      "info": {
+        "app_name": "Molly",
+        "config_version": 1,
+        "url": "https://github.com/mollyim/mollyim-android"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "im.molly.app"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "bb7c6bf1-02b1-45a6-ae6d-801a31e6cb1a",
       "info": {
         "app_name": "Monerujo",
@@ -3165,6 +3183,24 @@
         "target_checker": {
           "api": "App_Package",
           "extra_string": "io.virtualapp.sandvxposed"
+        }
+      }
+    },
+    {
+      "base_version": 1,
+      "uuid": "361e90c6-c392-4c81-bfcc-0ece514fe424",
+      "info": {
+        "app_name": "Signal-LTS",
+        "config_version": 1,
+        "url": "https://github.com/benarmstead/Signal-LTS"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "benarmstead.bsecure.app"
         }
       }
     },
