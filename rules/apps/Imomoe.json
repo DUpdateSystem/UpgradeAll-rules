@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "b733ece3-8541-4709-9c1b-85a7d0f6e41e",
+    "info": {
+      "app_name": "Imomoe",
+      "config_version": 1,
+      "url": "https://github.com/SkyD666/Imomoe"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "com.skyd.imomoe"
+      }
+    }
+  }
