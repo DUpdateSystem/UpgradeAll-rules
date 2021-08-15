@@ -1,0 +1,18 @@
+{
+    "base_version": 1,
+    "uuid": "c67bbe90-16c6-4315-9cc1-4894912573bc",
+    "info": {
+      "app_name": "BiuVideo",
+      "config_version": 1,
+      "url": "https://github.com/LeonNOV/BiuVideo"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "App_Package",
+        "extra_string": "com.leon.biuvideo"
+      }
+    }
+  }
