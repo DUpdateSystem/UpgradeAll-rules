@@ -1,0 +1,19 @@
+{
+    "base_version": 1,
+    "uuid": "cae648b4-bee9-4614-8fea-acc780e83c7e",
+    "info": {
+      "app_name": "[Magisk_Module]Riru-LSPosed",
+      "config_version": 1,
+      "url": "https://github.com/LSPosed/LSPosed"
+    },
+    "app_config": {
+      "hub_info": {
+        "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+      },
+      "target_checker": {
+        "api": "Magisk_Module",
+        "extra_string": "riru_lsposed"
+      }
+    }
+  }
+  
