@@ -1586,6 +1586,24 @@
     },
     {
       "base_version": 1,
+      "uuid": "0a85245b-8b15-4b7a-9236-c88c9c35ba2b",
+      "info": {
+        "app_name": "PojavLauncher",
+        "config_version": 1,
+        "url": "https://github.com/PojavLauncherTeam/PojavLauncher"
+      },
+      "app_config": {
+        "hub_info": {
+          "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+        },
+        "target_checker": {
+          "api": "App_Package",
+          "extra_string": "net.kdt.pojavlaunch"
+        }
+      }
+    },
+    {
+      "base_version": 1,
       "uuid": "7d72f8a8-8f48-4d2f-ac6d-daa90168b27e",
       "info": {
         "app_name": "Brave Browser",
