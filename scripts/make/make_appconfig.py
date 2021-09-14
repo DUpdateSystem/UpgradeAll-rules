@@ -66,9 +66,10 @@ def get_hub_uuid(url, hub_regex_map) -> str or None:
             return uuid
 
 
-def mk_config(input_text: str) -> tuple[str, str]:
+def mk_config(input_text: str) -> dict[str, str]:
     hub_regex_map = get_hub_url_regex_map()
     app_text_list = input_text.split("***")
+    config_info_map = {}
     for app_text in app_text_list:
         name = None
         package = None
@@ -87,5 +88,6 @@ def mk_config(input_text: str) -> tuple[str, str]:
             j["uuid"] = str(uuid4())
             hub_uuid = get_hub_uuid(url, hub_regex_map)
             j["app_config"]["hub_info"]["hub_uuid"] = hub_uuid
-            return name.replace(' ', ''), \
+            config_info_map[name.replace(' ', '')] = \
                 json.dumps(j, indent=2, ensure_ascii=False)
+    return config_info_map
