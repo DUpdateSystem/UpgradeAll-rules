@@ -1,6 +1,5 @@
 from pathlib import Path
 import json
-from collections import OrderedDict
 
 
 def get_config_map(sort: str) -> dict[str, any]:
@@ -19,7 +18,7 @@ def get_config_map(sort: str) -> dict[str, any]:
     return config_map
 
 
-def get_config(file_name: str, sort: str) -> OrderedDict:
+def get_config(file_name: str, sort: str) -> dict or None:
     with open(f'./rules/{sort}/{file_name}', 'r', encoding='utf-8') as f:
         text = f.read()
-        return json.loads(text, object_pairs_hook=OrderedDict)
+        return json.loads(text)
