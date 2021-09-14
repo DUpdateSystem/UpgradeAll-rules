@@ -41,8 +41,9 @@ def get_hub_url_regex_map() -> dict[str, str]:
     for hub_config in hub_config_map.values():
         try:
             hub_regex_list = get_hub_url_regex(hub_config)
-            uuid = hub_config['uuid']
-            hub_regex_map[uuid] = f'({")|(".join(hub_regex_list)})'
+            if hub_regex_list:
+                uuid = hub_config['uuid']
+                hub_regex_map[uuid] = f'({")|(".join(hub_regex_list)})'
         except KeyError:
             # print("fail get hub url: ", hub_config)
             pass
@@ -72,7 +73,7 @@ def mk_config(input_text: str) -> tuple[str, str]:
         name = None
         package = None
         url = None
-        for t in app_text.split('\n'):
+        for t in app_text.splitlines():
             if "App Name" in t:
                 name = t[16:]
             if "App Package" in t:
@@ -88,6 +89,3 @@ def mk_config(input_text: str) -> tuple[str, str]:
             j["app_config"]["hub_info"]["hub_uuid"] = hub_uuid
             return name.replace(' ', ''), \
                 json.dumps(j, indent=2, ensure_ascii=False)
-
-
-print(json.loads(mk_config(test_input_text)[1]))
