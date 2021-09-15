@@ -22,8 +22,8 @@ with open('./rules/rules_list.json', 'r', encoding='utf-8') as f:
     app_rank_list = data["app_list"]
     hub_rank_list = data["hub_list"]
 
-app_list = get_ranked_config("apps", app_rank_list)
-hub_list = get_ranked_config("hubs", hub_rank_list)
+app_list = list(get_ranked_config("apps", app_rank_list).values())
+hub_list = list(get_ranked_config("hubs", hub_rank_list).values())
 print("App Num:", len(app_list))
 print("Hub Num:", len(hub_list))
 
