@@ -8,4 +8,15 @@ def convert_issues_body(body_text):
             f.write(json_text)
 
 
-convert_issues_body(argv[0])
+try:
+    input_text = argv[1]
+except IndexError:
+    print("issue body: ")
+    input_text = ""
+    while True:
+        try:
+            input_text += (input() + '\n')
+        except EOFError:
+            break
+
+convert_issues_body(input_text)

@@ -54,7 +54,7 @@ def get_hub_url_regex(hub_config: dict) -> list[str]:
     api_keywords_regex = r"|".join(
         [f"%{keyword}" for keyword in hub_config['api_keywords']])
     url_regex_list = [
-        re.sub(api_keywords_regex, r'.+', url_template).rstrip('/')
+        re.sub(api_keywords_regex, r'.+', re.escape(url_template)).rstrip('/')
         for url_template in hub_config['app_url_templates']
     ]
     return url_regex_list
@@ -67,27 +67,47 @@ def get_hub_uuid(url, hub_regex_map) -> str or None:
 
 
 def mk_config(input_text: str) -> dict[str, str]:
-    hub_regex_map = get_hub_url_regex_map()
-    app_text_list = input_text.split("***")
     config_info_map = {}
-    for app_text in app_text_list:
-        name = None
-        package = None
-        url = None
-        for t in app_text.splitlines():
-            if "App Name" in t:
-                name = t[16:]
-            if "App Package" in t:
-                package = t[19:]
-            if "App URL" in t:
-                url = t[15:]
+    name = None
+    package = None
+    url = None
+    split_text = ': |:'
+    for t in input_text.splitlines():
+        if "App Name" in t:
+            name = re.split(split_text, t, 1)[-1]
+        if "App Package" in t:
+            package = re.split(split_text, t, 1)[-1]
+        if "App URL" in t:
+            url = re.split(split_text, t, 1)[-1]
         if name and package and url:
-            j["info"]["app_name"] = name
-            j["info"]["url"] = url
-            j["app_config"]["target_checker"]["extra_string"] = package
-            j["uuid"] = str(uuid4())
-            hub_uuid = get_hub_uuid(url, hub_regex_map)
-            j["app_config"]["hub_info"]["hub_uuid"] = hub_uuid
-            config_info_map[name.replace(' ', '')] = \
-                json.dumps(j, indent=2, ensure_ascii=False)
+            print("deal: ", name)
+            name, value = mk_simgle_config({
+                "name": name,
+                "package": package,
+                "url": url
+            })
+            config_info_map[name] = value
+            name = None
+            package = None
+            url = None
+    print(f"finish: {', '.join(config_info_map.keys())}")
     return config_info_map
+
+
+hub_regex_map = get_hub_url_regex_map()
+
+
+def mk_simgle_config(info_map: dict) -> tuple[str, str]:
+    name = info_map['name']
+    package = info_map['package']
+    url = info_map['url']
+    if name and package and url:
+        j["info"]["app_name"] = name
+        j["info"]["url"] = url
+        j["app_config"]["target_checker"]["extra_string"] = package
+        j["uuid"] = str(uuid4())
+        hub_uuid = get_hub_uuid(url, hub_regex_map)
+        j["app_config"]["hub_info"]["hub_uuid"] = hub_uuid
+        return name.replace(' ', ''), json.dumps(j,
+                                                 indent=2,
+                                                 ensure_ascii=False)
