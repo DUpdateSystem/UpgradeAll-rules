@@ -18,5 +18,7 @@ except IndexError:
             input_text += (input() + '\n')
         except EOFError:
             break
+        except KeyboardInterrupt:
+            break
 
 convert_issues_body(input_text)
