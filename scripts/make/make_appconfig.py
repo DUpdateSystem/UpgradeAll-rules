@@ -66,21 +66,38 @@ def get_hub_uuid(url, hub_regex_map) -> str or None:
             return uuid
 
 
+app_name_title = "App Name"
+app_pkg_title = "App Package"
+app_url_title = "App URL"
+
+
 def mk_config(input_text: str) -> dict[str, str]:
     config_info_map = {}
     name = None
     package = None
     url = None
-    split_text = ': |:'
+    arg_tag = None
     for t in input_text.splitlines():
-        if "App Name" in t:
-            name = re.split(split_text, t, 1)[-1]
-        if "App Package" in t:
-            package = re.split(split_text, t, 1)[-1]
-        if "App URL" in t:
-            url = re.split(split_text, t, 1)[-1]
+        if t and not t.isspace():
+            print(arg_tag)
+            if not arg_tag:
+                if app_name_title in t:
+                    arg_tag = app_name_title
+                elif app_pkg_title in t:
+                    arg_tag = app_pkg_title
+                elif app_url_title in t:
+                    arg_tag = app_url_title
+            else:
+                if arg_tag == app_name_title:
+                    name = t
+                elif arg_tag == app_pkg_title:
+                    package = t
+                elif arg_tag == app_url_title:
+                    url = t
+                arg_tag = None
+
         if name and package and url:
-            print("deal: ", name)
+            print("deal:", name)
             name, value = mk_simgle_config({
                 "name": name,
                 "package": package,
