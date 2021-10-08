@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "ee26ca4d-39de-436b-8f77-dcb883d7117b",
+  "info": {
+    "app_name": "ToDesk",
+    "config_version": 1,
+    "url": "https://www.coolapk.com/apk/youqu.android.todesk"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "youqu.android.todesk"
+    }
+  }
+}
