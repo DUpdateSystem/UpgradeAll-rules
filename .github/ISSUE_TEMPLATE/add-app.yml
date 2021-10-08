@@ -1,0 +1,42 @@
+name: 添加软件[Add App]
+description: 提出你想添加的软件！请选择此模板。| Come up with the software you want to add! Please select this template.
+labels: 添加软件[Add App]
+title: "添加软件[Add App] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding app for UpgradeAll!
+        In order for developers to easily add the software you submitted, please enter detailed information below.
+        
+        感谢给 UpgradeAll 软件源提交新的软件！
+        为了方便开发者添加您提交的软件，请提供以下信息。
+  - type: textarea
+    attributes:
+      label: 软件名称(App Name)：
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 软件包名(App Package)：
+      placeholder: |
+        您可以在软件发布页面找到包名或使用LibChecker查看。 | You can found it on it's release page or use some app eg LibChecker.
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 软件地址(App URL)：
+      placeholder: | 
+        在哪找到的。 | Where you found it.
+        1.
+        2.
+        3.
+    validations:
+      required: true

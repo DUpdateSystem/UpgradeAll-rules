@@ -1,0 +1,20 @@
+name: 添加源支持[Add Mirrors]
+description: 请求添加源支持 | Request to add source support.
+labels: 添加源支持[Add Mirrors]
+title: "[添加源|Add Mirrors] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Source is the source of UpgradeAll update software.
+        How do you tell us which source you want to add?
+        You just need to fill in the URL of the source in the information below.
+
+        源是UpgradeAll更新软件的来源。
+        怎么告诉我们你想添加的源？
+        你只需要将源的网址填入下面的信息中。
+  - type: input
+    attributes:
+      label: 我想添加的源(I want to add Mirrors)：
+    validations:
+      required: true
