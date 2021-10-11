@@ -88,27 +88,21 @@ def del_surplus_start(first_tag: str, body_line_list: list[str]) -> list[str]:
     return body_line_list[index:]
 
 
-# NEED FIX
 def del_surplus_tags(tag_list: list[str],
                      body_line_list: list[str]) -> list[str]:
     """ 检查 TAG 之间的字符
     若完全相同，移除至最后一个 TAG
     若有一项为空，同上
     """
-    start_index = 0
-    mezzanine_list = []
+    mezzanine_list = [
+        str(body_line_list[get_contain_index(body_line_list, tag_list[i]):
+                           get_contain_index(body_line_list, tag_list[i + 1]) -
+                           1]) for i in range(len(tag_list) - 1)
+    ]
 
-    for tag in tag_list:
-        end_index = get_contain_index(body_line_list, tag)
-        mezzanine = body_line_list[start_index:end_index - 1]
-        mezzanine_list.append(mezzanine)
-        start_index = end_index
-    same_num = 0
-    for i in range(len(mezzanine_list) - 1):
-        if mezzanine_list[i] == mezzanine_list[i + 1]:
-            same_num += 1
-    if same_num == len(mezzanine_list):
-        return body_line_list[get_contain_index(body_line_list, tag_list[-1])]
+    if len(set(mezzanine_list)) == 1:
+        return body_line_list[get_contain_index(body_line_list, tag_list[-1]) +
+                              1:]
 
     return body_line_list
 
@@ -137,19 +131,21 @@ def mk_config(input_text: str) -> dict[str, str]:
         i for i in input_text.splitlines() if i and not i.isspace()
     ]
     while body_line_list:
-        # body_line_list = del_surplus_tags(tag_list, body_line_list)
-        body_line_list = del_surplus_start(tag_list[0], body_line_list)
         try:
+            body_line_list = del_surplus_tags(tag_list, body_line_list)
+            body_line_list = del_surplus_start(tag_list[0], body_line_list)
             arg_map = {
                 tag: pop_arg_by_tag(tag, body_line_list)
                 for tag in tag_list
             }
             name, value = mk_simgle_config(arg_map)
             print("deal:", name)
+            config_info_map[name] = value
+            name = None
         except Exception:
-            print("error:", name)
+            if body_line_list:
+                print("left data:", body_line_list)
             break
-        config_info_map[name] = value
 
     print(f"finish: {', '.join(config_info_map.keys())}")
     return config_info_map
