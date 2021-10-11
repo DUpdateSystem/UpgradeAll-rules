@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "5afcc488-0754-4f27-b543-a23ac10f8656",
+  "uuid": "4bb6dc1f-dc23-4128-b530-0f7516598c89",
   "info": {
-    "app_name": "Feeder",
+    "app_name": "IPFS Lite",
     "config_version": 1,
-    "url": "https://f-droid.org/packages/com.nononsenseapps.feeder/"
+    "url": "https://f-droid.org/packages/threads.server/"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "com.nononsenseapps.feeder"
+      "extra_string": "threads.server"
     }
   }
 }
