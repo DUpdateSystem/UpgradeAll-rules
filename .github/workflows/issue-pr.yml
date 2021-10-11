@@ -1,0 +1,33 @@
+name: Issue to PullRequest
+on: 
+  issues:
+    types: [opened] 
+jobs:
+  issue-pr:
+    runs-on: 
+    - ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: pending
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: get issue then push to pending
+      env:
+        GITHUB_ISSUEBODY: ${{ github.event.issue.body }}
+        GITHUB_ISSUENUM: ${{ github.event.issue.number }}
+      run: |
+         PYTHONPATH=./scripts/make/ python ./scripts/make/make_appconfig_converter.py "$GITHUB_ISSUEBODY"
+         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+         git config --local user.name "github-actions[bot]"
+         git add rules/*
+         git commit -m "resolved #"$GITHUB_ISSUENUM""
+         git push
+    - name: create pr from pending to master
+      env:
+        GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+        GITHUB_ISSUENUM: ${{ github.event.issue.number }}
+      run: |
+        gh pr create --base master --head pending --title "resolved #"$GITHUB_ISSUENUM"" --body "resolved #"$GITHUB_ISSUENUM""
