@@ -70,43 +70,87 @@ app_name_title = "App Name"
 app_pkg_title = "App Package"
 app_url_title = "App URL"
 
+body_line_list = []
+
+
+def get_arg_tag(line: str) -> str:
+    if app_name_title in line:
+        return app_name_title
+    elif app_pkg_title in line:
+        return app_pkg_title
+    elif app_url_title in line:
+        return app_url_title
+
+
+def del_surplus_start(first_tag: str, body_line_list: list[str]) -> list[str]:
+    """ 移除首个 TAG 之前的多余字符 """
+    index = get_contain_index(body_line_list, first_tag)
+    return body_line_list[index:]
+
+
+# NEED FIX
+def del_surplus_tags(tag_list: list[str],
+                     body_line_list: list[str]) -> list[str]:
+    """ 检查 TAG 之间的字符
+    若完全相同，移除至最后一个 TAG
+    若有一项为空，同上
+    """
+    start_index = 0
+    mezzanine_list = []
+
+    for tag in tag_list:
+        end_index = get_contain_index(body_line_list, tag)
+        mezzanine = body_line_list[start_index:end_index - 1]
+        mezzanine_list.append(mezzanine)
+        start_index = end_index
+    same_num = 0
+    for i in range(len(mezzanine_list) - 1):
+        if mezzanine_list[i] == mezzanine_list[i + 1]:
+            same_num += 1
+    if same_num == len(mezzanine_list):
+        return body_line_list[get_contain_index(body_line_list, tag_list[-1])]
+
+    return body_line_list
+
+
+def get_contain_index(str_list, value) -> int:
+    for i in range(len(str_list)):
+        if value in str_list[i]:
+            return i
+    # 未检索到
+    print("no value:", value)
+    raise KeyError
+
+
+def pop_arg_by_tag(tag: str, body_line_list: list[str]) -> str:
+    try:
+        index = get_contain_index(body_line_list, tag) + 1
+        return body_line_list.pop(index)
+    except KeyError:
+        return None
+
 
 def mk_config(input_text: str) -> dict[str, str]:
     config_info_map = {}
-    name = None
-    package = None
-    url = None
-    arg_tag = None
-    for t in input_text.splitlines():
-        if t and not t.isspace():
-            print(arg_tag)
-            if not arg_tag:
-                if app_name_title in t:
-                    arg_tag = app_name_title
-                elif app_pkg_title in t:
-                    arg_tag = app_pkg_title
-                elif app_url_title in t:
-                    arg_tag = app_url_title
-            else:
-                if arg_tag == app_name_title:
-                    name = t
-                elif arg_tag == app_pkg_title:
-                    package = t
-                elif arg_tag == app_url_title:
-                    url = t
-                arg_tag = None
-
-        if name and package and url:
+    tag_list = [app_name_title, app_pkg_title, app_url_title]
+    body_line_list = [
+        i for i in input_text.splitlines() if i and not i.isspace()
+    ]
+    while body_line_list:
+        # body_line_list = del_surplus_tags(tag_list, body_line_list)
+        body_line_list = del_surplus_start(tag_list[0], body_line_list)
+        try:
+            arg_map = {
+                tag: pop_arg_by_tag(tag, body_line_list)
+                for tag in tag_list
+            }
+            name, value = mk_simgle_config(arg_map)
             print("deal:", name)
-            name, value = mk_simgle_config({
-                "name": name,
-                "package": package,
-                "url": url
-            })
-            config_info_map[name] = value
-            name = None
-            package = None
-            url = None
+        except Exception:
+            print("error:", name)
+            break
+        config_info_map[name] = value
+
     print(f"finish: {', '.join(config_info_map.keys())}")
     return config_info_map
 
@@ -115,9 +159,9 @@ hub_regex_map = get_hub_url_regex_map()
 
 
 def mk_simgle_config(info_map: dict) -> tuple[str, str]:
-    name = info_map['name']
-    package = info_map['package']
-    url = info_map['url']
+    name = info_map[app_name_title]
+    package = info_map[app_pkg_title]
+    url = info_map[app_url_title]
     if name and package and url:
         j["info"]["app_name"] = name
         j["info"]["url"] = url
