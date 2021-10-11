@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "45387f24-6339-461b-8e07-44854dbda96e",
+  "info": {
+    "app_name": "谁动了我的手机？",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.wtmp.svdsoftware"
+    }
+  }
+}
