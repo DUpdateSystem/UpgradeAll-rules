@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "6156efbb-973f-4a16-a689-f1d8df3be1f6",
+  "info": {
+    "app_name": "密钥认证演示",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=io.github.vvb2060.keyattestation"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "io.github.vvb2060.keyattestation"
+    }
+  }
+}
