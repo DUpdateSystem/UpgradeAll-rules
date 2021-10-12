@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "5dc9286b-fcf6-4c46-8be5-d0fb69757fec",
+  "info": {
+    "app_name": "Disney+",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=com.disney.disneyplus"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.disney.disneyplus"
+    }
+  }
+}
