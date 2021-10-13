@@ -1,0 +1,15 @@
+name: Del branch when Issue is closed
+on: 
+  issues:
+    types: [closed]
+jobs:
+  del-issue-branch:
+    runs-on: 
+    - ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: del branch when issue is closed
+      env:
+        GITHUB_ISSUENUM: ${{ github.event.issue.number }}
+      run: |
+        git push origin -d pending#$GITHUB_ISSUENUM
