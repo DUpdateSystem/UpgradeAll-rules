@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "2f7d5ece-4e05-4774-b2b0-4bce7982ef49",
+  "info": {
+    "app_name": "Tap, Tap",
+    "config_version": 1,
+    "url": "https://github.com/KieronQuinn/TapTap"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.kieronquinn.app.taptap"
+    }
+  }
+}
