@@ -2,9 +2,9 @@
   "base_version": 1,
   "uuid": "4b81f571-4cbc-4c48-b98e-8125140b2cef",
   "info": {
-    "app_name": "Lawnchair 2",
+    "app_name": "Lawnchair",
     "config_version": 1,
-    "url": "https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah"
+    "url": "https://github.com/LawnchairLauncher/lawnchair"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "ch.deletescape.lawnchair.plah"
+      "extra_string": "app.lawnchair"
     }
   }
 }
