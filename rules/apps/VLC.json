@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "cd2d6561-f637-4b5c-84a2-bbf1baedd635",
+  "info": {
+    "app_name": "VLC",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=org.videolan.vlc"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "org.videolan.vlc"
+    }
+  }
+}
