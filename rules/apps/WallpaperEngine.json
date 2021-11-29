@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "7c9ac81d-6904-4a59-8e90-80e4f5ab10ed",
+  "info": {
+    "app_name": "Wallpaper Engine",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=io.wallpaperengine.weclient"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "io.wallpaperengine.weclient"
+    }
+  }
+}
