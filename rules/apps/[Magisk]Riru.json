@@ -2,8 +2,8 @@
   "base_version": 1,
   "uuid": "bef9e572-32fd-11ea-a82d-f108c61ac67d",
   "info": {
-    "app_name": "[Magisk_Module]Riru Core",
-    "config_version": 1,
+    "app_name": "[Magisk]Riru",
+    "config_version": 2,
     "url": "https://github.com/RikkaApps/Riru"
   },
   "app_config": {

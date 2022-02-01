@@ -2,8 +2,8 @@
     "base_version": 1,
     "uuid": "e0e00c93-8e9a-48a9-8561-41635356c12e",
     "info": {
-      "app_name": "[Magisk_Module]Riru-Sui",
-      "config_version": 1,
+      "app_name": "[Magisk]Sui",
+      "config_version": 2,
       "url": "https://github.com/RikkaApps/Sui"
     },
     "app_config": {

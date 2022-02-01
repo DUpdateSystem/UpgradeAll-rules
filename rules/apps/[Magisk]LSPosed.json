@@ -1,10 +1,10 @@
 {
     "base_version": 1,
-    "uuid": "ce3674ba-3fbc-498b-9587-7e460226692f",
+    "uuid": "cae648b4-bee9-4614-8fea-acc780e83c7e",
     "info": {
-      "app_name": "[Magisk_Module]Riru Sotrage Redirect",
+      "app_name": "[Magisk]LSPosed",
       "config_version": 2,
-      "url": "https://github.com/RikkaApps/StorageRedirect-assets"
+      "url": "https://github.com/LSPosed/LSPosed"
     },
     "app_config": {
       "hub_info": {
@@ -12,7 +12,7 @@
       },
       "target_checker": {
         "api": "Magisk_Module",
-        "extra_string": "riru_storage_redirect"
+        "extra_string": "riru_lsposed"
       }
     }
   }
