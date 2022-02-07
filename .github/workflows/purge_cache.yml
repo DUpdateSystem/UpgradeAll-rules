@@ -1,0 +1,17 @@
+name: Purge CDN cache
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - rules/rules.json
+      - rules/rules_list.json
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Purge jsdelivr CDN for master branch
+        run: |
+            curl -i "https://purge.jsdelivr.net/gh/DUpdateSystem/UpgradeAll-rules@master/rules/rules.json"
+            curl -i "https://purge.jsdelivr.net/gh/DUpdateSystem/UpgradeAll-rules@master/rules/rules_list.json"
