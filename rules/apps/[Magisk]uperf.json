@@ -2,8 +2,8 @@
   "base_version": 1,
   "uuid": "ad0d7155-226e-40e1-b82b-5a317c66cbb9",
   "info": {
-    "app_name": "uperf",
-    "config_version": 1,
+    "app_name": "[Magisk]uperf",
+    "config_version": 2,
     "url": "https://github.com/yc9559/uperf"
   },
   "app_config": {
