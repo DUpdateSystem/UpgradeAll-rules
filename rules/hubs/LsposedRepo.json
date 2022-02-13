@@ -1,0 +1,10 @@
+{
+  "base_version": 5,
+  "uuid": "401e6259-2eab-46f0-8e8a-d2bfafedf5bf",
+  "info": {
+    "hub_name": "Lsposed Module Repository",
+    "config_version": 1
+  },
+  "api_keywords": ["android_app_package"],
+  "app_url_templates": ["https://modules.lsposed.org/module/%android_app_package/"]
+}
