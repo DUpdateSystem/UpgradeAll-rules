@@ -1,10 +1,10 @@
 {
     "base_version": 1,
-    "uuid": "f4786519-0590-4b6b-bd8d-c2d2903b3532",
+    "uuid": "2e576a8e-b7d8-41a5-9eb5-60830569cc0a",
     "info": {
-      "app_name": "LSPosed",
+      "app_name": "两仪",
       "config_version": 1,
-      "url": "https://github.com/LSPosed/LSPosed"
+      "url": "https://github.com/twoyi/twoyi"
     },
     "app_config": {
       "hub_info": {
@@ -12,7 +12,8 @@
       },
       "target_checker": {
         "api": "App_Package",
-        "extra_string": "io.github.lsposed.manager"
+        "extra_string": "io.twoyi"
       }
     }
   }
+  
