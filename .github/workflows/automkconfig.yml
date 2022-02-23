@@ -12,10 +12,10 @@ jobs:
     - ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.9
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.9
+        python-version: 3.11.0-alpha.5
     - name: Automkconfig
       env:
         GITHUB_COMMIT: ${{ github.event.head_commit.message }}
