@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "70096a8c-237e-4a4f-948d-0d690b664deb",
+  "info": {
+    "app_name": "Aliucord",
+    "config_version": 1,
+    "url": "https://github.com/Aliucord/Aliucord"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.aliucord.installer"
+    }
+  }
+}
