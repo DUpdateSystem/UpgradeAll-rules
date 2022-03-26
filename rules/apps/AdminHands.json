@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "aef1c0de-dd1e-4259-844e-581e89ada1f5",
+  "info": {
+    "app_name": "Admin Hands",
+    "config_version": 1,
+    "url": "https://play.google.com/store/apps/details?id=com.arpaplus.adminhands"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.arpaplus.adminhands"
+    }
+  }
+}
