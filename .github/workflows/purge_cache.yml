@@ -10,7 +10,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Purge jsdelivr CDN for master branch
         run: |
             curl -i "https://purge.jsdelivr.net/gh/DUpdateSystem/UpgradeAll-rules@master/rules/rules.json"
