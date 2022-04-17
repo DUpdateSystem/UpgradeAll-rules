@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "df60cebf-9370-4423-a2ec-7d2d1be2c4d7",
+  "info": {
+    "app_name": "2. Cryptomator",
+    "config_version": 1,
+    "url": "2. https://github.com/cryptomator/android"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "2. org.cryptomator"
+    }
+  }
+}
