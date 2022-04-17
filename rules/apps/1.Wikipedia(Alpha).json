@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "8c079214-2a5b-4b4c-a727-00957b35f6af",
+  "info": {
+    "app_name": "1. Wikipedia (Alpha)",
+    "config_version": 1,
+    "url": "1. https://github.com/wikimedia/apps-android-wikipedia"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "1. org.wikipedia.alpha"
+    }
+  }
+}
