@@ -15,9 +15,9 @@ body:
     attributes:
       label: 软件名称(App Name)：
       placeholder: |
-        1. 
-        2. 
-        3. 
+        UpgradeAll
+        Other App Name
+        ...
     validations:
       required: true
   - type: textarea
@@ -25,9 +25,9 @@ body:
       label: 软件包名(App Package)：
       placeholder: |
         您可以在软件发布页面找到包名或使用LibChecker查看。 | You can found it on it's release page or use some app eg LibChecker.
-        1.
-        2.
-        3.
+        net.xzos.upgradeall
+        com.absinthe.libchecker
+        ...
     validations:
       required: true
   - type: textarea
@@ -35,8 +35,8 @@ body:
       label: 软件地址(App URL)：
       placeholder: | 
         在哪找到的。 | Where you found it.
-        1.
-        2.
-        3.
+        https://github.com/DUpdateSystem/UpgradeAll
+        https://github.com/zhaobozhen/LibChecker
+        ...
     validations:
       required: true
