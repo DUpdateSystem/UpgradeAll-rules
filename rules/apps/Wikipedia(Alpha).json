@@ -1,10 +1,10 @@
 {
   "base_version": 1,
-  "uuid": "df60cebf-9370-4423-a2ec-7d2d1be2c4d7",
+  "uuid": "8c079214-2a5b-4b4c-a727-00957b35f6af",
   "info": {
-    "app_name": "2. Cryptomator",
+    "app_name": "Wikipedia (Alpha)",
     "config_version": 1,
-    "url": "2. https://github.com/cryptomator/android"
+    "url": "https://github.com/wikimedia/apps-android-wikipedia"
   },
   "app_config": {
     "hub_info": {
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "App_Package",
-      "extra_string": "2. org.cryptomator"
+      "extra_string": "org.wikipedia.alpha"
     }
   }
 }
