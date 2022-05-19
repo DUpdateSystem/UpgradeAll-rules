@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "77fd8429-0aac-497a-bffa-4144a70ecdc7",
+  "info": {
+    "app_name": "DuckDuckGo",
+    "config_version": 1,
+    "url": "https://github.com/duckduckgo/Android"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.duckduckgo.mobile.android"
+    }
+  }
+}
