@@ -12,7 +12,7 @@
       },
       "target_checker": {
         "api": "Magisk_Module",
-        "extra_string": "riru-sui"
+        "extra_string": "zygisk-sui"
       }
     }
   }
