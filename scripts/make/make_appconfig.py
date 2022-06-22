@@ -1,7 +1,9 @@
 import json
 import re
-from uuid import uuid4
 from collections import OrderedDict
+from enum import Enum
+from uuid import uuid4
+
 from config_getter import get_config_map
 
 test_input_text = """
@@ -33,6 +35,18 @@ temp_text = """
 }
 """
 j = json.loads(temp_text, object_pairs_hook=OrderedDict)
+
+
+class AppType(Enum):
+    ANDROID_APP_TYPE = "android_app_package"
+    ANDROID_MAGISK_MODULE_TYPE = "android_magisk_module"
+    ANDROID_CUSTOM_SHELL = "android_custom_shell"
+    ANDROID_CUSTOM_SHELL_ROOT = "android_custom_shell_root"
+
+
+class AppIssueType(Enum):
+    ANDROID_APP_TYPE = "[android]"
+    ANDROID_MAGISK_MODULE_TYPE = "[magisk]"
 
 
 def get_hub_url_regex_map() -> dict[str, str]:
@@ -154,14 +168,30 @@ def mk_config(input_text: str) -> dict[str, str]:
 hub_regex_map = get_hub_url_regex_map()
 
 
+def split_type_and_name(s: str) -> tuple[str, AppType]:
+    name = s
+    app_type = AppType.ANDROID_APP_TYPE
+    if s.lower().startswith(AppIssueType.ANDROID_APP_TYPE.value):
+        app_type = AppType.ANDROID_APP_TYPE
+        name = s[len(AppIssueType.ANDROID_APP_TYPE.value)]
+    elif s.lower().startswith(AppIssueType.ANDROID_MAGISK_MODULE_TYPE.value):
+        app_type = AppType.ANDROID_APP_TYPE
+        name = s[len(AppIssueType.ANDROID_MAGISK_MODULE_TYPE.value)]
+    return name, app_type
+
+
 def mk_simgle_config(info_map: dict) -> tuple[str, str]:
-    name = info_map[app_name_title]
+    raw_name = info_map[app_name_title]
     package = info_map[app_pkg_title]
     url = info_map[app_url_title]
+    name, app_type = split_type_and_name(raw_name)
     if name and package and url:
         j["info"]["app_name"] = name
         j["info"]["url"] = url
-        j["app_config"]["target_checker"]["extra_string"] = package
+        j["app_config"]["target_checker"] = {
+            "api": app_type.value,
+            "extra_string": package
+        }
         j["uuid"] = str(uuid4())
         hub_uuid = get_hub_uuid(url, hub_regex_map)
         j["app_config"]["hub_info"]["hub_uuid"] = hub_uuid
