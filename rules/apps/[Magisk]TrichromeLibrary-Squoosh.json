@@ -3,7 +3,7 @@
   "uuid": "19974600-250b-4df9-ba4d-9bfa68ae0545",
   "info": {
     "app_name": "[Magisk]TrichromeLibrary-Squoosh",
-    "config_version": 1,
+    "config_version": 2,
     "url": "https://github.com/entr0pia/trichromelibrary-squoosh"
   },
   "app_config": {
@@ -11,7 +11,7 @@
       "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
     },
     "target_checker": {
-      "api": "App_Package",
+      "api": "Magisk_Module",
       "extra_string": "trichromelibrary-squoosh"
     }
   }
