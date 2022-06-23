@@ -13,18 +13,23 @@ body:
         为了方便开发者添加您提交的软件，请提供以下信息。
   - type: textarea
     attributes:
-      label: 软件名称(App Name)：
+      label: 软件/模块名称(App/Module Name)：
       placeholder: |
+        如果您想添加 Magisk 模块，只需要在其名字前面添加 [Magisk] 标签即可。例如: [Magisk]Shamiko
+        If you want to add a magisk module,just add [Magisk] tag before it's name. e.g.,[Magisk]Shamiko
+        
         UpgradeAll
-        Other App Name
+        LibChecker
         ...
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 软件包名(App Package)：
+      label: 软件包名(Package name)：
       placeholder: |
-        您可以在软件发布页面找到包名或使用LibChecker查看。 | You can found it on it's release page or use some app eg LibChecker.
+        您可以在软件发布页面找到包名或使用LibChecker查看。
+        You can found it on it's release page or use some app to check it's package name. e.g.,LibChecker.
+        
         net.xzos.upgradeall
         com.absinthe.libchecker
         ...
@@ -34,7 +39,9 @@ body:
     attributes:
       label: 软件地址(App URL)：
       placeholder: | 
-        在哪找到的。 | Where you found it.
+        在哪找到的。
+        Where you found it.
+        
         https://github.com/DUpdateSystem/UpgradeAll
         https://github.com/zhaobozhen/LibChecker
         ...
