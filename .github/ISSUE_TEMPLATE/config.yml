@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Official Telegram Group/官方 Telegram 群组
+  - name: Official Telegram Group / 官方 Telegram 群组
     url: https://t.me/DUpdateSystem
-    about: Free topic/快来吹水！
+    about: Free topic / 快来吹水！
+  - name: Official CI Channel / 官方 CI 频道
+    url: https://t.me/upallci
+    about: Experiencing bug(s)? Try CI build first! / 使用中遇到问题？先试试 CI 版本吧！
