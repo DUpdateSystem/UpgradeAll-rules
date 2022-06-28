@@ -7,11 +7,17 @@ from uuid import uuid4
 from config_getter import get_config_map
 
 test_input_text = """
-软件名称(App Name): PixEz-flutter
+### 软件/模块名称(App/Module name)：
 
-软件包名(App Package): com.perol.pixez
+链接至 Windows
 
-软件地址(App URL): https://github.com/Notsfsssf/pixez-flutter
+### 软件包名(Package name)：
+
+com.microsoft.appmanager
+
+### 软件地址(App URL)：
+
+https://play.google.com/store/apps/details?id=com.microsoft.appmanager
 """
 
 temp_text = """
@@ -80,8 +86,8 @@ def get_hub_uuid(url, hub_regex_map) -> str or None:
             return uuid
 
 
-app_name_title = "App Name"
-app_pkg_title = "App Package"
+app_name_title = "App/Module name"
+app_pkg_title = "Package name"
 app_url_title = "App URL"
 
 body_line_list = []
@@ -126,7 +132,8 @@ def get_contain_index(str_list, value) -> int:
         if value in str_list[i]:
             return i
     # 未检索到
-    print("no value:", value)
+    if str_list:
+        print("no value:", value)
     raise KeyError
 
 
@@ -136,33 +143,6 @@ def pop_arg_by_tag(tag: str, body_line_list: list[str]) -> str:
         return body_line_list.pop(index)
     except KeyError:
         return None
-
-
-def mk_config(input_text: str) -> dict[str, str]:
-    config_info_map = {}
-    tag_list = [app_name_title, app_pkg_title, app_url_title]
-    body_line_list = [
-        i for i in input_text.splitlines() if i and not i.isspace()
-    ]
-    while body_line_list:
-        try:
-            body_line_list = del_surplus_tags(tag_list, body_line_list)
-            body_line_list = del_surplus_start(tag_list[0], body_line_list)
-            arg_map = {
-                tag: pop_arg_by_tag(tag, body_line_list)
-                for tag in tag_list
-            }
-            name, value = mk_simgle_config(arg_map)
-            print("deal:", name)
-            config_info_map[name] = value
-            name = None
-        except Exception:
-            if body_line_list:
-                print("left data:", body_line_list)
-            break
-
-    print(f"finish: {', '.join(config_info_map.keys())}")
-    return config_info_map
 
 
 hub_regex_map = get_hub_url_regex_map()
@@ -198,3 +178,31 @@ def mk_simgle_config(info_map: dict) -> tuple[str, str]:
         return name.replace(' ', ''), json.dumps(j,
                                                  indent=2,
                                                  ensure_ascii=False)
+
+
+def mk_config(input_text: str) -> dict[str, str]:
+    config_info_map = {}
+    tag_list = [app_name_title, app_pkg_title, app_url_title]
+    body_line_list = [
+        i for i in input_text.splitlines() if i and not i.isspace()
+    ]
+    while body_line_list:
+        try:
+            body_line_list = del_surplus_tags(tag_list, body_line_list)
+            body_line_list = del_surplus_start(tag_list[0], body_line_list)
+            arg_map = {
+                tag: pop_arg_by_tag(tag, body_line_list)
+                for tag in tag_list
+            }
+            name, value = mk_simgle_config(arg_map)
+            print("deal:", name)
+            config_info_map[name] = value
+            name = None
+        except Exception as e:
+            print(e)
+            if body_line_list:
+                print("left data:", body_line_list)
+            break
+
+    print(f"finish: {', '.join(config_info_map.keys())}")
+    return config_info_map
