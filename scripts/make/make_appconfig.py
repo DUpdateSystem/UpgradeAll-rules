@@ -86,20 +86,20 @@ def get_hub_uuid(url, hub_regex_map) -> str or None:
             return uuid
 
 
-app_name_title = "App/Module name"
-app_pkg_title = "Package name"
-app_url_title = "App URL"
+APP_NAME_TITLE = "app/module name"
+APP_PKG_TITLE = "package name"
+APP_URL_TITLE = "app url"
 
 body_line_list = []
 
 
 def get_arg_tag(line: str) -> str:
-    if app_name_title in line:
-        return app_name_title
-    elif app_pkg_title in line:
-        return app_pkg_title
-    elif app_url_title in line:
-        return app_url_title
+    if APP_NAME_TITLE in line:
+        return APP_NAME_TITLE
+    elif APP_PKG_TITLE in line:
+        return APP_PKG_TITLE
+    elif APP_URL_TITLE in line:
+        return APP_URL_TITLE
 
 
 def del_surplus_start(first_tag: str, body_line_list: list[str]) -> list[str]:
@@ -129,7 +129,7 @@ def del_surplus_tags(tag_list: list[str],
 
 def get_contain_index(str_list, value) -> int:
     for i in range(len(str_list)):
-        if value in str_list[i]:
+        if value in str_list[i].lower():
             return i
     # 未检索到
     if str_list:
@@ -161,9 +161,9 @@ def split_type_and_name(s: str) -> tuple[str, AppType]:
 
 
 def mk_simgle_config(info_map: dict) -> tuple[str, str]:
-    raw_name = info_map[app_name_title]
-    package = info_map[app_pkg_title]
-    url = info_map[app_url_title]
+    raw_name = info_map[APP_NAME_TITLE]
+    package = info_map[APP_PKG_TITLE]
+    url = info_map[APP_URL_TITLE]
     name, app_type = split_type_and_name(raw_name)
     if name and package and url:
         j["info"]["app_name"] = name
@@ -182,7 +182,7 @@ def mk_simgle_config(info_map: dict) -> tuple[str, str]:
 
 def mk_config(input_text: str) -> dict[str, str]:
     config_info_map = {}
-    tag_list = [app_name_title, app_pkg_title, app_url_title]
+    tag_list = [APP_NAME_TITLE, APP_PKG_TITLE, APP_URL_TITLE]
     body_line_list = [
         i for i in input_text.splitlines() if i and not i.isspace()
     ]
