@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "fa84d270-3e99-494e-9fc0-88db8662b283",
+  "info": {
+    "app_name": "同文输入法",
+    "config_version": 1,
+    "url": "https://github.com/osfans/trime"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+    },
+    "target_checker": {
+      "api": "android_app_package",
+      "extra_string": "com.osfans.trime"
+    }
+  }
+}
