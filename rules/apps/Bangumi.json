@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "30a5d727-f221-43c1-b4d7-c442db9eab2d",
+  "info": {
+    "app_name": "Bangumi",
+    "config_version": 1,
+    "url": "https://github.com/czy0729/Bangumi"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960"
+    },
+    "target_checker": {
+      "api": "android_app_package",
+      "extra_string": "com.czy0729.bangumi"
+    }
+  }
+}
