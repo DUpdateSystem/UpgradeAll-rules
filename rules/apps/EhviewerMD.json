@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "7b0e87bf-27ef-463a-ac59-6782cfcd967f",
+  "info": {
+    "app_name": "EhviewerMD",
+    "config_version": 1,
+    "url": "https://github.com/Ehviewer-Overhauled/Ehviewer"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960"
+    },
+    "target_checker": {
+      "api": "android_app_package",
+      "extra_string": "com.hippo.ehviewer.EhApplication"
+    }
+  }
+}
