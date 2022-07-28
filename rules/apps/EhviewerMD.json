@@ -1,6 +1,6 @@
 {
   "base_version": 1,
-  "uuid": "7b0e87bf-27ef-463a-ac59-6782cfcd967f",
+  "uuid": "6087b5f3-add8-4610-8c68-70d8c8286021",
   "info": {
     "app_name": "EhviewerMD",
     "config_version": 1,
@@ -12,7 +12,7 @@
     },
     "target_checker": {
       "api": "android_app_package",
-      "extra_string": "com.hippo.ehviewer.EhApplication"
+      "extra_string": "moe.tarsin.ehviewer"
     }
   }
 }
