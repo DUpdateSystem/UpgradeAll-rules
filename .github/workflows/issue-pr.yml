@@ -1,7 +1,7 @@
 name: Issue to PullRequest
 on: 
   issues:
-    types: [opened] 
+    types: [opened,reopened] 
 jobs:
   issue-pr:
     runs-on: 
