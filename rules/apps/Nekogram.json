@@ -3,8 +3,8 @@
   "uuid": "a8f8d198-5d4b-11ea-8e22-775d5f37a025",
   "info": {
     "app_name": "Nekogram",
-    "config_version": 3,
-    "url": "https://github.com/tehcneko/nekogram-files"
+    "config_version": 4,
+    "url": "https://github.com/Nekogram/Nekogram"
   },
   "app_config": {
     "hub_info": {
