@@ -3,8 +3,8 @@
   "uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
   "info": {
     "app_name": "UpgradeAll",
-    "config_version": 1,
-    "url": "https://github.com/xz-dev/UpgradeAll"
+    "config_version": 2,
+    "url": "https://github.com/DUpdateSystem/UpgradeAll"
   },
   "app_config": {
     "hub_info": {
