@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "a34e6d22-1a1a-4f19-8676-ac507296cb8c",
+  "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
+  "info": {
+    "name": "Termux:API",
+    "url": "https://f-droid.org/packages/com.termux.api/",
+    "extra_map": {
+      "android_app_package": "com.termux.api"
+    }
+  }
+}

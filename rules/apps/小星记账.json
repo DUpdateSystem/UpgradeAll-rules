@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "3187ff3e-a13b-45ed-b359-1a24abd2c154",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "小星记账",
+    "url": "https://www.coolapk.com/apk/com.cxincx.xxjz",
+    "extra_map": {
+      "android_app_package": "com.cxincx.xxjz"
+    }
+  }
+}

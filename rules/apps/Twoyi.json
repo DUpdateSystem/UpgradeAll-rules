@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "2e576a8e-b7d8-41a5-9eb5-60830569cc0a",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "两仪",
+    "url": "https://github.com/twoyi/twoyi",
+    "extra_map": {
+      "android_app_package": "io.twoyi"
+    }
+  }
+}

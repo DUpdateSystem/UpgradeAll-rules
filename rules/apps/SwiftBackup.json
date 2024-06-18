@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "6601e24f-df45-4a4a-8016-88e135eb4dfd",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Swift Backup",
+    "url": "https://play.google.com/store/apps/details?id=org.swiftapps.swiftbackup",
+    "extra_map": {
+      "android_app_package": "org.swiftapps.swiftbackup"
+    }
+  }
+}

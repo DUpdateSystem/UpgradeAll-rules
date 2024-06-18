@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "de22dfab-becf-4ca3-81e1-17e1c342ea5d",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "李跳跳",
+    "url": "https://www.coolapk.com/apk/com.whatsbug.litiaotiao",
+    "extra_map": {
+      "android_app_package": "com.whatsbug.litiaotiao"
+    }
+  }
+}

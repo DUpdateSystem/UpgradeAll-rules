@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "f5c2e7ec-8bf7-47df-81ae-f576b3f48067",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Yandex",
+    "url": "https://play.google.com/store/apps/details?id=ru.yandex.searchplugin",
+    "extra_map": {
+      "android_app_package": "ru.yandex.searchplugin"
+    }
+  }
+}

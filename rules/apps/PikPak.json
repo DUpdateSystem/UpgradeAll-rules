@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "34e549f6-164d-4afb-91a5-09dd2e067b23",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "PikPak",
+    "url": "https://play.google.com/store/apps/details?id=com.pikcloud.pikpak",
+    "extra_map": {
+      "android_app_package": "com.pikcloud.pikpak"
+    }
+  }
+}

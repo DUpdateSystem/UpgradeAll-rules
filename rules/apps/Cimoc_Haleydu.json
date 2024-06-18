@@ -7,7 +7,7 @@
     "name": "Cimoc(Haleydu)",
     "url": "https://github.com/Haleydu/Cimoc",
     "extra_map": {
-      "android_app_package": "com.haleydu.cimoc"
+      "android_app_package": "com.cimoc.haleydu"
     }
   }
 }

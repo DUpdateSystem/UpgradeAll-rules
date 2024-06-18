@@ -7,7 +7,7 @@ UpgradeAll 的云规则存储仓库
 ------
 
 ### UpgradeAll 最新版本
-![](https://img.shields.io/github/v/tag/DUpdateSystem/UpgradeAll.svg?logo=appveyor&sort=semver&style=for-the-badge) ![](https://img.shields.io/github/v/release/DUpdateSystem/UpgradeAll.svg?logo=appveyor&sort=semver&style=for-the-badge)
+![](https://img.shields.io/github/v/tag/DUpdateSystem/UpgradeAll?logo=appveyor&style=for-the-badge) ![](https://img.shields.io/github/v/release/DUpdateSystem/UpgradeAll?logo=appveyor&style=for-the-badge)
 
 [下载 | Github](https://github.com/DUpdateSystem/UpgradeAll/releases)  
 [下载 | 酷安](https://www.coolapk.com/apk/net.xzos.upgradeall)
@@ -40,7 +40,7 @@ UpgradeAll 的云规则存储仓库
 >
 > 2. 使用教程
 >
->     [使用教程](https://xzos.net/upgradeall-readme/)
+>     [使用教程](https://upgradeall.now.sh/)
 
 ​------------
 

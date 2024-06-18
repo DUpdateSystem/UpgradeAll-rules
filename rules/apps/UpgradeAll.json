@@ -1,11 +1,11 @@
 {
   "base_version": 2,
-  "config_version": 1,
+  "config_version": 2,
   "uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
   "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
     "name": "UpgradeAll",
-    "url": "https://github.com/xz-dev/UpgradeAll",
+    "url": "https://github.com/DUpdateSystem/UpgradeAll",
     "extra_map": {
       "android_app_package": "net.xzos.upgradeall"
     }

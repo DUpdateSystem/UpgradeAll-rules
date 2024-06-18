@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "07a9f3ad-73b2-4792-9970-ceaa0e78be9a",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "抖音",
+    "url": "https://www.coolapk.com/apk/com.ss.android.ugc.aweme",
+    "extra_map": {
+      "android_app_package": "com.ss.android.ugc.aweme"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "96499699-2000-4083-b911-666cd3556e8b",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "NFC卡模拟",
+    "url": "https://www.coolapk.com/apk/com.yuanwofei.cardemulator",
+    "extra_map": {
+      "android_app_package": "com.yuanwofei.cardemulator"
+    }
+  }
+}

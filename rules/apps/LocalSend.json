@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "f9fe2c1b-8930-4f8c-96af-76adbf6679c4",
+  "base_hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960",
+  "info": {
+    "name": "Local Send",
+    "url": "https://github.com/localsend/localsend",
+    "extra_map": {
+      "null": "org.localsend.localsend_app"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "3edfeb32-be81-4852-9c8f-84a1206564f5",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "微软桌面（Microsoft Launcher）",
+    "url": "https://play.google.com/store/apps/details?id=com.microsoft.launcher",
+    "extra_map": {
+      "android_app_package": "com.microsoft.launcher"
+    }
+  }
+}

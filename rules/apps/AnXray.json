@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "caa6814f-7b0c-4e69-9faf-1fc089939df0",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "AnXray",
+    "url": "https://github.com/XTLS/AnXray",
+    "extra_map": {
+      "android_app_package": "io.nekohasekai.anXray"
+    }
+  }
+}

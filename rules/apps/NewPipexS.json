@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "c831ccbe-bdc4-4c77-93c3-fb870b29b1d1",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "NewPipe × SponsorBlock",
+    "url": "https://github.com/polymorphicshade/NewPipe",
+    "extra_map": {
+      "android_app_package": "org.polymorphicshade.newpipe"
+    }
+  }
+}

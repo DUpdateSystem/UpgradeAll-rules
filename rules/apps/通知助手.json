@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "9574fce9-ce1b-4ad5-bc0e-167ee3612cb8",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "通知助手",
+    "url": "https://www.coolapk.com/apk/cn.skyrin.ntfh",
+    "extra_map": {
+      "android_app_package": "cn.skyrin.ntfh"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "d5c234fa-ef75-4237-a6c5-274935cdf96b",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "指纹支付",
+    "url": "https://github.com/eritpchy/FingerprintPay",
+    "extra_map": {
+      "android_app_package": "com.surcumference.fingerprintpay"
+    }
+  }
+}

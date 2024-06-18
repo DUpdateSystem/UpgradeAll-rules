@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "9e5cb605-2024-4df5-8528-39fe5d1e6e1b",
+  "base_hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960",
+  "info": {
+    "name": "QMD",
+    "url": "https://github.com/OJZen/QMD_Android",
+    "extra_map": {
+      "android_app_package": "com.qmd.junzi.qmd"
+    }
+  }
+}

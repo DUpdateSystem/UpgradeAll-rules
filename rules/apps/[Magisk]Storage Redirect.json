@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 3,
+  "uuid": "ce3674ba-3fbc-498b-9587-7e460226692f",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "[Magisk]存储重定向",
+    "url": "https://github.com/RikkaApps/StorageRedirect-assets",
+    "extra_map": {
+      "android_magisk_module": "zygisk-storage-isolation"
+    }
+  }
+}

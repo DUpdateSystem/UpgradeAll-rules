@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "500f77f4-0ee6-4f67-ac47-ffdcb625a98e",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Electron: battery health info",
+    "url": "https://play.google.com/store/apps/details?id=com.mahersafadi.electron",
+    "extra_map": {
+      "android_app_package": "com.mahersafadi.electron"
+    }
+  }
+}

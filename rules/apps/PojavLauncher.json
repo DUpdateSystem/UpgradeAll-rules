@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "0a85245b-8b15-4b7a-9236-c88c9c35ba2b",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "PojavLauncher",
+    "url": "https://github.com/PojavLauncherTeam/PojavLauncher",
+    "extra_map": {
+      "android_app_package": "net.kdt.pojavlaunch"
+    }
+  }
+}

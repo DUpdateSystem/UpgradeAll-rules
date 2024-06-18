@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "41ff2445-4043-4a47-ac37-6cec7f6c3e46",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Emina One",
+    "url": "https://github.com/splitline/emina-one",
+    "extra_map": {
+      "android_app_package": "com.splitline.eminaone"
+    }
+  }
+}

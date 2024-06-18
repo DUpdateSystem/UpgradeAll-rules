@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "69abcbda-331b-11ea-823b-55dfdegt4a81",
+  "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
+  "info": {
+    "name": "Tusky",
+    "url": "https://f-droid.org/packages/com.keylesspalace.tusky/",
+    "extra_map": {
+      "android_app_package": "com.keylesspalace.tusky"
+    }
+  }
+}

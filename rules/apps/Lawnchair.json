@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "4b81f571-4cbc-4c48-b98e-8125140b2cef",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Lawnchair",
+    "url": "https://github.com/LawnchairLauncher/lawnchair",
+    "extra_map": {
+      "android_app_package": "app.lawnchair"
+    }
+  }
+}

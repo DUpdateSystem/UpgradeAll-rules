@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "717686fb-101e-46b7-90be-9dccb9cbbd75",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "链接至 Windows",
+    "url": "https://play.google.com/store/apps/details?id=com.microsoft.appmanager",
+    "extra_map": {
+      "android_app_package": "com.microsoft.appmanager"
+    }
+  }
+}

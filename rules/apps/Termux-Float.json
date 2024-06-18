@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "996b82ff-f62a-48a0-bcbd-892c1615afa1",
+  "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
+  "info": {
+    "name": "Termux:Float",
+    "url": "https://f-droid.org/packages/com.termux.float/",
+    "extra_map": {
+      "android_app_package": "com.termux.float"
+    }
+  }
+}

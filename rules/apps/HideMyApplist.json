@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "65be5536-3536-4a14-8e5b-bbc5fcd89e7a",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Hide My Applist",
+    "url": "https://github.com/Dr-TSNG/Hide-My-Applist",
+    "extra_map": {
+      "android_app_package": "com.tsng.hidemyapplist"
+    }
+  }
+}

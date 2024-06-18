@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "8f6baec1-f460-4fca-889d-9035c0e760c4",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "DeepL",
+    "url": "https://github.com/sakusaku3939/DeepLAndroid",
+    "extra_map": {
+      "android_app_package": "com.example.deeplviewer"
+    }
+  }
+}

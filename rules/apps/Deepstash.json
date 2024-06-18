@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "f76d4758-9d11-4a06-8efe-578991c6b292",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Deepstash",
+    "url": "https://play.google.com/store/apps/details?id=com.deepstash",
+    "extra_map": {
+      "android_app_package": "com.deepstash"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "7c95867d-f608-4038-a59c-00901643c8e7",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "支付宝",
+    "url": "https://play.google.com/store/apps/details?id=com.eg.android.AlipayGphone",
+    "extra_map": {
+      "android_app_package": "com.eg.android.AlipayGphone"
+    }
+  }
+}

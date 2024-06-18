@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "eaa5d562-6e79-461a-a437-8ef4135a69a0",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "No Launcher",
+    "url": "https://play.google.com/store/apps/details?id=com.saranomy.nolauncher",
+    "extra_map": {
+      "android_app_package": "com.saranomy.nolauncher"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "42c542f2-b80d-4c9b-84f5-d8eccc0d2236",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "SkyTube Extra",
+    "url": "https://github.com/SkyTubeTeam/SkyTube",
+    "extra_map": {
+      "android_app_package": "free.rm.skytube.extra"
+    }
+  }
+}

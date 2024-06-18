@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "a3e30f85-6155-4104-857b-a70d1328c21d",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "清浊",
+    "url": "https://www.coolapk.com/apk/com.farplace.qingzhuo",
+    "extra_map": {
+      "android_app_package": "com.farplace.qingzhuo"
+    }
+  }
+}

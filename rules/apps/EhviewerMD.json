@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "6087b5f3-add8-4610-8c68-70d8c8286021",
+  "base_hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960",
+  "info": {
+    "name": "EhviewerMD",
+    "url": "https://github.com/Ehviewer-Overhauled/Ehviewer",
+    "extra_map": {
+      "null": "moe.tarsin.ehviewer"
+    }
+  }
+}

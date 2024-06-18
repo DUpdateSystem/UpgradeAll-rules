@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "576e2f44-c4ef-4762-bf7a-10480ad6a0d9",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Microsoft Authenticator",
+    "url": "https://play.google.com/store/apps/details?id=com.azure.authenticator",
+    "extra_map": {
+      "android_app_package": "com.azure.authenticator"
+    }
+  }
+}

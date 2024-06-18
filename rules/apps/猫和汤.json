@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "95a33d3b-8e5f-4462-acc1-e958d7706547",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "猫和汤",
+    "url": "https://play.google.com/store/apps/details?id=com.hidea.cat",
+    "extra_map": {
+      "android_app_package": "com.hidea.cat"
+    }
+  }
+}

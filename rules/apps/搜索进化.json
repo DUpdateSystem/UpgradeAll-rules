@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "ea4b3ef6-c897-4cdd-a444-4fbb97bfb48f",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "搜索进化",
+    "url": "https://www.coolapk.com/apk/com.jwg.searchEVO",
+    "extra_map": {
+      "android_app_package": "com.jwg.searchEVO"
+    }
+  }
+}

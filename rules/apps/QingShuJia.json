@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "372c7870-5404-4b70-944f-a656e3113d38",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "轻书架",
+    "url": "https://github.com/cyb233/QingShuJia",
+    "extra_map": {
+      "android_app_package": "com.schwi.qingshujia"
+    }
+  }
+}

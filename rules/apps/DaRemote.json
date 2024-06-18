@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "74461d50-2f93-4229-af19-50268dd77ac1",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "DaRemote",
+    "url": "https://play.google.com/store/apps/details?id=com.deskangel.daremote",
+    "extra_map": {
+      "android_app_package": "com.deskangel.daremote"
+    }
+  }
+}

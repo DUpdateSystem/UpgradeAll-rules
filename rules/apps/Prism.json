@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "ea51c252-7a40-4ee4-937f-40266e75906e",
+  "base_hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960",
+  "info": {
+    "name": "Prism",
+    "url": "https://github.com/Hash-Studios/Prism",
+    "extra_map": {
+      "android_app_package": "com.hash.prism"
+    }
+  }
+}

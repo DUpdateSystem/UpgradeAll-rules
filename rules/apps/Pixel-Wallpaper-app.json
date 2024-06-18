@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "acc9b51b-cd4f-47fc-81c6-572f47a880c4",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Pixel-Wallpapers",
+    "url": "https://github.com/wacko1805/Pixel-Wallpaper-app",
+    "extra_map": {
+      "android_app_package": "dev.wacko1805.pixel.wallpapers"
+    }
+  }
+}

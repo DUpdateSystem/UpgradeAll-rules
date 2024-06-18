@@ -1,11 +1,11 @@
 {
   "base_version": 2,
-  "config_version": 2,
+  "config_version": 3,
   "uuid": "ee860bb1-d10b-4213-bc05-647dfa289de0",
   "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
     "name": "Kiwi Browser",
-    "url": "https://github.com/kiwibrowser/src",
+    "url": "https://github.com/kiwibrowser/src.next",
     "extra_map": {
       "android_app_package": "com.kiwibrowser.browser"
     }

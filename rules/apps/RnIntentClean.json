@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "76777b4b-6b32-4d9e-ab38-e89da141a2ab",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "氡·意图清理",
+    "url": "https://github.com/TigerBeanst/RnIntentClean",
+    "extra_map": {
+      "android_app_package": "com.jakting.shareclean"
+    }
+  }
+}

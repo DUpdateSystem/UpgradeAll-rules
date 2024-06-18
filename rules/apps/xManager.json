@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "d9f190b6-1315-4212-a20c-9a281d936328",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "xManager",
+    "url": "https://github.com/xManager-v2/xManager-Spotify",
+    "extra_map": {
+      "android_app_package": "com.xc3fff0e.xmanager"
+    }
+  }
+}

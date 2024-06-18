@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "51874d59-5473-4405-a8f3-cfcac102ce3a",
+  "base_hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960",
+  "info": {
+    "name": "NewPipe x SponsorBlock (javulticat)",
+    "url": "https://github.com/javulticat/newpipe",
+    "extra_map": {
+      "null": "com.javulticat.newpipe"
+    }
+  }
+}

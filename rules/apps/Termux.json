@@ -5,7 +5,7 @@
   "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
   "info": {
     "name": "Termux",
-	"url": "https://f-droid.org/packages/com.termux/",
+    "url": "https://f-droid.org/packages/com.termux/",
     "extra_map": {
       "android_app_package": "com.termux"
     }

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 2,
+  "uuid": "4e216232-3558-4e95-9b92-341383097fc4",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Neo Backup",
+    "url": "https://github.com/machiav3lli/oandbackupx",
+    "extra_map": {
+      "android_app_package": "com.machiav3lli.backup"
+    }
+  }
+}

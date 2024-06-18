@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "d0c4d422-b734-4aec-adb2-2a4a01139e6a",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "密码键盘（PassKeyboard）",
+    "url": "https://www.coolapk.com/apk/com.kongzue.secretinput",
+    "extra_map": {
+      "android_app_package": "com.kongzue.secretinput"
+    }
+  }
+}

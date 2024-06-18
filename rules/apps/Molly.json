@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "60bdb23a-5aed-4f5a-88c5-fa372ec48bb3",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Molly",
+    "url": "https://github.com/mollyim/mollyim-android",
+    "extra_map": {
+      "android_app_package": "im.molly.app"
+    }
+  }
+}

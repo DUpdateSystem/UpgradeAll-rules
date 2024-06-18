@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "30a5d727-f221-43c1-b4d7-c442db9eab2d",
+  "base_hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960",
+  "info": {
+    "name": "Bangumi",
+    "url": "https://github.com/czy0729/Bangumi",
+    "extra_map": {
+      "null": "com.czy0729.bangumi"
+    }
+  }
+}

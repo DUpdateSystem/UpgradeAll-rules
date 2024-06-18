@@ -2,10 +2,10 @@
   "base_version": 2,
   "config_version": 1,
   "uuid": "4a098735-779c-4477-ac0b-4a07475ce253",
-  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
   "info": {
     "name": "App Ops",
-    "url": "https://coolapk.com/apk/rikka.appops",
+    "url": "https://play.google.com/store/apps/details?id=rikka.appops",
     "extra_map": {
       "android_app_package": "rikka.appops"
     }

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "4bb6dc1f-dc23-4128-b530-0f7516598c89",
+  "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
+  "info": {
+    "name": "IPFS Lite",
+    "url": "https://f-droid.org/packages/threads.server/",
+    "extra_map": {
+      "android_app_package": "threads.server"
+    }
+  }
+}

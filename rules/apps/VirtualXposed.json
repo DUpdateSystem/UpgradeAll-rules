@@ -1,13 +1,13 @@
 {
   "base_version": 2,
-  "config_version": 1,
+  "config_version": 2,
   "uuid": "89686b18-c76f-4a4f-be5f-5966f76633a9",
   "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
     "name": "VirtualXposed",
     "url": "https://github.com/android-hacker/VirtualXposed",
     "extra_map": {
-      "android_app_package": "io.va.exposed"
+      "android_app_package": "io.va.exposed64"
     }
   }
 }

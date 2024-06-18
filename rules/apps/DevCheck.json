@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "eb5792a4-3083-4383-b7b3-2c33e88618af",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "DevCheck",
+    "url": "https://play.google.com/store/apps/details?id=flar2.devcheck",
+    "extra_map": {
+      "android_app_package": "flar2.devcheck"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "601b0201-271b-49a8-9a6a-35b8a9affe11",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Island",
+    "url": "https://play.google.com/store/apps/details?id=com.oasisfeng.island",
+    "extra_map": {
+      "android_app_package": "com.oasisfeng.island"
+    }
+  }
+}

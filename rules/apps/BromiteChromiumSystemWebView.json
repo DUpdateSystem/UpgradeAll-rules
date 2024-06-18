@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "2b566efe-b476-4159-9b9b-cf624ee474ba",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "(Bromite) Chromium System WebView",
+    "url": "https://github.com/bromite/chromium",
+    "extra_map": {
+      "android_app_package": "com.android.webview"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "630afb05-cd57-4a70-a32a-c297407960d6",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Scoop",
+    "url": "https://github.com/TacoTheDank/Scoop",
+    "extra_map": {
+      "android_app_package": "taco.scoop"
+    }
+  }
+}

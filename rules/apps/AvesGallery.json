@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "5795df0c-3372-402a-8cad-66e18230dad7",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "Aves Gallery",
+    "url": "https://github.com/deckerst/aves",
+    "extra_map": {
+      "android_app_package": "deckers.thibault.aves"
+    }
+  }
+}

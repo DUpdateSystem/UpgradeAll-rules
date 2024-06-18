@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "e5cdb3c3-d909-45bc-828c-4407dac03c5c",
+  "base_hub_uuid": "6a6d590b-1809-41bf-8ce3-7e3f6c8da945",
+  "info": {
+    "name": "KISS 启动器",
+    "url": "https://f-droid.org/packages/fr.neamar.kiss/",
+    "extra_map": {
+      "android_app_package": "fr.neamar.kiss"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "c483d58e-7b10-4ee4-b8a4-6a625989b7a8",
+  "base_hub_uuid": "1c010cc9-cff8-4461-8993-a86cd190d377",
+  "info": {
+    "name": "爱玩机工具箱（AdvSetting）",
+    "url": "https://www.coolapk.com/apk/com.byyoung.setting",
+    "extra_map": {
+      "android_app_package": "com.byyoung.setting"
+    }
+  }
+}

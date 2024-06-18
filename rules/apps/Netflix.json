@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "c39e66d5-4d93-45ce-81e7-15275284c5c8",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Netflix",
+    "url": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient",
+    "extra_map": {
+      "android_app_package": "com.netflix.mediaclient"
+    }
+  }
+}

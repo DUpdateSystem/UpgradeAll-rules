@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "ce36d40c-6e2e-473c-9a47-05e7893b45fb",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Earth",
+    "url": "https://play.google.com/store/apps/details?id=com.google.earth",
+    "extra_map": {
+      "android_app_package": "com.google.earth"
+    }
+  }
+}

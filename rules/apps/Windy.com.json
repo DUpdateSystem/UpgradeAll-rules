@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 1,
+  "uuid": "0895f014-97c0-4963-8314-098191584fad",
+  "base_hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa",
+  "info": {
+    "name": "Windy.com",
+    "url": "https://play.google.com/store/apps/details?id=com.windyty.android",
+    "extra_map": {
+      "android_app_package": "com.windyty.android"
+    }
+  }
+}

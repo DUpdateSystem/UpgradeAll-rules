@@ -1,0 +1,13 @@
+{
+  "base_version": 2,
+  "config_version": 2,
+  "uuid": "e00754b3-837e-41c3-aff6-ba09f85711a0",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
+  "info": {
+    "name": "[Magisk]QTI-MEM-OPT",
+    "url": "https://github.com/yc9559/qti-mem-opt/",
+    "extra_map": {
+      "android_magisk_module": "qti-mem-opt"
+    }
+  }
+}
