@@ -22,20 +22,15 @@ https://play.google.com/store/apps/details?id=com.microsoft.appmanager
 
 temp_text = """
 {
-  "base_version": 1,
-  "uuid": "0bea5a92-4b1d-44c6-b628-7b0eb75dfbd5",
+  "base_version": 2,
+  "config_version": 2,
+  "uuid": "f27f71e1-d7a1-4fd1-bbcc-9744380611a1",
+  "base_hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0",
   "info": {
-    "app_name": "Meow",
-    "config_version": 1,
-    "url": "https://github.com/neverfelly/Meow"
-  },
-  "app_config": {
-    "hub_info": {
-      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
-    },
-    "target_checker": {
-      "api": "App_Package",
-      "extra_string": "top.rechinx.meow"
+    "name": "UpgradeAll",
+    "url": "https://github.com/DUpdateSystem/UpgradeAll",
+    "extra_map": {
+      "android_app_package": "net.xzos.upgradeall"
     }
   }
 }
@@ -166,15 +161,14 @@ def mk_simgle_config(info_map: dict) -> tuple[str, str]:
     url = info_map[APP_URL_TITLE]
     name, app_type = split_type_and_name(raw_name)
     if name and package and url:
-        j["info"]["app_name"] = name
+        j["info"]["name"] = name
         j["info"]["url"] = url
-        j["app_config"]["target_checker"] = {
-            "api": app_type.value,
-            "extra_string": package
+        j["info"]["extra_map"] = {
+            app_type.value: package
         }
         j["uuid"] = str(uuid4())
         hub_uuid = get_hub_uuid(url, hub_regex_map)
-        j["app_config"]["hub_info"]["hub_uuid"] = hub_uuid
+        j["base_hub_uuid"] = hub_uuid
         return name.replace(' ', ''), json.dumps(j,
                                                  indent=2,
                                                  ensure_ascii=False)
