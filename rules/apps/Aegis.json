@@ -7,7 +7,7 @@
     "name": "Aegis",
     "url": "https://github.com/beemdevelopment/Aegis",
     "extra_map": {
-      "null": "com.beemdevelopment.aegis"
+      "android_app_package": "com.beemdevelopment.aegis"
     }
   }
 }

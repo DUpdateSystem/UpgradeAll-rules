@@ -7,7 +7,7 @@
     "name": "Local Send",
     "url": "https://github.com/localsend/localsend",
     "extra_map": {
-      "null": "org.localsend.localsend_app"
+      "android_app_package": "org.localsend.localsend_app"
     }
   }
 }

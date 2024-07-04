@@ -7,7 +7,7 @@
     "name": "LibreTube",
     "url": "https://github.com/libre-tube/LibreTube",
     "extra_map": {
-      "null": "com.github.libretube"
+      "android_app_package": "com.github.libretube"
     }
   }
 }

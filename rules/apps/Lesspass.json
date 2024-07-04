@@ -7,7 +7,7 @@
     "name": "Lesspass",
     "url": "https://play.google.com/store/apps/details?id=com.lesspass.android",
     "extra_map": {
-      "null": "com.lesspass.android"
+      "android_app_package": "com.lesspass.android"
     }
   }
 }

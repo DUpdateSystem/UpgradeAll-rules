@@ -7,7 +7,7 @@
     "name": "Bangumi",
     "url": "https://github.com/czy0729/Bangumi",
     "extra_map": {
-      "null": "com.czy0729.bangumi"
+      "android_app_package": "com.czy0729.bangumi"
     }
   }
 }

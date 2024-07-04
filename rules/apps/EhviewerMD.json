@@ -7,7 +7,7 @@
     "name": "EhviewerMD",
     "url": "https://github.com/Ehviewer-Overhauled/Ehviewer",
     "extra_map": {
-      "null": "moe.tarsin.ehviewer"
+      "android_app_package": "moe.tarsin.ehviewer"
     }
   }
 }
