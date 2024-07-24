@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "1d79404a-10b5-44e8-9077-07f55c76d83b",
+  "info": {
+    "app_name": "Tubular",
+    "config_version": 1,
+    "url": "https://github.com/polymorphicshade/Tubular"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960"
+    },
+    "target_checker": {
+      "api": "android_app_package",
+      "extra_string": "org.polymorphicshade.tubular"
+    }
+  }
+}
