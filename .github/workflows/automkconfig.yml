@@ -11,22 +11,22 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        python-version: [3.8]
+        python-version: [3.12]
     steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.ref }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
     - name: Automkconfig
       env:
-        GITHUB_REPO: github.com/DUpdateSystem/UpgradeAll-rules
         GITHUB_COMMIT: ${{ github.event.head_commit.message }}
       run: |
-         git clone --branch $GITHUB_REF_NAME https://github.com/DUpdateSystem/UpgradeAll-rules
-         cd UpgradeAll-rules
-         python mkconfig.py
-         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-         git config --local user.name "github-actions[bot]"
+         PYTHONPATH=./scripts/make/ python ./scripts/make/mkconfig.py
+         git config user.name 'github-actions[bot]'
+         git config user.email 'github-actions[bot]@users.noreply.github.com'
          git add rules/rules.json
-         git commit  -m "$GITHUB_COMMIT"
-         git push --force  "https://${{ secrets.BOT_TOKEN }}@$GITHUB_REPO" master:master
+         git commit -m "$GITHUB_COMMIT"
+         git push
