@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "e0b6de98-e382-4736-b852-220cb963037f",
+  "info": {
+    "app_name": "FreeTube (Android)",
+    "config_version": 1,
+    "url": "https://github.com/MarmadileManteater/FreeTubeAndroid"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "56fca689-47a7-496a-b290-8bd717c06960"
+    },
+    "target_checker": {
+      "api": "android_app_package",
+      "extra_string": "io.freetubeapp.freetube"
+    }
+  }
+}
