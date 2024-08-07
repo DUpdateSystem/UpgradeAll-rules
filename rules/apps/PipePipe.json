@@ -7,7 +7,7 @@
     "name": "PipePipe",
     "url": "https://github.com/InfinityLoop1308/PipePipe",
     "extra_map": {
-      "null": "InfinityLoop1309.NewPipeEnhanced"
+      "android_app_package": "InfinityLoop1309.NewPipeEnhanced"
     }
   }
 }

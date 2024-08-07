@@ -7,7 +7,7 @@
     "name": "Tubular",
     "url": "https://github.com/polymorphicshade/Tubular",
     "extra_map": {
-      "null": "org.polymorphicshade.tubular"
+      "android_app_package": "org.polymorphicshade.tubular"
     }
   }
 }
