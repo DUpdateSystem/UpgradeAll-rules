@@ -75,7 +75,7 @@ def __api_constant(_s: str) -> str or None:
     elif s == "shell_root":
         return "android_custom_shell_root"
     else:
-        return
+        return s
 
 
 def migration_5_6_hub(s: str) -> str or None:
