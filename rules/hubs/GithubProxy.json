@@ -6,6 +6,7 @@
     "config_version": 1
   },
   "api_keywords": ["owner", "repo"],
+  "auth_keywords": ["token"],
   "app_url_templates": [
 	  "https://github.com/%owner/%repo/"
   ]

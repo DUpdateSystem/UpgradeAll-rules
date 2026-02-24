@@ -6,6 +6,7 @@
     "config_version": 2
   },
   "api_keywords": ["android_app_package"],
+  "auth_keywords": ["email", "aas_token"],
   "app_url_templates": [
     "https://play.google.com/store/apps/details?id=%android_app_package"
   ]
