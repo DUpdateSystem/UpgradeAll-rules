@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "b8f7e2d1-4c3a-4b9f-8e7d-1a2b3c4d5e6f",
+  "info": {
+    "app_name": "2FA Authenticator (IzzyOnDroid)",
+    "config_version": 1,
+    "url": "https://apt.izzysoft.de/fdroid/index/apk/app.ninesevennine.twofactorauthenticator/"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "a2631981-6de7-4d31-a172-ae934f53bf51"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "app.ninesevennine.twofactorauthenticator"
+    }
+  }
+}
