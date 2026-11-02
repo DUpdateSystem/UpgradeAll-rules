@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "8c5439f2-7d3e-4b2c-98a1-3b7974d2c1f7",
+  "info": {
+    "app_name": "TV Box Tools",
+    "config_version": 1,
+    "url": "https://github.com/smartago/tvboxtools"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "fd9b2602-62c5-4d55-bd1e-0d6537714ca0"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.tv.launcher.manager.adb.tvboxtools"
+    }
+  }
+}
