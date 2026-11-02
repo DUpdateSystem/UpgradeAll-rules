@@ -1,0 +1,18 @@
+{
+  "base_version": 1,
+  "uuid": "8b4c9a2e-7f1d-4e3a-9c5b-2d8f6a1e4c90",
+  "info": {
+    "app_name": "Zukka Private Secure Messenger",
+    "config_version": 1,
+    "url": "https://zukka.app/us/download/"
+  },
+  "app_config": {
+    "hub_info": {
+      "hub_uuid": "65c2f60c-7d08-48b8-b4ba-ac6ee924f6fa"
+    },
+    "target_checker": {
+      "api": "App_Package",
+      "extra_string": "com.zukka.app"
+    }
+  }
+}
