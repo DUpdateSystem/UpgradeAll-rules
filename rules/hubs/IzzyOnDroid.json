@@ -1,0 +1,14 @@
+{
+  "base_version": 6,
+  "config_version": 1,
+  "uuid": "a2631981-6de7-4d31-a172-ae934f53bf51",
+  "info": {
+    "hub_name": "IzzyOnDroid",
+    "hub_icon_url": ""
+  },
+  "target_check_api": "",
+  "api_keywords": ["android_app_package"],
+  "app_url_templates": [
+    "https://apt.izzysoft.de/fdroid/index/apk/%android_app_package/"
+  ]
+}
